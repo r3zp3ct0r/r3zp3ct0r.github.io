@@ -242,7 +242,8 @@ async function generateBlogIndex() {
     // Check if posts directory exists
     if (!fs.existsSync(POSTS_DIR)) {
       console.error(`❌ Posts directory not found: ${POSTS_DIR}`)
-      process.exit(1)
+      console.log("📝 Creating empty posts directory...")
+      fs.mkdirSync(POSTS_DIR, { recursive: true })
     }
 
     // Read all folders in posts directory
