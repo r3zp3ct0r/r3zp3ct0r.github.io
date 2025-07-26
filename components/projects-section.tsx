@@ -253,7 +253,6 @@ export function ProjectsSection() {
                       
                       <div className="text-sm text-muted-foreground mt-auto">
                         <p>{project.date}</p>
-                        {project.team && <p className="mt-1">Associated with {project.team}</p>}
                       </div>
                     </CardContent>
                     <CardFooter className="flex gap-2 border-t border-muted flex-shrink-0 mt-auto">
