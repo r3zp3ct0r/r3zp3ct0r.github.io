@@ -241,16 +241,21 @@ async function generateBlogIndex() {
 
     // Check if posts directory exists
     if (!fs.existsSync(POSTS_DIR)) {
-      console.error(`❌ Posts directory not found: ${POSTS_DIR}`)
-      console.log("📝 Creating empty posts directory...")
+      console.log(`📝 Posts directory not found: ${POSTS_DIR}, creating empty directory...`)
       fs.mkdirSync(POSTS_DIR, { recursive: true })
     }
 
     // Read all folders in posts directory
-    const postFolders = fs
-      .readdirSync(POSTS_DIR, { withFileTypes: true })
-      .filter((dirent) => dirent.isDirectory())
-      .map((dirent) => dirent.name)
+    let postFolders = []
+    try {
+      postFolders = fs
+        .readdirSync(POSTS_DIR, { withFileTypes: true })
+        .filter((dirent) => dirent.isDirectory())
+        .map((dirent) => dirent.name)
+    } catch (error) {
+      console.log(`📝 Error reading posts directory: ${error.message}`)
+      postFolders = []
+    }
 
     console.log(`📁 Found ${postFolders.length} post folders`)
 

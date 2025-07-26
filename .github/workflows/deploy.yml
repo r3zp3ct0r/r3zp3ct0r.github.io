@@ -53,24 +53,28 @@ jobs:
           fi
           echo "✅ Content refresh step completed"
 
-      - name: Ensure required directories and files exist
+            - name: Ensure required directories and files exist
         run: |
           echo "📁 Ensuring required directories and files exist..."
-
+          
           # Create posts directory if it doesn't exist
           mkdir -p public/posts
-
+          
+          # Run blog index generation script
+          echo "🔄 Running blog index generation..."
+          node scripts/generate-blog-index.js || echo "⚠️ Blog index generation failed, creating empty index..."
+          
           # Create blog index if it doesn't exist
           if [ ! -f "public/blog-index.json" ]; then
             echo "📝 Creating empty blog index..."
             echo '{"meta":{"generated_at":"","total_posts":0,"published_posts":0,"draft_posts":0,"featured_posts":0,"total_tags":0,"total_categories":0,"posts_directory":""},"taxonomy":{"categories":[],"tags":[]},"posts":{"all":[]}}' > public/blog-index.json
           fi
-
+          
           # Create notes index
           echo "📝 Generating notes index..."
           cp public/blog-index.json public/notes-index.json
           echo "✅ Notes index generated from blog index"
-
+          
           # List files for debugging
           echo "📋 Current files in public/:"
           ls -la public/
