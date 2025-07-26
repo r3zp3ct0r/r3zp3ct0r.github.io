@@ -6,7 +6,7 @@ interface SEOProps {
   baseUrl?: string
 }
 
-const baseUrl = (process.env.NEXT_PUBLIC_BASE_URL || 'https://dimasma0305.github.io') + (process.env.NEXT_PUBLIC_BASE_PATH || '')
+const baseUrl = (process.env.NEXT_PUBLIC_BASE_URL || 'https://r3zp3ct0r.github.io') + (process.env.NEXT_PUBLIC_BASE_PATH || '')
 export function generatePostMetadata({ post }: SEOProps): Metadata {
   const postUrl = `${baseUrl}/posts/${post.slug}`
   const imageUrl = post.coverImage?.startsWith('http') 
@@ -27,16 +27,16 @@ export function generatePostMetadata({ post }: SEOProps): Metadata {
     'CTF',
     'writeup',
     'security research',
-    'Dimas Maulana'
+    'Mizar Ismu Arief'
   ].join(', ')
 
   return {
     title: post.title,
     description,
     keywords,
-    authors: [{ name: post.owner?.name || 'Dimas Maulana' }],
-    creator: post.owner?.name || 'Dimas Maulana',
-    publisher: 'Dimas Maulana',
+    authors: [{ name: post.owner?.name || 'Mizar Ismu' }],
+    creator: post.owner?.name || 'Mizar Ismu',
+    publisher: 'Mizar Ismu',
     formatDetection: {
       email: false,
       address: false,
@@ -51,10 +51,10 @@ export function generatePostMetadata({ post }: SEOProps): Metadata {
       url: postUrl,
       title: post.title,
       description,
-      siteName: 'Dimas Maulana Blog',
+      siteName: 'Mizar Ismu Blog',
       publishedTime: post.createdAt,
       modifiedTime: post.updatedAt,
-      authors: [post.owner?.name || 'Dimas Maulana'],
+      authors: [post.owner?.name || 'Mizar Ismu'],
       tags: [...post.categories],
       images: [
         {
@@ -69,7 +69,7 @@ export function generatePostMetadata({ post }: SEOProps): Metadata {
       card: 'summary_large_image',
       title: post.title,
       description,
-      creator: '@dimasma__',
+      creator: '@mzrismuarf',
       images: [imageUrl],
     },
     robots: {
@@ -84,7 +84,7 @@ export function generatePostMetadata({ post }: SEOProps): Metadata {
       },
     },
     other: {
-      'article:author': post.owner?.name || 'Dimas Maulana',
+      'article:author': post.owner?.name || 'Mizar Ismu',
       'article:published_time': post.createdAt,
       'article:modified_time': post.updatedAt,
       'article:section': post.categories[0] || 'Technology',
@@ -96,7 +96,7 @@ export function generatePostMetadata({ post }: SEOProps): Metadata {
 export function generateBlogMetadata(): Metadata {
   return {
     title: "Blog | Cybersecurity Research & CTF Writeups",
-    description: "Explore cybersecurity research, CTF writeups, vulnerability analysis, and security tutorials by Dimas Maulana. Learn about web security, penetration testing, and ethical hacking.",
+    description: "Explore cybersecurity research, CTF writeups, vulnerability analysis, and security tutorials by Mizar Ismu. Learn about web security, penetration testing, and ethical hacking.",
     keywords: "cybersecurity blog, CTF writeups, security research, penetration testing, web security, vulnerability analysis, ethical hacking, bug bounty, infosec",
     alternates: {
       canonical: baseUrl,
@@ -105,14 +105,14 @@ export function generateBlogMetadata(): Metadata {
       type: 'website',
       url: `${baseUrl}/blog`,
       title: "Blog | Cybersecurity Research & CTF Writeups",
-      description: "Explore cybersecurity research, CTF writeups, vulnerability analysis, and security tutorials by Dimas Maulana.",
-      siteName: 'Dimas Maulana Blog',
+      description: "Explore cybersecurity research, CTF writeups, vulnerability analysis, and security tutorials by Mizar Ismu.",
+      siteName: 'Mizar Ismu Blog',
       images: [
         {
           url: `${baseUrl}/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: "Dimas Maulana Blog",
+          alt: "Mizar Ismu Blog",
         },
       ],
     },
@@ -120,7 +120,7 @@ export function generateBlogMetadata(): Metadata {
       card: 'summary_large_image',
       title: "Blog | Cybersecurity Research & CTF Writeups",
       description: "Explore cybersecurity research, CTF writeups, vulnerability analysis, and security tutorials.",
-      creator: '@dimasma__',
+      creator: '@mzrismuarf__',
       images: [`${baseUrl}/og-image.jpg`],
     },
   }
@@ -130,10 +130,10 @@ export function generateNotesMetadata(): Metadata {
   return {
     title: "Notes | Technical Notes & Research",
     description: "Browse technical notes, research findings, and documentation on various topics including cybersecurity, programming, and system architecture.",
-    keywords: "technical notes, research notes, documentation, cybersecurity notes, programming notes, system architecture, CTF notes, security research, Dimas Maulana",
-    authors: [{ name: "Dimas Maulana" }],
-    creator: "Dimas Maulana",
-    publisher: "Dimas Maulana",
+    keywords: "technical notes, research notes, documentation, cybersecurity notes, programming notes, system architecture, CTF notes, security research, Mizar Ismu",
+    authors: [{ name: "Mizar Ismu" }],
+    creator: "Mizar Ismu",
+    publisher: "Mizar Ismu",
     formatDetection: {
       email: false,
       address: false,
@@ -148,13 +148,13 @@ export function generateNotesMetadata(): Metadata {
       url: `${baseUrl}/notes`,
       title: "Notes | Technical Notes & Research",
       description: "Browse technical notes, research findings, and documentation on various topics including cybersecurity, programming, and system architecture.",
-      siteName: 'Dimas Maulana Notes',
+      siteName: 'Mizar Ismu Notes',
       images: [
         {
           url: `${baseUrl}/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: "Dimas Maulana Notes",
+          alt: "Mizar Ismu Notes",
         },
       ],
     },
@@ -162,7 +162,7 @@ export function generateNotesMetadata(): Metadata {
       card: 'summary_large_image',
       title: "Notes | Technical Notes & Research",
       description: "Browse technical notes, research findings, and documentation on various topics.",
-      creator: '@dimasma__',
+      creator: '@mzrismuarf',
       images: [`${baseUrl}/og-image.jpg`],
     },
     robots: {
@@ -213,17 +213,16 @@ export function PostStructuredData({ post }: SEOProps) {
     author: {
       "@type": "Person",
       "@id": `${baseUrl}/#person`,
-      name: post.owner?.name || "Dimas Maulana",
+      name: post.owner?.name || "Mizar Ismu",
       url: baseUrl,
       image: {
         "@type": "ImageObject",
         url: post.owner?.avatar_url || `${baseUrl}/avatar.jpg`,
-        caption: post.owner?.name || "Dimas Maulana"
+        caption: post.owner?.name || "Mizar Ismu"
       },
       sameAs: [
-        "https://twitter.com/dimasma__",
-        "https://github.com/dimasma0305",
-        "https://linkedin.com/in/solderet"
+        "https://twitter.com/mzrismuarf",
+        "https://github.com/mzrismuarf"
       ],
       jobTitle: "Cybersecurity Researcher",
       worksFor: {
@@ -234,7 +233,7 @@ export function PostStructuredData({ post }: SEOProps) {
     publisher: {
       "@type": "Organization",
       "@id": `${baseUrl}/#organization`,
-      name: "Dimas Maulana Blog",
+      name: "Mizar Ismu Blog",
       url: baseUrl,
       logo: {
         "@type": "ImageObject",
@@ -243,8 +242,8 @@ export function PostStructuredData({ post }: SEOProps) {
         height: 512
       },
       sameAs: [
-        "https://twitter.com/dimasma__",
-        "https://github.com/dimasma0305"
+        "https://twitter.com/mzrismuarf",
+        "https://github.com/mzrismuarf"
       ]
     },
     mainEntityOfPage: {
@@ -258,7 +257,7 @@ export function PostStructuredData({ post }: SEOProps) {
         "@type": "WebSite",
         "@id": `${baseUrl}/#website`,
         url: baseUrl,
-        name: "Dimas Maulana Blog"
+        name: "Mizar Ismu Blog"
       }
     },
     keywords: post.categories?.join(", "),
@@ -300,7 +299,7 @@ export function PostStructuredData({ post }: SEOProps) {
     "@type": "WebSite",
     "@id": `${baseUrl}/#website`,
     url: baseUrl,
-    name: "Dimas Maulana Blog",
+    name: "Mizar Ismu Blog",
     description: "Cybersecurity research, CTF writeups, vulnerability analysis, and security tutorials",
     publisher: {
       "@type": "Person",
@@ -322,19 +321,18 @@ export function PostStructuredData({ post }: SEOProps) {
     "@context": "https://schema.org",
     "@type": "Person",
     "@id": `${baseUrl}/#person`,
-    name: "Dimas Maulana",
-    givenName: "Dimas",
-    familyName: "Maulana",
+    name: "Mizar Ismu",
+    givenName: "Mizar",
+    familyName: "Zar",
     url: baseUrl,
     image: {
       "@type": "ImageObject",
       url: post.owner?.avatar_url || `${baseUrl}/avatar.jpg`,
-      caption: "Dimas Maulana"
+      caption: "Mizar Ismu"
     },
     sameAs: [
-      "https://twitter.com/dimasma__",
-      "https://github.com/dimasma0305",
-      "https://linkedin.com/in/solderet"
+      "https://twitter.com/mzrismuarf",
+      "https://github.com/mzrismuarf"
     ],
     jobTitle: "Cybersecurity Researcher",
     description: "Cybersecurity researcher specializing in CTF challenges, vulnerability analysis, and security tutorials",
@@ -406,7 +404,7 @@ export function PostStructuredData({ post }: SEOProps) {
         name: "Who wrote this article?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: `This article was written by ${post.owner?.name || "Dimas Maulana"}, a cybersecurity researcher.`
+          text: `This article was written by ${post.owner?.name || "Mizar Ismu"}, a cybersecurity researcher.`
         }
       }
     ]
@@ -441,16 +439,16 @@ export function BlogStructuredData() {
     "@type": "Blog",
     "@id": `${baseUrl}/blog#blog`,
     url: `${baseUrl}/blog`,
-    name: "Dimas Maulana Blog",
+    name: "Mizar Ismu Blog",
     description: "Cybersecurity research, CTF writeups, vulnerability analysis, and security tutorials",
     publisher: {
       "@type": "Person",
       "@id": `${baseUrl}/#person`,
-      name: "Dimas Maulana",
+      name: "Mizar Ismu",
       url: baseUrl,
       sameAs: [
-        "https://twitter.com/dimasma__",
-        "https://github.com/dimasma0305",
+        "https://twitter.com/mzrismuarf",
+        "https://github.com/mzrismuarf",
         "https://linkedin.com/in/solderet"
       ]
     },
@@ -490,7 +488,7 @@ export function BlogStructuredData() {
     "@type": "WebSite",
     "@id": `${baseUrl}/#website`,
     url: baseUrl,
-    name: "Dimas Maulana Blog",
+    name: "Mizar Ismu Blog",
     description: "Cybersecurity research, CTF writeups, vulnerability analysis, and security tutorials",
     publisher: {
       "@type": "Person",
@@ -523,23 +521,23 @@ export function BlogStructuredData() {
 
 // Homepage Structured Data Component
 export function HomepageStructuredData() {
-  // Person schema for Dimas Maulana
+  // Person schema for Mizar Ismu
   const personStructuredData = {
     "@context": "https://schema.org",
     "@type": "Person",
     "@id": `${baseUrl}/#person`,
-    name: "Dimas Maulana",
+    name: "Mizar Ismu",
     givenName: "Dimas",
     familyName: "Maulana",
     url: baseUrl,
     image: {
       "@type": "ImageObject",
       url: "https://avatars.githubusercontent.com/u/92920739",
-      caption: "Dimas Maulana - Cybersecurity Researcher"
+      caption: "Mizar Ismu - Cybersecurity Researcher"
     },
     sameAs: [
-      "https://twitter.com/dimasma__",
-      "https://github.com/dimasma0305",
+      "https://twitter.com/mzrismuarf",
+      "https://github.com/mzrismuarf",
       "https://linkedin.com/in/solderet"
     ],
     jobTitle: "Cybersecurity Researcher",
@@ -588,8 +586,8 @@ export function HomepageStructuredData() {
     "@type": "WebSite",
     "@id": `${baseUrl}/#website`,
     url: baseUrl,
-    name: "Dimas Maulana - Cybersecurity Researcher",
-    description: "Personal website of Dimas Maulana, a cybersecurity researcher, CTF player, and security enthusiast from Indonesia",
+    name: "Mizar Ismu - Cybersecurity Researcher",
+    description: "Personal website of Mizar Ismu, a cybersecurity researcher, CTF player, and security enthusiast from Indonesia",
     publisher: {
       "@type": "Person",
       "@id": `${baseUrl}/#person`
@@ -625,7 +623,7 @@ export function HomepageStructuredData() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": `${baseUrl}/#organization`,
-    name: "Dimas Maulana",
+    name: "Mizar Ismu",
     url: baseUrl,
     logo: {
       "@type": "ImageObject",
@@ -636,16 +634,16 @@ export function HomepageStructuredData() {
     image: {
       "@type": "ImageObject",
       url: "https://avatars.githubusercontent.com/u/92920739",
-      caption: "Dimas Maulana"
+      caption: "Mizar Ismu"
     },
-    description: "Cybersecurity research and CTF writeups by Dimas Maulana",
+    description: "Cybersecurity research and CTF writeups by Mizar Ismu",
     founder: {
       "@type": "Person",
       "@id": `${baseUrl}/#person`
     },
     sameAs: [
-      "https://twitter.com/dimasma__",
-      "https://github.com/dimasma0305",
+      "https://twitter.com/mzrismuarf",
+      "https://github.com/mzrismuarf",
       "https://linkedin.com/in/solderet"
     ],
     contactPoint: {
@@ -686,7 +684,7 @@ export function HomepageStructuredData() {
     "@type": "Blog",
     "@id": `${baseUrl}/blog#blog`,
     url: `${baseUrl}/blog`,
-    name: "Dimas Maulana Blog",
+    name: "Mizar Ismu Blog",
     description: "Cybersecurity research, CTF writeups, vulnerability analysis, and security tutorials",
     author: {
       "@type": "Person",
@@ -760,16 +758,16 @@ export function NotesStructuredData() {
     "@type": "Collection",
     "@id": `${baseUrl}/notes#collection`,
     url: `${baseUrl}/notes`,
-    name: "Dimas Maulana Technical Notes",
+    name: "Mizar Ismu Technical Notes",
     description: "Collection of technical notes, research findings, and documentation",
     creator: {
       "@type": "Person",
       "@id": `${baseUrl}/#person`,
-      name: "Dimas Maulana",
+      name: "Mizar Ismu",
       url: baseUrl,
       sameAs: [
-        "https://twitter.com/dimasma__",
-        "https://github.com/dimasma0305",
+        "https://twitter.com/mzrismuarf",
+        "https://github.com/mzrismuarf",
         "https://linkedin.com/in/solderet"
       ]
     },
@@ -827,16 +825,16 @@ export function NoteStructuredData({ slug }: { slug: string }) {
     author: {
       "@type": "Person",
       "@id": `${baseUrl}/#person`,
-      name: "Dimas Maulana",
+      name: "Mizar Ismu",
       url: baseUrl,
       image: {
         "@type": "ImageObject",
         url: `${baseUrl}/avatar.jpg`,
-        caption: "Dimas Maulana"
+        caption: "Mizar Ismu"
       },
       sameAs: [
-        "https://twitter.com/dimasma__",
-        "https://github.com/dimasma0305",
+        "https://twitter.com/mzrismuarf",
+        "https://github.com/mzrismuarf",
         "https://linkedin.com/in/solderet"
       ],
       jobTitle: "Cybersecurity Researcher"
@@ -844,7 +842,7 @@ export function NoteStructuredData({ slug }: { slug: string }) {
     publisher: {
       "@type": "Organization",
       "@id": `${baseUrl}/#organization`,
-      name: "Dimas Maulana Notes",
+      name: "Mizar Ismu Notes",
       url: baseUrl,
       logo: {
         "@type": "ImageObject",
@@ -853,8 +851,8 @@ export function NoteStructuredData({ slug }: { slug: string }) {
         height: 512
       },
       sameAs: [
-        "https://twitter.com/dimasma__",
-        "https://github.com/dimasma0305",
+        "https://twitter.com/mzrismuarf",
+        "https://github.com/mzrismuarf",
         "https://linkedin.com/in/solderet"
       ]
     },
@@ -870,7 +868,7 @@ export function NoteStructuredData({ slug }: { slug: string }) {
         "@type": "WebSite",
         "@id": `${baseUrl}/#website`,
         url: baseUrl,
-        name: "Dimas Maulana Notes"
+        name: "Mizar Ismu Notes"
       }
     },
     genre: ["Technology", "Research", "Documentation"],
@@ -905,6 +903,16 @@ export async function generateNoteMetadata(slug: string): Promise<Metadata> {
     const path = require("path")
 
     const indexPath = path.join(process.cwd(), "public", "notes-index.json")
+    
+    // Check if file exists
+    if (!fs.existsSync(indexPath)) {
+      console.error('❌ Notes index file not found at:', indexPath)
+      return {
+        title: 'Note Not Found',
+        description: 'The requested technical note could not be found.'
+      }
+    }
+    
     const indexContent = fs.readFileSync(indexPath, "utf8")
     const data = JSON.parse(indexContent)
     
@@ -939,16 +947,16 @@ export async function generateNoteMetadata(slug: string): Promise<Metadata> {
       'technical notes',
       'documentation',
       'research notes',
-      'Dimas Maulana'
+      'Mizar Ismu'
     ].join(', ')
 
     return {
       title: note.title,
       description,
       keywords,
-      authors: [{ name: note.properties?.author || 'Dimas Maulana' }],
-      creator: note.properties?.author || 'Dimas Maulana',
-      publisher: 'Dimas Maulana',
+      authors: [{ name: note.properties?.author || 'Mizar Ismu' }],
+      creator: note.properties?.author || 'Mizar Ismu',
+      publisher: 'Mizar Ismu',
       formatDetection: {
         email: false,
         address: false,
@@ -963,10 +971,10 @@ export async function generateNoteMetadata(slug: string): Promise<Metadata> {
         url: noteUrl,
         title: note.title,
         description,
-        siteName: 'Dimas Maulana Notes',
+        siteName: 'Mizar Ismu Notes',
         publishedTime: note.created_time,
         modifiedTime: note.last_edited_time,
-        authors: [note.properties?.author || 'Dimas Maulana'],
+        authors: [note.properties?.author || 'Mizar Ismu'],
         tags: [...(note.categories || []), ...(note.tags || [])],
         images: [
           {
@@ -981,7 +989,7 @@ export async function generateNoteMetadata(slug: string): Promise<Metadata> {
         card: 'summary_large_image',
         title: note.title,
         description,
-        creator: '@dimasma__',
+        creator: '@mzrismuarf',
         images: [imageUrl],
       },
       robots: {
@@ -996,7 +1004,7 @@ export async function generateNoteMetadata(slug: string): Promise<Metadata> {
         },
       },
       other: {
-        'article:author': note.properties?.author || 'Dimas Maulana',
+        'article:author': note.properties?.author || 'Mizar Ismu',
         'article:published_time': note.created_time,
         'article:modified_time': note.last_edited_time,
         'article:section': note.categories?.[0] || 'Technology',

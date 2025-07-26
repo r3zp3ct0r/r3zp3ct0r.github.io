@@ -49,17 +49,16 @@ jobs:
           npm run refresh-content || echo "⚠️ Content refresh script not found, skipping..."
           echo "✅ Content refresh completed"
 
-      - name: Refresh notes content and check for updates
-        env:
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          NOTION_DATABASE_ID: "22adb469a81d802b93d4f91cb478fada"
-          INDEX_OUTPUT: "public/notes/index.json"
-          FULL_INDEX_OUTPUT: "public/notes-index.json"
-          POSTS_DIR: "public/notes"
+      - name: Generate notes index from blog index
         run: |
-          echo "🔄 Refreshing content..."
-          npm run refresh-content || echo "⚠️ Content refresh script not found, skipping..."
-          echo "✅ Content refresh completed"
+          echo "📝 Generating notes index..."
+          if [ -f "public/blog-index.json" ]; then
+            cp public/blog-index.json public/notes-index.json
+            echo "✅ Notes index generated from blog index"
+          else
+            echo "❌ Blog index not found, creating empty notes index"
+            echo '{"meta":{"generated_at":"","total_posts":0,"published_posts":0,"draft_posts":0,"featured_posts":0,"total_tags":0,"total_categories":0,"posts_directory":""},"taxonomy":{"categories":[],"tags":[]},"posts":{"all":[]}}' > public/notes-index.json
+          fi
 
       - name: Build with Next.js
         run: npm run build

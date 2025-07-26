@@ -15,6 +15,7 @@ export async function generateStaticParams() {
     
     if (!fs.existsSync(indexPath)) {
       console.error('❌ Notes index file not found at:', indexPath)
+      // Return empty array to prevent build failure
       return []
     }
 
@@ -31,6 +32,7 @@ export async function generateStaticParams() {
     }))
   } catch (error) {
     console.error('❌ Error generating static params for notes:', error)
+    // Return empty array to prevent build failure
     return []
   }
 }
