@@ -1,0 +1,2172 @@
+{
+  "post": {
+    "id": "271db469-a81d-8058-8a47-cd52f9ca8fb6",
+    "title": "Bypass File Upload",
+    "slug": "bypass-file-upload",
+    "folder": "bypass-file-upload",
+    "excerpt": "Upload file adalah fitur umum di banyak aplikasi web (avatar, dokumen, laporan). Kegagalan validasi dan konfigurasi yang salah memungkinkan penyerang mengunggah file berbahaya yang dapat dieksekusi di...",
+    "featured_image": "",
+    "created_time": "2025-09-17T02:44:00.000Z",
+    "last_edited_time": "2025-09-17T11:57:00.000Z",
+    "reading_time": 4,
+    "url": "/notes/bypass-file-upload",
+    "public_url": "",
+    "archived": false,
+    "categories": [
+      "Web Exploit"
+    ],
+    "tags": [
+      "web",
+      "file-upload"
+    ],
+    "properties": {
+      "published": true,
+      "featured": true,
+      "author": "Mizar"
+    },
+    "content": [
+      {
+        "id": "271db469-a81d-80ff-a2bf-e1c5cbd768af",
+        "type": "heading_1",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:56:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": " ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "Metadata",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8008-9bcc-d53f3823256f",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Title:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " Bypass File Upload",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8045-bd58-dffca32f9c32",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Tags:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "web",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": ", ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "file-upload",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": ", ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "hardening",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": ", ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "OWASP",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8060-87c4-cbfe01c8b397",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Severity (impact):",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " Medium → High (tergantung konteks: eksekusi kode remote / defacement / data exfiltration)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-80cf-b934-e287e58beb5e",
+        "type": "divider",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-80ad-8aff-f429b3c66075",
+        "type": "heading_2",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Ringkasan (Overview)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-809f-852c-c09da22710c8",
+        "type": "paragraph",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Upload file adalah fitur umum di banyak aplikasi web (avatar, dokumen, laporan). Kegagalan validasi dan konfigurasi yang salah memungkinkan penyerang ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "mengunggah file berbahaya",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " yang dapat dieksekusi di server atau disalahgunakan untuk menyisipkan payload, menyebabkan kebocoran data, atau pivoting ke bagian lain dari infrastruktur. ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "Bypass File Upload",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " merujuk pada teknik yang mencoba melewati pengamanan upload (format, MIME, ukuran, path, permission) untuk mengunggah file berbahaya.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8086-8654-da26409d0826",
+        "type": "divider",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-800f-b801-dd4946c17942",
+        "type": "heading_2",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Threat model",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-804e-a0e0-edb751c71974",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Assets:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " web server, aplikasi, data pengguna, filesystem, layanan yang memproses file (image processor, parser).",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8095-b1f8-c955f615febf",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Adversary goals:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " mendapatkan eksekusi di server (RCE), menyimpan webshell, mengexfiltrate data, melakukan XSS via file, atau menginstal malware.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-800a-9a1d-fcc1995f3132",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Assumptions:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " penyerang dapat mengirimkan file melalui fungsi upload; belum ada kontrol konteks/kontrak yang kuat pada sisi server.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-80e8-9ad6-c6c92a2336b7",
+        "type": "divider",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-809c-858b-d52e73faa501",
+        "type": "heading_2",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Weaknesses umum",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-801e-9f90-eb48ccd4accc",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Reliance solely on client-side validation (mudah di-bypass).",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8006-bc14-ee5aebad53d4",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Mengandalkan ekstensi file doang (",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": ".jpg",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": ", ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": ".png",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": ") tanpa pemeriksaan isi.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-80d6-91db-e11ccb22b5ae",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Mengizinkan direktori upload berada di ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "webroot",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " dan dapat dieksekusi.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-80ea-97b3-cc3a3c209afc",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Tidak membatasi ukuran, waktu pemrosesan, atau rate-limit per pengguna.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-80f2-b9f5-c75c31285047",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Tidak memeriksa metadata (MIME) dengan cara yang robust / trusting headers dari client.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8086-9e9f-cd89c896d13b",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "File diproses oleh komponen pihak ketiga tanpa filtering (image parsing libraries dengan bug).",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-800e-afd8-fe0e2a177624",
+        "type": "divider",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-802c-a623-dedd2c544e30",
+        "type": "heading_2",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Prinsip defensif (high-level)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-809f-97be-ffd78ec45abe",
+        "type": "numbered_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Always validate server-side.",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " Jangan percaya input dari client.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8088-bb3d-de554ad551c4",
+        "type": "numbered_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Whitelist, bukan blacklist.",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " Hanya izinkan jenis file yang dibutuhkan aplikasi.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-800a-968c-e1b32ae10386",
+        "type": "numbered_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Periksa isi file (content-type & magic bytes) dan ukuran.",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8014-b659-ea80e0ad79df",
+        "type": "numbered_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Simpan file di luar web root",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " atau pastikan direktori upload tidak dieksekusi.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-80c6-9588-e962f1604bcb",
+        "type": "numbered_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Generate nama file acak",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " dan jangan gunakan nama asli user.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8081-966c-d99ea78732b3",
+        "type": "numbered_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Set permissions minimal",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " pada file dan direktori.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8053-a9e4-c97770aa68f0",
+        "type": "numbered_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Gunakan scanning antivirus / malware",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " untuk file yang diunggah jika perlu.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8079-b48f-c767fc264dfa",
+        "type": "numbered_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Batasi ukuran dan rate",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " untuk mengurangi abuse.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8006-afe3-e5788a5776d9",
+        "type": "numbered_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Gunakan content-disposition & secure headers",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " saat menyajikan file.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8009-8369-ebd9c204e4b3",
+        "type": "numbered_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Audit & logging",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " penuh untuk semua operasi upload.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-803e-8706-f0fbe4bff081",
+        "type": "divider",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-803c-bf56-d92f27b47836",
+        "type": "heading_2",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Contoh implementasi aman (pseudocode / best-practices)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8050-8b96-c54e9114e12e",
+        "type": "quote",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Catatan: contoh ini bersifat defensif — bukan contoh eksploitasi. Sesuaikan dengan stack (PHP/Node/Python/Go) di proyekmu.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8084-99d2-c0dff1d3cabc",
+        "type": "paragraph",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Pseudocode validasi server-side",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8095-9046-cab1c6b65cca",
+        "type": "code",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "onFileUpload(file, user):\n    # 1. check file size\n    if file.size > MAX_SIZE:\n        reject(\"file too large\")\n\n    # 2. check extension whitelist\n    ext = getExtension(file.name).lower()\n    if ext not in ALLOWED_EXTENSIONS:\n        reject(\"invalid extension\")\n\n    # 3. inspect magic bytes (file signature) / use library to detect mime\n    detected_type = detectFileType(file.bytes)\n    if detected_type not in ALLOWED_MIME_TYPES:\n        reject(\"invalid file type\")\n\n    # 4. generate storage-safe name and path (outside webroot)\n    safe_name = randomUUID() + \".\" + ext\n    storage_path = join(UPLOAD_DIR_OUTSIDE_WEBROOT, safe_name)\n\n    # 5. store with minimal permissions\n    saveFile(storage_path, file.bytes, mode=rw-------)\n\n    # 6. optional: scan with antivirus/clamav asynchronously\n    scheduleAntivirusScan(storage_path, callback=onScanResult)\n\n    # 7. log upload event (user id, ip, original name, detected_type, size)\n    auditLog(user.id, ip, file.name, detected_type, file.size)\n\n    return success(safe_name)\n",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "plain text"
+        }
+      },
+      {
+        "id": "271db469-a81d-80be-a49d-d3793816f094",
+        "type": "paragraph",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Deployment config (contoh konsep)",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-80be-a848-d8497ef0a362",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Letakkan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "UPLOAD_DIR_OUTSIDE_WEBROOT",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " di luar direktori yang dieksekusi oleh webserver.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-80ec-b348-c1115e381893",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Pastikan webserver tidak memiliki ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "execute",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " permission di direktori upload.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-807a-8f00-d5fa6697308d",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": true,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Jika file harus diakses publik, buat endpoint yang membaca file dan mengirimkan konten dengan header:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8079-a0d5-f3f29faa86dc",
+        "type": "divider",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-80f7-adf7-d705b6cf6868",
+        "type": "heading_2",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Hardening tambahan",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8010-800b-ed745433c46e",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Gunakan sandboxed processing untuk memproses file (mis. microservice container yang terisolasi).",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-805c-8de4-e8579850343f",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Gunakan library yang up-to-date untuk parsing gambar/dokumen.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-80cd-8074-c9962a70f229",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Terapkan WAF rules yang relevan untuk memblok traffic anomali.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-80a6-9778-c506c61f5e0e",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Terapkan Content Security Policy pada aplikasi untuk membatasi script execution.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-800c-b2a9-f24191b2aa5c",
+        "type": "divider",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-808e-a791-f31cd181bb0b",
+        "type": "heading_2",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Logging & Deteksi",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-80b0-9cd2-e0f33225a3f0",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Catat metadata upload: timestamp, user-id, IP, original filename, detected mime, size, hasil AV scan.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8009-87bc-dd3a8d1e3607",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Monitor patterns: banyak upload gagal dari satu IP, upload file dengan mismatch mime vs extension.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8068-8fb9-da6894280d1c",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Integrasi alert (SIEM) untuk kejadian upload berisiko (mis. AV positive, mismatch, executable extension).",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-800b-a0df-c2154d993a79",
+        "type": "divider",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-8024-bb64-c73663612914",
+        "type": "heading_2",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Incident response (jika terdeteksi upload berbahaya)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8041-b5be-e4b679ad3df0",
+        "type": "numbered_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Isolasi file dan user account.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8040-a108-e45d08e1373d",
+        "type": "numbered_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Hentikan layanan atau akses yang diperlukan untuk mencegah penyebaran.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8081-aeb0-c173d645f2d7",
+        "type": "numbered_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Ambil snapshot/log forensik (filesystem, proses, network).",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-80a9-aa10-f8f79a125eaa",
+        "type": "numbered_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Scan seluruh sistem terkait dan periksa integritas.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8000-8d20-da61caa93d67",
+        "type": "numbered_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Patch root cause (mis. input validation missing).",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8047-a35c-c9053f2e46fa",
+        "type": "numbered_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Restore from known-good backup jika diperlukan dan komunikasikan sesuai policy.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8051-87b1-c5e67a28e08c",
+        "type": "divider",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-8047-949a-ff5abad32cc2",
+        "type": "heading_2",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Testing / Checklist (etis)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8042-a190-dada0657cb64",
+        "type": "quote",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Hanya lakukan pengujian di lingkungan milikmu atau dengan izin tertulis dari pemilik sistem.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8002-99bf-f74dbf82e248",
+        "type": "to_do",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-800b-9f06-c8506374600f",
+        "type": "to_do",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-80f4-a1bc-dcba2ba132c3",
+        "type": "to_do",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-8066-aea7-d5259898ac41",
+        "type": "to_do",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-8078-83cf-e85ae312ea1c",
+        "type": "to_do",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-8008-84e5-eeb876639baa",
+        "type": "to_do",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-804e-97f2-eeee9fc0ba46",
+        "type": "to_do",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-8020-8871-ec684602f0a2",
+        "type": "to_do",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-8077-803a-cf3272088ed7",
+        "type": "to_do",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-8088-a174-f40587f4dc30",
+        "type": "divider",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-8088-b1e7-dad1e96ed12b",
+        "type": "heading_2",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Catatan etika & legal",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8051-9bb7-e65ff588c51b",
+        "type": "paragraph",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Selalu lakukan pengujian dengan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "izin eksplisit",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": ". Mencoba ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "bypass",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " proteksi pada sistem yang bukan milikmu tanpa izin adalah ilegal.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8097-b12b-f27d33ce48f8",
+        "type": "divider",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-80c7-bc24-ec75abdbbcae",
+        "type": "heading_2",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Referensi & bacaan lanjut",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8069-9dc1-e9238e53866c",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "OWASP — File Upload Cheat Sheet (ringkasan praktik aman).",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-80fd-9249-cc6d97807911",
+        "type": "bulleted_list_item",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": true,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Artikel/whitepaper tentang safe file processing dan secure storage.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-80b1-a1e4-c8295b69108f",
+        "type": "divider",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-808f-833d-c5e429846343",
+        "type": "paragraph",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "#web #security #file-upload #hardening #notes",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "271db469-a81d-8015-82e4-ef5c510afd58",
+        "type": "divider",
+        "created_time": "2025-09-17T11:55:00.000Z",
+        "last_edited_time": "2025-09-17T11:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "271db469-a81d-80e9-b218-e8932b190a88",
+        "type": "paragraph",
+        "created_time": "2025-09-17T11:34:00.000Z",
+        "last_edited_time": "2025-09-17T11:34:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": []
+        }
+      }
+    ]
+  }
+}

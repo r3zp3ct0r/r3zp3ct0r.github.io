@@ -1,0 +1,945 @@
+{
+  "meta": {
+    "generated_at": "2025-07-26T09:14:25.178Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "cyber-strike-competition-1-0-ctf-2024-web-237db469a81d80559f1cd4ea698c7656",
+    "slug": "cyber-strike-competition-1-0-ctf-2024-web",
+    "og_image": "/posts/cyber-strike-competition-1-0-ctf-2024-web-237db469a81d80559f1cd4ea698c7656/featured-image.png",
+    "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-web-237db469a81d80559f1cd4ea698c7656/featured-image.png"
+  },
+  "post": {
+    "id": "237db469-a81d-8055-9f1c-d4ea698c7656",
+    "created_time": "2025-07-21T03:34:00.000Z",
+    "last_edited_time": "2025-07-21T13:43:00.000Z",
+    "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Web-237db469a81d80559f1cd4ea698c7656",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-07-21T03:34:00.000Z"
+      },
+      "slug": "[cyber-strike-competition-1.0-ctf-2024]---web",
+      "publisheddate": "2024-10-12",
+      "owner": [
+        {
+          "id": "ac3d6ce8-4cb1-4c2d-a068-480495e731ed"
+        }
+      ],
+      "featured_image": [
+        {
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/fe4bd369-1267-4126-8223-466ae259e4ea/image-50.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YPX5AOT7%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091423Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICS8tF913delLstwDsjL0eQdy%2BvuvCBvb9HscAhqVMOSAiEA3I%2FWSK4MenZ68MV%2F5xbgelrpos1ofm7pRdXEWS6eDLAq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDGksuUrXijcxXTgLjircA%2F8iQlpAqygDdoFhpQ%2BRYATcK1uji9ZdVKlhAnCnrvdFcEUqTAS6x%2BPZ44dLZf2dQXq5Hv32%2BCAwONtx7PaI5phelG7qZ4VFeNpmrhee5OzPsivINHagJeE2OhPePQCcrQQxJ9FgIRKq%2B8%2FL4R2fbcU7%2FIZRSkbLApoGVIUMcZZXdeGOiaco5SGNYDvXyswn8b%2BSA8rbQ%2B4Yz8V0cv6ZY4iqu%2F86ALh9nZ1CDegzuT61OA4eTmHrKGxPYPJTvDe%2BAXC1lDVzeUnlsJSz0rYXAo4cK14vVe3jajaoRLp4gy3bABG2Wwv3H02tDCmJUEhMwU0kudlJKYnZ%2Bpg282aY25tYSzIRydBuANYZNxAP%2BtZNRMR1ZjM%2B9FHAufmpTnOuK0EupaPe%2Bk5qfp3P%2BBOnr4Fr%2BU%2BJmhlD7R3NFhHcuXB%2BoY6FkzGbYhap5DvZlD2jVjEHa6xsxTXBJbFsXu3S3%2FxVPRwgCczqzXD%2BMj%2B0qJKxdZn7ij%2BfayCJ4qvdUiuMe9M9ybbVV1LK%2B0WFgiNTO8W6SIa%2FchTnrKZnmEdPd7b0zyOrbPzJ18atbkZEYEP72xJRV%2BqI%2BuPwcFn4S187c7cAFF0kwIpmOLnpyQCYMsyPcgQgnUqcvNwSksU%2BMKCRksQGOqUBQaMCPll03DjhNcyPXpGo%2BvXfs4ByxhWR6e67dzh7U%2FbmQHhJ2pzof7qwc3ceKPMdGxFCxD7aV2%2FvId8Gr3poC6pd4rFgYj5NxVSbh8WKN0Qigcvrci69msvMsD3jvS9fytxmhavhm%2BhfbNWJNF0M9IvlJpl3S6hNhaAmxAEx7UHaCJ6cGfpvYr8pyuwTfd1Vg4skISOwFzTZM1vNoSWi8Faa%2FFY5&X-Amz-Signature=dc2094bdf3f841dbcfc6db098308cbeae2d47787ddeffbbd7ea9b03a496c9ce7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "name": "image-50.png",
+          "expiry_time": "2025-07-26T10:14:23.701Z"
+        }
+      ],
+      "tags": [
+        "Web Exploit",
+        "CTF Writeup"
+      ],
+      "published": true,
+      "title": "[Cyber Strike Competition 1.0 CTF 2024] - Web"
+    },
+    "title": "[Cyber Strike Competition 1.0 CTF 2024] - Web",
+    "content": [
+      {
+        "id": "237db469-a81d-819e-b26a-c93e4087ea66",
+        "type": "image",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/db3efa15-295d-4a13-b98f-354a3aaeed73/image-1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJOELY3K%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICajhXdGpwM9ZdA8LEaO8FxRzzD2HZcPBMWoNq6WX848AiEAwn6Sf%2B7t%2FZ32yFbUZgQiHatJEU16F5ZgONs5bV1ZOIQq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDLSF1vdgJX8MaeZ4OCrcA9Agvhng93DmqfTAuJD0AdZuqoW2f4cCMwmt%2F0MxIJGqscN4%2Bic7yyPqTxtYSlxQqlwcjRt7OFRV2msW0W4u2GvwDkPSV9iKnZzJxQ1k86sVPTvcbKI39IRrm3vXW52Vu2yuzv1RenQnM1L%2FoiSLLxNlhVV8BaaLD9Am2gsnqyovnIv9voN5rdVP35n%2BUpI8Jw1LP%2FzPQMUygIEO3REV8aNEoNPRhtb4tNa%2FAu2DlQ5vuEu5xoEtm5K08OX1zUdPBWN2AIv9thO6w8vBT5nBPw3BI9WTeBYaStUInW6G9b1cwX5nlnjz1s%2B7Y%2BN0N6QPc97d38LDe7rnw6ksj9HOGnoN1DHTqwchnjomwzVfxXU2pZ6PkZUEwvJp%2Fzhfamstea92mTzf%2BiRfUPjUwkgffcH8WjBrSfsTjPvEr37tVKbvWYjZt5azAVEMBsiqghwhe6u8dajjrHrDdN6g4DTELrGywtXRVB667w9vPGEunZi2%2BmSGEfBbRsHxKRMFKxbViTTaj4aoUR9jaDI79jmkQKnDPSskUKHKPzRAU46iNqeTuTVjf%2B8OgaqBPoDmVNP68DQQV0E9%2F1%2FSf2U1pel4O3%2FjwsG%2BDJTyVa6AdZMS3Z%2F5VaGkyKlh%2BCauqBoKMIiSksQGOqUBSjOGI%2BnGlYC1jw3h1AMcRNdhaiT7KIj2eHWahrxf72FIZ8Y0JEVRsXWyaqw9mT64rkb11vaTJZ1ukJeyOLJPTrPtbLI7Ivxps7lfbk0QWD9hG42OdtVXpaLe3hvi5XJdplWQ3%2BEK9d%2F%2BAW6AZX0dxtPrh%2BXmL56draUyRtBL%2FvOs77T7Y8a2bHsXqw%2BOc2nBsqdsE%2FX3t0FvC9a4KLB4%2BjRCBZnE&X-Amz-Signature=28165572bad852a6bcb38d9f83cc08265d61d18c59d4d3b7a3dcf720df03955b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.215Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-818e-822c-c1c3a4d306a5",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Cyber Strike Competition 1.0",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81c8-8cce-f079d8bb4cf1",
+        "type": "heading_1",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Web-Exploit",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-81d8-8f36-f362eca9d22d",
+        "type": "heading_2",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "File Not Found",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-811f-94b7-fdfa4e29013d",
+        "type": "image",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/c7a926fc-7de3-46d5-9521-8ef45a4adf56/image-45.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJOELY3K%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICajhXdGpwM9ZdA8LEaO8FxRzzD2HZcPBMWoNq6WX848AiEAwn6Sf%2B7t%2FZ32yFbUZgQiHatJEU16F5ZgONs5bV1ZOIQq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDLSF1vdgJX8MaeZ4OCrcA9Agvhng93DmqfTAuJD0AdZuqoW2f4cCMwmt%2F0MxIJGqscN4%2Bic7yyPqTxtYSlxQqlwcjRt7OFRV2msW0W4u2GvwDkPSV9iKnZzJxQ1k86sVPTvcbKI39IRrm3vXW52Vu2yuzv1RenQnM1L%2FoiSLLxNlhVV8BaaLD9Am2gsnqyovnIv9voN5rdVP35n%2BUpI8Jw1LP%2FzPQMUygIEO3REV8aNEoNPRhtb4tNa%2FAu2DlQ5vuEu5xoEtm5K08OX1zUdPBWN2AIv9thO6w8vBT5nBPw3BI9WTeBYaStUInW6G9b1cwX5nlnjz1s%2B7Y%2BN0N6QPc97d38LDe7rnw6ksj9HOGnoN1DHTqwchnjomwzVfxXU2pZ6PkZUEwvJp%2Fzhfamstea92mTzf%2BiRfUPjUwkgffcH8WjBrSfsTjPvEr37tVKbvWYjZt5azAVEMBsiqghwhe6u8dajjrHrDdN6g4DTELrGywtXRVB667w9vPGEunZi2%2BmSGEfBbRsHxKRMFKxbViTTaj4aoUR9jaDI79jmkQKnDPSskUKHKPzRAU46iNqeTuTVjf%2B8OgaqBPoDmVNP68DQQV0E9%2F1%2FSf2U1pel4O3%2FjwsG%2BDJTyVa6AdZMS3Z%2F5VaGkyKlh%2BCauqBoKMIiSksQGOqUBSjOGI%2BnGlYC1jw3h1AMcRNdhaiT7KIj2eHWahrxf72FIZ8Y0JEVRsXWyaqw9mT64rkb11vaTJZ1ukJeyOLJPTrPtbLI7Ivxps7lfbk0QWD9hG42OdtVXpaLe3hvi5XJdplWQ3%2BEK9d%2F%2BAW6AZX0dxtPrh%2BXmL56draUyRtBL%2FvOs77T7Y8a2bHsXqw%2BOc2nBsqdsE%2FX3t0FvC9a4KLB4%2BjRCBZnE&X-Amz-Signature=9e022bac370b5eea2eaafee17c870215e5f8cb96dd80794b8140003f59cbbbe9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.201Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-8175-8c56-d818cc7a9693",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-45",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81b8-a43e-cd31704e7e03",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada soal ini, hanya ada link web target dan juga hint untuk path flag nya.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-813f-bd1c-d81e1fd81d21",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Ketika saya akses web nya, tampilan nya seperti ini:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8174-afaf-e8ec32936243",
+        "type": "image",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/320f233a-595e-4e8a-9c55-d9b3f6cf73d7/image-46.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJOELY3K%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICajhXdGpwM9ZdA8LEaO8FxRzzD2HZcPBMWoNq6WX848AiEAwn6Sf%2B7t%2FZ32yFbUZgQiHatJEU16F5ZgONs5bV1ZOIQq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDLSF1vdgJX8MaeZ4OCrcA9Agvhng93DmqfTAuJD0AdZuqoW2f4cCMwmt%2F0MxIJGqscN4%2Bic7yyPqTxtYSlxQqlwcjRt7OFRV2msW0W4u2GvwDkPSV9iKnZzJxQ1k86sVPTvcbKI39IRrm3vXW52Vu2yuzv1RenQnM1L%2FoiSLLxNlhVV8BaaLD9Am2gsnqyovnIv9voN5rdVP35n%2BUpI8Jw1LP%2FzPQMUygIEO3REV8aNEoNPRhtb4tNa%2FAu2DlQ5vuEu5xoEtm5K08OX1zUdPBWN2AIv9thO6w8vBT5nBPw3BI9WTeBYaStUInW6G9b1cwX5nlnjz1s%2B7Y%2BN0N6QPc97d38LDe7rnw6ksj9HOGnoN1DHTqwchnjomwzVfxXU2pZ6PkZUEwvJp%2Fzhfamstea92mTzf%2BiRfUPjUwkgffcH8WjBrSfsTjPvEr37tVKbvWYjZt5azAVEMBsiqghwhe6u8dajjrHrDdN6g4DTELrGywtXRVB667w9vPGEunZi2%2BmSGEfBbRsHxKRMFKxbViTTaj4aoUR9jaDI79jmkQKnDPSskUKHKPzRAU46iNqeTuTVjf%2B8OgaqBPoDmVNP68DQQV0E9%2F1%2FSf2U1pel4O3%2FjwsG%2BDJTyVa6AdZMS3Z%2F5VaGkyKlh%2BCauqBoKMIiSksQGOqUBSjOGI%2BnGlYC1jw3h1AMcRNdhaiT7KIj2eHWahrxf72FIZ8Y0JEVRsXWyaqw9mT64rkb11vaTJZ1ukJeyOLJPTrPtbLI7Ivxps7lfbk0QWD9hG42OdtVXpaLe3hvi5XJdplWQ3%2BEK9d%2F%2BAW6AZX0dxtPrh%2BXmL56draUyRtBL%2FvOs77T7Y8a2bHsXqw%2BOc2nBsqdsE%2FX3t0FvC9a4KLB4%2BjRCBZnE&X-Amz-Signature=8a313d84c29ef4ea855e6b941d077b4c74df8173d31776ade6ab45018cadf6fe&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.197Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-8173-97d5-c594494fac1c",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-46",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81db-9946-d958c9c07449",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Terlihat ada informasi bahwa file tidak ada “file not found”. Tetapi ketika saya ubah parameter nya menjadi /abc, maka tampilan error seperti ini:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81c2-adf3-f1e3123ebe60",
+        "type": "image",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/10452590-d022-43f0-a218-f52ea5482b67/image-47.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJOELY3K%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICajhXdGpwM9ZdA8LEaO8FxRzzD2HZcPBMWoNq6WX848AiEAwn6Sf%2B7t%2FZ32yFbUZgQiHatJEU16F5ZgONs5bV1ZOIQq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDLSF1vdgJX8MaeZ4OCrcA9Agvhng93DmqfTAuJD0AdZuqoW2f4cCMwmt%2F0MxIJGqscN4%2Bic7yyPqTxtYSlxQqlwcjRt7OFRV2msW0W4u2GvwDkPSV9iKnZzJxQ1k86sVPTvcbKI39IRrm3vXW52Vu2yuzv1RenQnM1L%2FoiSLLxNlhVV8BaaLD9Am2gsnqyovnIv9voN5rdVP35n%2BUpI8Jw1LP%2FzPQMUygIEO3REV8aNEoNPRhtb4tNa%2FAu2DlQ5vuEu5xoEtm5K08OX1zUdPBWN2AIv9thO6w8vBT5nBPw3BI9WTeBYaStUInW6G9b1cwX5nlnjz1s%2B7Y%2BN0N6QPc97d38LDe7rnw6ksj9HOGnoN1DHTqwchnjomwzVfxXU2pZ6PkZUEwvJp%2Fzhfamstea92mTzf%2BiRfUPjUwkgffcH8WjBrSfsTjPvEr37tVKbvWYjZt5azAVEMBsiqghwhe6u8dajjrHrDdN6g4DTELrGywtXRVB667w9vPGEunZi2%2BmSGEfBbRsHxKRMFKxbViTTaj4aoUR9jaDI79jmkQKnDPSskUKHKPzRAU46iNqeTuTVjf%2B8OgaqBPoDmVNP68DQQV0E9%2F1%2FSf2U1pel4O3%2FjwsG%2BDJTyVa6AdZMS3Z%2F5VaGkyKlh%2BCauqBoKMIiSksQGOqUBSjOGI%2BnGlYC1jw3h1AMcRNdhaiT7KIj2eHWahrxf72FIZ8Y0JEVRsXWyaqw9mT64rkb11vaTJZ1ukJeyOLJPTrPtbLI7Ivxps7lfbk0QWD9hG42OdtVXpaLe3hvi5XJdplWQ3%2BEK9d%2F%2BAW6AZX0dxtPrh%2BXmL56draUyRtBL%2FvOs77T7Y8a2bHsXqw%2BOc2nBsqdsE%2FX3t0FvC9a4KLB4%2BjRCBZnE&X-Amz-Signature=fbc0b09177222ebfc90d280a9679fe555b1ef6bcb2c604f97832a1e921fe400a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.195Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-8111-82a6-c58ee8f877d1",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Berarti file index.php tadi hanya berisi “fake not found”.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-810e-a21c-e2e81cecdbf3",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Selain itu pada url target, terlihat seperti vulnerability terhadap local file inclusion”index.php?file=index.php”",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8149-a801-c254d7e47fc8",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Oke disini saya mencoba LFI menggunakan ektension Hackbar, pilih LFI->Using wrapper->php://filter",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81d4-ad21-d4ef60f92861",
+        "type": "image",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/f13bb3f8-27a7-40f9-80b9-d2a71bdea8e8/image-48.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJOELY3K%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICajhXdGpwM9ZdA8LEaO8FxRzzD2HZcPBMWoNq6WX848AiEAwn6Sf%2B7t%2FZ32yFbUZgQiHatJEU16F5ZgONs5bV1ZOIQq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDLSF1vdgJX8MaeZ4OCrcA9Agvhng93DmqfTAuJD0AdZuqoW2f4cCMwmt%2F0MxIJGqscN4%2Bic7yyPqTxtYSlxQqlwcjRt7OFRV2msW0W4u2GvwDkPSV9iKnZzJxQ1k86sVPTvcbKI39IRrm3vXW52Vu2yuzv1RenQnM1L%2FoiSLLxNlhVV8BaaLD9Am2gsnqyovnIv9voN5rdVP35n%2BUpI8Jw1LP%2FzPQMUygIEO3REV8aNEoNPRhtb4tNa%2FAu2DlQ5vuEu5xoEtm5K08OX1zUdPBWN2AIv9thO6w8vBT5nBPw3BI9WTeBYaStUInW6G9b1cwX5nlnjz1s%2B7Y%2BN0N6QPc97d38LDe7rnw6ksj9HOGnoN1DHTqwchnjomwzVfxXU2pZ6PkZUEwvJp%2Fzhfamstea92mTzf%2BiRfUPjUwkgffcH8WjBrSfsTjPvEr37tVKbvWYjZt5azAVEMBsiqghwhe6u8dajjrHrDdN6g4DTELrGywtXRVB667w9vPGEunZi2%2BmSGEfBbRsHxKRMFKxbViTTaj4aoUR9jaDI79jmkQKnDPSskUKHKPzRAU46iNqeTuTVjf%2B8OgaqBPoDmVNP68DQQV0E9%2F1%2FSf2U1pel4O3%2FjwsG%2BDJTyVa6AdZMS3Z%2F5VaGkyKlh%2BCauqBoKMIiSksQGOqUBSjOGI%2BnGlYC1jw3h1AMcRNdhaiT7KIj2eHWahrxf72FIZ8Y0JEVRsXWyaqw9mT64rkb11vaTJZ1ukJeyOLJPTrPtbLI7Ivxps7lfbk0QWD9hG42OdtVXpaLe3hvi5XJdplWQ3%2BEK9d%2F%2BAW6AZX0dxtPrh%2BXmL56draUyRtBL%2FvOs77T7Y8a2bHsXqw%2BOc2nBsqdsE%2FX3t0FvC9a4KLB4%2BjRCBZnE&X-Amz-Signature=85373b5ce1f75d872101c3ac503dfe972619b7428c0fbc3fcb6b469364625b50&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.215Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-81b6-81e2-d0565c526d92",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-48",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81d6-8bd2-cbeeb1cf8c0d",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "page=php://filter/read=string.rot13/resource=index.php",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81e6-abf5-d1f5173fef3b",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "pada bagian “page=” diubah menjadi “file=”, sehingga lengkap nya seperti ini",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81b2-a640-da8acc2b7fa4",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "http://103.187.106.138:11101/index.php?file=php://filter/read=string.rot13/resource=index.php",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-812f-a0a9-fb08f7829872",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah di eksekusi, ada tampilan error seperti berikut",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8160-be25-cc7ab24dc70f",
+        "type": "image",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/d1158738-02ce-4e1b-98c6-beda820b1ca3/image-49.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJOELY3K%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICajhXdGpwM9ZdA8LEaO8FxRzzD2HZcPBMWoNq6WX848AiEAwn6Sf%2B7t%2FZ32yFbUZgQiHatJEU16F5ZgONs5bV1ZOIQq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDLSF1vdgJX8MaeZ4OCrcA9Agvhng93DmqfTAuJD0AdZuqoW2f4cCMwmt%2F0MxIJGqscN4%2Bic7yyPqTxtYSlxQqlwcjRt7OFRV2msW0W4u2GvwDkPSV9iKnZzJxQ1k86sVPTvcbKI39IRrm3vXW52Vu2yuzv1RenQnM1L%2FoiSLLxNlhVV8BaaLD9Am2gsnqyovnIv9voN5rdVP35n%2BUpI8Jw1LP%2FzPQMUygIEO3REV8aNEoNPRhtb4tNa%2FAu2DlQ5vuEu5xoEtm5K08OX1zUdPBWN2AIv9thO6w8vBT5nBPw3BI9WTeBYaStUInW6G9b1cwX5nlnjz1s%2B7Y%2BN0N6QPc97d38LDe7rnw6ksj9HOGnoN1DHTqwchnjomwzVfxXU2pZ6PkZUEwvJp%2Fzhfamstea92mTzf%2BiRfUPjUwkgffcH8WjBrSfsTjPvEr37tVKbvWYjZt5azAVEMBsiqghwhe6u8dajjrHrDdN6g4DTELrGywtXRVB667w9vPGEunZi2%2BmSGEfBbRsHxKRMFKxbViTTaj4aoUR9jaDI79jmkQKnDPSskUKHKPzRAU46iNqeTuTVjf%2B8OgaqBPoDmVNP68DQQV0E9%2F1%2FSf2U1pel4O3%2FjwsG%2BDJTyVa6AdZMS3Z%2F5VaGkyKlh%2BCauqBoKMIiSksQGOqUBSjOGI%2BnGlYC1jw3h1AMcRNdhaiT7KIj2eHWahrxf72FIZ8Y0JEVRsXWyaqw9mT64rkb11vaTJZ1ukJeyOLJPTrPtbLI7Ivxps7lfbk0QWD9hG42OdtVXpaLe3hvi5XJdplWQ3%2BEK9d%2F%2BAW6AZX0dxtPrh%2BXmL56draUyRtBL%2FvOs77T7Y8a2bHsXqw%2BOc2nBsqdsE%2FX3t0FvC9a4KLB4%2BjRCBZnE&X-Amz-Signature=fbf66de68e9c34a08d9fcac866a68b4c0f7a13949a8612c2206f7a90a9ffe37d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.219Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-811f-a168-cc3295ed3fc8",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-49",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-816d-86bb-d3415c000064",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Terlihat juga file path website tersebut, disini saya langsung coba memanggil index.php nya sesuai deksripsi soal “/home/flag.txt”",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81a7-96d1-f0071e2f33ca",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "http://103.187.106.138:11101/index.php?file=php://filter/read=string.rot13/resource=/home/flag.txt",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81e4-93b5-c20662cd8517",
+        "type": "image",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/b20f5593-4437-4f69-aa53-8dadcaa690ef/image-50.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJOELY3K%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICajhXdGpwM9ZdA8LEaO8FxRzzD2HZcPBMWoNq6WX848AiEAwn6Sf%2B7t%2FZ32yFbUZgQiHatJEU16F5ZgONs5bV1ZOIQq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDLSF1vdgJX8MaeZ4OCrcA9Agvhng93DmqfTAuJD0AdZuqoW2f4cCMwmt%2F0MxIJGqscN4%2Bic7yyPqTxtYSlxQqlwcjRt7OFRV2msW0W4u2GvwDkPSV9iKnZzJxQ1k86sVPTvcbKI39IRrm3vXW52Vu2yuzv1RenQnM1L%2FoiSLLxNlhVV8BaaLD9Am2gsnqyovnIv9voN5rdVP35n%2BUpI8Jw1LP%2FzPQMUygIEO3REV8aNEoNPRhtb4tNa%2FAu2DlQ5vuEu5xoEtm5K08OX1zUdPBWN2AIv9thO6w8vBT5nBPw3BI9WTeBYaStUInW6G9b1cwX5nlnjz1s%2B7Y%2BN0N6QPc97d38LDe7rnw6ksj9HOGnoN1DHTqwchnjomwzVfxXU2pZ6PkZUEwvJp%2Fzhfamstea92mTzf%2BiRfUPjUwkgffcH8WjBrSfsTjPvEr37tVKbvWYjZt5azAVEMBsiqghwhe6u8dajjrHrDdN6g4DTELrGywtXRVB667w9vPGEunZi2%2BmSGEfBbRsHxKRMFKxbViTTaj4aoUR9jaDI79jmkQKnDPSskUKHKPzRAU46iNqeTuTVjf%2B8OgaqBPoDmVNP68DQQV0E9%2F1%2FSf2U1pel4O3%2FjwsG%2BDJTyVa6AdZMS3Z%2F5VaGkyKlh%2BCauqBoKMIiSksQGOqUBSjOGI%2BnGlYC1jw3h1AMcRNdhaiT7KIj2eHWahrxf72FIZ8Y0JEVRsXWyaqw9mT64rkb11vaTJZ1ukJeyOLJPTrPtbLI7Ivxps7lfbk0QWD9hG42OdtVXpaLe3hvi5XJdplWQ3%2BEK9d%2F%2BAW6AZX0dxtPrh%2BXmL56draUyRtBL%2FvOs77T7Y8a2bHsXqw%2BOc2nBsqdsE%2FX3t0FvC9a4KLB4%2BjRCBZnE&X-Amz-Signature=8b27b1a8e7647ecb74a1d2fa272eb92ce3f064bdd208bb92864dc25663543e04&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.273Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-8143-9331-e42cc2218656",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-50",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81a9-9240-ebc4fca9fe19",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Muncul flag nya PGS{",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "Y0p4Y_s!Y3",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "!apYhg!0a_} , tetapi ini masih belum terbaca flag aslinya. jadi perlu tahapan nya lagi. Selanjutnya disini saya cek cipher flag nya menggunakan web https://www.dcode.fr/cipher-identifier",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8150-9115-ca1e0aa97f1f",
+        "type": "image",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/4a7b91ac-3101-47b0-ba0a-8834cebd2ab5/image-51.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJOELY3K%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICajhXdGpwM9ZdA8LEaO8FxRzzD2HZcPBMWoNq6WX848AiEAwn6Sf%2B7t%2FZ32yFbUZgQiHatJEU16F5ZgONs5bV1ZOIQq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDLSF1vdgJX8MaeZ4OCrcA9Agvhng93DmqfTAuJD0AdZuqoW2f4cCMwmt%2F0MxIJGqscN4%2Bic7yyPqTxtYSlxQqlwcjRt7OFRV2msW0W4u2GvwDkPSV9iKnZzJxQ1k86sVPTvcbKI39IRrm3vXW52Vu2yuzv1RenQnM1L%2FoiSLLxNlhVV8BaaLD9Am2gsnqyovnIv9voN5rdVP35n%2BUpI8Jw1LP%2FzPQMUygIEO3REV8aNEoNPRhtb4tNa%2FAu2DlQ5vuEu5xoEtm5K08OX1zUdPBWN2AIv9thO6w8vBT5nBPw3BI9WTeBYaStUInW6G9b1cwX5nlnjz1s%2B7Y%2BN0N6QPc97d38LDe7rnw6ksj9HOGnoN1DHTqwchnjomwzVfxXU2pZ6PkZUEwvJp%2Fzhfamstea92mTzf%2BiRfUPjUwkgffcH8WjBrSfsTjPvEr37tVKbvWYjZt5azAVEMBsiqghwhe6u8dajjrHrDdN6g4DTELrGywtXRVB667w9vPGEunZi2%2BmSGEfBbRsHxKRMFKxbViTTaj4aoUR9jaDI79jmkQKnDPSskUKHKPzRAU46iNqeTuTVjf%2B8OgaqBPoDmVNP68DQQV0E9%2F1%2FSf2U1pel4O3%2FjwsG%2BDJTyVa6AdZMS3Z%2F5VaGkyKlh%2BCauqBoKMIiSksQGOqUBSjOGI%2BnGlYC1jw3h1AMcRNdhaiT7KIj2eHWahrxf72FIZ8Y0JEVRsXWyaqw9mT64rkb11vaTJZ1ukJeyOLJPTrPtbLI7Ivxps7lfbk0QWD9hG42OdtVXpaLe3hvi5XJdplWQ3%2BEK9d%2F%2BAW6AZX0dxtPrh%2BXmL56draUyRtBL%2FvOs77T7Y8a2bHsXqw%2BOc2nBsqdsE%2FX3t0FvC9a4KLB4%2BjRCBZnE&X-Amz-Signature=bbdcb6fe69569221379b58f245ff2b1b5a53839df4cac2a368194111d4c45492&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.290Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-81f5-b89c-d4a0b7506b99",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-51",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8121-96c7-d10a90deb3b4",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasil dari cipher identifier, bahwa kemungkinan flag tersebut menggunakan affine cipher.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81bb-8481-ec135960e14b",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "selanjutnya disini saya coba decode dengan affine cipher https://www.dcode.fr/affine-cipher",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81c3-9f48-f94cf8269cc5",
+        "type": "image",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/dc1f8ae5-2892-419b-b1aa-00246b228e21/image-52.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJOELY3K%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICajhXdGpwM9ZdA8LEaO8FxRzzD2HZcPBMWoNq6WX848AiEAwn6Sf%2B7t%2FZ32yFbUZgQiHatJEU16F5ZgONs5bV1ZOIQq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDLSF1vdgJX8MaeZ4OCrcA9Agvhng93DmqfTAuJD0AdZuqoW2f4cCMwmt%2F0MxIJGqscN4%2Bic7yyPqTxtYSlxQqlwcjRt7OFRV2msW0W4u2GvwDkPSV9iKnZzJxQ1k86sVPTvcbKI39IRrm3vXW52Vu2yuzv1RenQnM1L%2FoiSLLxNlhVV8BaaLD9Am2gsnqyovnIv9voN5rdVP35n%2BUpI8Jw1LP%2FzPQMUygIEO3REV8aNEoNPRhtb4tNa%2FAu2DlQ5vuEu5xoEtm5K08OX1zUdPBWN2AIv9thO6w8vBT5nBPw3BI9WTeBYaStUInW6G9b1cwX5nlnjz1s%2B7Y%2BN0N6QPc97d38LDe7rnw6ksj9HOGnoN1DHTqwchnjomwzVfxXU2pZ6PkZUEwvJp%2Fzhfamstea92mTzf%2BiRfUPjUwkgffcH8WjBrSfsTjPvEr37tVKbvWYjZt5azAVEMBsiqghwhe6u8dajjrHrDdN6g4DTELrGywtXRVB667w9vPGEunZi2%2BmSGEfBbRsHxKRMFKxbViTTaj4aoUR9jaDI79jmkQKnDPSskUKHKPzRAU46iNqeTuTVjf%2B8OgaqBPoDmVNP68DQQV0E9%2F1%2FSf2U1pel4O3%2FjwsG%2BDJTyVa6AdZMS3Z%2F5VaGkyKlh%2BCauqBoKMIiSksQGOqUBSjOGI%2BnGlYC1jw3h1AMcRNdhaiT7KIj2eHWahrxf72FIZ8Y0JEVRsXWyaqw9mT64rkb11vaTJZ1ukJeyOLJPTrPtbLI7Ivxps7lfbk0QWD9hG42OdtVXpaLe3hvi5XJdplWQ3%2BEK9d%2F%2BAW6AZX0dxtPrh%2BXmL56draUyRtBL%2FvOs77T7Y8a2bHsXqw%2BOc2nBsqdsE%2FX3t0FvC9a4KLB4%2BjRCBZnE&X-Amz-Signature=2949e6c8ee548a771a59ccb2c47c813f4de815270e6c115d453e4934fc1a02e4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.299Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-816d-9ccb-db0f05341642",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-52",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-814b-8e5c-d9a422647be7",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Sekarang coba scroll ke bawah, dan ada flag nya",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81d4-bcc6-d374c6c16f90",
+        "type": "image",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:36:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/20a18aa1-5908-40b8-b65a-c047691491c5/image-53.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJOELY3K%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICajhXdGpwM9ZdA8LEaO8FxRzzD2HZcPBMWoNq6WX848AiEAwn6Sf%2B7t%2FZ32yFbUZgQiHatJEU16F5ZgONs5bV1ZOIQq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDLSF1vdgJX8MaeZ4OCrcA9Agvhng93DmqfTAuJD0AdZuqoW2f4cCMwmt%2F0MxIJGqscN4%2Bic7yyPqTxtYSlxQqlwcjRt7OFRV2msW0W4u2GvwDkPSV9iKnZzJxQ1k86sVPTvcbKI39IRrm3vXW52Vu2yuzv1RenQnM1L%2FoiSLLxNlhVV8BaaLD9Am2gsnqyovnIv9voN5rdVP35n%2BUpI8Jw1LP%2FzPQMUygIEO3REV8aNEoNPRhtb4tNa%2FAu2DlQ5vuEu5xoEtm5K08OX1zUdPBWN2AIv9thO6w8vBT5nBPw3BI9WTeBYaStUInW6G9b1cwX5nlnjz1s%2B7Y%2BN0N6QPc97d38LDe7rnw6ksj9HOGnoN1DHTqwchnjomwzVfxXU2pZ6PkZUEwvJp%2Fzhfamstea92mTzf%2BiRfUPjUwkgffcH8WjBrSfsTjPvEr37tVKbvWYjZt5azAVEMBsiqghwhe6u8dajjrHrDdN6g4DTELrGywtXRVB667w9vPGEunZi2%2BmSGEfBbRsHxKRMFKxbViTTaj4aoUR9jaDI79jmkQKnDPSskUKHKPzRAU46iNqeTuTVjf%2B8OgaqBPoDmVNP68DQQV0E9%2F1%2FSf2U1pel4O3%2FjwsG%2BDJTyVa6AdZMS3Z%2F5VaGkyKlh%2BCauqBoKMIiSksQGOqUBSjOGI%2BnGlYC1jw3h1AMcRNdhaiT7KIj2eHWahrxf72FIZ8Y0JEVRsXWyaqw9mT64rkb11vaTJZ1ukJeyOLJPTrPtbLI7Ivxps7lfbk0QWD9hG42OdtVXpaLe3hvi5XJdplWQ3%2BEK9d%2F%2BAW6AZX0dxtPrh%2BXmL56draUyRtBL%2FvOs77T7Y8a2bHsXqw%2BOc2nBsqdsE%2FX3t0FvC9a4KLB4%2BjRCBZnE&X-Amz-Signature=c2cc7e391f1bc33328619ee21a3ec2c6660973e7ec47b536e5ac187c81ae2fc4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.314Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-814c-8c71-d75c4b83f9e4",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-53",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-811c-89ce-ec3dbe0d4140",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:34:00.000Z",
+        "last_edited_time": "2025-07-21T03:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "flag: CTF{",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "L0c4L_f!L3",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "!ncLut!0n_}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      }
+    ],
+    "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-web-237db469a81d80559f1cd4ea698c7656/featured-image.png",
+    "og_image": "/posts/cyber-strike-competition-1-0-ctf-2024-web-237db469a81d80559f1cd4ea698c7656/featured-image.png"
+  }
+}

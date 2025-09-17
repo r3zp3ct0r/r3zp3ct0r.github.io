@@ -1,0 +1,1738 @@
+{
+  "meta": {
+    "generated_at": "2025-07-26T09:14:29.874Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "tryhackme-w1seguy-22adb469a81d81d8aca6c994479eb096",
+    "slug": "tryhackme-w1seguy",
+    "og_image": "/posts/tryhackme-w1seguy-22adb469a81d81d8aca6c994479eb096/featured-image.png",
+    "featured_image": "/posts/tryhackme-w1seguy-22adb469a81d81d8aca6c994479eb096/featured-image.png"
+  },
+  "post": {
+    "id": "22adb469-a81d-81d8-aca6-c994479eb096",
+    "created_time": "2025-07-08T15:57:00.000Z",
+    "last_edited_time": "2025-07-09T06:30:00.000Z",
+    "url": "https://www.notion.so/TryHackMe-W1seGuy-22adb469a81d81d8aca6c994479eb096",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "Hello this is hello world page",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-07-08T15:57:00.000Z"
+      },
+      "slug": "tryhackme---w1seguy",
+      "publisheddate": "2024-01-28",
+      "owner": [
+        {
+          "id": "ac3d6ce8-4cb1-4c2d-a068-480495e731ed"
+        }
+      ],
+      "featured_image": [
+        {
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/90fe8673-7375-495d-9abc-d6f849a557cc/w1seguy.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YPX5AOT7%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091423Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICS8tF913delLstwDsjL0eQdy%2BvuvCBvb9HscAhqVMOSAiEA3I%2FWSK4MenZ68MV%2F5xbgelrpos1ofm7pRdXEWS6eDLAq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDGksuUrXijcxXTgLjircA%2F8iQlpAqygDdoFhpQ%2BRYATcK1uji9ZdVKlhAnCnrvdFcEUqTAS6x%2BPZ44dLZf2dQXq5Hv32%2BCAwONtx7PaI5phelG7qZ4VFeNpmrhee5OzPsivINHagJeE2OhPePQCcrQQxJ9FgIRKq%2B8%2FL4R2fbcU7%2FIZRSkbLApoGVIUMcZZXdeGOiaco5SGNYDvXyswn8b%2BSA8rbQ%2B4Yz8V0cv6ZY4iqu%2F86ALh9nZ1CDegzuT61OA4eTmHrKGxPYPJTvDe%2BAXC1lDVzeUnlsJSz0rYXAo4cK14vVe3jajaoRLp4gy3bABG2Wwv3H02tDCmJUEhMwU0kudlJKYnZ%2Bpg282aY25tYSzIRydBuANYZNxAP%2BtZNRMR1ZjM%2B9FHAufmpTnOuK0EupaPe%2Bk5qfp3P%2BBOnr4Fr%2BU%2BJmhlD7R3NFhHcuXB%2BoY6FkzGbYhap5DvZlD2jVjEHa6xsxTXBJbFsXu3S3%2FxVPRwgCczqzXD%2BMj%2B0qJKxdZn7ij%2BfayCJ4qvdUiuMe9M9ybbVV1LK%2B0WFgiNTO8W6SIa%2FchTnrKZnmEdPd7b0zyOrbPzJ18atbkZEYEP72xJRV%2BqI%2BuPwcFn4S187c7cAFF0kwIpmOLnpyQCYMsyPcgQgnUqcvNwSksU%2BMKCRksQGOqUBQaMCPll03DjhNcyPXpGo%2BvXfs4ByxhWR6e67dzh7U%2FbmQHhJ2pzof7qwc3ceKPMdGxFCxD7aV2%2FvId8Gr3poC6pd4rFgYj5NxVSbh8WKN0Qigcvrci69msvMsD3jvS9fytxmhavhm%2BhfbNWJNF0M9IvlJpl3S6hNhaAmxAEx7UHaCJ6cGfpvYr8pyuwTfd1Vg4skISOwFzTZM1vNoSWi8Faa%2FFY5&X-Amz-Signature=09a177406687aec4dabe3c45b7df733136ced9d06f6f608b5d05b161471905a4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "name": "w1seguy.png",
+          "expiry_time": "2025-07-26T10:14:23.701Z"
+        }
+      ],
+      "tags": [
+        "Crypto"
+      ],
+      "published": true,
+      "title": "TryHackMe - W1seGuy"
+    },
+    "title": "TryHackMe - W1seGuy",
+    "content": [
+      {
+        "id": "22adb469-a81d-8182-8d0f-c0dad88f4148",
+        "type": "heading_1",
+        "created_time": "2025-07-08T15:57:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Writeup CTF: XOR Cipher dengan Known Plaintext Attack",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "22adb469-a81d-80d6-8987-f25535235780",
+        "type": "image",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/e3d3052d-d53b-452f-8335-721d3b13ab2a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46634GINSHL%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091429Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJGMEQCIGhlT8Sk%2BiMN5PrbDzNZK901VckJYgkawxE9GH3hUF0cAiAPtZY%2FSmzOCw6bUTgA0QriygKWX5pofppNLrQJny%2BfEir%2FAwhZEAAaDDYzNzQyMzE4MzgwNSIM04TSutK4FKoNRgZFKtwDsF7zfw6ug3rp8DLHGymlegUSkAKpBOgqJulJ8txZxaoJY%2BFPECdiG%2BgTwZ5uyEBxydccJgTrohX0NhZL%2Bt%2Bi1xzTgtSp0omRaFy3yMCBEC797MDnW%2Fn7lyqGDQtToMlikBn7%2BCyBEMPcOksnSXsdedApJaI1%2BwUU2HPQnEpnh7FpCSd0taRK4FSXhuT9NJhxZmtB8mNj%2BSTHObau%2BFqNRkF8R2AY45AMkBM8sqIYo9lGIvT5w5TMpA9tm5rulGxXLwlSn5jQJ4BV66WW%2F4f9%2BF%2BQOl8W%2BlUp6AfJWuqsQL6pWglNrsTfL0msD0AORzYbaFtzg11d5a%2FZcrSSr1cYkUHbBiDM4HZ%2FnOuImAEWgml8fiYfE15rW3rcCUwpHkapovnr6kmVyMDOGZGkECMNJ6iy6xmjl73zjt2mNG5vEmyVq1xGocavuOknq7reIwJ9fFuOBC9ZXHwdiLqM3EpLyRCJEmG%2Fi1eXStjaTIiZj%2F9u1VG7Nnwo682Vq6%2Bj4%2F7GoS4YGBz85OnXed02o2Uv5HCI2AvORRUOpnBBUkZXEn%2BwRyWeKogfyI4KumbpYOprlVcaZC%2FY1RR6XaoT2mFmxxi4mEnVZC0DMEHzVtYbBXUeIgJ2TuA7xsOeJnIw8JGSxAY6pgE%2BqpyIXl5dTGKwOnT4AoZKPoSmKYTTyJdIGHSK0ROB3638QJCvgDiZkUE2TN8oo09WUgU1gAPwW92Lul4bKz1k3SvXCQLA6DP7sJbPAbAkyT9K3nBcSTnx8RRPPOL%2BuV0ohPkAW0L3Xaa5iMLqCFo8yG0CELdJL%2BScsPDCcHJBFKhdmEjm55lseDocP%2FAhKvZHTPty3y%2BX9YovQ5lzpmK8L5%2F%2BDRh1&X-Amz-Signature=f57b8cd6c0cf4e72a290989db4f72b402e541ce5187f4c8970accbc0352e0956&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:29.072Z"
+        }
+      },
+      {
+        "id": "22adb469-a81d-8039-b8e5-c42dd29458b3",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada artikel ini, saya akan membahas penyelesaian soal CTF kategori cryptography yang menggunakan XOR cipher. Soal ini cukup menarik karena memerlukan teknik known plaintext attack untuk mendapatkan encryption key yang digunakan.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-808b-bf88-da18cc6111b6",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-80a1-a130-cf33e916be8f",
+        "type": "unsupported",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "22adb469-a81d-80d9-bdeb-d3fd3092dee6",
+        "type": "heading_2",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Deskripsi Soal",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "22adb469-a81d-80c5-a060-f9ebbad3e738",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Soal ini memberikan deskripsi yang cukup sederhana:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-800a-9c8b-dba8f9b4e5a3",
+        "type": "code",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Your friend told me you were wise, but I don't believe them. Can you prove me wrong?",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "plain text",
+          "caption": []
+        }
+      },
+      {
+        "id": "22adb469-a81d-8015-980c-ff22185929f9",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Server berjalan di port 1337 via TCP, dan kita bisa connect menggunakan netcat atau tools lainnya. Setelah connect, server memberikan challenge berupa hex string yang ter-encode dengan XOR, dan kita diminta menebak encryption key-nya.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-80db-93a8-f40f9cad53f5",
+        "type": "heading_2",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Analisis Program",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "22adb469-a81d-80e2-b82a-e03164040d35",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada soal ini menyediakan source code server-nya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-8093-acf7-d901dbdec7f7",
+        "type": "file",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "name": "source-1705339805281.py",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/9a71f1f6-b631-4606-8c2c-b76e004a82bf/source-1705339805281.py?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46634GINSHL%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091429Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJGMEQCIGhlT8Sk%2BiMN5PrbDzNZK901VckJYgkawxE9GH3hUF0cAiAPtZY%2FSmzOCw6bUTgA0QriygKWX5pofppNLrQJny%2BfEir%2FAwhZEAAaDDYzNzQyMzE4MzgwNSIM04TSutK4FKoNRgZFKtwDsF7zfw6ug3rp8DLHGymlegUSkAKpBOgqJulJ8txZxaoJY%2BFPECdiG%2BgTwZ5uyEBxydccJgTrohX0NhZL%2Bt%2Bi1xzTgtSp0omRaFy3yMCBEC797MDnW%2Fn7lyqGDQtToMlikBn7%2BCyBEMPcOksnSXsdedApJaI1%2BwUU2HPQnEpnh7FpCSd0taRK4FSXhuT9NJhxZmtB8mNj%2BSTHObau%2BFqNRkF8R2AY45AMkBM8sqIYo9lGIvT5w5TMpA9tm5rulGxXLwlSn5jQJ4BV66WW%2F4f9%2BF%2BQOl8W%2BlUp6AfJWuqsQL6pWglNrsTfL0msD0AORzYbaFtzg11d5a%2FZcrSSr1cYkUHbBiDM4HZ%2FnOuImAEWgml8fiYfE15rW3rcCUwpHkapovnr6kmVyMDOGZGkECMNJ6iy6xmjl73zjt2mNG5vEmyVq1xGocavuOknq7reIwJ9fFuOBC9ZXHwdiLqM3EpLyRCJEmG%2Fi1eXStjaTIiZj%2F9u1VG7Nnwo682Vq6%2Bj4%2F7GoS4YGBz85OnXed02o2Uv5HCI2AvORRUOpnBBUkZXEn%2BwRyWeKogfyI4KumbpYOprlVcaZC%2FY1RR6XaoT2mFmxxi4mEnVZC0DMEHzVtYbBXUeIgJ2TuA7xsOeJnIw8JGSxAY6pgE%2BqpyIXl5dTGKwOnT4AoZKPoSmKYTTyJdIGHSK0ROB3638QJCvgDiZkUE2TN8oo09WUgU1gAPwW92Lul4bKz1k3SvXCQLA6DP7sJbPAbAkyT9K3nBcSTnx8RRPPOL%2BuV0ohPkAW0L3Xaa5iMLqCFo8yG0CELdJL%2BScsPDCcHJBFKhdmEjm55lseDocP%2FAhKvZHTPty3y%2BX9YovQ5lzpmK8L5%2F%2BDRh1&X-Amz-Signature=3052d50dd7adbab68ec181e5b117f7bd0881d85fbd82abed64559e1d90a4e65e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:29.084Z"
+        }
+      },
+      {
+        "id": "22adb469-a81d-808b-9419-eafbbc33bc83",
+        "type": "code",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "def setup(server, key):\n    flag = 'THM{thisisafakeflag}'\n    xored = \"\"\n    for i in range(0,len(flag)):\n        xored += chr(ord(flag[i]) ^ ord(key[i%len(key)]))\n    hex_encoded = xored.encode().hex()\n    return hex_encoded\n\ndef start(server):\n    res = ''.join(random.choices(string.ascii_letters + string.digits, k=5))\n    key = str(res)\n    hex_encoded = setup(server, key)\n    send_message(server, \"This XOR encoded text has flag 1: \" + hex_encoded + \"\\n\")\n\n    send_message(server,\"What is the encryption key? \")\n    key_answer = server.recv(4096).decode().strip()\n    if key_answer == key:\n        send_message(server, \"Congrats! That is the correct key! Here is flag 2: \" + flag + \"\\n\")\n        server.close()",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "22adb469-a81d-80e4-b77a-d5615a7edcfe",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari source code ini, dapat diamati beberapa poin penting:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-80fd-8b26-e3e9caf087d4",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Key Generation",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ": Server membuat random key sepanjang 5 karakter menggunakan huruf dan angka",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-8038-b882-e36116bc9f4f",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "XOR Process",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ": Plaintext di-XOR dengan key (key diulang sesuai panjang plaintext)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-80e8-983d-f7fb0efe9b46",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Output",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ": Hasil XOR dikonversi ke hex dan dikirim ke client",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-8062-bbc8-f8d9befb352c",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Win Condition",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ": Jika berhasil menebak key yang benar, server akan memberikan flag yang sesungguhnya",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-80b6-a287-c9462729e1b3",
+        "type": "heading_2",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pendekatan Solusi",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "22adb469-a81d-802e-8ad6-f236dc3a78d4",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah menganalisis source code, terlihat bahwa server menggunakan plaintext tertentu yang di-XOR dengan key 5 karakter. Namun, plaintext yang sebenarnya digunakan server tidak diketahui dengan pasti.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-8085-8da0-f512eadd9351",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Yang pasti diketahui adalah format flag TryHackMe yang konsisten:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-808b-8270-c6b242e22d59",
+        "type": "bulleted_list_item",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Selalu dimulai dengan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "THM{",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-80f1-af81-e78ac7135e98",
+        "type": "bulleted_list_item",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Selalu diakhiri dengan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-80a1-a612-c61fe09ac832",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Informasi parsial ini sudah cukup untuk melakukan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "Known Plaintext Attack",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-807e-84ba-cbc406ed9953",
+        "type": "heading_2",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Konsep Known Plaintext Attack",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "22adb469-a81d-80de-b111-f9b3aa1c8ef9",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Konsep dasarnya sederhana. Dalam XOR cipher:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-80bc-87d8-e81bca871494",
+        "type": "code",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Plaintext ⊕ Key = Ciphertext",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "plain text",
+          "caption": []
+        }
+      },
+      {
+        "id": "22adb469-a81d-8071-807d-fbb25ee746bf",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk mendapatkan key:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-8034-bf73-d2a7554c6d92",
+        "type": "code",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Plaintext ⊕ Ciphertext = Key",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "plain text",
+          "caption": []
+        }
+      },
+      {
+        "id": "22adb469-a81d-80d4-b27b-e4a326e4248a",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dengan mengetahui 4 karakter pertama plaintext (",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "THM{",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "), dapat diperoleh 4 karakter pertama key. Karena key panjangnya 5 karakter dan diulang, karakter terakhir plaintext (",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ") dapat digunakan untuk mendapatkan karakter ke-5 dari key.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-80eb-9e7c-d15817b0d46d",
+        "type": "heading_2",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Implementasi Script",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "22adb469-a81d-80cc-a80a-cb77a85a0074",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Berikut adalah sebuah script Python dibuat untuk mengotomatisasi ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "attack",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ini:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-8054-8166-d50f63576107",
+        "type": "code",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "#!/usr/bin/env python3\nimport socket\nimport sys\nimport string\nfrom itertools import product\n\ndef known_plaintext_attack(hex_ciphertext, known_start, known_end, key_length=5):\n    \"\"\"\n    Known plaintext attack using partial known plaintext\n    \"\"\"\n    print(f\"=== Known Plaintext Attack ===\")\n    print(f\"Hex ciphertext: {hex_ciphertext}\")\n    print(f\"Known start: '{known_start}'\")\n    print(f\"Known end: '{known_end}'\")\n    print(f\"Assumed key length: {key_length}\")\n    \n    # Convert hex to bytes\n    try:\n        cipher_bytes = bytes.fromhex(hex_ciphertext)\n    except:\n        print(\"Error: Invalid hex string\")\n        return None, None\n    \n    cipher_len = len(cipher_bytes)\n    print(f\"Ciphertext length: {cipher_len} bytes\")\n    \n    # Get partial key from known start\n    partial_key = []\n    for i in range(len(known_start)):\n        if i < cipher_len:\n            key_byte = ord(known_start[i]) ^ cipher_bytes[i]\n            partial_key.append(chr(key_byte))\n        \n    print(f\"Partial key from start: {partial_key}\")\n    \n    # Get partial key from known end\n    end_partial_key = []\n    start_pos = cipher_len - len(known_end)\n    for i, char in enumerate(known_end):\n        pos = start_pos + i\n        if pos >= 0 and pos < cipher_len:\n            key_byte = ord(char) ^ cipher_bytes[pos]\n            key_pos_in_pattern = pos % key_length\n            end_partial_key.append((key_pos_in_pattern, chr(key_byte)))\n    \n    print(f\"Partial key from end: {end_partial_key}\")\n    \n    # Try to reconstruct full key\n    possible_keys = []\n    \n    # If we have enough info from start\n    if len(partial_key) >= key_length:\n        test_key = ''.join(partial_key[:key_length])\n        if all(c in string.ascii_letters + string.digits for c in test_key):\n            possible_keys.append(test_key)\n    \n    # Combine start and end information\n    if len(partial_key) > 0:\n        # Start with what we know from the beginning\n        key_chars = partial_key[:key_length] if len(partial_key) >= key_length else partial_key[:]\n        \n        # Fill in from end information\n        for pos, char in end_partial_key:\n            if pos < len(key_chars):\n                if key_chars[pos] != char:\n                    print(f\"Conflict at position {pos}: start='{key_chars[pos]}' vs end='{char}'\")\n                else:\n                    print(f\"Confirmed position {pos}: '{char}'\")\n            elif pos < key_length:\n                # Extend key_chars if needed\n                while len(key_chars) <= pos:\n                    key_chars.append('?')\n                key_chars[pos] = char\n        \n        # Try to complete the key\n        if len(key_chars) == key_length and '?' not in key_chars:\n            test_key = ''.join(key_chars)\n            if all(c in string.ascii_letters + string.digits for c in test_key):\n                possible_keys.append(test_key)\n        \n        print(f\"Reconstructed key pattern: {key_chars}\")\n    \n    print(f\"Possible keys: {possible_keys}\")\n    \n    # Test each possible key\n    for key in possible_keys:\n        plaintext = decrypt_with_key(cipher_bytes, key)\n        if plaintext and plaintext.startswith(known_start) and plaintext.endswith(known_end):\n            print(f\"*** SUCCESS! Key: '{key}' ***\")\n            print(f\"*** Decrypted: '{plaintext}' ***\")\n            return key, plaintext\n    \n    # If no perfect match, try brute force for missing positions\n    if len(partial_key) > 0:\n        return brute_force_missing_positions(cipher_bytes, partial_key, known_start, known_end, key_length)\n    \n    return None, None\ndef decrypt_with_key(cipher_bytes, key):\n    \"\"\"\n    Decrypt ciphertext with given key\n    \"\"\"\n    try:\n        plaintext = \"\"\n        for i, byte in enumerate(cipher_bytes):\n            key_char = key[i % len(key)]\n            plain_char = chr(byte ^ ord(key_char))\n            plaintext += plain_char\n        return plaintext\n    except:\n        return None\n\ndef brute_force_missing_positions(cipher_bytes, partial_key, known_start, known_end, key_length):\n    \"\"\"\n    Brute force missing positions in the key\n    \"\"\"\n    print(f\"\\n=== Brute Force Missing Positions ===\")\n    \n    charset = string.ascii_letters + string.digits\n    \n    # Determine which positions need brute forcing\n    key_template = partial_key[:key_length] if len(partial_key) >= key_length else partial_key[:]\n    while len(key_template) < key_length:\n        key_template.append('?')\n    \n    missing_positions = [i for i, char in enumerate(key_template) if char == '?']\n    print(f\"Missing positions: {missing_positions}\")\n    print(f\"Key template: {key_template}\")\n    \n    if len(missing_positions) > 3:\n        print(\"Too many missing positions for brute force\")\n        return None, None\n    \n    # Brute force missing positions\n    for combo in product(charset, repeat=len(missing_positions)):\n        test_key_chars = key_template[:]\n        for i, pos in enumerate(missing_positions):\n            test_key_chars[pos] = combo[i]\n        \n        test_key = ''.join(test_key_chars)\n        plaintext = decrypt_with_key(cipher_bytes, test_key)\n        \n        if plaintext and plaintext.startswith(known_start) and plaintext.endswith(known_end):\n            print(f\"*** BRUTE FORCE SUCCESS! Key: '{test_key}' ***\")\n            print(f\"*** Decrypted: '{plaintext}' ***\")\n            return test_key, plaintext\n    \n    print(\"Brute force failed\")\n    return None, None\n\ndef frequency_analysis_attack(hex_ciphertext, key_length=5):\n    \"\"\"\n    Try frequency analysis to guess the key\n    \"\"\"\n    print(f\"\\n=== Frequency Analysis Attack ===\")\n    \n    cipher_bytes = bytes.fromhex(hex_ciphertext)\n    \n    # Most common English letters\n    common_chars = 'etaoinshrdlcumwfgypbvkjxqz'\n    \n    # Try different assumptions about common characters\n    for assumed_common in ['e', 't', 'a', ' ']:\n        print(f\"\\nAssuming '{assumed_common}' is common...\")\n        \n        # Find most frequent byte in ciphertext\n        byte_freq = {}\n        for b in cipher_bytes:\n            byte_freq[b] = byte_freq.get(b, 0) + 1\n        \n        most_frequent_byte = max(byte_freq, key=byte_freq.get)\n        print(f\"Most frequent byte: 0x{most_frequent_byte:02x} (appears {byte_freq[most_frequent_byte]} times)\")\n        \n        # Assume this byte XORs with the common character\n        key_char = chr(most_frequent_byte ^ ord(assumed_common))\n        if key_char in string.ascii_letters + string.digits:\n            print(f\"Potential key character: '{key_char}'\")\n            \n            # Try this as part of repeating key\n            for pos in range(key_length):\n                test_key_base = ['a'] * key_length\n                test_key_base[pos] = key_char\n                # This is just a starting point - would need more sophisticated analysis\n\ndef connect_and_solve(host, port):\n    \"\"\"\n    Connect to server and solve using known plaintext attack\n    \"\"\"\n    try:\n        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n        sock.connect((host, port))\n        \n        response = sock.recv(4096).decode()\n        print(\"Server response:\")\n        print(response)\n        \n        # Extract hex\n        hex_ciphertext = None\n        lines = response.split('\\n')\n        \n        for line in lines:\n            if \"flag 1:\" in line:\n                hex_ciphertext = line.split(\"flag 1: \")[1].strip()\n                break\n        \n        if not hex_ciphertext:\n            print(\"Could not extract hex from response\")\n            return\n        \n        print(f\"\\nExtracted hex: {hex_ciphertext}\")\n        \n        # Try known plaintext attack\n        key, plaintext = known_plaintext_attack(hex_ciphertext, \"THM{\", \"}\", key_length=5)\n        \n        if key:\n            print(f\"\\nSending key to server: '{key}'\")\n            sock.send((key + \"\\n\").encode())\n            \n            final_response = sock.recv(4096).decode()\n            print(\"Server response:\")\n            print(final_response)\n        else:\n            print(\"Could not determine key\")\n        \n        sock.close()\n        \n    except Exception as e:\n        print(f\"Error: {e}\")\n        import traceback\n        traceback.print_exc()\n\ndef manual_solve(hex_string):\n    \"\"\"\n    Manual solve with known plaintext attack\n    \"\"\"\n    print(\"=== Manual Known Plaintext Attack ===\")\n    \n    # Try different key lengths\n    for key_len in [3, 4, 5, 6, 7, 8]:\n        print(f\"\\n--- Trying key length {key_len} ---\")\n        key, plaintext = known_plaintext_attack(hex_string, \"THM{\", \"}\", key_length=key_len)\n        if key:\n            return key, plaintext\n    \n    # Try frequency analysis as fallback\n    frequency_analysis_attack(hex_string)\n    \n    return None, None\n\nif __name__ == \"__main__\":\n    if len(sys.argv) == 3:\n        host = sys.argv[1]\n        port = int(sys.argv[2])\n        connect_and_solve(host, port)\n    elif len(sys.argv) == 2:\n        hex_input = sys.argv[1]\n        key, plaintext = manual_solve(hex_input)\n        if key:\n            print(f\"\\n*** FINAL RESULT ***\")\n            print(f\"Key: {key}\")\n            print(f\"Decrypted text: {plaintext}\")\n        else:\n            print(\"No solution found\")\n    else:\n        print(\"Usage:\")\n        print(\"  python3 solver.py <host> <port>\")\n        print(\"  python3 solver.py <hex_string>\")\n        print(\"\\nExample:\")\n        print(\"  python3 solver.py 251c7803024035591606342c4139060560561311303a474b131d184c102703204c4807032c7a0a0f\")",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "22adb469-a81d-8004-b38f-fab417dad3bb",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Script ini mencoba berbagai kemungkinan panjang key (3-8 karakter) dan melakukan brute force untuk posisi yang hilang jika diperlukan.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-80b6-9016-cc60f53c2762",
+        "type": "heading_2",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Eksekusi dan Hasil",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "22adb469-a81d-80ab-a809-f3d9c99772ad",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah menghubungkan ke server, diperoleh hex string:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-806b-9e77-df090f592d69",
+        "type": "image",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/f7c6f8e4-d055-4019-89eb-bddc33f76a34/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46634GINSHL%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091429Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJGMEQCIGhlT8Sk%2BiMN5PrbDzNZK901VckJYgkawxE9GH3hUF0cAiAPtZY%2FSmzOCw6bUTgA0QriygKWX5pofppNLrQJny%2BfEir%2FAwhZEAAaDDYzNzQyMzE4MzgwNSIM04TSutK4FKoNRgZFKtwDsF7zfw6ug3rp8DLHGymlegUSkAKpBOgqJulJ8txZxaoJY%2BFPECdiG%2BgTwZ5uyEBxydccJgTrohX0NhZL%2Bt%2Bi1xzTgtSp0omRaFy3yMCBEC797MDnW%2Fn7lyqGDQtToMlikBn7%2BCyBEMPcOksnSXsdedApJaI1%2BwUU2HPQnEpnh7FpCSd0taRK4FSXhuT9NJhxZmtB8mNj%2BSTHObau%2BFqNRkF8R2AY45AMkBM8sqIYo9lGIvT5w5TMpA9tm5rulGxXLwlSn5jQJ4BV66WW%2F4f9%2BF%2BQOl8W%2BlUp6AfJWuqsQL6pWglNrsTfL0msD0AORzYbaFtzg11d5a%2FZcrSSr1cYkUHbBiDM4HZ%2FnOuImAEWgml8fiYfE15rW3rcCUwpHkapovnr6kmVyMDOGZGkECMNJ6iy6xmjl73zjt2mNG5vEmyVq1xGocavuOknq7reIwJ9fFuOBC9ZXHwdiLqM3EpLyRCJEmG%2Fi1eXStjaTIiZj%2F9u1VG7Nnwo682Vq6%2Bj4%2F7GoS4YGBz85OnXed02o2Uv5HCI2AvORRUOpnBBUkZXEn%2BwRyWeKogfyI4KumbpYOprlVcaZC%2FY1RR6XaoT2mFmxxi4mEnVZC0DMEHzVtYbBXUeIgJ2TuA7xsOeJnIw8JGSxAY6pgE%2BqpyIXl5dTGKwOnT4AoZKPoSmKYTTyJdIGHSK0ROB3638QJCvgDiZkUE2TN8oo09WUgU1gAPwW92Lul4bKz1k3SvXCQLA6DP7sJbPAbAkyT9K3nBcSTnx8RRPPOL%2BuV0ohPkAW0L3Xaa5iMLqCFo8yG0CELdJL%2BScsPDCcHJBFKhdmEjm55lseDocP%2FAhKvZHTPty3y%2BX9YovQ5lzpmK8L5%2F%2BDRh1&X-Amz-Signature=21ac30ad74a285505c041ea40ac3e22c1f3a37e2fd2607e5cb7fcf16351c959e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:29.178Z"
+        }
+      },
+      {
+        "id": "22adb469-a81d-80fc-9d80-edb8bc5bbdff",
+        "type": "code",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "251c7803024035591606342c4139060560561311303a474b131d184c102703204c4807032c7a0a0f",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "plain text",
+          "caption": []
+        }
+      },
+      {
+        "id": "22adb469-a81d-80e7-8699-c5842173d175",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Menjalankan script dengan known plaintext attack:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-80ea-8d8a-f1fa277faf8c",
+        "type": "code",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "python3 solver.py 251c7803024035591606342c4139060560561311303a474b131d184c102703204c4807032c7a0a0f",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "shell",
+          "caption": []
+        }
+      },
+      {
+        "id": "22adb469-a81d-8071-88be-cdf91bab41f8",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasil yang diperoleh:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-807f-a089-d8e050a254a5",
+        "type": "image",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/96d766f0-caae-47ce-8fea-bbc0c1682d5e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46634GINSHL%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091429Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJGMEQCIGhlT8Sk%2BiMN5PrbDzNZK901VckJYgkawxE9GH3hUF0cAiAPtZY%2FSmzOCw6bUTgA0QriygKWX5pofppNLrQJny%2BfEir%2FAwhZEAAaDDYzNzQyMzE4MzgwNSIM04TSutK4FKoNRgZFKtwDsF7zfw6ug3rp8DLHGymlegUSkAKpBOgqJulJ8txZxaoJY%2BFPECdiG%2BgTwZ5uyEBxydccJgTrohX0NhZL%2Bt%2Bi1xzTgtSp0omRaFy3yMCBEC797MDnW%2Fn7lyqGDQtToMlikBn7%2BCyBEMPcOksnSXsdedApJaI1%2BwUU2HPQnEpnh7FpCSd0taRK4FSXhuT9NJhxZmtB8mNj%2BSTHObau%2BFqNRkF8R2AY45AMkBM8sqIYo9lGIvT5w5TMpA9tm5rulGxXLwlSn5jQJ4BV66WW%2F4f9%2BF%2BQOl8W%2BlUp6AfJWuqsQL6pWglNrsTfL0msD0AORzYbaFtzg11d5a%2FZcrSSr1cYkUHbBiDM4HZ%2FnOuImAEWgml8fiYfE15rW3rcCUwpHkapovnr6kmVyMDOGZGkECMNJ6iy6xmjl73zjt2mNG5vEmyVq1xGocavuOknq7reIwJ9fFuOBC9ZXHwdiLqM3EpLyRCJEmG%2Fi1eXStjaTIiZj%2F9u1VG7Nnwo682Vq6%2Bj4%2F7GoS4YGBz85OnXed02o2Uv5HCI2AvORRUOpnBBUkZXEn%2BwRyWeKogfyI4KumbpYOprlVcaZC%2FY1RR6XaoT2mFmxxi4mEnVZC0DMEHzVtYbBXUeIgJ2TuA7xsOeJnIw8JGSxAY6pgE%2BqpyIXl5dTGKwOnT4AoZKPoSmKYTTyJdIGHSK0ROB3638QJCvgDiZkUE2TN8oo09WUgU1gAPwW92Lul4bKz1k3SvXCQLA6DP7sJbPAbAkyT9K3nBcSTnx8RRPPOL%2BuV0ohPkAW0L3Xaa5iMLqCFo8yG0CELdJL%2BScsPDCcHJBFKhdmEjm55lseDocP%2FAhKvZHTPty3y%2BX9YovQ5lzpmK8L5%2F%2BDRh1&X-Amz-Signature=6a826b992bd97c72d785226b673216479a4919b91e6a7f459c1917909bedc052&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:29.181Z"
+        }
+      },
+      {
+        "id": "22adb469-a81d-808c-989c-d65f2b60532a",
+        "type": "code",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "--- Trying key length 5 ---\n=== Known Plaintext Attack ===\nHex ciphertext: 251c7803024035591606342c4139060560561311303a474b131d184c102703204c4807032c7a0a0f\nKnown start: 'THM{'\nKnown end: '}'\nAssumed key length: 5\nCiphertext length: 40 bytes\nPartial key from start: ['q', 'T', '5', 'x']\nPartial key from end: [(4, 'r')]\nReconstructed key pattern: ['q', 'T', '5', 'x', 'r']\nPossible keys: ['qT5xr']\n*** SUCCESS! Key: 'qT5xr' ***\n*** Decrypted: 'THM{p*******t***4c********L**********Or}' ***\n",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "plain text",
+          "caption": []
+        }
+      },
+      {
+        "id": "22adb469-a81d-80c6-bd5f-ccc4a036d029",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Key yang ditemukan adalah ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "qT5xr",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-8081-995e-cabe0cecfa6e",
+        "type": "heading_2",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Mendapatkan Flag",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "22adb469-a81d-80ac-b215-fb99a8a6c598",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah mengirim key ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "MEnUS",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ke server:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-8009-b2ed-ee367fefd286",
+        "type": "image",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/11696d12-0ad4-4a9a-ab72-07f5f3d5606c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46634GINSHL%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091429Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJGMEQCIGhlT8Sk%2BiMN5PrbDzNZK901VckJYgkawxE9GH3hUF0cAiAPtZY%2FSmzOCw6bUTgA0QriygKWX5pofppNLrQJny%2BfEir%2FAwhZEAAaDDYzNzQyMzE4MzgwNSIM04TSutK4FKoNRgZFKtwDsF7zfw6ug3rp8DLHGymlegUSkAKpBOgqJulJ8txZxaoJY%2BFPECdiG%2BgTwZ5uyEBxydccJgTrohX0NhZL%2Bt%2Bi1xzTgtSp0omRaFy3yMCBEC797MDnW%2Fn7lyqGDQtToMlikBn7%2BCyBEMPcOksnSXsdedApJaI1%2BwUU2HPQnEpnh7FpCSd0taRK4FSXhuT9NJhxZmtB8mNj%2BSTHObau%2BFqNRkF8R2AY45AMkBM8sqIYo9lGIvT5w5TMpA9tm5rulGxXLwlSn5jQJ4BV66WW%2F4f9%2BF%2BQOl8W%2BlUp6AfJWuqsQL6pWglNrsTfL0msD0AORzYbaFtzg11d5a%2FZcrSSr1cYkUHbBiDM4HZ%2FnOuImAEWgml8fiYfE15rW3rcCUwpHkapovnr6kmVyMDOGZGkECMNJ6iy6xmjl73zjt2mNG5vEmyVq1xGocavuOknq7reIwJ9fFuOBC9ZXHwdiLqM3EpLyRCJEmG%2Fi1eXStjaTIiZj%2F9u1VG7Nnwo682Vq6%2Bj4%2F7GoS4YGBz85OnXed02o2Uv5HCI2AvORRUOpnBBUkZXEn%2BwRyWeKogfyI4KumbpYOprlVcaZC%2FY1RR6XaoT2mFmxxi4mEnVZC0DMEHzVtYbBXUeIgJ2TuA7xsOeJnIw8JGSxAY6pgE%2BqpyIXl5dTGKwOnT4AoZKPoSmKYTTyJdIGHSK0ROB3638QJCvgDiZkUE2TN8oo09WUgU1gAPwW92Lul4bKz1k3SvXCQLA6DP7sJbPAbAkyT9K3nBcSTnx8RRPPOL%2BuV0ohPkAW0L3Xaa5iMLqCFo8yG0CELdJL%2BScsPDCcHJBFKhdmEjm55lseDocP%2FAhKvZHTPty3y%2BX9YovQ5lzpmK8L5%2F%2BDRh1&X-Amz-Signature=fe9981b7b0bff579eb28d27daea5eae89ecf50d93e6d46bd528c1432d9217f52&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:29.213Z"
+        }
+      },
+      {
+        "id": "22adb469-a81d-807b-a0cb-ce70930cd070",
+        "type": "code",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Congrats! That is the correct key! Here is flag 2: THM{BrUt3*******}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "plain text",
+          "caption": []
+        }
+      },
+      {
+        "id": "22adb469-a81d-80c1-8bf6-fb3eb3be48c2",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Flag berhasil diperoleh 😁 🚩",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-8042-8965-c76f31273836",
+        "type": "heading_2",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pelajaran yang Diperoleh",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "22adb469-a81d-809b-833a-c38cf31e0c86",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari challenge ini, beberapa hal yang dapat dipelajari:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-80cc-b2f6-f5b35eb1a754",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Analisis source code tidak selalu lengkap",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " - Implementasi sebenarnya bisa berbeda dari yang terlihat di source code",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-80e2-9be5-fa5a3f0b2c3f",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Known plaintext attack sangat efektif",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " - Informasi parsial tentang plaintext sudah cukup untuk recovery key",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-8067-a450-f25a9e4b501a",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Kelemahan XOR cipher",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " - Terutama vulnerable terhadap known plaintext attack dengan key yang pendek",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-8075-a31b-cc135d7da365",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pentingnya kombinasi static dan dynamic analysis",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " - Analisis source code memberikan insight, namun testing langsung yang memastikan solusi",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-8002-b432-d9c0824cb2d6",
+        "type": "heading_2",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Kesimpulan",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "22adb469-a81d-804a-9ca1-e7505914a765",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Challenge ini mendemonstrasikan pentingnya memahami fundamental cryptography. XOR cipher meskipun sederhana, namun implementasinya dapat memiliki kerentanan yang dapat dieksploitasi. Teknik known plaintext attack merupakan skill fundamental yang perlu dikuasai untuk menyelesaikan challenge crypto.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-80e4-bcbf-f04e88fd3c9c",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Writeup ini diharapkan dapat membantu pemahaman konsep XOR cipher dan teknik known plaintext attack dalam konteks CTF.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "22adb469-a81d-8031-9976-e5653e237d29",
+        "type": "divider",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "22adb469-a81d-80b2-a658-ebef83bb1c5d",
+        "type": "paragraph",
+        "created_time": "2025-07-08T16:01:00.000Z",
+        "last_edited_time": "2025-07-08T16:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Challenge ini dikerjakan sebagai bagian dari pembelajaran cybersecurity. Teknik ini harus digunakan secara etis dan legal.",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      }
+    ],
+    "featured_image": "/posts/tryhackme-w1seguy-22adb469a81d81d8aca6c994479eb096/featured-image.png",
+    "og_image": "/posts/tryhackme-w1seguy-22adb469a81d81d8aca6c994479eb096/featured-image.png"
+  }
+}

@@ -1,0 +1,3000 @@
+{
+  "meta": {
+    "generated_at": "2025-07-26T09:14:27.133Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84",
+    "slug": "tsa-cyber-champion-2024-cryptography-101-writeup",
+    "og_image": "/posts/tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84/featured-image.png",
+    "featured_image": "/posts/tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84/featured-image.png"
+  },
+  "post": {
+    "id": "237db469-a81d-801d-8fff-c833a4986a84",
+    "created_time": "2025-07-21T02:38:00.000Z",
+    "last_edited_time": "2025-07-21T02:43:00.000Z",
+    "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Cryptography-101-Writeup-237db469a81d801d8fffc833a4986a84",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-07-21T02:38:00.000Z"
+      },
+      "slug": "[tsa-cyber-champion-2024]-cryptography-101-writeup",
+      "publisheddate": "2024-11-10",
+      "owner": [
+        {
+          "id": "ac3d6ce8-4cb1-4c2d-a068-480495e731ed"
+        }
+      ],
+      "featured_image": [
+        {
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/77b502ee-e1b0-4a61-b975-fa156819248f/image-50.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YPX5AOT7%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091423Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICS8tF913delLstwDsjL0eQdy%2BvuvCBvb9HscAhqVMOSAiEA3I%2FWSK4MenZ68MV%2F5xbgelrpos1ofm7pRdXEWS6eDLAq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDGksuUrXijcxXTgLjircA%2F8iQlpAqygDdoFhpQ%2BRYATcK1uji9ZdVKlhAnCnrvdFcEUqTAS6x%2BPZ44dLZf2dQXq5Hv32%2BCAwONtx7PaI5phelG7qZ4VFeNpmrhee5OzPsivINHagJeE2OhPePQCcrQQxJ9FgIRKq%2B8%2FL4R2fbcU7%2FIZRSkbLApoGVIUMcZZXdeGOiaco5SGNYDvXyswn8b%2BSA8rbQ%2B4Yz8V0cv6ZY4iqu%2F86ALh9nZ1CDegzuT61OA4eTmHrKGxPYPJTvDe%2BAXC1lDVzeUnlsJSz0rYXAo4cK14vVe3jajaoRLp4gy3bABG2Wwv3H02tDCmJUEhMwU0kudlJKYnZ%2Bpg282aY25tYSzIRydBuANYZNxAP%2BtZNRMR1ZjM%2B9FHAufmpTnOuK0EupaPe%2Bk5qfp3P%2BBOnr4Fr%2BU%2BJmhlD7R3NFhHcuXB%2BoY6FkzGbYhap5DvZlD2jVjEHa6xsxTXBJbFsXu3S3%2FxVPRwgCczqzXD%2BMj%2B0qJKxdZn7ij%2BfayCJ4qvdUiuMe9M9ybbVV1LK%2B0WFgiNTO8W6SIa%2FchTnrKZnmEdPd7b0zyOrbPzJ18atbkZEYEP72xJRV%2BqI%2BuPwcFn4S187c7cAFF0kwIpmOLnpyQCYMsyPcgQgnUqcvNwSksU%2BMKCRksQGOqUBQaMCPll03DjhNcyPXpGo%2BvXfs4ByxhWR6e67dzh7U%2FbmQHhJ2pzof7qwc3ceKPMdGxFCxD7aV2%2FvId8Gr3poC6pd4rFgYj5NxVSbh8WKN0Qigcvrci69msvMsD3jvS9fytxmhavhm%2BhfbNWJNF0M9IvlJpl3S6hNhaAmxAEx7UHaCJ6cGfpvYr8pyuwTfd1Vg4skISOwFzTZM1vNoSWi8Faa%2FFY5&X-Amz-Signature=bcd80ad8437de8da4b20791e11f8beab13ce8c584fbdaa41eed042914e95ad87&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "name": "image-50.png",
+          "expiry_time": "2025-07-26T10:14:23.701Z"
+        }
+      ],
+      "tags": [
+        "Crypto",
+        "CTF Writeup"
+      ],
+      "published": true,
+      "title": "[TSA Cyber Champion 2024] Cryptography 101 Writeup"
+    },
+    "title": "[TSA Cyber Champion 2024] Cryptography 101 Writeup",
+    "content": [
+      {
+        "id": "237db469-a81d-80a8-9ce6-d24678e59aec",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Writeup ini akan membahas bagaimana saya menyelesaikan soal Cryptography 101 dan Cryptomata dari TSA Cyber Champion 2024. Soal-soal ini melibatkan pemahaman tentang RSA dan BLS Signature.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8086-9b12-f8c2047c8d74",
+        "type": "heading_2",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Cryptography 101",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-806e-8e96-e9992f2c49b3",
+        "type": "heading_3",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Deskripsi Soal",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-80b8-b0b4-fc7f3d1a8047",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada soal ini, saya diberikan sebuah file ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "chall.txt",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ". Isi dari file ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "chall.txt",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ini adalah sebagai berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8085-b03b-f134d6da982b",
+        "type": "image",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/ce2f3078-6ab4-4c91-a7e2-d4cb5b371f77/image-45.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466755PWKNE%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCIQD4PpbiqoTtH%2FXHEKG1yFpRl8Z8UG6jath6LOnztvCucAIgFaShjiiaqedQcQcbXw4aFNv2V66o5ysPSnGSBdpoTA0q%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDJWd%2F3LBhxquRNElyCrcA6Qf1wya6%2BffXgkn2FzqwlRbSGUtLvJemQSr%2F0j7FuYwp0WhTcugkSVHDeMjdEU4BfkXGAW6qkTcEI5N%2FC%2B26k0MkrdsaFiMPHHe4rCFCnORrEeA9HSnq5K%2BMtTmxNTyxXWPfWcZKAcVAH7Gir7L3Ue1KrYXja0ghm0T7tJBdQaHqXibXnxeTFM%2FCJXmuiRTgPiT9rGaH39Ze3pk%2Bx2Hb7kTD5kjRB02uuIhRyxIBRlNebA%2FAhZmqyCdKcn6LMAzin6HhywlBCykVoeYixpx2fTBPqhfKyEQkRJsKbBLaP%2FYqHITY2YD91zTnA%2BKabtDromzNGcf%2F89MgCcSUqRWLtgf8JrO4Fb%2FfGjp8TGCoLfaAvCvhbkkwOU4pfN%2B7oylPcZFaRNVuMdzA0dUHxkE9JstqnaRbvoPDkI7XqAJ6JUAEIETk%2FNeTop8oYUbkdNgkNWQQVh2SXZMLcxSKF3xF5lpAeIqv9fWV%2FCZVzlRSrxfSWMu9IneRtL%2FHPFP61ykKns%2FtGhVMtCpBC1HCtjHo7zci5H%2BTcvFsX6Q98nvfnfG9DV4t1QgrshQQa0equAYSsTtrhUZV5MKhG4LjISHuwId6HWQDkehises0ZGFOjSLLmR7k5p4a%2BMuWFFvMKeRksQGOqUBotLlrFYicBi1%2FIOKPBvgZoeb2KX66tJvDiHqwvnmIFz%2FGOlRs3mLxaJ%2F%2FSiZmtBpjs8IIGNhNS4TCH%2FZMIJUO4YxstL%2Bp96SJsH%2Fv8psnYlISD31GuywEAf9nABvEufMubDWQT00MZ5GkukVDybIYB8IiiKJirnxopCvI9%2BuBmy8VwX24neht6D%2FmTYj7aN7KZObfF8vogh8FzG1pRBy%2BbvzY73u&X-Amz-Signature=fc3d81e443560ea24a65fa4a778d2ea62d6bc3c38e7e71c99fef7739aa40e3ac&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.803Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-8008-a75d-e4206c9a4e5c",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Isi File chall.txt",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8013-aefa-c548cfe75dd5",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "File ini berisi ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "ciphertext",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " (c), ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "modulus",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " (n), dan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "exponent publik",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " (e), yang merupakan komponen dasar dalam enkripsi RSA. Tujuan saya adalah mendekripsi ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "c",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " untuk mendapatkan flag.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8022-9423-dc03f36c515b",
+        "type": "heading_3",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Analisis",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-801c-8796-ea7b81d65eeb",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk menyelesaikan soal ini, saya perlu melakukan beberapa perhitungan dan membuat kode program. Secara garis besar, langkah-langkahnya adalah:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-80a3-a338-ccdfff6164cf",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": true,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Faktorisasi Nilai ",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "n",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ":",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "id": "237db469-a81d-802c-be0b-c77085e4dea6",
+            "type": "bulleted_list_item",
+            "created_time": "2025-07-21T02:41:00.000Z",
+            "last_edited_time": "2025-07-21T02:41:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "content": "Modulus ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "n",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": " merupakan hasil perkalian dua bilangan prima ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "p",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": " dan ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "q",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": ". Dengan faktorisasi ini, saya bisa mendapatkan nilai ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "p",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": " dan ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "q",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": ", yang diperlukan untuk menghitung nilai ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "φ(n)",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": " (Euler’s Totient Function).",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "id": "237db469-a81d-80b8-837b-f3139713846b",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": true,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Menghitung ",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "φ(n)",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ":",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "id": "237db469-a81d-8032-bff1-ef33a546ad22",
+            "type": "bulleted_list_item",
+            "created_time": "2025-07-21T02:41:00.000Z",
+            "last_edited_time": "2025-07-21T02:41:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "content": "Langkah selanjutnya adalah menghitung ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "φ(n)",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": ", yang dirumuskan sebagai ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "(p-1) * (q-1)",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": ". Nilai ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "φ(n)",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": " ini penting untuk mencari ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "private exponent",
+                  "annotations": {
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": " (",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "d",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": ").",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "id": "237db469-a81d-801d-a55d-cba3a79a7e17",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": true,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Menghitung ",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "Private Exponent",
+              "annotations": {
+                "bold": true,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "d",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ":",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "id": "237db469-a81d-800c-9b8f-c53675afe7f2",
+            "type": "bulleted_list_item",
+            "created_time": "2025-07-21T02:41:00.000Z",
+            "last_edited_time": "2025-07-21T02:41:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "content": "Nilai ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "private exponent",
+                  "annotations": {
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": " ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "d",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": " dihitung sebagai invers modular dari ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "e",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": " terhadap ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "φ(n)",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": ", menggunakan fungsi ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "pow(e, -1, φ(n))",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": ". Nilai ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "d",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": " ini akan menjadi kunci privat yang digunakan untuk mendekripsi ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "c",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": ".",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "id": "237db469-a81d-8052-b9cc-f4716bb8a138",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": true,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dekripsi ",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "c",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " menggunakan ",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "d",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " dan ",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "n",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ":",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "id": "237db469-a81d-80de-9225-c2961d35b87c",
+            "type": "bulleted_list_item",
+            "created_time": "2025-07-21T02:41:00.000Z",
+            "last_edited_time": "2025-07-21T02:41:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "content": "Dengan ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "d",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": " yang diperoleh, saya dapat mendekripsi ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "c",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": " menggunakan rumus ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "m = c^d mod n",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": ", di mana ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "m",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": " adalah ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "plaintext",
+                  "annotations": {
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": " atau flag.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "id": "237db469-a81d-80dd-b49b-c519e1dfc078",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": true,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Konversi Hasil Dekripsi ke ",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "Plaintext",
+              "annotations": {
+                "bold": true,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ":",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "id": "237db469-a81d-8016-a9ff-efb1abfe3646",
+            "type": "bulleted_list_item",
+            "created_time": "2025-07-21T02:41:00.000Z",
+            "last_edited_time": "2025-07-21T02:41:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "content": "Hasil dekripsi (",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "m",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": ") adalah angka besar yang perlu dikonversi ke dalam bentuk string agar bisa dibaca. Saya akan mengonversi ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": "m",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "href": null
+                },
+                {
+                  "content": " ke format bytes dan mendekodenya ke UTF-8 untuk mendapatkan flag.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "id": "237db469-a81d-80af-8b83-d0b33e68dca4",
+        "type": "heading_3",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Solver",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-8080-9053-e7c8e9b101cb",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Berikut adalah script solver yang saya buat menggunakan Python:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8032-a7fa-ff6f48566f89",
+        "type": "code",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "import sympy\n# fungsi untuk faktorasi n menjadi dua bilangan prima p dan qdef factor_n(n):\n   factors = sympy.factorint(n)\n   if len(factors) == 2:\n       p, q = list(factors.keys())\n       return p, q\n   else:\n       raise ValueError(\"Faktorasi n tidak menghasilkan dua bilangan prima.\")\n# fungsi untuk menghitung φ(n)def compute_phi(p, q):\n   return (p - 1) * (q - 1)\n# fungsi untuk menghitung d (private exponent) menggunakan invers modulardef compute_d(e, phi_n):\n   return pow(e, -1, phi_n)\n# fungsi untuk mendekripsi ciphertext menggunakan d dan ndef decrypt(c, d, n):\n   return pow(c, d, n)\ndef main():\n   # chall.txt   c = 231722077914684998818993776518942509384465803531548983146869754932667754136315007943497593396644630089073196170276638447665765624960333289097324447779290700092664403080584161276778064977902852018557301618273474139777712464709585187730351308079009718870031364399745764326436147001877583703027251271265576350621173   e = 65537   n = 257208938346934642693512128888810986151634836498153528507638790770764504946719195736987613302526116425873247750032929224521429342437621496424825810959518932424007107126934957421561529561264636001476988808843995824395131838577901446930016348590793828420808295335603083382120208905347497068915850813369038886980997   # 1. faktorasi n   print(\"Faktorasi n...\")\n   p, q = factor_n(n)\n   print(f\"p: {p}, q: {q}\")\n   # 2. hitung φ(n)   print(\"Menghitung φ(n)...\")\n   phi_n = compute_phi(p, q)\n   print(f\"φ(n): {phi_n}\")\n   # 3. hitung d (private exponent)   print(\"Menghitung d...\")\n   d = compute_d(e, phi_n)\n   print(f\"d: {d}\")\n   # 4. dekripsi ciphertext untuk mendapatkan m (flag)   print(\"Mendekripsi ciphertext...\")\n   m = decrypt(c, d, n)\n   # mengonversi hasil deskripsi ke dalam bentuk teks   # hasil dekripsi berupa angka yang harus diubah menjadi teks (string).   m_bytes = m.to_bytes((m.bit_length() + 7) // 8, byteorder='big')\n   try:\n       flag = m_bytes.decode('utf-8')\n       print(f\"Flag: {flag}\")\n   except UnicodeDecodeError:\n       print(f\"Hasil dekripsi berupa bytes yang tidak dapat didekode ke teks UTF-8: {m_bytes}\")\nif __name__ == \"__main__\":\n   main()",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "237db469-a81d-8081-8d00-d916eb42ecd7",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah menjalankan script solver, saya mendapatkan flag-nya!",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-808d-b860-ebaebb00d1b9",
+        "type": "image",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/d826735c-a6f6-4d43-b566-b2b52864954f/image-46.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466755PWKNE%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCIQD4PpbiqoTtH%2FXHEKG1yFpRl8Z8UG6jath6LOnztvCucAIgFaShjiiaqedQcQcbXw4aFNv2V66o5ysPSnGSBdpoTA0q%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDJWd%2F3LBhxquRNElyCrcA6Qf1wya6%2BffXgkn2FzqwlRbSGUtLvJemQSr%2F0j7FuYwp0WhTcugkSVHDeMjdEU4BfkXGAW6qkTcEI5N%2FC%2B26k0MkrdsaFiMPHHe4rCFCnORrEeA9HSnq5K%2BMtTmxNTyxXWPfWcZKAcVAH7Gir7L3Ue1KrYXja0ghm0T7tJBdQaHqXibXnxeTFM%2FCJXmuiRTgPiT9rGaH39Ze3pk%2Bx2Hb7kTD5kjRB02uuIhRyxIBRlNebA%2FAhZmqyCdKcn6LMAzin6HhywlBCykVoeYixpx2fTBPqhfKyEQkRJsKbBLaP%2FYqHITY2YD91zTnA%2BKabtDromzNGcf%2F89MgCcSUqRWLtgf8JrO4Fb%2FfGjp8TGCoLfaAvCvhbkkwOU4pfN%2B7oylPcZFaRNVuMdzA0dUHxkE9JstqnaRbvoPDkI7XqAJ6JUAEIETk%2FNeTop8oYUbkdNgkNWQQVh2SXZMLcxSKF3xF5lpAeIqv9fWV%2FCZVzlRSrxfSWMu9IneRtL%2FHPFP61ykKns%2FtGhVMtCpBC1HCtjHo7zci5H%2BTcvFsX6Q98nvfnfG9DV4t1QgrshQQa0equAYSsTtrhUZV5MKhG4LjISHuwId6HWQDkehises0ZGFOjSLLmR7k5p4a%2BMuWFFvMKeRksQGOqUBotLlrFYicBi1%2FIOKPBvgZoeb2KX66tJvDiHqwvnmIFz%2FGOlRs3mLxaJ%2F%2FSiZmtBpjs8IIGNhNS4TCH%2FZMIJUO4YxstL%2Bp96SJsH%2Fv8psnYlISD31GuywEAf9nABvEufMubDWQT00MZ5GkukVDybIYB8IiiKJirnxopCvI9%2BuBmy8VwX24neht6D%2FmTYj7aN7KZObfF8vogh8FzG1pRBy%2BbvzY73u&X-Amz-Signature=4250fe9766287935e21ca5385ffe1e2fcc0179e4e16d8136f43cedc92b4a9b1f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.810Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-808b-bf9b-fddeb0d89bbf",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasil Menjalankan Solver",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-802f-9524-eb8aea88089e",
+        "type": "heading_3",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Solusi",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-80e5-893b-f79579269498",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Flag:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "TSA{Crypto_101_d5b55ff525198ba6}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8090-b4c9-df47f6cadf8b",
+        "type": "heading_2",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Cryptography - [cryptomata]",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-8028-be40-c2edcaeac025",
+        "type": "heading_3",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Deskripsi Soal",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-80c6-8617-d9d7177e8661",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada soal cryptomata, saya diberikan sebuah deskripsi untuk penyelesaian soal, akses netcat untuk melakukan koneksi ke server soal, dan juga sebuah file zip yang berisi ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "source code",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " dari soal tersebut.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8029-b296-d69b5f99213e",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada deskripsi soalnya, soal ini dibuat oleh AI (ChatGPT) dan diberikan URL ChatGPT-nya: ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "https://chatgpt.com/share/6729a0f4-ebd0-800e-96bd-d2e2522210bb",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": "https://chatgpt.com/share/6729a0f4-ebd0-800e-96bd-d2e2522210bb"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-80d2-bd6d-edb4bcc02635",
+        "type": "image",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/3deb992a-9c98-4045-b364-e22032588b7b/image-48.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466755PWKNE%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCIQD4PpbiqoTtH%2FXHEKG1yFpRl8Z8UG6jath6LOnztvCucAIgFaShjiiaqedQcQcbXw4aFNv2V66o5ysPSnGSBdpoTA0q%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDJWd%2F3LBhxquRNElyCrcA6Qf1wya6%2BffXgkn2FzqwlRbSGUtLvJemQSr%2F0j7FuYwp0WhTcugkSVHDeMjdEU4BfkXGAW6qkTcEI5N%2FC%2B26k0MkrdsaFiMPHHe4rCFCnORrEeA9HSnq5K%2BMtTmxNTyxXWPfWcZKAcVAH7Gir7L3Ue1KrYXja0ghm0T7tJBdQaHqXibXnxeTFM%2FCJXmuiRTgPiT9rGaH39Ze3pk%2Bx2Hb7kTD5kjRB02uuIhRyxIBRlNebA%2FAhZmqyCdKcn6LMAzin6HhywlBCykVoeYixpx2fTBPqhfKyEQkRJsKbBLaP%2FYqHITY2YD91zTnA%2BKabtDromzNGcf%2F89MgCcSUqRWLtgf8JrO4Fb%2FfGjp8TGCoLfaAvCvhbkkwOU4pfN%2B7oylPcZFaRNVuMdzA0dUHxkE9JstqnaRbvoPDkI7XqAJ6JUAEIETk%2FNeTop8oYUbkdNgkNWQQVh2SXZMLcxSKF3xF5lpAeIqv9fWV%2FCZVzlRSrxfSWMu9IneRtL%2FHPFP61ykKns%2FtGhVMtCpBC1HCtjHo7zci5H%2BTcvFsX6Q98nvfnfG9DV4t1QgrshQQa0equAYSsTtrhUZV5MKhG4LjISHuwId6HWQDkehises0ZGFOjSLLmR7k5p4a%2BMuWFFvMKeRksQGOqUBotLlrFYicBi1%2FIOKPBvgZoeb2KX66tJvDiHqwvnmIFz%2FGOlRs3mLxaJ%2F%2FSiZmtBpjs8IIGNhNS4TCH%2FZMIJUO4YxstL%2Bp96SJsH%2Fv8psnYlISD31GuywEAf9nABvEufMubDWQT00MZ5GkukVDybIYB8IiiKJirnxopCvI9%2BuBmy8VwX24neht6D%2FmTYj7aN7KZObfF8vogh8FzG1pRBy%2BbvzY73u&X-Amz-Signature=d51eafe88294f5e69c44f1b10125febbbeab61070e24bc53a45fa1088365b21e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.908Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-8055-9395-d4a23f684b00",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Deskripsi Soal Cryptomata",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8034-905a-f773d4244dc9",
+        "type": "heading_3",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Analisis",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-803a-85ac-d6b52675352a",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari deskripsi, pembuat soal ingin menerapkan tanda tangan BLS dengan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "py_ecc.optimized_bls12_381",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ". Selain itu, ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "probset",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ingin argumen fungsi berpasangan harus berpasangan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "(G2, G1)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-80e7-85be-f6dd00c397ca",
+        "type": "image",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/03936dfa-7ac4-4161-abf4-9cfee49c2917/image-49.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466755PWKNE%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCIQD4PpbiqoTtH%2FXHEKG1yFpRl8Z8UG6jath6LOnztvCucAIgFaShjiiaqedQcQcbXw4aFNv2V66o5ysPSnGSBdpoTA0q%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDJWd%2F3LBhxquRNElyCrcA6Qf1wya6%2BffXgkn2FzqwlRbSGUtLvJemQSr%2F0j7FuYwp0WhTcugkSVHDeMjdEU4BfkXGAW6qkTcEI5N%2FC%2B26k0MkrdsaFiMPHHe4rCFCnORrEeA9HSnq5K%2BMtTmxNTyxXWPfWcZKAcVAH7Gir7L3Ue1KrYXja0ghm0T7tJBdQaHqXibXnxeTFM%2FCJXmuiRTgPiT9rGaH39Ze3pk%2Bx2Hb7kTD5kjRB02uuIhRyxIBRlNebA%2FAhZmqyCdKcn6LMAzin6HhywlBCykVoeYixpx2fTBPqhfKyEQkRJsKbBLaP%2FYqHITY2YD91zTnA%2BKabtDromzNGcf%2F89MgCcSUqRWLtgf8JrO4Fb%2FfGjp8TGCoLfaAvCvhbkkwOU4pfN%2B7oylPcZFaRNVuMdzA0dUHxkE9JstqnaRbvoPDkI7XqAJ6JUAEIETk%2FNeTop8oYUbkdNgkNWQQVh2SXZMLcxSKF3xF5lpAeIqv9fWV%2FCZVzlRSrxfSWMu9IneRtL%2FHPFP61ykKns%2FtGhVMtCpBC1HCtjHo7zci5H%2BTcvFsX6Q98nvfnfG9DV4t1QgrshQQa0equAYSsTtrhUZV5MKhG4LjISHuwId6HWQDkehises0ZGFOjSLLmR7k5p4a%2BMuWFFvMKeRksQGOqUBotLlrFYicBi1%2FIOKPBvgZoeb2KX66tJvDiHqwvnmIFz%2FGOlRs3mLxaJ%2F%2FSiZmtBpjs8IIGNhNS4TCH%2FZMIJUO4YxstL%2Bp96SJsH%2Fv8psnYlISD31GuywEAf9nABvEufMubDWQT00MZ5GkukVDybIYB8IiiKJirnxopCvI9%2BuBmy8VwX24neht6D%2FmTYj7aN7KZObfF8vogh8FzG1pRBy%2BbvzY73u&X-Amz-Signature=9fb35846833d9042aaf11579afa5dabba57502aa4b471e0200c6d7792ddec495&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.904Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-8002-b296-eb644c2edcba",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Detail Deskripsi Soal",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-80e5-8d2c-e0bc6a99ac2c",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Server menggunakan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "library",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "py_ecc",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " untuk implementasi BLS signature dengan komponen utama:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8062-a92c-e51c786fb35f",
+        "type": "image",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/901ba895-aeed-49de-8f4f-b70f466faaf0/image-50.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466755PWKNE%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCIQD4PpbiqoTtH%2FXHEKG1yFpRl8Z8UG6jath6LOnztvCucAIgFaShjiiaqedQcQcbXw4aFNv2V66o5ysPSnGSBdpoTA0q%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDJWd%2F3LBhxquRNElyCrcA6Qf1wya6%2BffXgkn2FzqwlRbSGUtLvJemQSr%2F0j7FuYwp0WhTcugkSVHDeMjdEU4BfkXGAW6qkTcEI5N%2FC%2B26k0MkrdsaFiMPHHe4rCFCnORrEeA9HSnq5K%2BMtTmxNTyxXWPfWcZKAcVAH7Gir7L3Ue1KrYXja0ghm0T7tJBdQaHqXibXnxeTFM%2FCJXmuiRTgPiT9rGaH39Ze3pk%2Bx2Hb7kTD5kjRB02uuIhRyxIBRlNebA%2FAhZmqyCdKcn6LMAzin6HhywlBCykVoeYixpx2fTBPqhfKyEQkRJsKbBLaP%2FYqHITY2YD91zTnA%2BKabtDromzNGcf%2F89MgCcSUqRWLtgf8JrO4Fb%2FfGjp8TGCoLfaAvCvhbkkwOU4pfN%2B7oylPcZFaRNVuMdzA0dUHxkE9JstqnaRbvoPDkI7XqAJ6JUAEIETk%2FNeTop8oYUbkdNgkNWQQVh2SXZMLcxSKF3xF5lpAeIqv9fWV%2FCZVzlRSrxfSWMu9IneRtL%2FHPFP61ykKns%2FtGhVMtCpBC1HCtjHo7zci5H%2BTcvFsX6Q98nvfnfG9DV4t1QgrshQQa0equAYSsTtrhUZV5MKhG4LjISHuwId6HWQDkehises0ZGFOjSLLmR7k5p4a%2BMuWFFvMKeRksQGOqUBotLlrFYicBi1%2FIOKPBvgZoeb2KX66tJvDiHqwvnmIFz%2FGOlRs3mLxaJ%2F%2FSiZmtBpjs8IIGNhNS4TCH%2FZMIJUO4YxstL%2Bp96SJsH%2Fv8psnYlISD31GuywEAf9nABvEufMubDWQT00MZ5GkukVDybIYB8IiiKJirnxopCvI9%2BuBmy8VwX24neht6D%2FmTYj7aN7KZObfF8vogh8FzG1pRBy%2BbvzY73u&X-Amz-Signature=7d496869f2848110b4446d1f250f8ad9a5f0e665504284e0ed4a0acb1a46ba6f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.901Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-80eb-a436-d83a54a06f3d",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Komponen Utama BLS Signature",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-809e-8eef-f9f7b4062bba",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Ketika saya coba koneksikan ke server, tampilannya seperti ini:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-80f9-8c4a-d9aa24b6fca3",
+        "type": "image",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/76f36f67-5cfd-4c78-ac5e-4861b73959c7/image-51.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466755PWKNE%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCIQD4PpbiqoTtH%2FXHEKG1yFpRl8Z8UG6jath6LOnztvCucAIgFaShjiiaqedQcQcbXw4aFNv2V66o5ysPSnGSBdpoTA0q%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDJWd%2F3LBhxquRNElyCrcA6Qf1wya6%2BffXgkn2FzqwlRbSGUtLvJemQSr%2F0j7FuYwp0WhTcugkSVHDeMjdEU4BfkXGAW6qkTcEI5N%2FC%2B26k0MkrdsaFiMPHHe4rCFCnORrEeA9HSnq5K%2BMtTmxNTyxXWPfWcZKAcVAH7Gir7L3Ue1KrYXja0ghm0T7tJBdQaHqXibXnxeTFM%2FCJXmuiRTgPiT9rGaH39Ze3pk%2Bx2Hb7kTD5kjRB02uuIhRyxIBRlNebA%2FAhZmqyCdKcn6LMAzin6HhywlBCykVoeYixpx2fTBPqhfKyEQkRJsKbBLaP%2FYqHITY2YD91zTnA%2BKabtDromzNGcf%2F89MgCcSUqRWLtgf8JrO4Fb%2FfGjp8TGCoLfaAvCvhbkkwOU4pfN%2B7oylPcZFaRNVuMdzA0dUHxkE9JstqnaRbvoPDkI7XqAJ6JUAEIETk%2FNeTop8oYUbkdNgkNWQQVh2SXZMLcxSKF3xF5lpAeIqv9fWV%2FCZVzlRSrxfSWMu9IneRtL%2FHPFP61ykKns%2FtGhVMtCpBC1HCtjHo7zci5H%2BTcvFsX6Q98nvfnfG9DV4t1QgrshQQa0equAYSsTtrhUZV5MKhG4LjISHuwId6HWQDkehises0ZGFOjSLLmR7k5p4a%2BMuWFFvMKeRksQGOqUBotLlrFYicBi1%2FIOKPBvgZoeb2KX66tJvDiHqwvnmIFz%2FGOlRs3mLxaJ%2F%2FSiZmtBpjs8IIGNhNS4TCH%2FZMIJUO4YxstL%2Bp96SJsH%2Fv8psnYlISD31GuywEAf9nABvEufMubDWQT00MZ5GkukVDybIYB8IiiKJirnxopCvI9%2BuBmy8VwX24neht6D%2FmTYj7aN7KZObfF8vogh8FzG1pRBy%2BbvzY73u&X-Amz-Signature=2f402f0a4479bd088912baf0fd6146c61b80dba4073379666f7d1ad9488e9049&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.910Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-8084-922b-dee6a21910fc",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Tampilan Server Cryptomata",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-800a-98ce-df5aec78a784",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk programnya, bisa dilihat pada ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "source code",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " zip yang telah diekstrak pada file ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "challange.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8066-9a0a-faf89d4e0b16",
+        "type": "image",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/0e616735-c6a1-4de2-b48e-b44536bcadad/image-52.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466755PWKNE%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCIQD4PpbiqoTtH%2FXHEKG1yFpRl8Z8UG6jath6LOnztvCucAIgFaShjiiaqedQcQcbXw4aFNv2V66o5ysPSnGSBdpoTA0q%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDJWd%2F3LBhxquRNElyCrcA6Qf1wya6%2BffXgkn2FzqwlRbSGUtLvJemQSr%2F0j7FuYwp0WhTcugkSVHDeMjdEU4BfkXGAW6qkTcEI5N%2FC%2B26k0MkrdsaFiMPHHe4rCFCnORrEeA9HSnq5K%2BMtTmxNTyxXWPfWcZKAcVAH7Gir7L3Ue1KrYXja0ghm0T7tJBdQaHqXibXnxeTFM%2FCJXmuiRTgPiT9rGaH39Ze3pk%2Bx2Hb7kTD5kjRB02uuIhRyxIBRlNebA%2FAhZmqyCdKcn6LMAzin6HhywlBCykVoeYixpx2fTBPqhfKyEQkRJsKbBLaP%2FYqHITY2YD91zTnA%2BKabtDromzNGcf%2F89MgCcSUqRWLtgf8JrO4Fb%2FfGjp8TGCoLfaAvCvhbkkwOU4pfN%2B7oylPcZFaRNVuMdzA0dUHxkE9JstqnaRbvoPDkI7XqAJ6JUAEIETk%2FNeTop8oYUbkdNgkNWQQVh2SXZMLcxSKF3xF5lpAeIqv9fWV%2FCZVzlRSrxfSWMu9IneRtL%2FHPFP61ykKns%2FtGhVMtCpBC1HCtjHo7zci5H%2BTcvFsX6Q98nvfnfG9DV4t1QgrshQQa0equAYSsTtrhUZV5MKhG4LjISHuwId6HWQDkehises0ZGFOjSLLmR7k5p4a%2BMuWFFvMKeRksQGOqUBotLlrFYicBi1%2FIOKPBvgZoeb2KX66tJvDiHqwvnmIFz%2FGOlRs3mLxaJ%2F%2FSiZmtBpjs8IIGNhNS4TCH%2FZMIJUO4YxstL%2Bp96SJsH%2Fv8psnYlISD31GuywEAf9nABvEufMubDWQT00MZ5GkukVDybIYB8IiiKJirnxopCvI9%2BuBmy8VwX24neht6D%2FmTYj7aN7KZObfF8vogh8FzG1pRBy%2BbvzY73u&X-Amz-Signature=da7ba174c723864d31b01f04bad253251d878d9c8a08196942197abea709c307&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.910Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-8002-9e1f-ff783285a7ed",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Isi File challenge.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-80a8-9a48-c80d95c3a045",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari kode tersebut, saya mengetahui bahwa server ini memiliki beberapa fitur:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-80d0-86d7-fb49327d66ef",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Sign Up:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " Mendaftar user baru dan mendapatkan token.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-80ca-bebd-f931ace66144",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Sign In:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " Login dengan username + token.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-80ed-bdbc-d19948a1899d",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Get Flag:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " Hanya bisa diakses oleh admin.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8021-87df-e968eaedb414",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari BLS signature ini, saya tahu bahwa ia punya sifat homomorphic. Artinya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-801f-86a0-edca66e6ad9e",
+        "type": "bulleted_list_item",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Jika kita punya signature ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "A = sk * H(user)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8055-a05f-d43c9dc318be",
+        "type": "bulleted_list_item",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dan kita mau signature ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "B = sk * H(admin)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-800a-a6bf-dd51a78be996",
+        "type": "bulleted_list_item",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Kita bisa pakai matematika modular untuk transformasi signature A ke B",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-807d-8818-d23f7bef8b68",
+        "type": "heading_3",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Eksploitasi",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-80c0-b944-dff9d76283ed",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Tahapan eksploitasinya adalah sebagai berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8031-8dea-d11ed081dbc3",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Daftar sebagai user biasa untuk mendapatkan token.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-806c-996d-ec9351415020",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hitung nilai hash untuk user dan admin.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8034-b2c4-f0d4f6d0aba8",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hitung ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "scalar",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " untuk transformasi signature.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-80f9-9a8a-c29ddbcb330f",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Generate admin signature.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-80a6-915b-d2066e08c503",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Login sebagai admin dan ambil flag.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-807e-b90a-e391cc802ffc",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Berikut adalah script exploit yang saya buat:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-80fa-a334-c6b846ce6eee",
+        "type": "code",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "from pwn import *from py_ecc.optimized_bls12_381 import G1, G2, add, multiply, pairing, normalize, FQ, neg\nimport hashlib\nfrom py_ecc.optimized_bls12_381.optimized_curve import curve_order\n# Enable debuggingcontext.log_level = 'debug'def hash_to_G1(message: bytes) -> tuple:\n   hash_val = int.from_bytes(hashlib.sha256(message).digest(), 'big') % curve_order\n   return multiply(G1, hash_val)\ndef serialize(point):\n   xy = normalize(point)\n   b = int.to_bytes(int(xy[0]), 48, 'big')\n   b += int.to_bytes(int(xy[1]), 48, 'big')\n   return b.hex()\ndef deserialize(token):\n   token_bytes = bytes.fromhex(token)\n   x = int.from_bytes(token_bytes[:48], 'big')\n   y = int.from_bytes(token_bytes[48:], 'big')\n   return (FQ(x), FQ(y), FQ(1))\ndef exploit():\n   try:\n       # Connect to the server       conn = remote('0.cloud.chals.io', 32571, timeout=20)\n       print(\"[+] Connected to server\")\n       # Get a user signature       conn.recvuntil(b'$> ')\n       conn.sendline(b'2')  # Sign Up       conn.recvuntil(b'Username: ')\n       username = b'test_user'       conn.sendline(username)\n       conn.recvuntil(b\"Here's your credential token: \")\n       user_token = conn.recvline().strip().decode()\n       user_sig = deserialize(user_token)\n       print(f\"[+] Got signature for test user\")\n       # Calculate necessary points       H_user = hash_to_G1(username)\n       H_admin = hash_to_G1(b'admin')\n       # Calculate scalar needed to transform user signature to admin signature       # If sig_user = sk * H_user, we need to find x where:       # sig_admin = sk * H_admin = x * sig_user       # Therefore: x = H_admin * H_user^(-1)       h_user_val = int.from_bytes(hashlib.sha256(username).digest(), 'big') % curve_order\n       h_admin_val = int.from_bytes(hashlib.sha256(b'admin').digest(), 'big') % curve_order\n       scalar = (h_admin_val * pow(h_user_val, -1, curve_order)) % curve_order\n       # Generate admin signature       admin_sig = multiply(user_sig, scalar)\n       admin_token = serialize(admin_sig)\n       print(f\"[+] Forged admin token: {admin_token}\")\n       # Try to login as admin       conn.recvuntil(b'$> ')\n       conn.sendline(b'1')  # Sign In       conn.recvuntil(b'Username: ')\n       conn.sendline(b'admin')\n       conn.recvuntil(b'Token: ')\n       conn.sendline(admin_token.encode())\n       # Check if login successful       response = conn.recvuntil(b'$> ').decode()\n       if \"Sign-in success!\" in response:\n           print(\"[+] Successfully logged in as admin!\")\n           conn.sendline(b'2')  # Get flag           flag = conn.recvline().decode()\n           print(f\"[+] Flag: {flag}\")\n       else:\n           print(\"[-] Login failed\")\n           print(f\"Response: {response}\")\n   except Exception as e:\n       print(f\"[-] Error occurred: {str(e)}\")\n   finally:\n       conn.close()\nif __name__ == '__main__':\n   exploit()",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "237db469-a81d-809f-9dbe-cfc3a8c88c0f",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah menjalankan script exploit, saya berhasil mendapatkan flag!",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8030-b685-fc00cda5b644",
+        "type": "image",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/530b0dbe-261b-45e5-b970-61d2dfa7db8f/image-53.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466755PWKNE%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091425Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCIQD4PpbiqoTtH%2FXHEKG1yFpRl8Z8UG6jath6LOnztvCucAIgFaShjiiaqedQcQcbXw4aFNv2V66o5ysPSnGSBdpoTA0q%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDJWd%2F3LBhxquRNElyCrcA6Qf1wya6%2BffXgkn2FzqwlRbSGUtLvJemQSr%2F0j7FuYwp0WhTcugkSVHDeMjdEU4BfkXGAW6qkTcEI5N%2FC%2B26k0MkrdsaFiMPHHe4rCFCnORrEeA9HSnq5K%2BMtTmxNTyxXWPfWcZKAcVAH7Gir7L3Ue1KrYXja0ghm0T7tJBdQaHqXibXnxeTFM%2FCJXmuiRTgPiT9rGaH39Ze3pk%2Bx2Hb7kTD5kjRB02uuIhRyxIBRlNebA%2FAhZmqyCdKcn6LMAzin6HhywlBCykVoeYixpx2fTBPqhfKyEQkRJsKbBLaP%2FYqHITY2YD91zTnA%2BKabtDromzNGcf%2F89MgCcSUqRWLtgf8JrO4Fb%2FfGjp8TGCoLfaAvCvhbkkwOU4pfN%2B7oylPcZFaRNVuMdzA0dUHxkE9JstqnaRbvoPDkI7XqAJ6JUAEIETk%2FNeTop8oYUbkdNgkNWQQVh2SXZMLcxSKF3xF5lpAeIqv9fWV%2FCZVzlRSrxfSWMu9IneRtL%2FHPFP61ykKns%2FtGhVMtCpBC1HCtjHo7zci5H%2BTcvFsX6Q98nvfnfG9DV4t1QgrshQQa0equAYSsTtrhUZV5MKhG4LjISHuwId6HWQDkehises0ZGFOjSLLmR7k5p4a%2BMuWFFvMKeRksQGOqUBotLlrFYicBi1%2FIOKPBvgZoeb2KX66tJvDiHqwvnmIFz%2FGOlRs3mLxaJ%2F%2FSiZmtBpjs8IIGNhNS4TCH%2FZMIJUO4YxstL%2Bp96SJsH%2Fv8psnYlISD31GuywEAf9nABvEufMubDWQT00MZ5GkukVDybIYB8IiiKJirnxopCvI9%2BuBmy8VwX24neht6D%2FmTYj7aN7KZObfF8vogh8FzG1pRBy%2BbvzY73u&X-Amz-Signature=d7e2c1152a4281ad322af7f6e391740dc9d95432434025ae1211584ef2d6ea8c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:25.046Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-807b-b6ae-efbba62ad0bb",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasil Menjalankan Solver Cryptomata",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-809d-b268-c82c31c88206",
+        "type": "image",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/41351c09-973b-459a-90b9-f4f0320385ef/image-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466755PWKNE%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091425Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCIQD4PpbiqoTtH%2FXHEKG1yFpRl8Z8UG6jath6LOnztvCucAIgFaShjiiaqedQcQcbXw4aFNv2V66o5ysPSnGSBdpoTA0q%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDJWd%2F3LBhxquRNElyCrcA6Qf1wya6%2BffXgkn2FzqwlRbSGUtLvJemQSr%2F0j7FuYwp0WhTcugkSVHDeMjdEU4BfkXGAW6qkTcEI5N%2FC%2B26k0MkrdsaFiMPHHe4rCFCnORrEeA9HSnq5K%2BMtTmxNTyxXWPfWcZKAcVAH7Gir7L3Ue1KrYXja0ghm0T7tJBdQaHqXibXnxeTFM%2FCJXmuiRTgPiT9rGaH39Ze3pk%2Bx2Hb7kTD5kjRB02uuIhRyxIBRlNebA%2FAhZmqyCdKcn6LMAzin6HhywlBCykVoeYixpx2fTBPqhfKyEQkRJsKbBLaP%2FYqHITY2YD91zTnA%2BKabtDromzNGcf%2F89MgCcSUqRWLtgf8JrO4Fb%2FfGjp8TGCoLfaAvCvhbkkwOU4pfN%2B7oylPcZFaRNVuMdzA0dUHxkE9JstqnaRbvoPDkI7XqAJ6JUAEIETk%2FNeTop8oYUbkdNgkNWQQVh2SXZMLcxSKF3xF5lpAeIqv9fWV%2FCZVzlRSrxfSWMu9IneRtL%2FHPFP61ykKns%2FtGhVMtCpBC1HCtjHo7zci5H%2BTcvFsX6Q98nvfnfG9DV4t1QgrshQQa0equAYSsTtrhUZV5MKhG4LjISHuwId6HWQDkehises0ZGFOjSLLmR7k5p4a%2BMuWFFvMKeRksQGOqUBotLlrFYicBi1%2FIOKPBvgZoeb2KX66tJvDiHqwvnmIFz%2FGOlRs3mLxaJ%2F%2FSiZmtBpjs8IIGNhNS4TCH%2FZMIJUO4YxstL%2Bp96SJsH%2Fv8psnYlISD31GuywEAf9nABvEufMubDWQT00MZ5GkukVDybIYB8IiiKJirnxopCvI9%2BuBmy8VwX24neht6D%2FmTYj7aN7KZObfF8vogh8FzG1pRBy%2BbvzY73u&X-Amz-Signature=ccf4e80bc351ef5eb748ededd70d1f56b78c03fe5544f5e89ac615d865aad5d8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:25.041Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-8011-a333-ef0dcf26dda7",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Flag Cryptomata",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-80d5-9c45-d89cf29a2f1b",
+        "type": "heading_3",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Solusi",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-80e7-b9fb-f6ac3d5e00e2",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:41:00.000Z",
+        "last_edited_time": "2025-07-21T02:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Flag:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "TSA{proof_that_you_are_smarter_than_AI_3a78250f}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      }
+    ],
+    "featured_image": "/posts/tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84/featured-image.png",
+    "og_image": "/posts/tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84/featured-image.png"
+  }
+}

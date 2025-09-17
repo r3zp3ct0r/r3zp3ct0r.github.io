@@ -1,0 +1,991 @@
+{
+  "meta": {
+    "generated_at": "2025-07-26T09:14:25.683Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "cyber-strike-competition-1-0-ctf-2024-crypto-237db469a81d80c6a345e4cd2fbb64af",
+    "slug": "cyber-strike-competition-1-0-ctf-2024-crypto",
+    "og_image": "/posts/cyber-strike-competition-1-0-ctf-2024-crypto-237db469a81d80c6a345e4cd2fbb64af/featured-image.png",
+    "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-crypto-237db469a81d80c6a345e4cd2fbb64af/featured-image.png"
+  },
+  "post": {
+    "id": "237db469-a81d-80c6-a345-e4cd2fbb64af",
+    "created_time": "2025-07-21T01:42:00.000Z",
+    "last_edited_time": "2025-07-21T01:48:00.000Z",
+    "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Crypto-237db469a81d80c6a345e4cd2fbb64af",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-07-21T01:42:00.000Z"
+      },
+      "slug": "[cyber-strike-competition-1.0-ctf-2024]---crypto",
+      "publisheddate": "2024-10-12",
+      "owner": [
+        {
+          "id": "ac3d6ce8-4cb1-4c2d-a068-480495e731ed"
+        }
+      ],
+      "featured_image": [
+        {
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/6327cfae-8638-4136-a9b6-742ba433d9db/image-39.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YPX5AOT7%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091423Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICS8tF913delLstwDsjL0eQdy%2BvuvCBvb9HscAhqVMOSAiEA3I%2FWSK4MenZ68MV%2F5xbgelrpos1ofm7pRdXEWS6eDLAq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDGksuUrXijcxXTgLjircA%2F8iQlpAqygDdoFhpQ%2BRYATcK1uji9ZdVKlhAnCnrvdFcEUqTAS6x%2BPZ44dLZf2dQXq5Hv32%2BCAwONtx7PaI5phelG7qZ4VFeNpmrhee5OzPsivINHagJeE2OhPePQCcrQQxJ9FgIRKq%2B8%2FL4R2fbcU7%2FIZRSkbLApoGVIUMcZZXdeGOiaco5SGNYDvXyswn8b%2BSA8rbQ%2B4Yz8V0cv6ZY4iqu%2F86ALh9nZ1CDegzuT61OA4eTmHrKGxPYPJTvDe%2BAXC1lDVzeUnlsJSz0rYXAo4cK14vVe3jajaoRLp4gy3bABG2Wwv3H02tDCmJUEhMwU0kudlJKYnZ%2Bpg282aY25tYSzIRydBuANYZNxAP%2BtZNRMR1ZjM%2B9FHAufmpTnOuK0EupaPe%2Bk5qfp3P%2BBOnr4Fr%2BU%2BJmhlD7R3NFhHcuXB%2BoY6FkzGbYhap5DvZlD2jVjEHa6xsxTXBJbFsXu3S3%2FxVPRwgCczqzXD%2BMj%2B0qJKxdZn7ij%2BfayCJ4qvdUiuMe9M9ybbVV1LK%2B0WFgiNTO8W6SIa%2FchTnrKZnmEdPd7b0zyOrbPzJ18atbkZEYEP72xJRV%2BqI%2BuPwcFn4S187c7cAFF0kwIpmOLnpyQCYMsyPcgQgnUqcvNwSksU%2BMKCRksQGOqUBQaMCPll03DjhNcyPXpGo%2BvXfs4ByxhWR6e67dzh7U%2FbmQHhJ2pzof7qwc3ceKPMdGxFCxD7aV2%2FvId8Gr3poC6pd4rFgYj5NxVSbh8WKN0Qigcvrci69msvMsD3jvS9fytxmhavhm%2BhfbNWJNF0M9IvlJpl3S6hNhaAmxAEx7UHaCJ6cGfpvYr8pyuwTfd1Vg4skISOwFzTZM1vNoSWi8Faa%2FFY5&X-Amz-Signature=9398141ac99f3ccd3b1ad5ef0b94a8e43265f12a37224a64b41da2b2da9d93c7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "name": "image-39.png",
+          "expiry_time": "2025-07-26T10:14:23.701Z"
+        }
+      ],
+      "tags": [
+        "Crypto",
+        "CTF Writeup"
+      ],
+      "published": true,
+      "title": "[Cyber Strike Competition 1.0 CTF 2024] - Crypto"
+    },
+    "title": "[Cyber Strike Competition 1.0 CTF 2024] - Crypto",
+    "content": [
+      {
+        "id": "237db469-a81d-8159-9e32-e74b2cd31f49",
+        "type": "image",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/2219c869-4a7b-41de-ba0c-b94e131ac554/image-1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEJIBEB6%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091425Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJIMEYCIQCftVPge%2BEbS5j9SXDhN1TYtb4LUWZKhJOcqd%2FTLWifyAIhAIMeSPNNp%2B3yQeKNUvrPvlPd9zLYOne31d5MC2lctLILKv8DCFkQABoMNjM3NDIzMTgzODA1IgzSZ7meHXPEHm1K3U8q3AOxrh9ww%2FnqSFytJGFBJ%2BXSkdgvu6PLRh47uPkIjC%2BCcOv7ZczmEeVXhklnRSRjabsZqiPWejT%2Bw7omJAmsy0zg997BOWrC3H5vnM8Na97yxA18dJeZoOKmtMiKp7Q408wUVXubcanVWT%2FRhNDYsDE5gv1mfRURlZSDHmiW2huXME0lcBdUqk20sMtQKFwR1z4kjOhoz5U37spyC%2BM0own08zNr1J5LtZ%2BteGo84mRzacVCxOPYzQQgSMGnVrsjw4cxhjj9XAXXrN4kNZyb%2B6lAa7spWUUGHrbGcho3QoV6o0sUVX35ovt8uXi0whCmukdMzXlSWHH8i7h9bdirwO4y9myJqfwWdJLmw2nvY7llD3g5PP%2FjluS9v%2FD6uwD4bpHm2E2EwXxptZK6IjTBdxVtJUq8lFYhiqJ%2Bovs4QAa5Z3lbXJ50J8HAk0geXMaus1ks6cdLy4%2F1JZi1bTt1v%2FacWbh%2FWXL%2FnAulZ4vnXe6KrCuShuw2DvIJF2uSQeL8ATHE2wRdT%2F%2Bd%2B6OLmbMJ594u0RC8QWhgo7bh91LtYWmXr%2Bjwgf%2B%2FgknrdHxomciuVFOlorJ40jq5PvXoP4HocG3WyQ4Lb%2BKzfkIukj%2B1mU2WMiIv6GF7%2BH96vPf4ozDkkZLEBjqkAax3sROuK0slahqlcT8A6ZDvC1KKTbtNgRd0CKFu07biqErnJ6YxRrHjx7%2BXZitZRnANEzri1MnrV4pAuRfatMvqiS17tHERd6jsiCIHjn4zlDSs3EHawQhcDlFpg7LxTnDYZfK0MdSOj2Am%2Fb8RgtAfKiLptGscwJPxWttbfmzPoH5miiHGKhejPvwJu%2FakQDzRei70SSCBuBnBe0l%2BxKxHigJl&X-Amz-Signature=c022203835f39c1c7610b26637b530035fca6921be7686470af2565f00a0c9b7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:25.318Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-81ed-9211-ce9dc3f3290c",
+        "type": "heading_1",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Crypto",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-812c-9217-ca7bf80cbf84",
+        "type": "heading_2",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Eksplorasi File Terenkripsi",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-8150-b83f-f690cc1271bb",
+        "type": "image",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/d94dcdc8-bd08-4f84-971f-ce947f295a3f/image-34.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEJIBEB6%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091425Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJIMEYCIQCftVPge%2BEbS5j9SXDhN1TYtb4LUWZKhJOcqd%2FTLWifyAIhAIMeSPNNp%2B3yQeKNUvrPvlPd9zLYOne31d5MC2lctLILKv8DCFkQABoMNjM3NDIzMTgzODA1IgzSZ7meHXPEHm1K3U8q3AOxrh9ww%2FnqSFytJGFBJ%2BXSkdgvu6PLRh47uPkIjC%2BCcOv7ZczmEeVXhklnRSRjabsZqiPWejT%2Bw7omJAmsy0zg997BOWrC3H5vnM8Na97yxA18dJeZoOKmtMiKp7Q408wUVXubcanVWT%2FRhNDYsDE5gv1mfRURlZSDHmiW2huXME0lcBdUqk20sMtQKFwR1z4kjOhoz5U37spyC%2BM0own08zNr1J5LtZ%2BteGo84mRzacVCxOPYzQQgSMGnVrsjw4cxhjj9XAXXrN4kNZyb%2B6lAa7spWUUGHrbGcho3QoV6o0sUVX35ovt8uXi0whCmukdMzXlSWHH8i7h9bdirwO4y9myJqfwWdJLmw2nvY7llD3g5PP%2FjluS9v%2FD6uwD4bpHm2E2EwXxptZK6IjTBdxVtJUq8lFYhiqJ%2Bovs4QAa5Z3lbXJ50J8HAk0geXMaus1ks6cdLy4%2F1JZi1bTt1v%2FacWbh%2FWXL%2FnAulZ4vnXe6KrCuShuw2DvIJF2uSQeL8ATHE2wRdT%2F%2Bd%2B6OLmbMJ594u0RC8QWhgo7bh91LtYWmXr%2Bjwgf%2B%2FgknrdHxomciuVFOlorJ40jq5PvXoP4HocG3WyQ4Lb%2BKzfkIukj%2B1mU2WMiIv6GF7%2BH96vPf4ozDkkZLEBjqkAax3sROuK0slahqlcT8A6ZDvC1KKTbtNgRd0CKFu07biqErnJ6YxRrHjx7%2BXZitZRnANEzri1MnrV4pAuRfatMvqiS17tHERd6jsiCIHjn4zlDSs3EHawQhcDlFpg7LxTnDYZfK0MdSOj2Am%2Fb8RgtAfKiLptGscwJPxWttbfmzPoH5miiHGKhejPvwJu%2FakQDzRei70SSCBuBnBe0l%2BxKxHigJl&X-Amz-Signature=58ffb496ab23148df32f9be6ff43728381091d0fee123e2a3fe5f30e193a2585&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:25.291Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-81c7-a66c-e0dfeb2c0a8d",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Gambar Soal",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81e4-984e-f39a169e72ee",
+        "type": "heading_3",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Deskripsi Soal",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-818b-8a58-fa583ea6c5bf",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada soal ini, deskripsi menyebutkan bahwa dalam file zip “secret_data.zip” terdapat file bernama “secret_data.txt” yang berisi informasi sensitif, yaitu flag. Deskripsi juga memberikan petunjuk bahwa untuk menyelesaikan soal ini, kita perlu mendekripsi teks terenkripsi dalam file “secret_data.txt”.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8122-b51d-e265dfecf334",
+        "type": "heading_3",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Analisis dan Pemecahan Masalah",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-811e-a3b5-efbb45821f62",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Saya memulai dengan mengekstrak file “secret_data.zip” dan menyimpannya ke dalam folder ‘secret’.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81ba-8c9a-d34e4cd4389b",
+        "type": "image",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/9c29f065-3ba8-4942-ab65-d4154cb4ebf5/image-35.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEJIBEB6%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091425Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJIMEYCIQCftVPge%2BEbS5j9SXDhN1TYtb4LUWZKhJOcqd%2FTLWifyAIhAIMeSPNNp%2B3yQeKNUvrPvlPd9zLYOne31d5MC2lctLILKv8DCFkQABoMNjM3NDIzMTgzODA1IgzSZ7meHXPEHm1K3U8q3AOxrh9ww%2FnqSFytJGFBJ%2BXSkdgvu6PLRh47uPkIjC%2BCcOv7ZczmEeVXhklnRSRjabsZqiPWejT%2Bw7omJAmsy0zg997BOWrC3H5vnM8Na97yxA18dJeZoOKmtMiKp7Q408wUVXubcanVWT%2FRhNDYsDE5gv1mfRURlZSDHmiW2huXME0lcBdUqk20sMtQKFwR1z4kjOhoz5U37spyC%2BM0own08zNr1J5LtZ%2BteGo84mRzacVCxOPYzQQgSMGnVrsjw4cxhjj9XAXXrN4kNZyb%2B6lAa7spWUUGHrbGcho3QoV6o0sUVX35ovt8uXi0whCmukdMzXlSWHH8i7h9bdirwO4y9myJqfwWdJLmw2nvY7llD3g5PP%2FjluS9v%2FD6uwD4bpHm2E2EwXxptZK6IjTBdxVtJUq8lFYhiqJ%2Bovs4QAa5Z3lbXJ50J8HAk0geXMaus1ks6cdLy4%2F1JZi1bTt1v%2FacWbh%2FWXL%2FnAulZ4vnXe6KrCuShuw2DvIJF2uSQeL8ATHE2wRdT%2F%2Bd%2B6OLmbMJ594u0RC8QWhgo7bh91LtYWmXr%2Bjwgf%2B%2FgknrdHxomciuVFOlorJ40jq5PvXoP4HocG3WyQ4Lb%2BKzfkIukj%2B1mU2WMiIv6GF7%2BH96vPf4ozDkkZLEBjqkAax3sROuK0slahqlcT8A6ZDvC1KKTbtNgRd0CKFu07biqErnJ6YxRrHjx7%2BXZitZRnANEzri1MnrV4pAuRfatMvqiS17tHERd6jsiCIHjn4zlDSs3EHawQhcDlFpg7LxTnDYZfK0MdSOj2Am%2Fb8RgtAfKiLptGscwJPxWttbfmzPoH5miiHGKhejPvwJu%2FakQDzRei70SSCBuBnBe0l%2BxKxHigJl&X-Amz-Signature=dab82605508b11e35c978ab22bc73c852cbec3da07390598759877319dd27b1e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:25.295Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-81c1-a61b-c7039abfee6b",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Ekstraksi secret_data.zip",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81e8-9a2b-c48684ee37ad",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah diekstrak, saya menemukan file “secret_data.txt” sesuai dengan deskripsi soal. Berikut adalah isi dari file tersebut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-817a-99e5-efd5deeaa884",
+        "type": "image",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/3f610792-3327-4671-a772-41d928647f14/image-36.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEJIBEB6%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091425Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJIMEYCIQCftVPge%2BEbS5j9SXDhN1TYtb4LUWZKhJOcqd%2FTLWifyAIhAIMeSPNNp%2B3yQeKNUvrPvlPd9zLYOne31d5MC2lctLILKv8DCFkQABoMNjM3NDIzMTgzODA1IgzSZ7meHXPEHm1K3U8q3AOxrh9ww%2FnqSFytJGFBJ%2BXSkdgvu6PLRh47uPkIjC%2BCcOv7ZczmEeVXhklnRSRjabsZqiPWejT%2Bw7omJAmsy0zg997BOWrC3H5vnM8Na97yxA18dJeZoOKmtMiKp7Q408wUVXubcanVWT%2FRhNDYsDE5gv1mfRURlZSDHmiW2huXME0lcBdUqk20sMtQKFwR1z4kjOhoz5U37spyC%2BM0own08zNr1J5LtZ%2BteGo84mRzacVCxOPYzQQgSMGnVrsjw4cxhjj9XAXXrN4kNZyb%2B6lAa7spWUUGHrbGcho3QoV6o0sUVX35ovt8uXi0whCmukdMzXlSWHH8i7h9bdirwO4y9myJqfwWdJLmw2nvY7llD3g5PP%2FjluS9v%2FD6uwD4bpHm2E2EwXxptZK6IjTBdxVtJUq8lFYhiqJ%2Bovs4QAa5Z3lbXJ50J8HAk0geXMaus1ks6cdLy4%2F1JZi1bTt1v%2FacWbh%2FWXL%2FnAulZ4vnXe6KrCuShuw2DvIJF2uSQeL8ATHE2wRdT%2F%2Bd%2B6OLmbMJ594u0RC8QWhgo7bh91LtYWmXr%2Bjwgf%2B%2FgknrdHxomciuVFOlorJ40jq5PvXoP4HocG3WyQ4Lb%2BKzfkIukj%2B1mU2WMiIv6GF7%2BH96vPf4ozDkkZLEBjqkAax3sROuK0slahqlcT8A6ZDvC1KKTbtNgRd0CKFu07biqErnJ6YxRrHjx7%2BXZitZRnANEzri1MnrV4pAuRfatMvqiS17tHERd6jsiCIHjn4zlDSs3EHawQhcDlFpg7LxTnDYZfK0MdSOj2Am%2Fb8RgtAfKiLptGscwJPxWttbfmzPoH5miiHGKhejPvwJu%2FakQDzRei70SSCBuBnBe0l%2BxKxHigJl&X-Amz-Signature=121218e3a4c529a6bf3170e20c80e2a51ad21a8235db0a0124c6610f3eb86b93&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:25.298Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-81cd-a443-c9645e01a863",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Isi secret_data.txt",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81fe-95ea-d0b732fc608a",
+        "type": "code",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "aX5sUV5CQ1l1Q1l1XkJPdVlPSVhPXnVMRktNVw==",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "plain text",
+          "caption": []
+        }
+      },
+      {
+        "id": "237db469-a81d-8148-9836-dc3fea9f7997",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Isi dari “secret_data.txt” terlihat seperti hasil enkripsi Base64. Namun, ketika saya mencoba mendekodenya menggunakan CyberChef (",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "https://gchq.github.io/CyberChef/",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": "https://gchq.github.io/CyberChef/"
+            },
+            {
+              "content": ") dengan fitur “Magic”, hasilnya tidak sesuai harapan.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81eb-9bbb-d43dcd637bbf",
+        "type": "image",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/d663c78e-f9e7-4ad0-9d91-f0bb72dcf079/image-37.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEJIBEB6%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091425Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJIMEYCIQCftVPge%2BEbS5j9SXDhN1TYtb4LUWZKhJOcqd%2FTLWifyAIhAIMeSPNNp%2B3yQeKNUvrPvlPd9zLYOne31d5MC2lctLILKv8DCFkQABoMNjM3NDIzMTgzODA1IgzSZ7meHXPEHm1K3U8q3AOxrh9ww%2FnqSFytJGFBJ%2BXSkdgvu6PLRh47uPkIjC%2BCcOv7ZczmEeVXhklnRSRjabsZqiPWejT%2Bw7omJAmsy0zg997BOWrC3H5vnM8Na97yxA18dJeZoOKmtMiKp7Q408wUVXubcanVWT%2FRhNDYsDE5gv1mfRURlZSDHmiW2huXME0lcBdUqk20sMtQKFwR1z4kjOhoz5U37spyC%2BM0own08zNr1J5LtZ%2BteGo84mRzacVCxOPYzQQgSMGnVrsjw4cxhjj9XAXXrN4kNZyb%2B6lAa7spWUUGHrbGcho3QoV6o0sUVX35ovt8uXi0whCmukdMzXlSWHH8i7h9bdirwO4y9myJqfwWdJLmw2nvY7llD3g5PP%2FjluS9v%2FD6uwD4bpHm2E2EwXxptZK6IjTBdxVtJUq8lFYhiqJ%2Bovs4QAa5Z3lbXJ50J8HAk0geXMaus1ks6cdLy4%2F1JZi1bTt1v%2FacWbh%2FWXL%2FnAulZ4vnXe6KrCuShuw2DvIJF2uSQeL8ATHE2wRdT%2F%2Bd%2B6OLmbMJ594u0RC8QWhgo7bh91LtYWmXr%2Bjwgf%2B%2FgknrdHxomciuVFOlorJ40jq5PvXoP4HocG3WyQ4Lb%2BKzfkIukj%2B1mU2WMiIv6GF7%2BH96vPf4ozDkkZLEBjqkAax3sROuK0slahqlcT8A6ZDvC1KKTbtNgRd0CKFu07biqErnJ6YxRrHjx7%2BXZitZRnANEzri1MnrV4pAuRfatMvqiS17tHERd6jsiCIHjn4zlDSs3EHawQhcDlFpg7LxTnDYZfK0MdSOj2Am%2Fb8RgtAfKiLptGscwJPxWttbfmzPoH5miiHGKhejPvwJu%2FakQDzRei70SSCBuBnBe0l%2BxKxHigJl&X-Amz-Signature=96cc29f8fb2da536d16f3588336050b7645477ed9cc1e1c2d4ec59a3c7992da3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:25.319Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-811e-ad82-e3d272176f95",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Percobaan Decode dengan CyberChef Magic",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8190-a904-e2d57435f739",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "CyberChef awalnya mendeteksi sebagai Base85. Kemudian, saya mencoba menghapus bagian “==” dan mendekode dengan fitur “Magic” dari CyberChef. Hasilnya adalah:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81a7-919b-ebb7c171721a",
+        "type": "image",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/d16b6335-a88d-4017-bea9-a34168d48f40/image-38.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEJIBEB6%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091425Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJIMEYCIQCftVPge%2BEbS5j9SXDhN1TYtb4LUWZKhJOcqd%2FTLWifyAIhAIMeSPNNp%2B3yQeKNUvrPvlPd9zLYOne31d5MC2lctLILKv8DCFkQABoMNjM3NDIzMTgzODA1IgzSZ7meHXPEHm1K3U8q3AOxrh9ww%2FnqSFytJGFBJ%2BXSkdgvu6PLRh47uPkIjC%2BCcOv7ZczmEeVXhklnRSRjabsZqiPWejT%2Bw7omJAmsy0zg997BOWrC3H5vnM8Na97yxA18dJeZoOKmtMiKp7Q408wUVXubcanVWT%2FRhNDYsDE5gv1mfRURlZSDHmiW2huXME0lcBdUqk20sMtQKFwR1z4kjOhoz5U37spyC%2BM0own08zNr1J5LtZ%2BteGo84mRzacVCxOPYzQQgSMGnVrsjw4cxhjj9XAXXrN4kNZyb%2B6lAa7spWUUGHrbGcho3QoV6o0sUVX35ovt8uXi0whCmukdMzXlSWHH8i7h9bdirwO4y9myJqfwWdJLmw2nvY7llD3g5PP%2FjluS9v%2FD6uwD4bpHm2E2EwXxptZK6IjTBdxVtJUq8lFYhiqJ%2Bovs4QAa5Z3lbXJ50J8HAk0geXMaus1ks6cdLy4%2F1JZi1bTt1v%2FacWbh%2FWXL%2FnAulZ4vnXe6KrCuShuw2DvIJF2uSQeL8ATHE2wRdT%2F%2Bd%2B6OLmbMJ594u0RC8QWhgo7bh91LtYWmXr%2Bjwgf%2B%2FgknrdHxomciuVFOlorJ40jq5PvXoP4HocG3WyQ4Lb%2BKzfkIukj%2B1mU2WMiIv6GF7%2BH96vPf4ozDkkZLEBjqkAax3sROuK0slahqlcT8A6ZDvC1KKTbtNgRd0CKFu07biqErnJ6YxRrHjx7%2BXZitZRnANEzri1MnrV4pAuRfatMvqiS17tHERd6jsiCIHjn4zlDSs3EHawQhcDlFpg7LxTnDYZfK0MdSOj2Am%2Fb8RgtAfKiLptGscwJPxWttbfmzPoH5miiHGKhejPvwJu%2FakQDzRei70SSCBuBnBe0l%2BxKxHigJl&X-Amz-Signature=06a2a8ec125f786fedc8ad07deafc4e617c40e0aa7c4f2acb4c385952af6b77e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:25.297Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-8186-9688-f678423f45ae",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasil Decode Base85",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-817e-9cdc-dda5b75c7ca9",
+        "type": "code",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "i~lQ^BCYuCYu^BOuYOIXO^uLFKMW",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "plain text",
+          "caption": []
+        }
+      },
+      {
+        "id": "237db469-a81d-816a-b631-ffb2a28dff4b",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasil ini masih tampak acak dan menunjukkan bahwa teks tersebut mungkin masih terenkripsi. Kemungkinan metode enkripsi yang digunakan perlu diidentifikasi lebih lanjut, misalnya Caesar cipher, XOR cipher, dan lain-lain.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8179-88b1-ebcecbab94ae",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk langkah selanjutnya, saya mencoba menggunakan XOR Cipher. Saya melakukan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "brute-force",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " XOR dengan asumsi bahwa kunci mungkin hanya terdiri dari satu karakter ASCII.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-810c-aba8-f78e616f21b8",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Berikut adalah program ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "solve.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " yang saya gunakan:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81a7-9cef-ce1cdcb3f50f",
+        "type": "image",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/0d5a73ee-f938-4d89-ad8f-af7e28da1242/image-39.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEJIBEB6%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091425Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJIMEYCIQCftVPge%2BEbS5j9SXDhN1TYtb4LUWZKhJOcqd%2FTLWifyAIhAIMeSPNNp%2B3yQeKNUvrPvlPd9zLYOne31d5MC2lctLILKv8DCFkQABoMNjM3NDIzMTgzODA1IgzSZ7meHXPEHm1K3U8q3AOxrh9ww%2FnqSFytJGFBJ%2BXSkdgvu6PLRh47uPkIjC%2BCcOv7ZczmEeVXhklnRSRjabsZqiPWejT%2Bw7omJAmsy0zg997BOWrC3H5vnM8Na97yxA18dJeZoOKmtMiKp7Q408wUVXubcanVWT%2FRhNDYsDE5gv1mfRURlZSDHmiW2huXME0lcBdUqk20sMtQKFwR1z4kjOhoz5U37spyC%2BM0own08zNr1J5LtZ%2BteGo84mRzacVCxOPYzQQgSMGnVrsjw4cxhjj9XAXXrN4kNZyb%2B6lAa7spWUUGHrbGcho3QoV6o0sUVX35ovt8uXi0whCmukdMzXlSWHH8i7h9bdirwO4y9myJqfwWdJLmw2nvY7llD3g5PP%2FjluS9v%2FD6uwD4bpHm2E2EwXxptZK6IjTBdxVtJUq8lFYhiqJ%2Bovs4QAa5Z3lbXJ50J8HAk0geXMaus1ks6cdLy4%2F1JZi1bTt1v%2FacWbh%2FWXL%2FnAulZ4vnXe6KrCuShuw2DvIJF2uSQeL8ATHE2wRdT%2F%2Bd%2B6OLmbMJ594u0RC8QWhgo7bh91LtYWmXr%2Bjwgf%2B%2FgknrdHxomciuVFOlorJ40jq5PvXoP4HocG3WyQ4Lb%2BKzfkIukj%2B1mU2WMiIv6GF7%2BH96vPf4ozDkkZLEBjqkAax3sROuK0slahqlcT8A6ZDvC1KKTbtNgRd0CKFu07biqErnJ6YxRrHjx7%2BXZitZRnANEzri1MnrV4pAuRfatMvqiS17tHERd6jsiCIHjn4zlDSs3EHawQhcDlFpg7LxTnDYZfK0MdSOj2Am%2Fb8RgtAfKiLptGscwJPxWttbfmzPoH5miiHGKhejPvwJu%2FakQDzRei70SSCBuBnBe0l%2BxKxHigJl&X-Amz-Signature=88351bafca5c481e2295b40a62ec165b2db455d07cea0f3b15bc94448e1207d5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:25.347Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-8143-9b02-c1de72eb49e0",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Kode solve.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81a3-87b3-fae37099af13",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Saya langsung menjalankan program ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "solve.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8168-a688-c71684a6be6b",
+        "type": "image",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/c0983662-d8ab-4b09-bb37-06d07428e58a/image-40.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEJIBEB6%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091425Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJIMEYCIQCftVPge%2BEbS5j9SXDhN1TYtb4LUWZKhJOcqd%2FTLWifyAIhAIMeSPNNp%2B3yQeKNUvrPvlPd9zLYOne31d5MC2lctLILKv8DCFkQABoMNjM3NDIzMTgzODA1IgzSZ7meHXPEHm1K3U8q3AOxrh9ww%2FnqSFytJGFBJ%2BXSkdgvu6PLRh47uPkIjC%2BCcOv7ZczmEeVXhklnRSRjabsZqiPWejT%2Bw7omJAmsy0zg997BOWrC3H5vnM8Na97yxA18dJeZoOKmtMiKp7Q408wUVXubcanVWT%2FRhNDYsDE5gv1mfRURlZSDHmiW2huXME0lcBdUqk20sMtQKFwR1z4kjOhoz5U37spyC%2BM0own08zNr1J5LtZ%2BteGo84mRzacVCxOPYzQQgSMGnVrsjw4cxhjj9XAXXrN4kNZyb%2B6lAa7spWUUGHrbGcho3QoV6o0sUVX35ovt8uXi0whCmukdMzXlSWHH8i7h9bdirwO4y9myJqfwWdJLmw2nvY7llD3g5PP%2FjluS9v%2FD6uwD4bpHm2E2EwXxptZK6IjTBdxVtJUq8lFYhiqJ%2Bovs4QAa5Z3lbXJ50J8HAk0geXMaus1ks6cdLy4%2F1JZi1bTt1v%2FacWbh%2FWXL%2FnAulZ4vnXe6KrCuShuw2DvIJF2uSQeL8ATHE2wRdT%2F%2Bd%2B6OLmbMJ594u0RC8QWhgo7bh91LtYWmXr%2Bjwgf%2B%2FgknrdHxomciuVFOlorJ40jq5PvXoP4HocG3WyQ4Lb%2BKzfkIukj%2B1mU2WMiIv6GF7%2BH96vPf4ozDkkZLEBjqkAax3sROuK0slahqlcT8A6ZDvC1KKTbtNgRd0CKFu07biqErnJ6YxRrHjx7%2BXZitZRnANEzri1MnrV4pAuRfatMvqiS17tHERd6jsiCIHjn4zlDSs3EHawQhcDlFpg7LxTnDYZfK0MdSOj2Am%2Fb8RgtAfKiLptGscwJPxWttbfmzPoH5miiHGKhejPvwJu%2FakQDzRei70SSCBuBnBe0l%2BxKxHigJl&X-Amz-Signature=c670b18cc84056f846e6eaec4ec25f71248973af57d45347263a084af64b99fe&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:25.355Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-81b1-93b9-f342d8122d87",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasil Menjalankan solve.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8166-bc4d-e8cadb35b714",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasil dari ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "brute-force",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " XOR menunjukkan dua kunci, yaitu “10” dan “42”, yang berhasil mengubah teks menjadi ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "plaintext",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ". Namun, ketika saya mencoba mengirimkan flag yang dihasilkan, ternyata flag yang benar adalah ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "CTF{this_is_the_secret_flag}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-818b-a73c-cc9336e47f6f",
+        "type": "heading_3",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Solusi",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-8162-a26a-efc2f163b29a",
+        "type": "paragraph",
+        "created_time": "2025-07-21T01:44:00.000Z",
+        "last_edited_time": "2025-07-21T01:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Flag:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "CTF{this_is_the_secret_flag}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      }
+    ],
+    "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-crypto-237db469a81d80c6a345e4cd2fbb64af/featured-image.png",
+    "og_image": "/posts/cyber-strike-competition-1-0-ctf-2024-crypto-237db469a81d80c6a345e4cd2fbb64af/featured-image.png"
+  }
+}

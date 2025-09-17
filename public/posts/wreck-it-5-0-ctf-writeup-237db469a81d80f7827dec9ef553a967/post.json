@@ -1,0 +1,2112 @@
+{
+  "meta": {
+    "generated_at": "2025-07-26T09:14:25.744Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967",
+    "slug": "wreck-it-5-0-ctf-writeup",
+    "og_image": "/posts/wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967/featured-image.png",
+    "featured_image": "/posts/wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967/featured-image.png"
+  },
+  "post": {
+    "id": "237db469-a81d-80f7-827d-ec9ef553a967",
+    "created_time": "2025-07-21T02:45:00.000Z",
+    "last_edited_time": "2025-07-21T03:28:00.000Z",
+    "url": "https://www.notion.so/Wreck-IT-5-0-CTF-Writeup-237db469a81d80f7827dec9ef553a967",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-07-21T02:45:00.000Z"
+      },
+      "slug": "[wreck-it-5.0-ctf]-writeup",
+      "publisheddate": "2024-08-10",
+      "owner": [
+        {
+          "id": "ac3d6ce8-4cb1-4c2d-a068-480495e731ed"
+        }
+      ],
+      "featured_image": [
+        {
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/49a02af1-71d2-4121-b32a-5dc5200df8a7/image-1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YPX5AOT7%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091423Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICS8tF913delLstwDsjL0eQdy%2BvuvCBvb9HscAhqVMOSAiEA3I%2FWSK4MenZ68MV%2F5xbgelrpos1ofm7pRdXEWS6eDLAq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDGksuUrXijcxXTgLjircA%2F8iQlpAqygDdoFhpQ%2BRYATcK1uji9ZdVKlhAnCnrvdFcEUqTAS6x%2BPZ44dLZf2dQXq5Hv32%2BCAwONtx7PaI5phelG7qZ4VFeNpmrhee5OzPsivINHagJeE2OhPePQCcrQQxJ9FgIRKq%2B8%2FL4R2fbcU7%2FIZRSkbLApoGVIUMcZZXdeGOiaco5SGNYDvXyswn8b%2BSA8rbQ%2B4Yz8V0cv6ZY4iqu%2F86ALh9nZ1CDegzuT61OA4eTmHrKGxPYPJTvDe%2BAXC1lDVzeUnlsJSz0rYXAo4cK14vVe3jajaoRLp4gy3bABG2Wwv3H02tDCmJUEhMwU0kudlJKYnZ%2Bpg282aY25tYSzIRydBuANYZNxAP%2BtZNRMR1ZjM%2B9FHAufmpTnOuK0EupaPe%2Bk5qfp3P%2BBOnr4Fr%2BU%2BJmhlD7R3NFhHcuXB%2BoY6FkzGbYhap5DvZlD2jVjEHa6xsxTXBJbFsXu3S3%2FxVPRwgCczqzXD%2BMj%2B0qJKxdZn7ij%2BfayCJ4qvdUiuMe9M9ybbVV1LK%2B0WFgiNTO8W6SIa%2FchTnrKZnmEdPd7b0zyOrbPzJ18atbkZEYEP72xJRV%2BqI%2BuPwcFn4S187c7cAFF0kwIpmOLnpyQCYMsyPcgQgnUqcvNwSksU%2BMKCRksQGOqUBQaMCPll03DjhNcyPXpGo%2BvXfs4ByxhWR6e67dzh7U%2FbmQHhJ2pzof7qwc3ceKPMdGxFCxD7aV2%2FvId8Gr3poC6pd4rFgYj5NxVSbh8WKN0Qigcvrci69msvMsD3jvS9fytxmhavhm%2BhfbNWJNF0M9IvlJpl3S6hNhaAmxAEx7UHaCJ6cGfpvYr8pyuwTfd1Vg4skISOwFzTZM1vNoSWi8Faa%2FFY5&X-Amz-Signature=d9496d9ccec1e0bc2404817c3b2c360ae27471e1633c44aec6293864753d1bb9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "name": "image-1.png",
+          "expiry_time": "2025-07-26T10:14:23.701Z"
+        }
+      ],
+      "tags": [
+        "Crypto",
+        "CTF Writeup"
+      ],
+      "published": true,
+      "title": "[Wreck-IT 5.0 CTF] Writeup"
+    },
+    "title": "[Wreck-IT 5.0 CTF] Writeup",
+    "content": [
+      {
+        "id": "237db469-a81d-8128-b506-e6ab44be3988",
+        "type": "heading_1",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:27:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "ACT_CIAMIS",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-8149-b271-f731b07def74",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "with agrx",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81ff-a1e2-eb1ae9fd9aae",
+        "type": "heading_2",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "MISC",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-81d9-a221-cf89a4a5ce1c",
+        "type": "heading_3",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "[ Free Flag ]",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-8184-8df1-cdf22ae00bae",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Soal:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8170-a7c8-e46bdc6ed1bb",
+        "type": "image",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/454ddd3b-b195-441f-aab8-874b3eb0384f/image-2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q3NKIZF3%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICQHzxthLmie55ONNrFiwIMADI%2FyRXx3UxxmNnCZGMQnAiEArk3a2RstEREOWIR5RMbtIrc03G4BTTS6RRE5%2Fkv9Z2Iq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDL%2Fv7ssAnUVWC98epyrcAziZ25K%2Fkvrnwi8whjcEW0zor02VpTtQ%2Fl%2BeWpLI3Y%2FZGiX2IikQcoFQTroGowrb1hA0exvU5MNdB%2FIBbC%2F6S1ioHfFIA3gn%2B7lIfk2U5SM7hkA%2BhkxFS%2BuOkcvtPvDsnvrJm7coBCRuBN8IdzivgBxHFR7tWV6AH%2FVcN%2B%2FFf8fdK%2Fn6ixiMb0jTenbi9IA99ky7TjRIYiEErHZOfEpVCVDZeJyB1wl6dYpxL4B7EKXbuZqIUkdHhF2pY41ERfEolHF4Dt52tC9JuHG5ovZ3Jcg%2Bh8lutkNObyeLFDV0sEVTK8VO6UR3dJGhmnKIE3KQQCws3VETUIkX%2Bi3SSab%2F67gpzFWdSw6XiNAIC%2Fvel2ka7MhO0eeZUPbN%2Fxl24KlIb9i30XkhuAPV1QMTe6fn2W6gjt9VCXkFFd2LdGrqWtGFz2myL3WIY7NQChVUnjskeLdlEBBlJErYOfmDS7jwIXFh5oDSWFFJQbD7Gau%2F0Bb10mpXSaDdIUdC9gbeofgTh5BX%2BQlY%2By5%2B2r6iCnfD1JqyX9%2F4G60HWayrQSb9PIoosA0QkrYBSml%2FRMfblxuFsJSDhTLcREwHqiWhN9hopdv7QKY4zKtOufJS6LUb2brBL07mThDMhE9xkFhsMNiRksQGOqUBtcW0oNdPH30T5FX2RWf6qQnvH2iSIl6p5%2BYSOQ2APc7rdhepYPXSXDY7gMRe%2F3cGHdvAmsjPxQNIq9NcWTo0%2F4TgKI6KKLuHpYCHj1hSOCFTB8sfBH0n%2BC8GKq%2BZJrL6HJh6oleGJiPtUwutjTFXygY9gN8qyu6BWeOGkvo782cI%2FQYH4ONy3IZy6w72lWqNyw5ADlsEARLQSjcIClEqEQ89PXOG&X-Amz-Signature=121b137630d98684b35c095a9fcb166ddaca8e0931e237d65b43cccce8364a0d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.165Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-8177-9469-ed45fbd7cc7a",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Soal Free Flag",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8146-9b20-f4e7a57387f9",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Sesuai dengan namanya, soal ini memang memberikan flag secara cuma-cuma. kami langsung memasukkan flag yang tertera pada deskripsi soal, dan ternyata valid!",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81fa-829c-fa06e854986f",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Flag:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "WRECKIT50{just_ch3cking_f0r_y0ur_sani7y}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81d0-873c-d9331a0b177b",
+        "type": "heading_2",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "CRYPTO",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-81d7-aa8a-c64689982139",
+        "type": "heading_3",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "[ m4K c0MbL4n6 ]",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-814d-bf6b-e36bf42c179a",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Soal:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81d6-ab9f-fa27181d632b",
+        "type": "image",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/167f8954-5c5a-4467-b3c0-93d44cfbf13b/image-3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q3NKIZF3%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICQHzxthLmie55ONNrFiwIMADI%2FyRXx3UxxmNnCZGMQnAiEArk3a2RstEREOWIR5RMbtIrc03G4BTTS6RRE5%2Fkv9Z2Iq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDL%2Fv7ssAnUVWC98epyrcAziZ25K%2Fkvrnwi8whjcEW0zor02VpTtQ%2Fl%2BeWpLI3Y%2FZGiX2IikQcoFQTroGowrb1hA0exvU5MNdB%2FIBbC%2F6S1ioHfFIA3gn%2B7lIfk2U5SM7hkA%2BhkxFS%2BuOkcvtPvDsnvrJm7coBCRuBN8IdzivgBxHFR7tWV6AH%2FVcN%2B%2FFf8fdK%2Fn6ixiMb0jTenbi9IA99ky7TjRIYiEErHZOfEpVCVDZeJyB1wl6dYpxL4B7EKXbuZqIUkdHhF2pY41ERfEolHF4Dt52tC9JuHG5ovZ3Jcg%2Bh8lutkNObyeLFDV0sEVTK8VO6UR3dJGhmnKIE3KQQCws3VETUIkX%2Bi3SSab%2F67gpzFWdSw6XiNAIC%2Fvel2ka7MhO0eeZUPbN%2Fxl24KlIb9i30XkhuAPV1QMTe6fn2W6gjt9VCXkFFd2LdGrqWtGFz2myL3WIY7NQChVUnjskeLdlEBBlJErYOfmDS7jwIXFh5oDSWFFJQbD7Gau%2F0Bb10mpXSaDdIUdC9gbeofgTh5BX%2BQlY%2By5%2B2r6iCnfD1JqyX9%2F4G60HWayrQSb9PIoosA0QkrYBSml%2FRMfblxuFsJSDhTLcREwHqiWhN9hopdv7QKY4zKtOufJS6LUb2brBL07mThDMhE9xkFhsMNiRksQGOqUBtcW0oNdPH30T5FX2RWf6qQnvH2iSIl6p5%2BYSOQ2APc7rdhepYPXSXDY7gMRe%2F3cGHdvAmsjPxQNIq9NcWTo0%2F4TgKI6KKLuHpYCHj1hSOCFTB8sfBH0n%2BC8GKq%2BZJrL6HJh6oleGJiPtUwutjTFXygY9gN8qyu6BWeOGkvo782cI%2FQYH4ONy3IZy6w72lWqNyw5ADlsEARLQSjcIClEqEQ89PXOG&X-Amz-Signature=3fa1d725ee3edcff0a3004d9d7314ca29b840090111a3430dd843cee420af856&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.153Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-81a5-8e21-e758b9f441bc",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Soal m4K c0MbL4n6",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81b8-9204-eea817238242",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada soal ini, kami diberikan dua buah file, yaitu ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "propietary.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " dan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "chall.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-819e-b8f3-c5a911804915",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Berikut adalah isi dari file ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "propietary.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ":",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81aa-b764-d4c2aaed8692",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "propietary.py",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8196-9842-e44ff0935afd",
+        "type": "code",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": " import math\n def biner_ke_hex(biner):\n   desimal = int(biner, 2)\n   heksadesimal = hex(desimal)\n   return heksadesimal[2:]\n\n def float_bin(my_number, places=3):\n   my_whole, my_dec = str(my_number).split(\".\")\n   my_whole = int(my_whole)\n   res = (str(bin(my_whole))+\".\").replace('0b','')\n   for x in range(places):\n     my_dec = str('0.')+str(my_dec)\n     temp = '%1.20f' %(float(my_dec)\\*2)\n     my_whole, my_dec = temp.split(\".\")\n     res += my_whole\n   return res\n\n def cyclic_left_shift(value, shift):\n   return ((value << shift) & 0xFFFFFFFF) | (value >> (32 - shift))\n def binary32(n):\n   sign = 0   if n < 0:\n     sign = 1     n = n \\* (-1)\n   p = 30   dec = float_bin(n, places=p)\n   dotPlace = dec.find('.')\n   onePlace = dec.find('1')\n   if onePlace > dotPlace:\n     dec = dec.replace(\".\",\"\")\n     onePlace -= 1     dotPlace -= 1   elif onePlace < dotPlace:\n     dec = dec.replace(\".\",\"\")\n     dotPlace -= 1   mantissa = dec[onePlace+1:]\n   exponent = dotPlace - onePlace\n   exponent_bits = exponent + 127   exponent_bits = bin(exponent_bits).replace(\"0b\",'')\n   mantissa = mantissa[0:23]\n   final = str(sign) + exponent_bits.zfill(8) + mantissa\n   return final\n def parse_input(x):\n   if len(x) != 32:\n     raise ValueError(\"Input harus 32-bit string\")\n   xl = x[:12]\n   xm = x[12:28]\n   xr = x[28:]\n   return xl, xm, xr\n def calculate_parameters(xl, xm, xr):\n   gama_awal = int(xl, 2) \\* (1 / 2\\*\\*12)\n   eta = (int(xm, 2) \\* (2 / 2\\*\\*16)) + 2   k = (int(xr, 2) \\* (1 / 2\\*\\*4)) + 10.01   n = math.floor(6 \\* gama_awal)\n   return gama_awal, eta, k, n\n\n def fL(eta, gama_n):\n   return eta _ gama_n _ (1 - gama_n)\n def gamma_function(gama_awal, eta, k, n, i):\n   gama = gama_awal\n   for i in range(n + i):\n     gama = (2**k / 2**fL(eta, gama)) % 1   return gama\n\n def ELM(x):\n   xl, xm, xr = parse_input(x)\n   gama_awal, eta, k, n = calculate_parameters(xl, xm, xr)\n   gama_n1 = gamma_function(gama_awal, eta, k, n, 1)\n   gama_n2 = gamma_function(gama_awal, eta, k, n, 2)\n   w1 = binary32(gama_n1 \\* (10\\*\\*(10)))\n   w2 = binary32(gama_n2)\n   y = (cyclic_left_shift(int(w1,2), 17)) ^ (int(w2,2))\n   return format(y, '032b')\n def transform_f(x):\n   blocks = [x[i:i+32] for i in range(0, 256, 32)]\n   x_prev = '0' \\* 32   for i in range(8):\n     x_curr = blocks[i]\n     blocks[i] = ELM(format(int(x_curr, 2) ^ int(x_prev, 2),'032b'))\n     x_prev = blocks[i]\n   blocks[0] = format((cyclic_left_shift(int(blocks[0], 2), 19) + (cyclic_left_shift(int(blocks[2], 2), 9) % (2\\*\\*32))), '032b')\n   blocks[4] = format(cyclic_left_shift(int(blocks[4], 2) ^ cyclic_left_shift(int(blocks[2], 2), 9), 7), '032b')\n   blocks[5] = format(cyclic_left_shift(int(blocks[5], 2) ^ cyclic_left_shift(int(blocks[3], 2), 17), 13), '032b')\n   blocks[6] = format((int(blocks[6], 2) + int(blocks[4], 2)) % (2\\*\\*32), '032b')\n   blocks[7] = format(cyclic_left_shift(int(blocks[7], 2), 11) ^ int(blocks[5], 2), '032b')\n   blocks[1] = format(int(blocks[1], 2) + int(blocks[5], 2), '032b')\n   blocks[2] = format(cyclic_left_shift(int(blocks[2], 2), 9) ^ int(blocks[6], 2), '032b')\n   blocks[3] = format((cyclic_left_shift(int(blocks[3], 2), 17) + int(blocks[1], 2)) % (2\\*\\*32), '032b')\n   return ''.join(blocks)\n def convert_to_32bit_hex(input_hex):\n   input_int = int(input_hex[:8], 16) # Ambil 8 digit pertama jika lebih panjang dari 8 digit   bit_string = format(input_int, '032b') # Konversi integer ke 32 bit biner dengan leading zeros   return bit_string\n\n # Fungsi hash HORTEX def HORTEX(input_hex):\n   X_bin = convert_to_32bit_hex(input_hex)\n   pad_len = (64 - (len(X_bin) % 64)) % 64   X_padded = X_bin + '1' + '0' \\* (pad_len - 1)\n   r, c = 64, 192   state = '0' \\* (r + c)\n   state_int = int(state[:r], 2)\n   block_int = int(X_padded, 2)\n   updated_state = format(state_int ^ block_int, '064b') + '0'\\*c\n   after_abs = transform_f(updated_state)\n   s0 = transform_f(after_abs)\n   h1 = s0[:r]\n   state = transform_f(s0)\n   h2 = state[:r]\n   h1_hex = format(int(h1, 2), '016x')\n   h2_hex = format(int(h2, 2), '016x')\n   return h1_hex + h2_hex",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "237db469-a81d-8182-90ad-d0bdc9fc8230",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Selanjutnya, berikut adalah isi dari file ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "chall.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ":",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-814a-963c-df2e7b7fbc7c",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "chall.py",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8118-a51f-f6d121b07940",
+        "type": "code",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "from propietary import \\*def print_diagram():\n diagram = \"\"\" Sistem Penjodohan oleh Mak Comblang. Semoga cocok :) \"\"\" print(diagram)\nif **name** == \"**main**\":\n print_diagram()\nwhile True:\n    X_hex = input('choose your man (hex): ')\n    Y_hex = input('choose your woman (hex): ')\n    hash_value1 = HORTEX(X_hex)\n    hash_value2 = HORTEX(Y_hex)\n    if hash_value1 == hash_value2 and X_hex != Y_hex:\n        print(\"New couple is matched :). Here your flag WRECKIT50{REDACTED}\")\n        break    else:\n        print(\"Try again\")\n        break",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "237db469-a81d-8123-8782-fcdc36441fe7",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari analisis yang kami lakukan, file ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "propietary.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " berisi fungsi-fungsi untuk melakukan hashing dan manipulasi bit yang digunakan dalam algoritma hashing, yaitu ‘HORTEX’.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8195-a2dc-fc96a6b0065e",
+        "type": "code",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "def HORTEX(input_hex):\nX_bin = convert_to_32bit_hex(input_hex)\npad_len = (64 - (len(X_bin) % 64)) % 64X_padded = X_bin + '1' + '0' \\* (pad_len - 1)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "237db469-a81d-81f6-a1d0-fdfa21de2bf6",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Sejujurnya, kami baru pertama kali mendengar tentang HORTEX ini. Setelah mencari informasi, kami menemukan sebuah website yang menjelaskan tentang HORTEX.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81bb-8832-ca3a23c57364",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hortex",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " adalah fungsi hash alternatif berbasis chaotic sponge yang diusulkan yang menghasilkan panjang keluaran sebesar 128-bit. Algoritma Hortex diuji dengan menggunakan Cryptographic Randomness Testing (CRT) untuk mengevaluasi sifat keacakan yang dimiliki dan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "diserang",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " menggunakan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "serangan kolisi",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " Yuval dan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "bruteforce",
+              "annotations": {
+                "bold": true,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " secara teoritis untuk mengevaluasi keamanannya. Sumber: ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "https://kc3.poltekssn.ac.id/opac/index.php?p=show_detail&id=11773&keywords=",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": "https://kc3.poltekssn.ac.id/opac/index.php?p=show_detail&id=11773&keywords="
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-810c-93b3-db7c80e53108",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari informasi tersebut, kami mendapatkan sedikit petunjuk, yaitu ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "serangan kolisi (Collision attack)",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " dan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "brute force",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-813c-af1a-d7cf1e5d1f49",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "File ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "chall.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " merupakan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "source code",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " yang berjalan pada server dengan alamat IP yang diberikan.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8122-8f7f-c49a09a790fd",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Jika dilihat dari ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "source code",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "chall.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ", program meminta dua inputan nilai dalam bentuk heksadesimal dari user, yaitu pada variabel ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "X_hex",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " dan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "Y_hex",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8122-be50-e4378f67f0af",
+        "type": "code",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "    X_hex = input('choose your man (hex): ')\n    Y_hex = input('choose your woman (hex): ')",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "237db469-a81d-819e-bb29-cc800efd51ed",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Kedua inputan tersebut kemudian di-hash menggunakan fungsi ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "HORTEX",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-816e-b552-d0d7bc70eec4",
+        "type": "code",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "    hash_value1 = HORTEX(X_hex)\n    hash_value2 = HORTEX(Y_hex)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "237db469-a81d-810c-b3e2-fd9501deb0fe",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah di-hash, program akan mengecek apakah nilai hash dari ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "X_hex",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " sama dengan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "Y_hex",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ". Jika kedua hash tersebut sama dan nilai asli dari ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "X_hex",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " tidak sama dengan (",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "!=",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ") ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "Y_hex",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ", maka program akan menampilkan flag.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81ed-a27b-ecf99d48d52e",
+        "type": "code",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "    if hash_value1 == hash_value2 and X_hex != Y_hex:\n        print(\"New couple is matched :). Here your flag WRECKIT50{REDACTED}\")\n        break",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "237db469-a81d-8187-878b-d6f28d5aca1a",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Artinya, pada soal ini, kami harus menemukan dua nilai heksadesimal yang berbeda, tetapi menghasilkan nilai hash yang sama menggunakan fungsi HORTEX.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8128-866f-e0bcd61197f5",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Jadi, kesimpulannya, ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "propietary.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " berfungsi untuk menghitung hash ‘HORTEX’, dan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "chall.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " berfungsi untuk menerima inputan user dan mencari collision pada fungsi hash HORTEX. Setelah itu, program akan menampilkan flag apabila dua input menghasilkan hash yang sama.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-813c-aa3e-e5871871893b",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk mendapatkan flag, kami harus mencari collision atau hash yang sama. Untuk mencarinya, kami menggunakan metode ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "brute force",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " sesuai dengan petunjuk yang kami dapatkan sebelumnya. ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "Brute force",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " di sini berarti mencoba berbagai kombinasi input dan melihat apakah hasilnya sama.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81d9-901d-e795c39cd2e1",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk melakukan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "brute force",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ", kami menggunakan script ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "bruteforce.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-818b-9e97-d9d0cbc294ea",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "bruteforce.py",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8180-b3b4-ee474f2173d2",
+        "type": "code",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "from propietary import HORTEX\ndef find_collision():\n seen_hashes = {}\n for i in range(2**16): # menggunakan rentang 2-16 agar efisiensi   X_hex = format(i, '08x') # Format menjadi hex 8 digit   hash_value = HORTEX(X_hex)\n   if hash_value in seen_hashes:\n     print(f\"Collision found:\")\n     print(f\"X_hex: {seen_hashes[hash_value]}\")\n     print(f\"Y_hex: {X_hex}\")\n     print(f\"Hash: {hash_value}\")\n     return seen_hashes[hash_value], X_hex\n   seen_hashes[hash_value] = X_hex\n print(\"No collision found.\")\n return Nonefind_collision()",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "237db469-a81d-8161-b813-f620b3fda0cb",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah menjalankan script tersebut, kami mendapatkan hasil sebagai berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8176-acdf-e4461865603b",
+        "type": "image",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/e408a655-826d-4a63-9d87-c99e8c901e0c/image-4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q3NKIZF3%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICQHzxthLmie55ONNrFiwIMADI%2FyRXx3UxxmNnCZGMQnAiEArk3a2RstEREOWIR5RMbtIrc03G4BTTS6RRE5%2Fkv9Z2Iq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDL%2Fv7ssAnUVWC98epyrcAziZ25K%2Fkvrnwi8whjcEW0zor02VpTtQ%2Fl%2BeWpLI3Y%2FZGiX2IikQcoFQTroGowrb1hA0exvU5MNdB%2FIBbC%2F6S1ioHfFIA3gn%2B7lIfk2U5SM7hkA%2BhkxFS%2BuOkcvtPvDsnvrJm7coBCRuBN8IdzivgBxHFR7tWV6AH%2FVcN%2B%2FFf8fdK%2Fn6ixiMb0jTenbi9IA99ky7TjRIYiEErHZOfEpVCVDZeJyB1wl6dYpxL4B7EKXbuZqIUkdHhF2pY41ERfEolHF4Dt52tC9JuHG5ovZ3Jcg%2Bh8lutkNObyeLFDV0sEVTK8VO6UR3dJGhmnKIE3KQQCws3VETUIkX%2Bi3SSab%2F67gpzFWdSw6XiNAIC%2Fvel2ka7MhO0eeZUPbN%2Fxl24KlIb9i30XkhuAPV1QMTe6fn2W6gjt9VCXkFFd2LdGrqWtGFz2myL3WIY7NQChVUnjskeLdlEBBlJErYOfmDS7jwIXFh5oDSWFFJQbD7Gau%2F0Bb10mpXSaDdIUdC9gbeofgTh5BX%2BQlY%2By5%2B2r6iCnfD1JqyX9%2F4G60HWayrQSb9PIoosA0QkrYBSml%2FRMfblxuFsJSDhTLcREwHqiWhN9hopdv7QKY4zKtOufJS6LUb2brBL07mThDMhE9xkFhsMNiRksQGOqUBtcW0oNdPH30T5FX2RWf6qQnvH2iSIl6p5%2BYSOQ2APc7rdhepYPXSXDY7gMRe%2F3cGHdvAmsjPxQNIq9NcWTo0%2F4TgKI6KKLuHpYCHj1hSOCFTB8sfBH0n%2BC8GKq%2BZJrL6HJh6oleGJiPtUwutjTFXygY9gN8qyu6BWeOGkvo782cI%2FQYH4ONy3IZy6w72lWqNyw5ADlsEARLQSjcIClEqEQ89PXOG&X-Amz-Signature=326cbc5698ad10f59abbf23cd299515165cffe8df6cede8f78a3b2b0a367c988&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.243Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-81d5-a760-e9c8f10e3fbf",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasil Brute Force",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-818a-830a-cc004901dbea",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari hasil ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "brute force",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ", kami mendapatkan nilai ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "X_hex",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " dan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "Y_hex",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ". Selanjutnya, kami mencoba memasukkan inputan tersebut ke dalam program ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "chall.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8177-87f8-e3d4fa57ca40",
+        "type": "image",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/7e184eed-3cba-4798-86cc-4b210806eb61/image-5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q3NKIZF3%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T091424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJHMEUCICQHzxthLmie55ONNrFiwIMADI%2FyRXx3UxxmNnCZGMQnAiEArk3a2RstEREOWIR5RMbtIrc03G4BTTS6RRE5%2Fkv9Z2Iq%2FwMIWRAAGgw2Mzc0MjMxODM4MDUiDL%2Fv7ssAnUVWC98epyrcAziZ25K%2Fkvrnwi8whjcEW0zor02VpTtQ%2Fl%2BeWpLI3Y%2FZGiX2IikQcoFQTroGowrb1hA0exvU5MNdB%2FIBbC%2F6S1ioHfFIA3gn%2B7lIfk2U5SM7hkA%2BhkxFS%2BuOkcvtPvDsnvrJm7coBCRuBN8IdzivgBxHFR7tWV6AH%2FVcN%2B%2FFf8fdK%2Fn6ixiMb0jTenbi9IA99ky7TjRIYiEErHZOfEpVCVDZeJyB1wl6dYpxL4B7EKXbuZqIUkdHhF2pY41ERfEolHF4Dt52tC9JuHG5ovZ3Jcg%2Bh8lutkNObyeLFDV0sEVTK8VO6UR3dJGhmnKIE3KQQCws3VETUIkX%2Bi3SSab%2F67gpzFWdSw6XiNAIC%2Fvel2ka7MhO0eeZUPbN%2Fxl24KlIb9i30XkhuAPV1QMTe6fn2W6gjt9VCXkFFd2LdGrqWtGFz2myL3WIY7NQChVUnjskeLdlEBBlJErYOfmDS7jwIXFh5oDSWFFJQbD7Gau%2F0Bb10mpXSaDdIUdC9gbeofgTh5BX%2BQlY%2By5%2B2r6iCnfD1JqyX9%2F4G60HWayrQSb9PIoosA0QkrYBSml%2FRMfblxuFsJSDhTLcREwHqiWhN9hopdv7QKY4zKtOufJS6LUb2brBL07mThDMhE9xkFhsMNiRksQGOqUBtcW0oNdPH30T5FX2RWf6qQnvH2iSIl6p5%2BYSOQ2APc7rdhepYPXSXDY7gMRe%2F3cGHdvAmsjPxQNIq9NcWTo0%2F4TgKI6KKLuHpYCHj1hSOCFTB8sfBH0n%2BC8GKq%2BZJrL6HJh6oleGJiPtUwutjTFXygY9gN8qyu6BWeOGkvo782cI%2FQYH4ONy3IZy6w72lWqNyw5ADlsEARLQSjcIClEqEQ89PXOG&X-Amz-Signature=02130477843ed60f9f14a7a01afb0813457f2f6dd9897c2c5f2966c52a92ff20&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-07-26T10:14:24.243Z"
+        }
+      },
+      {
+        "id": "237db469-a81d-8182-b52e-d35b85bb4a01",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Memasukkan Inputan ke chall.py",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81d9-aebd-fce8284535c3",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah menunggu beberapa saat, akhirnya kami berhasil mendapatkan flag!",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8160-a553-f2df2ed4ebfc",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Flag:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "WRECKIT50{fUnCt10n_Sh0uLd_nOt_13Ij3cT1On}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81ae-bfa8-f104e174535d",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "SELESAI! Sebenarnya, ada banyak soal lain yang sudah kami coba, tetapi kami selalu mengalami kesulitan pada tahap akhir, seperti menemukan file zip yang dienkripsi dengan password. Hanya satu soal ini yang berhasil kami pecahkan dengan metode ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "brute force",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8104-a92e-df0d0cb34fcd",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-07-21T03:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Terima kasih Wreck IT 5.0! Soal-soalnya sangat menantang dan membuat kami mendapatkan banyak ilmu baru.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      }
+    ],
+    "featured_image": "/posts/wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967/featured-image.png",
+    "og_image": "/posts/wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967/featured-image.png"
+  }
+}
