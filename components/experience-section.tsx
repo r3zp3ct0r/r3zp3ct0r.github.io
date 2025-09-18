@@ -176,22 +176,22 @@ export function ExperienceSection() {
         viewport={{ once: true }}
         className="mb-12 text-center"
       >
-        <h2 className="text-5xl font-bold tracking-tight neon-text-white">Professional Experience</h2>
-        <p className="mt-4 text-xl text-muted-foreground">My journey in the cybersecurity realm</p>
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight neon-text-white">Professional Experience</h2>
+        <p className="mt-4 text-base sm:text-lg md:text-xl text-muted-foreground">My journey in the cybersecurity realm</p>
       </motion.div>
-      <div className="flex justify-center gap-2 mb-8">
+      <div className="flex justify-start md:justify-center gap-2 mb-8 overflow-x-auto -mx-4 px-4 md:mx-0 md:px-0">
         {experienceCategories.map((cat) => (
           <button
             key={cat.id}
             onClick={() => setActiveCategory(cat.id)}
-            className={`px-4 py-2 rounded-full font-medium transition-all ${activeCategory === cat.id ? "bg-primary text-white" : "bg-muted text-primary hover:bg-primary/10"}`}
+            className={`px-4 py-2 rounded-full font-medium transition-all whitespace-nowrap ${activeCategory === cat.id ? "bg-primary text-white" : "bg-muted text-primary hover:bg-primary/10"}`}
           >
             {cat.label}
           </button>
         ))}
       </div>
       <div className="max-w-4xl mx-auto">
-        <div className="relative border-l-2 border-muted pl-8 ml-4">
+        <div className="relative md:border-l-2 border-muted md:pl-8 md:ml-4">
           {experiences.filter(e => e.category === activeCategory).map((experience, index) => (
             <motion.div
               key={index}
@@ -203,12 +203,12 @@ export function ExperienceSection() {
               onHoverStart={() => setHoveredCard(index)}
               onHoverEnd={() => setHoveredCard(null)}
             >
-              <div className="absolute w-4 h-4 bg-primary rounded-full -left-[41px] top-1" />
+              <div className="hidden md:block absolute w-4 h-4 bg-primary rounded-full -left-[41px] top-1" />
               <Card className={`transition-all duration-300 ${experience.highlight ? "border-primary/30" : ""}`}>
                 <CardHeader>
                   <div className="flex flex-wrap items-start justify-between gap-2">
-                    <div className="flex items-center gap-2">
-                      <CardTitle className="text-xl">{experience.title}</CardTitle>
+                    <div className="flex items-center gap-2 min-w-0">
+                      <CardTitle className="text-lg sm:text-xl break-words">{experience.title}</CardTitle>
                       {experience.highlight && hoveredCard === index && (
                         <motion.div
                           animate={{
@@ -225,15 +225,15 @@ export function ExperienceSection() {
                         </motion.div>
                       )}
                     </div>
-                    <div>
-                      <CardDescription className="text-lg font-medium">
+                    <div className="min-w-0">
+                      <CardDescription className="text-base md:text-lg font-medium truncate">
                         {experience.company}
                       </CardDescription>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
+                  <div className="flex flex-col sm:flex-row flex-wrap gap-2 sm:gap-4 text-sm text-muted-foreground">
                     <div className="flex items-center gap-1">
                       <Calendar className="w-4 h-4" />
                       <span>{experience.period}</span>

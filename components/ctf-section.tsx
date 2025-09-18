@@ -149,7 +149,7 @@ export function CTFSection() {
   }
 
   return (
-    <section className="relative py-20 bg-gradient-to-b from-black to-background overflow-x-hidden" id="ctf" ref={sectionRef}>
+    <section className="relative py-12 sm:py-16 lg:py-20 bg-gradient-to-b from-black to-background overflow-x-hidden" id="ctf" ref={sectionRef}>
       <div className="absolute inset-0 z-0 opacity-10">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIwLjEiPgogICAgICAgICAgICA8cGF0aCBkPSJNMzYgMzBoLTZsMyAxMHoiLz4KICAgICAgICAgICAgPHBhdGggZD0iTTMwIDMwaC02bDMgMTB6Ii8+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=')]"></div>
       </div>
@@ -159,12 +159,12 @@ export function CTFSection() {
           style={{ opacity, y }} 
           className="relative z-10 w-full px-4 sm:px-6 lg:px-8"
         >
-          <div className="mb-16 text-center" ref={titleRef}>
+          <div className="mb-12 sm:mb-16 text-center" ref={titleRef}>
             <motion.h2
               initial={{ opacity: 0, y: -15 }}
               animate={titleInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6 }}
-              className="text-4xl sm:text-5xl font-bold tracking-tight neon-text-pink"
+              className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight neon-text-pink"
             >
               CTF Achievements
             </motion.h2>
@@ -172,20 +172,20 @@ export function CTFSection() {
               initial={{ opacity: 0, y: 15 }}
               animate={titleInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="mt-4 text-lg sm:text-xl text-muted-foreground"
+              className="mt-4 text-base sm:text-lg text-muted-foreground"
             >
               Battle-tested in the digital arena
             </motion.p>
           </div>
 
-          <div className="grid gap-8 lg:grid-cols-2">
+          <div className="grid gap-6 lg:gap-8 lg:grid-cols-2">
             <div className="w-full">
               <div className="flex items-center gap-3 mb-6">
                 <Trophy className="w-6 h-6 text-primary" />
                 <h3 className="text-xl sm:text-2xl font-semibold neon-text">Achievement Board</h3>
               </div>
 
-              <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 w-full">
+              <div className="grid gap-2 sm:gap-3 grid-cols-1 sm:grid-cols-2 w-full">
                 {achievements.slice(0, 6).map((achievement, index) => (
                   <motion.div
                     key={index}
@@ -195,10 +195,10 @@ export function CTFSection() {
                     viewport={{ once: true }}
                     whileHover={{ scale: 1.02 }}
                     onClick={() => handleAchievementClick(index)}
-                    className="cursor-pointer w-full"
+                    className="cursor-pointer w-full min-w-0"
                   >
                     <Card className={`relative overflow-hidden ${selectedAchievement === index ? "ring-2 ring-primary" : ""}`}>
-                      <CardHeader className="space-y-1 p-3">
+                      <CardHeader className="space-y-1 p-3 sm:p-4">
                         <div className="flex items-center justify-between gap-2">
                           <div className="flex items-center gap-2 min-w-0 flex-1">
                             <div className="shrink-0">{achievement.icon}</div>
@@ -214,15 +214,15 @@ export function CTFSection() {
                           </Badge>
                         </div>
                       </CardHeader>
-                      <CardContent className="p-3 pt-0">
-                        <div className="space-y-1 text-sm">
-                          <div className="truncate">
+                      <CardContent className="p-3 sm:p-4 pt-0">
+                        <div className="space-y-1 text-sm min-w-0">
+                          <div className="truncate break-words">
                             <strong className="text-muted-foreground">Event:</strong>{" "}
-                            {achievement.event}
+                            <span className="break-words">{achievement.event}</span>
                           </div>
-                          <div className="truncate">
+                          <div className="truncate break-words">
                             <strong className="text-muted-foreground">Team:</strong>{" "}
-                            {achievement.team}
+                            <span className="break-words">{achievement.team}</span>
                           </div>
                         </div>
 
@@ -232,17 +232,17 @@ export function CTFSection() {
                             animate={{ opacity: 1, height: "auto" }}
                             exit={{ opacity: 0, height: 0 }}
                             transition={{ duration: 0.3 }}
-                            className="pt-2 mt-2 border-t border-muted"
+                            className="pt-2 mt-2 border-t border-muted min-w-0"
                           >
-                            <div className="space-y-1 text-sm">
-                              <div className="truncate">
+                            <div className="space-y-1 text-sm min-w-0">
+                              <div className="truncate break-words">
                                 <strong className="text-muted-foreground">Date:</strong>{" "}
-                                {achievement.date}
+                                <span className="break-words">{achievement.date}</span>
                               </div>
                               {achievement.issuer && (
-                                <div className="truncate">
+                                <div className="truncate break-words">
                                   <strong className="text-muted-foreground">Issued by:</strong>{" "}
-                                  {achievement.issuer}
+                                  <span className="break-words">{achievement.issuer}</span>
                                 </div>
                               )}
                               <div className="flex items-center gap-1 mt-2">
@@ -268,10 +268,10 @@ export function CTFSection() {
                       <ChevronDown className="w-4 h-4" />
                     </span>
                   </summary>
-                  <div className="grid gap-3 mt-4 grid-cols-1 sm:grid-cols-2 w-full">
+                  <div className="grid gap-2 sm:gap-3 mt-4 grid-cols-1 sm:grid-cols-2 w-full">
                     {achievements.slice(6).map((achievement, index) => (
                       <Card key={index + 6} className="relative overflow-hidden">
-                        <CardHeader className="space-y-1 p-3">
+                        <CardHeader className="space-y-1 p-3 sm:p-4">
                           <div className="flex items-center justify-between gap-2">
                             <div className="flex items-center gap-2 min-w-0 flex-1">
                               <div className="shrink-0">{achievement.icon}</div>
@@ -287,24 +287,24 @@ export function CTFSection() {
                             </Badge>
                           </div>
                         </CardHeader>
-                        <CardContent className="p-3 pt-0">
-                          <div className="space-y-1 text-sm">
-                            <div className="truncate">
+                        <CardContent className="p-3 sm:p-4 pt-0">
+                          <div className="space-y-1 text-sm min-w-0">
+                            <div className="truncate break-words">
                               <strong className="text-muted-foreground">Event:</strong>{" "}
-                              {achievement.event}
+                              <span className="break-words">{achievement.event}</span>
                             </div>
-                            <div className="truncate">
+                            <div className="truncate break-words">
                               <strong className="text-muted-foreground">Team:</strong>{" "}
-                              {achievement.team}
+                              <span className="break-words">{achievement.team}</span>
                             </div>
-                            <div className="truncate">
+                            <div className="truncate break-words">
                               <strong className="text-muted-foreground">Date:</strong>{" "}
-                              {achievement.date}
+                              <span className="break-words">{achievement.date}</span>
                             </div>
                             {achievement.issuer && (
-                              <div className="truncate">
+                              <div className="truncate break-words">
                                 <strong className="text-muted-foreground">Issued by:</strong>{" "}
-                                {achievement.issuer}
+                                <span className="break-words">{achievement.issuer}</span>
                               </div>
                             )}
                             <div className="flex items-center gap-1 mt-2">
@@ -337,10 +337,10 @@ export function CTFSection() {
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     viewport={{ once: true }}
                     whileHover={{ scale: 1.02 }}
-                    className="w-full"
+                    className="w-full min-w-0"
                   >
                     <Card className="relative overflow-hidden">
-                      <CardHeader className="space-y-1 p-3">
+                      <CardHeader className="space-y-1 p-3 sm:p-4">
                         <div className="flex items-center justify-between gap-2">
                           <div className="flex items-center gap-3 min-w-0 flex-1">
                             <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary/20 shrink-0">
@@ -357,8 +357,8 @@ export function CTFSection() {
                           </div>
                         </div>
                       </CardHeader>
-                      <CardContent className="p-3 pt-0">
-                        <p className="text-sm line-clamp-2 mb-3">{team.description}</p>
+                      <CardContent className="p-3 sm:p-4 pt-0">
+                        <p className="text-sm line-clamp-2 mb-3 break-words">{team.description}</p>
 
                         <div className="grid grid-cols-2 gap-2 mb-3">
                           <div className="p-2 text-center rounded-lg bg-muted/50">
@@ -409,7 +409,7 @@ export function CTFSection() {
                   <div className="space-y-4 mt-4">
                     {teams.slice(3).map((team, index) => (
                       <Card key={index + 3} className="relative overflow-hidden">
-                        <CardHeader className="space-y-1 p-3">
+                        <CardHeader className="space-y-1 p-3 sm:p-4">
                           <div className="flex items-center justify-between gap-2">
                             <div className="flex items-center gap-3 min-w-0 flex-1">
                               <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary/20 shrink-0">
@@ -426,7 +426,7 @@ export function CTFSection() {
                             </div>
                           </div>
                         </CardHeader>
-                        <CardContent className="p-3 pt-0">
+                        <CardContent className="p-3 sm:p-4 pt-0">
                           <p className="text-sm line-clamp-2 mb-3">{team.description}</p>
 
                           <div className="grid grid-cols-2 gap-2 mb-3">
