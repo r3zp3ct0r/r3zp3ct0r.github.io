@@ -6,8 +6,16 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function withBasePath(path: string): string {
-  const basePath = process.env.NODE_ENV === "production" ? process.env.NEXT_PUBLIC_BASE_PATH : ""
-  return `${basePath}${path}`
+  const raw = process.env.NODE_ENV === "production" ? process.env.NEXT_PUBLIC_BASE_PATH : ""
+  // Sanitize common bad values coming from env misconfiguration
+  const sanitized = !raw || raw === "undefined" || raw === "null" ? "" : raw
+  // Ensure basePath begins with a single leading slash (and no trailing slash)
+  const normalizedBase = sanitized
+    ? `/${sanitized.replace(/^\/+|\/+$/g, "")}`
+    : ""
+  // Ensure provided path starts with a slash
+  const normalizedPath = path.startsWith("/") ? path : `/${path}`
+  return `${normalizedBase}${normalizedPath}`
 }
 
 export function formatDate(date: string | Date): string {
