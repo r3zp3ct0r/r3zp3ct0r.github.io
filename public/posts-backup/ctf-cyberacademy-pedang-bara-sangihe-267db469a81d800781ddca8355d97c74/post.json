@@ -1,0 +1,717 @@
+{
+  "meta": {
+    "generated_at": "2025-09-18T01:37:17.902Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74",
+    "slug": "ctf-cyberacademy-pedang-bara-sangihe",
+    "og_image": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-1.png",
+    "featured_image": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-1.png"
+  },
+  "post": {
+    "id": "267db469-a81d-8007-81dd-ca8355d97c74",
+    "created_time": "2025-09-07T09:59:00.000Z",
+    "last_edited_time": "2025-09-13T15:43:00.000Z",
+    "url": "https://www.notion.so/CTF-CyberAcademy-Pedang-Bara-Sangihe-267db469a81d800781ddca8355d97c74",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-09-07T09:59:00.000Z"
+      },
+      "slug": "ctf-cyberacademy---pedang-bara-sangihe",
+      "publisheddate": null,
+      "owner": [
+        {
+          "id": "ac3d6ce8-4cb1-4c2d-a068-480495e731ed"
+        }
+      ],
+      "featured_image": [],
+      "tags": [],
+      "published": false,
+      "title": "CTF CyberAcademy - Pedang Bara Sangihe"
+    },
+    "title": "CTF CyberAcademy - Pedang Bara Sangihe",
+    "content": [
+      {
+        "id": "267db469-a81d-80c1-8795-e827ffdf73cf",
+        "type": "paragraph",
+        "created_time": "2025-09-07T10:02:00.000Z",
+        "last_edited_time": "2025-09-07T10:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-809c-a8e4-dd1b61611a1e",
+        "type": "image",
+        "created_time": "2025-09-07T10:00:00.000Z",
+        "last_edited_time": "2025-09-07T10:00:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-1.png",
+          "expiry_time": "2025-09-18T02:37:06.120Z",
+          "localUrl": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-1.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/044e01f1-59c5-44db-8593-3c737ed23269/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5BBTMQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013706Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDNH96TvJkVazRKrQ43%2FsRZyHHxbhtNSEk7e6fb8IrqKAIhALN452xgApUnqazVK5lh34uU%2FmKAx0vNNX7X5K52Bb%2BKKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6k3DAuWNCB29j82wq3AOXpEqSxZJicFOgoc35BEA54NT853DHPoHiKgQCPbTIjQsLixtPTuvu7CBFOEDfzDJY0WGnWVBODJlWSrKsu1dUdEj6nzJloixo2O5Ojsyx1sSDi%2BRKhnf7AdPLgLXFxv9IaA72Uo2JC0B6D0v695CI5sOJzQJGKkqWNnXCEOkBvxthOtcC2jnCrvDLnyksI2WDoUk%2Fb6k%2BQ5WlFCv5ROL7z4rd4QjzwJI5YMMpcB0zYDcVEgDsPdFxlyEUaZ5l8Hp0G%2FKXwW%2B6Iz5cSwgVVjd9EKmWzteQbnww4CUm99GPpgynaY7gxavhst7onUkwJjzQOuwEV6W9toSMKhrqz4O7b74qv%2F%2FgT48kme4KxxQYNXJrTrTb8871LdRNUgFOkr%2Bjx72psC1URwMmJFlW%2FgVy8W115r5p4s8UqJfO1almLGDNaEeHG2nS39IiSxWoTJsxrXKYuxHYuQ4Fad44AifuIEMhmEL7B7wPyNorfXvYWJEdTLkk2tTELFhIDoNuvxILte1CmRhMPw6t4o7YR9Ggsf2VMd3vJrcgtz0f%2BNy%2BBguwgK3L3r222ncQJrLCRygikpj0QLH9pez9ftIXemNU%2BClMAePO%2B8XuRja5EVDVLyWI9kEkAlv27uQvyzCrmK3GBjqkARj0JmAVDG5pDyPdYMnY1OW1M%2FItNiymZDyeS%2B0pxXTi2q8kVXnxZFFGbnuOa3fC5yKmOkTJqlHu9ohpshotuqO8eB7QYhA5P7c%2FdJNoXJBQCfwjk1VycmXuJIcobQiAqXcbuUJ8c%2Fo2l%2FFCDq9rdVlHI3lojPEAEv00SmWoc2lqeXXvJ9IEaYTy49orD%2FWEA08HTrULFRDP7t4bj%2BbpTnpI1lJA&X-Amz-Signature=8bf4960564e6046a81f6cafd0da40b0635f729a3c8818fca49cbc2ade5bfab9d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "267db469-a81d-8061-bbf6-c352f6f5a11d",
+        "type": "paragraph",
+        "created_time": "2025-09-07T10:00:00.000Z",
+        "last_edited_time": "2025-09-07T10:00:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-80f0-b501-dbd2139d88a4",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:29:00.000Z",
+        "last_edited_time": "2025-09-07T11:29:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-8030-8a48-cb82ee7ed5ca",
+        "type": "image",
+        "created_time": "2025-09-07T11:36:00.000Z",
+        "last_edited_time": "2025-09-07T11:36:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-2.png",
+          "expiry_time": "2025-09-18T02:37:06.108Z",
+          "localUrl": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-2.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/7c336551-5bca-466c-a101-56b5f2d6aa8e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5BBTMQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013706Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDNH96TvJkVazRKrQ43%2FsRZyHHxbhtNSEk7e6fb8IrqKAIhALN452xgApUnqazVK5lh34uU%2FmKAx0vNNX7X5K52Bb%2BKKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6k3DAuWNCB29j82wq3AOXpEqSxZJicFOgoc35BEA54NT853DHPoHiKgQCPbTIjQsLixtPTuvu7CBFOEDfzDJY0WGnWVBODJlWSrKsu1dUdEj6nzJloixo2O5Ojsyx1sSDi%2BRKhnf7AdPLgLXFxv9IaA72Uo2JC0B6D0v695CI5sOJzQJGKkqWNnXCEOkBvxthOtcC2jnCrvDLnyksI2WDoUk%2Fb6k%2BQ5WlFCv5ROL7z4rd4QjzwJI5YMMpcB0zYDcVEgDsPdFxlyEUaZ5l8Hp0G%2FKXwW%2B6Iz5cSwgVVjd9EKmWzteQbnww4CUm99GPpgynaY7gxavhst7onUkwJjzQOuwEV6W9toSMKhrqz4O7b74qv%2F%2FgT48kme4KxxQYNXJrTrTb8871LdRNUgFOkr%2Bjx72psC1URwMmJFlW%2FgVy8W115r5p4s8UqJfO1almLGDNaEeHG2nS39IiSxWoTJsxrXKYuxHYuQ4Fad44AifuIEMhmEL7B7wPyNorfXvYWJEdTLkk2tTELFhIDoNuvxILte1CmRhMPw6t4o7YR9Ggsf2VMd3vJrcgtz0f%2BNy%2BBguwgK3L3r222ncQJrLCRygikpj0QLH9pez9ftIXemNU%2BClMAePO%2B8XuRja5EVDVLyWI9kEkAlv27uQvyzCrmK3GBjqkARj0JmAVDG5pDyPdYMnY1OW1M%2FItNiymZDyeS%2B0pxXTi2q8kVXnxZFFGbnuOa3fC5yKmOkTJqlHu9ohpshotuqO8eB7QYhA5P7c%2FdJNoXJBQCfwjk1VycmXuJIcobQiAqXcbuUJ8c%2Fo2l%2FFCDq9rdVlHI3lojPEAEv00SmWoc2lqeXXvJ9IEaYTy49orD%2FWEA08HTrULFRDP7t4bj%2BbpTnpI1lJA&X-Amz-Signature=c1da2c7ec82cb6102120a3888bcaec38ee6beeeef09d5da98c0bc07156e6fa8a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "267db469-a81d-808f-aa27-c19763415c2d",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:48:00.000Z",
+        "last_edited_time": "2025-09-07T11:48:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-800d-a3c4-feca4cfb3454",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:48:00.000Z",
+        "last_edited_time": "2025-09-07T11:48:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "link: ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "https://cda-private.s3.ap-southeast-1.amazonaws.com/lab-file/lab_file_1695030853.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZQ3DUYZJWTYHQWW3%2F20250907%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20250907T084815Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=f5cac5dab2dbdbcaefab51b260e23bc345b01b5b216a9708de2df4c3719980d7",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": "https://cda-private.s3.ap-southeast-1.amazonaws.com/lab-file/lab_file_1695030853.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZQ3DUYZJWTYHQWW3%2F20250907%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20250907T084815Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=f5cac5dab2dbdbcaefab51b260e23bc345b01b5b216a9708de2df4c3719980d7"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-8008-b385-df2207476c91",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:29:00.000Z",
+        "last_edited_time": "2025-09-07T11:29:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-80db-8637-fbcb9ba90ab2",
+        "type": "file",
+        "created_time": "2025-09-07T11:36:00.000Z",
+        "last_edited_time": "2025-09-07T11:36:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "name": "lab_file_1695030853.png",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/ede90005-b1b5-4619-aa76-832955635630/lab_file_1695030853.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5BBTMQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013706Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDNH96TvJkVazRKrQ43%2FsRZyHHxbhtNSEk7e6fb8IrqKAIhALN452xgApUnqazVK5lh34uU%2FmKAx0vNNX7X5K52Bb%2BKKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6k3DAuWNCB29j82wq3AOXpEqSxZJicFOgoc35BEA54NT853DHPoHiKgQCPbTIjQsLixtPTuvu7CBFOEDfzDJY0WGnWVBODJlWSrKsu1dUdEj6nzJloixo2O5Ojsyx1sSDi%2BRKhnf7AdPLgLXFxv9IaA72Uo2JC0B6D0v695CI5sOJzQJGKkqWNnXCEOkBvxthOtcC2jnCrvDLnyksI2WDoUk%2Fb6k%2BQ5WlFCv5ROL7z4rd4QjzwJI5YMMpcB0zYDcVEgDsPdFxlyEUaZ5l8Hp0G%2FKXwW%2B6Iz5cSwgVVjd9EKmWzteQbnww4CUm99GPpgynaY7gxavhst7onUkwJjzQOuwEV6W9toSMKhrqz4O7b74qv%2F%2FgT48kme4KxxQYNXJrTrTb8871LdRNUgFOkr%2Bjx72psC1URwMmJFlW%2FgVy8W115r5p4s8UqJfO1almLGDNaEeHG2nS39IiSxWoTJsxrXKYuxHYuQ4Fad44AifuIEMhmEL7B7wPyNorfXvYWJEdTLkk2tTELFhIDoNuvxILte1CmRhMPw6t4o7YR9Ggsf2VMd3vJrcgtz0f%2BNy%2BBguwgK3L3r222ncQJrLCRygikpj0QLH9pez9ftIXemNU%2BClMAePO%2B8XuRja5EVDVLyWI9kEkAlv27uQvyzCrmK3GBjqkARj0JmAVDG5pDyPdYMnY1OW1M%2FItNiymZDyeS%2B0pxXTi2q8kVXnxZFFGbnuOa3fC5yKmOkTJqlHu9ohpshotuqO8eB7QYhA5P7c%2FdJNoXJBQCfwjk1VycmXuJIcobQiAqXcbuUJ8c%2Fo2l%2FFCDq9rdVlHI3lojPEAEv00SmWoc2lqeXXvJ9IEaYTy49orD%2FWEA08HTrULFRDP7t4bj%2BbpTnpI1lJA&X-Amz-Signature=06c7a6aef0317945645047cf2c5cb93eaeb7206bc0bc54a84b1b88622fbd78ef&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2025-09-18T02:37:06.121Z"
+        }
+      },
+      {
+        "id": "267db469-a81d-800d-a4de-c4b8fc196f6f",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:29:00.000Z",
+        "last_edited_time": "2025-09-07T11:29:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-8011-822c-e66730f4bb3c",
+        "type": "image",
+        "created_time": "2025-09-07T11:37:00.000Z",
+        "last_edited_time": "2025-09-07T11:37:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-3.png",
+          "expiry_time": "2025-09-18T02:37:06.131Z",
+          "localUrl": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-3.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/9cbee4ab-6dfa-4edc-b275-422561a363b8/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5BBTMQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013706Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDNH96TvJkVazRKrQ43%2FsRZyHHxbhtNSEk7e6fb8IrqKAIhALN452xgApUnqazVK5lh34uU%2FmKAx0vNNX7X5K52Bb%2BKKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6k3DAuWNCB29j82wq3AOXpEqSxZJicFOgoc35BEA54NT853DHPoHiKgQCPbTIjQsLixtPTuvu7CBFOEDfzDJY0WGnWVBODJlWSrKsu1dUdEj6nzJloixo2O5Ojsyx1sSDi%2BRKhnf7AdPLgLXFxv9IaA72Uo2JC0B6D0v695CI5sOJzQJGKkqWNnXCEOkBvxthOtcC2jnCrvDLnyksI2WDoUk%2Fb6k%2BQ5WlFCv5ROL7z4rd4QjzwJI5YMMpcB0zYDcVEgDsPdFxlyEUaZ5l8Hp0G%2FKXwW%2B6Iz5cSwgVVjd9EKmWzteQbnww4CUm99GPpgynaY7gxavhst7onUkwJjzQOuwEV6W9toSMKhrqz4O7b74qv%2F%2FgT48kme4KxxQYNXJrTrTb8871LdRNUgFOkr%2Bjx72psC1URwMmJFlW%2FgVy8W115r5p4s8UqJfO1almLGDNaEeHG2nS39IiSxWoTJsxrXKYuxHYuQ4Fad44AifuIEMhmEL7B7wPyNorfXvYWJEdTLkk2tTELFhIDoNuvxILte1CmRhMPw6t4o7YR9Ggsf2VMd3vJrcgtz0f%2BNy%2BBguwgK3L3r222ncQJrLCRygikpj0QLH9pez9ftIXemNU%2BClMAePO%2B8XuRja5EVDVLyWI9kEkAlv27uQvyzCrmK3GBjqkARj0JmAVDG5pDyPdYMnY1OW1M%2FItNiymZDyeS%2B0pxXTi2q8kVXnxZFFGbnuOa3fC5yKmOkTJqlHu9ohpshotuqO8eB7QYhA5P7c%2FdJNoXJBQCfwjk1VycmXuJIcobQiAqXcbuUJ8c%2Fo2l%2FFCDq9rdVlHI3lojPEAEv00SmWoc2lqeXXvJ9IEaYTy49orD%2FWEA08HTrULFRDP7t4bj%2BbpTnpI1lJA&X-Amz-Signature=f35d5a40f1ec10f494e0cb650baac73058b40fac203b185f37204580f9f8aca8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "267db469-a81d-80f0-9b41-e1741a260206",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:37:00.000Z",
+        "last_edited_time": "2025-09-07T11:37:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-808d-b1cc-c0c91d767c46",
+        "type": "code",
+        "created_time": "2025-09-07T11:37:00.000Z",
+        "last_edited_time": "2025-09-07T11:37:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "xxd lab_file_1695030853.png",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "267db469-a81d-8076-8b85-d48b83251203",
+        "type": "image",
+        "created_time": "2025-09-07T11:37:00.000Z",
+        "last_edited_time": "2025-09-13T15:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-4.png",
+          "expiry_time": "2025-09-18T02:37:06.112Z",
+          "localUrl": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-4.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/809fa85c-156c-450a-85da-439089b70ec8/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5BBTMQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013706Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDNH96TvJkVazRKrQ43%2FsRZyHHxbhtNSEk7e6fb8IrqKAIhALN452xgApUnqazVK5lh34uU%2FmKAx0vNNX7X5K52Bb%2BKKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6k3DAuWNCB29j82wq3AOXpEqSxZJicFOgoc35BEA54NT853DHPoHiKgQCPbTIjQsLixtPTuvu7CBFOEDfzDJY0WGnWVBODJlWSrKsu1dUdEj6nzJloixo2O5Ojsyx1sSDi%2BRKhnf7AdPLgLXFxv9IaA72Uo2JC0B6D0v695CI5sOJzQJGKkqWNnXCEOkBvxthOtcC2jnCrvDLnyksI2WDoUk%2Fb6k%2BQ5WlFCv5ROL7z4rd4QjzwJI5YMMpcB0zYDcVEgDsPdFxlyEUaZ5l8Hp0G%2FKXwW%2B6Iz5cSwgVVjd9EKmWzteQbnww4CUm99GPpgynaY7gxavhst7onUkwJjzQOuwEV6W9toSMKhrqz4O7b74qv%2F%2FgT48kme4KxxQYNXJrTrTb8871LdRNUgFOkr%2Bjx72psC1URwMmJFlW%2FgVy8W115r5p4s8UqJfO1almLGDNaEeHG2nS39IiSxWoTJsxrXKYuxHYuQ4Fad44AifuIEMhmEL7B7wPyNorfXvYWJEdTLkk2tTELFhIDoNuvxILte1CmRhMPw6t4o7YR9Ggsf2VMd3vJrcgtz0f%2BNy%2BBguwgK3L3r222ncQJrLCRygikpj0QLH9pez9ftIXemNU%2BClMAePO%2B8XuRja5EVDVLyWI9kEkAlv27uQvyzCrmK3GBjqkARj0JmAVDG5pDyPdYMnY1OW1M%2FItNiymZDyeS%2B0pxXTi2q8kVXnxZFFGbnuOa3fC5yKmOkTJqlHu9ohpshotuqO8eB7QYhA5P7c%2FdJNoXJBQCfwjk1VycmXuJIcobQiAqXcbuUJ8c%2Fo2l%2FFCDq9rdVlHI3lojPEAEv00SmWoc2lqeXXvJ9IEaYTy49orD%2FWEA08HTrULFRDP7t4bj%2BbpTnpI1lJA&X-Amz-Signature=9f5ff3b64ec0d44d4d81308ea7ab8792d94b5c540ec7736b2d1886178fe31d81&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "267db469-a81d-8019-9184-ff1dd51479cb",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:38:00.000Z",
+        "last_edited_time": "2025-09-07T11:38:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-8007-9489-ea437d0ed602",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:38:00.000Z",
+        "last_edited_time": "2025-09-07T11:38:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-8074-b61b-f99d96d4e710",
+        "type": "image",
+        "created_time": "2025-09-07T11:38:00.000Z",
+        "last_edited_time": "2025-09-07T11:38:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-5.png",
+          "expiry_time": "2025-09-18T02:37:06.126Z",
+          "localUrl": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-5.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/6be24fa2-d46b-46b0-a8c7-7e44c6d1d82e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5BBTMQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013706Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDNH96TvJkVazRKrQ43%2FsRZyHHxbhtNSEk7e6fb8IrqKAIhALN452xgApUnqazVK5lh34uU%2FmKAx0vNNX7X5K52Bb%2BKKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6k3DAuWNCB29j82wq3AOXpEqSxZJicFOgoc35BEA54NT853DHPoHiKgQCPbTIjQsLixtPTuvu7CBFOEDfzDJY0WGnWVBODJlWSrKsu1dUdEj6nzJloixo2O5Ojsyx1sSDi%2BRKhnf7AdPLgLXFxv9IaA72Uo2JC0B6D0v695CI5sOJzQJGKkqWNnXCEOkBvxthOtcC2jnCrvDLnyksI2WDoUk%2Fb6k%2BQ5WlFCv5ROL7z4rd4QjzwJI5YMMpcB0zYDcVEgDsPdFxlyEUaZ5l8Hp0G%2FKXwW%2B6Iz5cSwgVVjd9EKmWzteQbnww4CUm99GPpgynaY7gxavhst7onUkwJjzQOuwEV6W9toSMKhrqz4O7b74qv%2F%2FgT48kme4KxxQYNXJrTrTb8871LdRNUgFOkr%2Bjx72psC1URwMmJFlW%2FgVy8W115r5p4s8UqJfO1almLGDNaEeHG2nS39IiSxWoTJsxrXKYuxHYuQ4Fad44AifuIEMhmEL7B7wPyNorfXvYWJEdTLkk2tTELFhIDoNuvxILte1CmRhMPw6t4o7YR9Ggsf2VMd3vJrcgtz0f%2BNy%2BBguwgK3L3r222ncQJrLCRygikpj0QLH9pez9ftIXemNU%2BClMAePO%2B8XuRja5EVDVLyWI9kEkAlv27uQvyzCrmK3GBjqkARj0JmAVDG5pDyPdYMnY1OW1M%2FItNiymZDyeS%2B0pxXTi2q8kVXnxZFFGbnuOa3fC5yKmOkTJqlHu9ohpshotuqO8eB7QYhA5P7c%2FdJNoXJBQCfwjk1VycmXuJIcobQiAqXcbuUJ8c%2Fo2l%2FFCDq9rdVlHI3lojPEAEv00SmWoc2lqeXXvJ9IEaYTy49orD%2FWEA08HTrULFRDP7t4bj%2BbpTnpI1lJA&X-Amz-Signature=407e53c68efab152218e487f362bca9482f9d837817d0893ff6f0e7b53628709&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "267db469-a81d-8080-86ba-ee3e9bff277d",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:38:00.000Z",
+        "last_edited_time": "2025-09-07T11:38:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-80d3-ab14-ee900d39a3bc",
+        "type": "image",
+        "created_time": "2025-09-07T11:38:00.000Z",
+        "last_edited_time": "2025-09-07T11:38:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-6.png",
+          "expiry_time": "2025-09-18T02:37:06.129Z",
+          "localUrl": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-6.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/ced443c7-f5fe-4af9-a69b-26d64069c267/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5BBTMQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013706Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDNH96TvJkVazRKrQ43%2FsRZyHHxbhtNSEk7e6fb8IrqKAIhALN452xgApUnqazVK5lh34uU%2FmKAx0vNNX7X5K52Bb%2BKKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6k3DAuWNCB29j82wq3AOXpEqSxZJicFOgoc35BEA54NT853DHPoHiKgQCPbTIjQsLixtPTuvu7CBFOEDfzDJY0WGnWVBODJlWSrKsu1dUdEj6nzJloixo2O5Ojsyx1sSDi%2BRKhnf7AdPLgLXFxv9IaA72Uo2JC0B6D0v695CI5sOJzQJGKkqWNnXCEOkBvxthOtcC2jnCrvDLnyksI2WDoUk%2Fb6k%2BQ5WlFCv5ROL7z4rd4QjzwJI5YMMpcB0zYDcVEgDsPdFxlyEUaZ5l8Hp0G%2FKXwW%2B6Iz5cSwgVVjd9EKmWzteQbnww4CUm99GPpgynaY7gxavhst7onUkwJjzQOuwEV6W9toSMKhrqz4O7b74qv%2F%2FgT48kme4KxxQYNXJrTrTb8871LdRNUgFOkr%2Bjx72psC1URwMmJFlW%2FgVy8W115r5p4s8UqJfO1almLGDNaEeHG2nS39IiSxWoTJsxrXKYuxHYuQ4Fad44AifuIEMhmEL7B7wPyNorfXvYWJEdTLkk2tTELFhIDoNuvxILte1CmRhMPw6t4o7YR9Ggsf2VMd3vJrcgtz0f%2BNy%2BBguwgK3L3r222ncQJrLCRygikpj0QLH9pez9ftIXemNU%2BClMAePO%2B8XuRja5EVDVLyWI9kEkAlv27uQvyzCrmK3GBjqkARj0JmAVDG5pDyPdYMnY1OW1M%2FItNiymZDyeS%2B0pxXTi2q8kVXnxZFFGbnuOa3fC5yKmOkTJqlHu9ohpshotuqO8eB7QYhA5P7c%2FdJNoXJBQCfwjk1VycmXuJIcobQiAqXcbuUJ8c%2Fo2l%2FFCDq9rdVlHI3lojPEAEv00SmWoc2lqeXXvJ9IEaYTy49orD%2FWEA08HTrULFRDP7t4bj%2BbpTnpI1lJA&X-Amz-Signature=5979f42a4a85932ed7b1ad5789b31392a6e9e885370552d141734f5f375ee54f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "267db469-a81d-805f-878d-d8c0fa8b4920",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:38:00.000Z",
+        "last_edited_time": "2025-09-07T11:38:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-807a-bbd7-dcb4f35bb96f",
+        "type": "image",
+        "created_time": "2025-09-07T11:38:00.000Z",
+        "last_edited_time": "2025-09-13T15:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-7.png",
+          "expiry_time": "2025-09-18T02:37:06.134Z",
+          "localUrl": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-7.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/7bef603d-b160-4c99-8b1f-448181bf3c6e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5BBTMQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013706Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDNH96TvJkVazRKrQ43%2FsRZyHHxbhtNSEk7e6fb8IrqKAIhALN452xgApUnqazVK5lh34uU%2FmKAx0vNNX7X5K52Bb%2BKKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6k3DAuWNCB29j82wq3AOXpEqSxZJicFOgoc35BEA54NT853DHPoHiKgQCPbTIjQsLixtPTuvu7CBFOEDfzDJY0WGnWVBODJlWSrKsu1dUdEj6nzJloixo2O5Ojsyx1sSDi%2BRKhnf7AdPLgLXFxv9IaA72Uo2JC0B6D0v695CI5sOJzQJGKkqWNnXCEOkBvxthOtcC2jnCrvDLnyksI2WDoUk%2Fb6k%2BQ5WlFCv5ROL7z4rd4QjzwJI5YMMpcB0zYDcVEgDsPdFxlyEUaZ5l8Hp0G%2FKXwW%2B6Iz5cSwgVVjd9EKmWzteQbnww4CUm99GPpgynaY7gxavhst7onUkwJjzQOuwEV6W9toSMKhrqz4O7b74qv%2F%2FgT48kme4KxxQYNXJrTrTb8871LdRNUgFOkr%2Bjx72psC1URwMmJFlW%2FgVy8W115r5p4s8UqJfO1almLGDNaEeHG2nS39IiSxWoTJsxrXKYuxHYuQ4Fad44AifuIEMhmEL7B7wPyNorfXvYWJEdTLkk2tTELFhIDoNuvxILte1CmRhMPw6t4o7YR9Ggsf2VMd3vJrcgtz0f%2BNy%2BBguwgK3L3r222ncQJrLCRygikpj0QLH9pez9ftIXemNU%2BClMAePO%2B8XuRja5EVDVLyWI9kEkAlv27uQvyzCrmK3GBjqkARj0JmAVDG5pDyPdYMnY1OW1M%2FItNiymZDyeS%2B0pxXTi2q8kVXnxZFFGbnuOa3fC5yKmOkTJqlHu9ohpshotuqO8eB7QYhA5P7c%2FdJNoXJBQCfwjk1VycmXuJIcobQiAqXcbuUJ8c%2Fo2l%2FFCDq9rdVlHI3lojPEAEv00SmWoc2lqeXXvJ9IEaYTy49orD%2FWEA08HTrULFRDP7t4bj%2BbpTnpI1lJA&X-Amz-Signature=7dd0e6ac0de5dec3475260e5cda54a85e072fd677eec867579df6e9c105dce28&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "267db469-a81d-80c1-8a44-fb0efbf4bf0b",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:38:00.000Z",
+        "last_edited_time": "2025-09-07T11:38:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-80b3-afbe-c21dd690f496",
+        "type": "image",
+        "created_time": "2025-09-07T11:39:00.000Z",
+        "last_edited_time": "2025-09-07T11:39:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-8.png",
+          "expiry_time": "2025-09-18T02:37:06.132Z",
+          "localUrl": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-8.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/cd16f75f-e476-4e86-992f-03b524695d1e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5BBTMQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013706Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDNH96TvJkVazRKrQ43%2FsRZyHHxbhtNSEk7e6fb8IrqKAIhALN452xgApUnqazVK5lh34uU%2FmKAx0vNNX7X5K52Bb%2BKKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6k3DAuWNCB29j82wq3AOXpEqSxZJicFOgoc35BEA54NT853DHPoHiKgQCPbTIjQsLixtPTuvu7CBFOEDfzDJY0WGnWVBODJlWSrKsu1dUdEj6nzJloixo2O5Ojsyx1sSDi%2BRKhnf7AdPLgLXFxv9IaA72Uo2JC0B6D0v695CI5sOJzQJGKkqWNnXCEOkBvxthOtcC2jnCrvDLnyksI2WDoUk%2Fb6k%2BQ5WlFCv5ROL7z4rd4QjzwJI5YMMpcB0zYDcVEgDsPdFxlyEUaZ5l8Hp0G%2FKXwW%2B6Iz5cSwgVVjd9EKmWzteQbnww4CUm99GPpgynaY7gxavhst7onUkwJjzQOuwEV6W9toSMKhrqz4O7b74qv%2F%2FgT48kme4KxxQYNXJrTrTb8871LdRNUgFOkr%2Bjx72psC1URwMmJFlW%2FgVy8W115r5p4s8UqJfO1almLGDNaEeHG2nS39IiSxWoTJsxrXKYuxHYuQ4Fad44AifuIEMhmEL7B7wPyNorfXvYWJEdTLkk2tTELFhIDoNuvxILte1CmRhMPw6t4o7YR9Ggsf2VMd3vJrcgtz0f%2BNy%2BBguwgK3L3r222ncQJrLCRygikpj0QLH9pez9ftIXemNU%2BClMAePO%2B8XuRja5EVDVLyWI9kEkAlv27uQvyzCrmK3GBjqkARj0JmAVDG5pDyPdYMnY1OW1M%2FItNiymZDyeS%2B0pxXTi2q8kVXnxZFFGbnuOa3fC5yKmOkTJqlHu9ohpshotuqO8eB7QYhA5P7c%2FdJNoXJBQCfwjk1VycmXuJIcobQiAqXcbuUJ8c%2Fo2l%2FFCDq9rdVlHI3lojPEAEv00SmWoc2lqeXXvJ9IEaYTy49orD%2FWEA08HTrULFRDP7t4bj%2BbpTnpI1lJA&X-Amz-Signature=6753d18ee890b53a3d3350f37772d43fb19ce6fa53fa2dd834307e0d26ce43a8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "267db469-a81d-80c4-bcde-f29f8bc50619",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:39:00.000Z",
+        "last_edited_time": "2025-09-07T11:39:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-8027-b421-ee5d7646fec5",
+        "type": "image",
+        "created_time": "2025-09-07T11:39:00.000Z",
+        "last_edited_time": "2025-09-07T11:39:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-9.png",
+          "expiry_time": "2025-09-18T02:37:06.124Z",
+          "localUrl": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-9.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/4c42a4b8-249d-41a0-8037-cc0df48207fb/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5BBTMQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013706Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDNH96TvJkVazRKrQ43%2FsRZyHHxbhtNSEk7e6fb8IrqKAIhALN452xgApUnqazVK5lh34uU%2FmKAx0vNNX7X5K52Bb%2BKKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6k3DAuWNCB29j82wq3AOXpEqSxZJicFOgoc35BEA54NT853DHPoHiKgQCPbTIjQsLixtPTuvu7CBFOEDfzDJY0WGnWVBODJlWSrKsu1dUdEj6nzJloixo2O5Ojsyx1sSDi%2BRKhnf7AdPLgLXFxv9IaA72Uo2JC0B6D0v695CI5sOJzQJGKkqWNnXCEOkBvxthOtcC2jnCrvDLnyksI2WDoUk%2Fb6k%2BQ5WlFCv5ROL7z4rd4QjzwJI5YMMpcB0zYDcVEgDsPdFxlyEUaZ5l8Hp0G%2FKXwW%2B6Iz5cSwgVVjd9EKmWzteQbnww4CUm99GPpgynaY7gxavhst7onUkwJjzQOuwEV6W9toSMKhrqz4O7b74qv%2F%2FgT48kme4KxxQYNXJrTrTb8871LdRNUgFOkr%2Bjx72psC1URwMmJFlW%2FgVy8W115r5p4s8UqJfO1almLGDNaEeHG2nS39IiSxWoTJsxrXKYuxHYuQ4Fad44AifuIEMhmEL7B7wPyNorfXvYWJEdTLkk2tTELFhIDoNuvxILte1CmRhMPw6t4o7YR9Ggsf2VMd3vJrcgtz0f%2BNy%2BBguwgK3L3r222ncQJrLCRygikpj0QLH9pez9ftIXemNU%2BClMAePO%2B8XuRja5EVDVLyWI9kEkAlv27uQvyzCrmK3GBjqkARj0JmAVDG5pDyPdYMnY1OW1M%2FItNiymZDyeS%2B0pxXTi2q8kVXnxZFFGbnuOa3fC5yKmOkTJqlHu9ohpshotuqO8eB7QYhA5P7c%2FdJNoXJBQCfwjk1VycmXuJIcobQiAqXcbuUJ8c%2Fo2l%2FFCDq9rdVlHI3lojPEAEv00SmWoc2lqeXXvJ9IEaYTy49orD%2FWEA08HTrULFRDP7t4bj%2BbpTnpI1lJA&X-Amz-Signature=3d2acdb53dccd99e80963507f6583dff96dcbeaf6f35f36ace4167fbab11cfb5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "267db469-a81d-8098-9513-e4e597c1530f",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:44:00.000Z",
+        "last_edited_time": "2025-09-07T11:44:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-8090-aa4f-ed46f8615886",
+        "type": "image",
+        "created_time": "2025-09-07T11:44:00.000Z",
+        "last_edited_time": "2025-09-13T15:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-10.png",
+          "expiry_time": "2025-09-18T02:37:06.280Z",
+          "localUrl": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-10.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/76bca117-aec0-4c36-8067-2bb37ed3f0e8/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5BBTMQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013706Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDNH96TvJkVazRKrQ43%2FsRZyHHxbhtNSEk7e6fb8IrqKAIhALN452xgApUnqazVK5lh34uU%2FmKAx0vNNX7X5K52Bb%2BKKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6k3DAuWNCB29j82wq3AOXpEqSxZJicFOgoc35BEA54NT853DHPoHiKgQCPbTIjQsLixtPTuvu7CBFOEDfzDJY0WGnWVBODJlWSrKsu1dUdEj6nzJloixo2O5Ojsyx1sSDi%2BRKhnf7AdPLgLXFxv9IaA72Uo2JC0B6D0v695CI5sOJzQJGKkqWNnXCEOkBvxthOtcC2jnCrvDLnyksI2WDoUk%2Fb6k%2BQ5WlFCv5ROL7z4rd4QjzwJI5YMMpcB0zYDcVEgDsPdFxlyEUaZ5l8Hp0G%2FKXwW%2B6Iz5cSwgVVjd9EKmWzteQbnww4CUm99GPpgynaY7gxavhst7onUkwJjzQOuwEV6W9toSMKhrqz4O7b74qv%2F%2FgT48kme4KxxQYNXJrTrTb8871LdRNUgFOkr%2Bjx72psC1URwMmJFlW%2FgVy8W115r5p4s8UqJfO1almLGDNaEeHG2nS39IiSxWoTJsxrXKYuxHYuQ4Fad44AifuIEMhmEL7B7wPyNorfXvYWJEdTLkk2tTELFhIDoNuvxILte1CmRhMPw6t4o7YR9Ggsf2VMd3vJrcgtz0f%2BNy%2BBguwgK3L3r222ncQJrLCRygikpj0QLH9pez9ftIXemNU%2BClMAePO%2B8XuRja5EVDVLyWI9kEkAlv27uQvyzCrmK3GBjqkARj0JmAVDG5pDyPdYMnY1OW1M%2FItNiymZDyeS%2B0pxXTi2q8kVXnxZFFGbnuOa3fC5yKmOkTJqlHu9ohpshotuqO8eB7QYhA5P7c%2FdJNoXJBQCfwjk1VycmXuJIcobQiAqXcbuUJ8c%2Fo2l%2FFCDq9rdVlHI3lojPEAEv00SmWoc2lqeXXvJ9IEaYTy49orD%2FWEA08HTrULFRDP7t4bj%2BbpTnpI1lJA&X-Amz-Signature=9285b2aaa1b92d7f704f76e7e4daa8e68a65db953f46ac7f281bc5d89f0368c9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "267db469-a81d-80ac-bc05-e31c127fc697",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:44:00.000Z",
+        "last_edited_time": "2025-09-07T11:44:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-80c3-8292-dca7b14bf335",
+        "type": "image",
+        "created_time": "2025-09-07T11:44:00.000Z",
+        "last_edited_time": "2025-09-13T15:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-11.png",
+          "expiry_time": "2025-09-18T02:37:06.277Z",
+          "localUrl": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-11.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/9fd8f2f3-575a-49a5-b2fe-08ef82066318/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5BBTMQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013706Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDNH96TvJkVazRKrQ43%2FsRZyHHxbhtNSEk7e6fb8IrqKAIhALN452xgApUnqazVK5lh34uU%2FmKAx0vNNX7X5K52Bb%2BKKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6k3DAuWNCB29j82wq3AOXpEqSxZJicFOgoc35BEA54NT853DHPoHiKgQCPbTIjQsLixtPTuvu7CBFOEDfzDJY0WGnWVBODJlWSrKsu1dUdEj6nzJloixo2O5Ojsyx1sSDi%2BRKhnf7AdPLgLXFxv9IaA72Uo2JC0B6D0v695CI5sOJzQJGKkqWNnXCEOkBvxthOtcC2jnCrvDLnyksI2WDoUk%2Fb6k%2BQ5WlFCv5ROL7z4rd4QjzwJI5YMMpcB0zYDcVEgDsPdFxlyEUaZ5l8Hp0G%2FKXwW%2B6Iz5cSwgVVjd9EKmWzteQbnww4CUm99GPpgynaY7gxavhst7onUkwJjzQOuwEV6W9toSMKhrqz4O7b74qv%2F%2FgT48kme4KxxQYNXJrTrTb8871LdRNUgFOkr%2Bjx72psC1URwMmJFlW%2FgVy8W115r5p4s8UqJfO1almLGDNaEeHG2nS39IiSxWoTJsxrXKYuxHYuQ4Fad44AifuIEMhmEL7B7wPyNorfXvYWJEdTLkk2tTELFhIDoNuvxILte1CmRhMPw6t4o7YR9Ggsf2VMd3vJrcgtz0f%2BNy%2BBguwgK3L3r222ncQJrLCRygikpj0QLH9pez9ftIXemNU%2BClMAePO%2B8XuRja5EVDVLyWI9kEkAlv27uQvyzCrmK3GBjqkARj0JmAVDG5pDyPdYMnY1OW1M%2FItNiymZDyeS%2B0pxXTi2q8kVXnxZFFGbnuOa3fC5yKmOkTJqlHu9ohpshotuqO8eB7QYhA5P7c%2FdJNoXJBQCfwjk1VycmXuJIcobQiAqXcbuUJ8c%2Fo2l%2FFCDq9rdVlHI3lojPEAEv00SmWoc2lqeXXvJ9IEaYTy49orD%2FWEA08HTrULFRDP7t4bj%2BbpTnpI1lJA&X-Amz-Signature=3af13525705b187949c885c4a9d6af9b879197acf24313904c34833d55bd9278&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "267db469-a81d-8002-9836-ee09a1fc0524",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:40:00.000Z",
+        "last_edited_time": "2025-09-07T11:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-8065-814f-f67f58cec67e",
+        "type": "code",
+        "created_time": "2025-09-07T11:40:00.000Z",
+        "last_edited_time": "2025-09-07T11:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "sudo apt-get install -y p7zip-full",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "267db469-a81d-8067-be7c-d497a296efea",
+        "type": "image",
+        "created_time": "2025-09-07T11:40:00.000Z",
+        "last_edited_time": "2025-09-13T15:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-12.png",
+          "expiry_time": "2025-09-18T02:37:06.277Z",
+          "localUrl": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-12.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/f1f56d0b-4f9f-4606-9741-4c87308d6653/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5BBTMQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013706Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDNH96TvJkVazRKrQ43%2FsRZyHHxbhtNSEk7e6fb8IrqKAIhALN452xgApUnqazVK5lh34uU%2FmKAx0vNNX7X5K52Bb%2BKKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6k3DAuWNCB29j82wq3AOXpEqSxZJicFOgoc35BEA54NT853DHPoHiKgQCPbTIjQsLixtPTuvu7CBFOEDfzDJY0WGnWVBODJlWSrKsu1dUdEj6nzJloixo2O5Ojsyx1sSDi%2BRKhnf7AdPLgLXFxv9IaA72Uo2JC0B6D0v695CI5sOJzQJGKkqWNnXCEOkBvxthOtcC2jnCrvDLnyksI2WDoUk%2Fb6k%2BQ5WlFCv5ROL7z4rd4QjzwJI5YMMpcB0zYDcVEgDsPdFxlyEUaZ5l8Hp0G%2FKXwW%2B6Iz5cSwgVVjd9EKmWzteQbnww4CUm99GPpgynaY7gxavhst7onUkwJjzQOuwEV6W9toSMKhrqz4O7b74qv%2F%2FgT48kme4KxxQYNXJrTrTb8871LdRNUgFOkr%2Bjx72psC1URwMmJFlW%2FgVy8W115r5p4s8UqJfO1almLGDNaEeHG2nS39IiSxWoTJsxrXKYuxHYuQ4Fad44AifuIEMhmEL7B7wPyNorfXvYWJEdTLkk2tTELFhIDoNuvxILte1CmRhMPw6t4o7YR9Ggsf2VMd3vJrcgtz0f%2BNy%2BBguwgK3L3r222ncQJrLCRygikpj0QLH9pez9ftIXemNU%2BClMAePO%2B8XuRja5EVDVLyWI9kEkAlv27uQvyzCrmK3GBjqkARj0JmAVDG5pDyPdYMnY1OW1M%2FItNiymZDyeS%2B0pxXTi2q8kVXnxZFFGbnuOa3fC5yKmOkTJqlHu9ohpshotuqO8eB7QYhA5P7c%2FdJNoXJBQCfwjk1VycmXuJIcobQiAqXcbuUJ8c%2Fo2l%2FFCDq9rdVlHI3lojPEAEv00SmWoc2lqeXXvJ9IEaYTy49orD%2FWEA08HTrULFRDP7t4bj%2BbpTnpI1lJA&X-Amz-Signature=b3be84ac1a255a86dcb01e60cad21346d6d57fc12c06b7a325766b53bf6f3b94&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "267db469-a81d-80ad-9181-f088dfb567b9",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:39:00.000Z",
+        "last_edited_time": "2025-09-07T11:39:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-80ab-b8f4-f936c9d86d77",
+        "type": "code",
+        "created_time": "2025-09-07T11:40:00.000Z",
+        "last_edited_time": "2025-09-07T11:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "7z x -p2fa 3252.zip",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "267db469-a81d-807d-a2c7-db1deeb7c466",
+        "type": "image",
+        "created_time": "2025-09-07T11:40:00.000Z",
+        "last_edited_time": "2025-09-13T15:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-13.png",
+          "expiry_time": "2025-09-18T02:37:06.283Z",
+          "localUrl": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-13.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/f982c0fe-3a58-42c8-9f0d-dcc21d15382c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5BBTMQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013706Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDNH96TvJkVazRKrQ43%2FsRZyHHxbhtNSEk7e6fb8IrqKAIhALN452xgApUnqazVK5lh34uU%2FmKAx0vNNX7X5K52Bb%2BKKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6k3DAuWNCB29j82wq3AOXpEqSxZJicFOgoc35BEA54NT853DHPoHiKgQCPbTIjQsLixtPTuvu7CBFOEDfzDJY0WGnWVBODJlWSrKsu1dUdEj6nzJloixo2O5Ojsyx1sSDi%2BRKhnf7AdPLgLXFxv9IaA72Uo2JC0B6D0v695CI5sOJzQJGKkqWNnXCEOkBvxthOtcC2jnCrvDLnyksI2WDoUk%2Fb6k%2BQ5WlFCv5ROL7z4rd4QjzwJI5YMMpcB0zYDcVEgDsPdFxlyEUaZ5l8Hp0G%2FKXwW%2B6Iz5cSwgVVjd9EKmWzteQbnww4CUm99GPpgynaY7gxavhst7onUkwJjzQOuwEV6W9toSMKhrqz4O7b74qv%2F%2FgT48kme4KxxQYNXJrTrTb8871LdRNUgFOkr%2Bjx72psC1URwMmJFlW%2FgVy8W115r5p4s8UqJfO1almLGDNaEeHG2nS39IiSxWoTJsxrXKYuxHYuQ4Fad44AifuIEMhmEL7B7wPyNorfXvYWJEdTLkk2tTELFhIDoNuvxILte1CmRhMPw6t4o7YR9Ggsf2VMd3vJrcgtz0f%2BNy%2BBguwgK3L3r222ncQJrLCRygikpj0QLH9pez9ftIXemNU%2BClMAePO%2B8XuRja5EVDVLyWI9kEkAlv27uQvyzCrmK3GBjqkARj0JmAVDG5pDyPdYMnY1OW1M%2FItNiymZDyeS%2B0pxXTi2q8kVXnxZFFGbnuOa3fC5yKmOkTJqlHu9ohpshotuqO8eB7QYhA5P7c%2FdJNoXJBQCfwjk1VycmXuJIcobQiAqXcbuUJ8c%2Fo2l%2FFCDq9rdVlHI3lojPEAEv00SmWoc2lqeXXvJ9IEaYTy49orD%2FWEA08HTrULFRDP7t4bj%2BbpTnpI1lJA&X-Amz-Signature=59909246d75652c511114b18c63a434e42768001ebfd30ce084a1a06319fb692&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "267db469-a81d-806b-9864-f024eda94fd2",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:40:00.000Z",
+        "last_edited_time": "2025-09-07T11:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-8085-92c1-e2d060f6de7e",
+        "type": "image",
+        "created_time": "2025-09-07T11:40:00.000Z",
+        "last_edited_time": "2025-09-13T15:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-14.png",
+          "expiry_time": "2025-09-18T02:37:06.284Z",
+          "localUrl": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-14.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/94b29213-05f7-43ea-8022-15c3f7999993/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5BBTMQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013706Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDNH96TvJkVazRKrQ43%2FsRZyHHxbhtNSEk7e6fb8IrqKAIhALN452xgApUnqazVK5lh34uU%2FmKAx0vNNX7X5K52Bb%2BKKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6k3DAuWNCB29j82wq3AOXpEqSxZJicFOgoc35BEA54NT853DHPoHiKgQCPbTIjQsLixtPTuvu7CBFOEDfzDJY0WGnWVBODJlWSrKsu1dUdEj6nzJloixo2O5Ojsyx1sSDi%2BRKhnf7AdPLgLXFxv9IaA72Uo2JC0B6D0v695CI5sOJzQJGKkqWNnXCEOkBvxthOtcC2jnCrvDLnyksI2WDoUk%2Fb6k%2BQ5WlFCv5ROL7z4rd4QjzwJI5YMMpcB0zYDcVEgDsPdFxlyEUaZ5l8Hp0G%2FKXwW%2B6Iz5cSwgVVjd9EKmWzteQbnww4CUm99GPpgynaY7gxavhst7onUkwJjzQOuwEV6W9toSMKhrqz4O7b74qv%2F%2FgT48kme4KxxQYNXJrTrTb8871LdRNUgFOkr%2Bjx72psC1URwMmJFlW%2FgVy8W115r5p4s8UqJfO1almLGDNaEeHG2nS39IiSxWoTJsxrXKYuxHYuQ4Fad44AifuIEMhmEL7B7wPyNorfXvYWJEdTLkk2tTELFhIDoNuvxILte1CmRhMPw6t4o7YR9Ggsf2VMd3vJrcgtz0f%2BNy%2BBguwgK3L3r222ncQJrLCRygikpj0QLH9pez9ftIXemNU%2BClMAePO%2B8XuRja5EVDVLyWI9kEkAlv27uQvyzCrmK3GBjqkARj0JmAVDG5pDyPdYMnY1OW1M%2FItNiymZDyeS%2B0pxXTi2q8kVXnxZFFGbnuOa3fC5yKmOkTJqlHu9ohpshotuqO8eB7QYhA5P7c%2FdJNoXJBQCfwjk1VycmXuJIcobQiAqXcbuUJ8c%2Fo2l%2FFCDq9rdVlHI3lojPEAEv00SmWoc2lqeXXvJ9IEaYTy49orD%2FWEA08HTrULFRDP7t4bj%2BbpTnpI1lJA&X-Amz-Signature=0c93d61c8fc76407a30b727b4234bd2ff3b0db7dfdc7696c9ecd37851bee68fd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "267db469-a81d-808a-aeed-f6b9a1e09760",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:40:00.000Z",
+        "last_edited_time": "2025-09-07T11:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-80b0-80b1-c26e5ac4e836",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:40:00.000Z",
+        "last_edited_time": "2025-09-07T11:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "5259f0a593ea0e3cd502af36d4c442a3",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-80e4-b980-f6ea7c5d55aa",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:29:00.000Z",
+        "last_edited_time": "2025-09-07T11:29:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-80dc-b92e-ef449d017567",
+        "type": "image",
+        "created_time": "2025-09-07T11:29:00.000Z",
+        "last_edited_time": "2025-09-07T11:36:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-15.png",
+          "expiry_time": "2025-09-18T02:37:06.280Z",
+          "localUrl": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-15.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/0c52dede-d5bb-405c-9de0-46f18dd76c62/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5BBTMQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013706Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDNH96TvJkVazRKrQ43%2FsRZyHHxbhtNSEk7e6fb8IrqKAIhALN452xgApUnqazVK5lh34uU%2FmKAx0vNNX7X5K52Bb%2BKKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6k3DAuWNCB29j82wq3AOXpEqSxZJicFOgoc35BEA54NT853DHPoHiKgQCPbTIjQsLixtPTuvu7CBFOEDfzDJY0WGnWVBODJlWSrKsu1dUdEj6nzJloixo2O5Ojsyx1sSDi%2BRKhnf7AdPLgLXFxv9IaA72Uo2JC0B6D0v695CI5sOJzQJGKkqWNnXCEOkBvxthOtcC2jnCrvDLnyksI2WDoUk%2Fb6k%2BQ5WlFCv5ROL7z4rd4QjzwJI5YMMpcB0zYDcVEgDsPdFxlyEUaZ5l8Hp0G%2FKXwW%2B6Iz5cSwgVVjd9EKmWzteQbnww4CUm99GPpgynaY7gxavhst7onUkwJjzQOuwEV6W9toSMKhrqz4O7b74qv%2F%2FgT48kme4KxxQYNXJrTrTb8871LdRNUgFOkr%2Bjx72psC1URwMmJFlW%2FgVy8W115r5p4s8UqJfO1almLGDNaEeHG2nS39IiSxWoTJsxrXKYuxHYuQ4Fad44AifuIEMhmEL7B7wPyNorfXvYWJEdTLkk2tTELFhIDoNuvxILte1CmRhMPw6t4o7YR9Ggsf2VMd3vJrcgtz0f%2BNy%2BBguwgK3L3r222ncQJrLCRygikpj0QLH9pez9ftIXemNU%2BClMAePO%2B8XuRja5EVDVLyWI9kEkAlv27uQvyzCrmK3GBjqkARj0JmAVDG5pDyPdYMnY1OW1M%2FItNiymZDyeS%2B0pxXTi2q8kVXnxZFFGbnuOa3fC5yKmOkTJqlHu9ohpshotuqO8eB7QYhA5P7c%2FdJNoXJBQCfwjk1VycmXuJIcobQiAqXcbuUJ8c%2Fo2l%2FFCDq9rdVlHI3lojPEAEv00SmWoc2lqeXXvJ9IEaYTy49orD%2FWEA08HTrULFRDP7t4bj%2BbpTnpI1lJA&X-Amz-Signature=25b9fe1dbb1b6d99841bf725afea9d75128f236cddb4321d170ec5dc0992302a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "267db469-a81d-8084-982e-fede5388f964",
+        "type": "paragraph",
+        "created_time": "2025-09-07T11:45:00.000Z",
+        "last_edited_time": "2025-09-07T11:45:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "267db469-a81d-807e-bed1-d60a35ad9ed0",
+        "type": "paragraph",
+        "created_time": "2025-09-07T09:59:00.000Z",
+        "last_edited_time": "2025-09-07T11:45:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "https://chatgpt.com/c/68bd4865-f1c4-8321-a6a2-a4cab2b23f76",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": "https://chatgpt.com/c/68bd4865-f1c4-8321-a6a2-a4cab2b23f76"
+            }
+          ],
+          "color": "default"
+        }
+      }
+    ],
+    "og_image": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-1.png",
+    "featured_image": "/posts/ctf-cyberacademy-pedang-bara-sangihe-267db469a81d800781ddca8355d97c74/image-1.png"
+  }
+}

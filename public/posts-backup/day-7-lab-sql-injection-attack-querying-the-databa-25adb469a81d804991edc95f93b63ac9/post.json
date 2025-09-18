@@ -1,0 +1,592 @@
+{
+  "meta": {
+    "generated_at": "2025-09-18T01:39:04.475Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "day-7-lab-sql-injection-attack-querying-the-databa-25adb469a81d804991edc95f93b63ac9",
+    "slug": "day-7-lab-sql-injection-attack-querying-the-databa",
+    "og_image": "/posts/day-7-lab-sql-injection-attack-querying-the-databa-25adb469a81d804991edc95f93b63ac9/image-1.png",
+    "featured_image": "/posts/day-7-lab-sql-injection-attack-querying-the-databa-25adb469a81d804991edc95f93b63ac9/image-1.png"
+  },
+  "post": {
+    "id": "25adb469-a81d-8049-91ed-c95f93b63ac9",
+    "created_time": "2025-08-25T13:37:00.000Z",
+    "last_edited_time": "2025-08-25T14:12:00.000Z",
+    "url": "https://www.notion.so/Day-7-Lab-SQL-injection-attack-querying-the-database-type-and-version-on-MySQL-and-Microsoft-25adb469a81d804991edc95f93b63ac9",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-08-25T13:37:00.000Z"
+      },
+      "slug": "day-7-lab:-sql-injection-attack,-querying-the-database-type-and-version-on-mysql-and-microsoft",
+      "publisheddate": null,
+      "owner": [],
+      "featured_image": [],
+      "tags": [],
+      "published": false,
+      "title": "Day 7 Lab: SQL injection attack, querying the database type and version on MySQL and Microsoft"
+    },
+    "title": "Day 7 Lab: SQL injection attack, querying the database type and version on MySQL and Microsoft",
+    "content": [
+      {
+        "id": "25adb469-a81d-805e-a962-dda5e869e036",
+        "type": "image",
+        "created_time": "2025-08-25T13:38:00.000Z",
+        "last_edited_time": "2025-08-25T13:38:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-7-lab-sql-injection-attack-querying-the-databa-25adb469a81d804991edc95f93b63ac9/image-1.png",
+          "expiry_time": "2025-09-18T02:39:00.520Z",
+          "localUrl": "/posts/day-7-lab-sql-injection-attack-querying-the-databa-25adb469a81d804991edc95f93b63ac9/image-1.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/bb9edd0f-a882-4f28-ba7f-73e68229153c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46652G5ECYV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013900Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICYC6D%2Fjr2rnnR8HQhjmMyNwwim0LoU12vscLMLXmskBAiEA998WW6MooSk1%2Bd19xdcKe%2Fo6XXbcyKkn49%2BGOctWw4IqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPRkrn0ppYwYdZXDbyrcA%2Fa16Od9UpcbWudOAp%2BSYkymU7EU7w17PLes%2FeMz8sqVx%2B1BpfD2RXvqt6h4ge5cKzdyLb949%2FHa2AfwyTC9Y65IXKWiaBWbqUWGQJ26ooR3BfoCRiQ%2FZErHs6YMCZ0tAcbxVaHfVexND%2BumXCKvEdgou9y6kKTxKZkNHVjB2W7JYZdE8t3Fv4q6IKqfr4zWxJkqQSjWb7RevlSUvg3noinnvrQoO%2B9f7ruA2WDy65%2Bb3WUN5kS0QrS4%2FQ8zxsalFYaZkPdZ%2FrP8MNJl%2BzC0qW%2BsZpisQMmse1%2F1nFbT2V5PtQkp1CNWHw8o%2BraGZBtJ9Swc%2BmiHnb6sTMehHlhvNSiwNIooFCjr%2FXrBpcr4GN38XJo5cckZdD%2FMwk0URELXSK7j5FhZ22sJ2Tw4DYryNuqSl2azTfqF6SWe20%2Bxs8DKEI0asUhrJSovUJRyDLS00BdzlmYmylvMh0TkvWAd%2BMsl7aK1lB2OmrSMYwUpd5OBZSnV8OsYEolUqPAomogqOT8Ll%2FbeyywVlPV%2F8%2FtrbeloNtPdjKuanJPxpxUI8FQJQ7g1pQI23Dbp7%2BTYSzt%2F%2ByaQgLyOBBKj0SkCZGjP2SXfLfw5VJrhkk7ddceKsex1TXNbKqyPvJuXfCD0MNSYrcYGOqUBQUphWOe%2Fpvt7mtH6k%2F4OvyGOdw%2FZHcccZXkT56ZsWd59ERV6a%2B1iind13A7i%2B6L0zAFVoTvxXAdmINx%2FyVms9OfLpLyL502SgUMdAgFz3TVFUBfz99gbdvTIUkOhxy53w8VFdfAZCrheVyVfZzvD2AgfEBY9xuoRcchENBP8RSa3SEN%2BQ7zq8TQFJ%2FPkcq3LW9Vsj9RTCF1ZYZQXsYES9RhKVyvl&X-Amz-Signature=d4017d59ab8fc3ec7dd272e3f4fb5077f23b637e6cfa5ab53c4248e1b5a4ca06&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25adb469-a81d-8025-907d-cf3712311811",
+        "type": "paragraph",
+        "created_time": "2025-08-25T13:40:00.000Z",
+        "last_edited_time": "2025-08-25T13:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-80f5-b0e1-dc16ee7e33c4",
+        "type": "paragraph",
+        "created_time": "2025-08-25T13:38:00.000Z",
+        "last_edited_time": "2025-08-25T13:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Deskripsi:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-8030-b21c-f091e7cbb5b2",
+        "type": "paragraph",
+        "created_time": "2025-08-25T13:40:00.000Z",
+        "last_edited_time": "2025-08-25T13:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "This lab contains a SQL injection vulnerability in the product category filter. You can use a UNION attack to retrieve the results from an injected query.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-8028-b048-db771707b895",
+        "type": "paragraph",
+        "created_time": "2025-08-25T13:40:00.000Z",
+        "last_edited_time": "2025-08-25T13:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "To solve the lab, display the database version string.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-8006-bf76-ea8390b76d38",
+        "type": "paragraph",
+        "created_time": "2025-08-25T13:40:00.000Z",
+        "last_edited_time": "2025-08-25T13:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-8050-a59e-d3b42a5f2d96",
+        "type": "paragraph",
+        "created_time": "2025-08-25T13:41:00.000Z",
+        "last_edited_time": "2025-08-25T13:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Tampilan Awal:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-80b4-b4dd-e3d08ac86cf4",
+        "type": "image",
+        "created_time": "2025-08-25T13:41:00.000Z",
+        "last_edited_time": "2025-08-25T13:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-7-lab-sql-injection-attack-querying-the-databa-25adb469a81d804991edc95f93b63ac9/image-2.png",
+          "expiry_time": "2025-09-18T02:39:00.526Z",
+          "localUrl": "/posts/day-7-lab-sql-injection-attack-querying-the-databa-25adb469a81d804991edc95f93b63ac9/image-2.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/b646db48-9c95-4abc-864d-761ebffee94a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46652G5ECYV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013900Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICYC6D%2Fjr2rnnR8HQhjmMyNwwim0LoU12vscLMLXmskBAiEA998WW6MooSk1%2Bd19xdcKe%2Fo6XXbcyKkn49%2BGOctWw4IqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPRkrn0ppYwYdZXDbyrcA%2Fa16Od9UpcbWudOAp%2BSYkymU7EU7w17PLes%2FeMz8sqVx%2B1BpfD2RXvqt6h4ge5cKzdyLb949%2FHa2AfwyTC9Y65IXKWiaBWbqUWGQJ26ooR3BfoCRiQ%2FZErHs6YMCZ0tAcbxVaHfVexND%2BumXCKvEdgou9y6kKTxKZkNHVjB2W7JYZdE8t3Fv4q6IKqfr4zWxJkqQSjWb7RevlSUvg3noinnvrQoO%2B9f7ruA2WDy65%2Bb3WUN5kS0QrS4%2FQ8zxsalFYaZkPdZ%2FrP8MNJl%2BzC0qW%2BsZpisQMmse1%2F1nFbT2V5PtQkp1CNWHw8o%2BraGZBtJ9Swc%2BmiHnb6sTMehHlhvNSiwNIooFCjr%2FXrBpcr4GN38XJo5cckZdD%2FMwk0URELXSK7j5FhZ22sJ2Tw4DYryNuqSl2azTfqF6SWe20%2Bxs8DKEI0asUhrJSovUJRyDLS00BdzlmYmylvMh0TkvWAd%2BMsl7aK1lB2OmrSMYwUpd5OBZSnV8OsYEolUqPAomogqOT8Ll%2FbeyywVlPV%2F8%2FtrbeloNtPdjKuanJPxpxUI8FQJQ7g1pQI23Dbp7%2BTYSzt%2F%2ByaQgLyOBBKj0SkCZGjP2SXfLfw5VJrhkk7ddceKsex1TXNbKqyPvJuXfCD0MNSYrcYGOqUBQUphWOe%2Fpvt7mtH6k%2F4OvyGOdw%2FZHcccZXkT56ZsWd59ERV6a%2B1iind13A7i%2B6L0zAFVoTvxXAdmINx%2FyVms9OfLpLyL502SgUMdAgFz3TVFUBfz99gbdvTIUkOhxy53w8VFdfAZCrheVyVfZzvD2AgfEBY9xuoRcchENBP8RSa3SEN%2BQ7zq8TQFJ%2FPkcq3LW9Vsj9RTCF1ZYZQXsYES9RhKVyvl&X-Amz-Signature=b0b53ca352d21416fd5921129c441d2a4d2dd938af154c3bbaa07923cbe95dbe&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25adb469-a81d-8017-a22d-d544b2b91587",
+        "type": "paragraph",
+        "created_time": "2025-08-25T13:41:00.000Z",
+        "last_edited_time": "2025-08-25T13:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-802a-9a85-c1f573000094",
+        "type": "paragraph",
+        "created_time": "2025-08-25T13:41:00.000Z",
+        "last_edited_time": "2025-08-25T13:42:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk menyelesaikan lab nya, terlihat informasi bahwa “Make the database retrieve the string: '8.0.42-0ubuntu0.20.04.1’”",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-80e9-9ee2-e87796bb5a40",
+        "type": "paragraph",
+        "created_time": "2025-08-25T14:01:00.000Z",
+        "last_edited_time": "2025-08-25T14:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-8042-8c6e-df0c9b185494",
+        "type": "paragraph",
+        "created_time": "2025-08-25T13:41:00.000Z",
+        "last_edited_time": "2025-08-25T14:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Proof of concept:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-8052-b2fa-c683b61c1ba6",
+        "type": "numbered_list_item",
+        "created_time": "2025-08-25T14:03:00.000Z",
+        "last_edited_time": "2025-08-25T14:04:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "inject pada category dengan payload berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-80b0-a6b5-f8d68b71922b",
+        "type": "code",
+        "created_time": "2025-08-25T14:02:00.000Z",
+        "last_edited_time": "2025-08-25T14:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "'+UNION+SELECT+'xyz','test'#",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "25adb469-a81d-807a-8b0c-fda329c06823",
+        "type": "paragraph",
+        "created_time": "2025-08-25T14:03:00.000Z",
+        "last_edited_time": "2025-08-25T14:03:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-80da-891c-ea1199ac8ad2",
+        "type": "paragraph",
+        "created_time": "2025-08-25T14:03:00.000Z",
+        "last_edited_time": "2025-08-25T14:03:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasil:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-80be-9ca5-ff2d5ee64eb6",
+        "type": "image",
+        "created_time": "2025-08-25T14:03:00.000Z",
+        "last_edited_time": "2025-08-25T14:03:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-7-lab-sql-injection-attack-querying-the-databa-25adb469a81d804991edc95f93b63ac9/image-3.png",
+          "expiry_time": "2025-09-18T02:39:00.549Z",
+          "localUrl": "/posts/day-7-lab-sql-injection-attack-querying-the-databa-25adb469a81d804991edc95f93b63ac9/image-3.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/6c707ef7-2343-4e9e-865e-e7148f89bb49/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46652G5ECYV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013900Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICYC6D%2Fjr2rnnR8HQhjmMyNwwim0LoU12vscLMLXmskBAiEA998WW6MooSk1%2Bd19xdcKe%2Fo6XXbcyKkn49%2BGOctWw4IqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPRkrn0ppYwYdZXDbyrcA%2Fa16Od9UpcbWudOAp%2BSYkymU7EU7w17PLes%2FeMz8sqVx%2B1BpfD2RXvqt6h4ge5cKzdyLb949%2FHa2AfwyTC9Y65IXKWiaBWbqUWGQJ26ooR3BfoCRiQ%2FZErHs6YMCZ0tAcbxVaHfVexND%2BumXCKvEdgou9y6kKTxKZkNHVjB2W7JYZdE8t3Fv4q6IKqfr4zWxJkqQSjWb7RevlSUvg3noinnvrQoO%2B9f7ruA2WDy65%2Bb3WUN5kS0QrS4%2FQ8zxsalFYaZkPdZ%2FrP8MNJl%2BzC0qW%2BsZpisQMmse1%2F1nFbT2V5PtQkp1CNWHw8o%2BraGZBtJ9Swc%2BmiHnb6sTMehHlhvNSiwNIooFCjr%2FXrBpcr4GN38XJo5cckZdD%2FMwk0URELXSK7j5FhZ22sJ2Tw4DYryNuqSl2azTfqF6SWe20%2Bxs8DKEI0asUhrJSovUJRyDLS00BdzlmYmylvMh0TkvWAd%2BMsl7aK1lB2OmrSMYwUpd5OBZSnV8OsYEolUqPAomogqOT8Ll%2FbeyywVlPV%2F8%2FtrbeloNtPdjKuanJPxpxUI8FQJQ7g1pQI23Dbp7%2BTYSzt%2F%2ByaQgLyOBBKj0SkCZGjP2SXfLfw5VJrhkk7ddceKsex1TXNbKqyPvJuXfCD0MNSYrcYGOqUBQUphWOe%2Fpvt7mtH6k%2F4OvyGOdw%2FZHcccZXkT56ZsWd59ERV6a%2B1iind13A7i%2B6L0zAFVoTvxXAdmINx%2FyVms9OfLpLyL502SgUMdAgFz3TVFUBfz99gbdvTIUkOhxy53w8VFdfAZCrheVyVfZzvD2AgfEBY9xuoRcchENBP8RSa3SEN%2BQ7zq8TQFJ%2FPkcq3LW9Vsj9RTCF1ZYZQXsYES9RhKVyvl&X-Amz-Signature=4a2b4c7951c45b9593a2e0e24822902f9f31265be61869e636808e0b4708bc82&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25adb469-a81d-8042-9b58-dca1733ff66e",
+        "type": "paragraph",
+        "created_time": "2025-08-25T14:03:00.000Z",
+        "last_edited_time": "2025-08-25T14:03:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-808a-b0b1-f7389ca1f82a",
+        "type": "numbered_list_item",
+        "created_time": "2025-08-25T14:03:00.000Z",
+        "last_edited_time": "2025-08-25T14:04:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": " Use the following payload to display the database version: ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-8069-af18-dbe0ce178097",
+        "type": "code",
+        "created_time": "2025-08-25T14:04:00.000Z",
+        "last_edited_time": "2025-08-25T14:05:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "'+UNION+SELECT+@@version,+NULL#",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "25adb469-a81d-805b-8a00-fb7c0a127e58",
+        "type": "image",
+        "created_time": "2025-08-25T14:05:00.000Z",
+        "last_edited_time": "2025-08-25T14:05:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-7-lab-sql-injection-attack-querying-the-databa-25adb469a81d804991edc95f93b63ac9/image-4.png",
+          "expiry_time": "2025-09-18T02:39:00.523Z",
+          "localUrl": "/posts/day-7-lab-sql-injection-attack-querying-the-databa-25adb469a81d804991edc95f93b63ac9/image-4.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/06ee5d4b-7094-41a9-81f6-d905f68959e2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46652G5ECYV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013900Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICYC6D%2Fjr2rnnR8HQhjmMyNwwim0LoU12vscLMLXmskBAiEA998WW6MooSk1%2Bd19xdcKe%2Fo6XXbcyKkn49%2BGOctWw4IqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPRkrn0ppYwYdZXDbyrcA%2Fa16Od9UpcbWudOAp%2BSYkymU7EU7w17PLes%2FeMz8sqVx%2B1BpfD2RXvqt6h4ge5cKzdyLb949%2FHa2AfwyTC9Y65IXKWiaBWbqUWGQJ26ooR3BfoCRiQ%2FZErHs6YMCZ0tAcbxVaHfVexND%2BumXCKvEdgou9y6kKTxKZkNHVjB2W7JYZdE8t3Fv4q6IKqfr4zWxJkqQSjWb7RevlSUvg3noinnvrQoO%2B9f7ruA2WDy65%2Bb3WUN5kS0QrS4%2FQ8zxsalFYaZkPdZ%2FrP8MNJl%2BzC0qW%2BsZpisQMmse1%2F1nFbT2V5PtQkp1CNWHw8o%2BraGZBtJ9Swc%2BmiHnb6sTMehHlhvNSiwNIooFCjr%2FXrBpcr4GN38XJo5cckZdD%2FMwk0URELXSK7j5FhZ22sJ2Tw4DYryNuqSl2azTfqF6SWe20%2Bxs8DKEI0asUhrJSovUJRyDLS00BdzlmYmylvMh0TkvWAd%2BMsl7aK1lB2OmrSMYwUpd5OBZSnV8OsYEolUqPAomogqOT8Ll%2FbeyywVlPV%2F8%2FtrbeloNtPdjKuanJPxpxUI8FQJQ7g1pQI23Dbp7%2BTYSzt%2F%2ByaQgLyOBBKj0SkCZGjP2SXfLfw5VJrhkk7ddceKsex1TXNbKqyPvJuXfCD0MNSYrcYGOqUBQUphWOe%2Fpvt7mtH6k%2F4OvyGOdw%2FZHcccZXkT56ZsWd59ERV6a%2B1iind13A7i%2B6L0zAFVoTvxXAdmINx%2FyVms9OfLpLyL502SgUMdAgFz3TVFUBfz99gbdvTIUkOhxy53w8VFdfAZCrheVyVfZzvD2AgfEBY9xuoRcchENBP8RSa3SEN%2BQ7zq8TQFJ%2FPkcq3LW9Vsj9RTCF1ZYZQXsYES9RhKVyvl&X-Amz-Signature=7e33aeee385595b811f939dfeaa5a5ecf10c78d34c8975e58419f56ea1acf5b4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25adb469-a81d-8036-8c6e-d43ee386af4e",
+        "type": "paragraph",
+        "created_time": "2025-08-25T14:05:00.000Z",
+        "last_edited_time": "2025-08-25T14:05:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-80dc-b0ea-c0ffbdbba6dc",
+        "type": "paragraph",
+        "created_time": "2025-08-25T14:05:00.000Z",
+        "last_edited_time": "2025-08-25T14:05:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Response:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-8083-b402-cdca4344fc2e",
+        "type": "image",
+        "created_time": "2025-08-25T14:12:00.000Z",
+        "last_edited_time": "2025-08-25T14:12:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-7-lab-sql-injection-attack-querying-the-databa-25adb469a81d804991edc95f93b63ac9/image-5.png",
+          "expiry_time": "2025-09-18T02:39:00.543Z",
+          "localUrl": "/posts/day-7-lab-sql-injection-attack-querying-the-databa-25adb469a81d804991edc95f93b63ac9/image-5.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/c4ae2048-ab9f-4a76-9287-b819679771a4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46652G5ECYV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013900Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICYC6D%2Fjr2rnnR8HQhjmMyNwwim0LoU12vscLMLXmskBAiEA998WW6MooSk1%2Bd19xdcKe%2Fo6XXbcyKkn49%2BGOctWw4IqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPRkrn0ppYwYdZXDbyrcA%2Fa16Od9UpcbWudOAp%2BSYkymU7EU7w17PLes%2FeMz8sqVx%2B1BpfD2RXvqt6h4ge5cKzdyLb949%2FHa2AfwyTC9Y65IXKWiaBWbqUWGQJ26ooR3BfoCRiQ%2FZErHs6YMCZ0tAcbxVaHfVexND%2BumXCKvEdgou9y6kKTxKZkNHVjB2W7JYZdE8t3Fv4q6IKqfr4zWxJkqQSjWb7RevlSUvg3noinnvrQoO%2B9f7ruA2WDy65%2Bb3WUN5kS0QrS4%2FQ8zxsalFYaZkPdZ%2FrP8MNJl%2BzC0qW%2BsZpisQMmse1%2F1nFbT2V5PtQkp1CNWHw8o%2BraGZBtJ9Swc%2BmiHnb6sTMehHlhvNSiwNIooFCjr%2FXrBpcr4GN38XJo5cckZdD%2FMwk0URELXSK7j5FhZ22sJ2Tw4DYryNuqSl2azTfqF6SWe20%2Bxs8DKEI0asUhrJSovUJRyDLS00BdzlmYmylvMh0TkvWAd%2BMsl7aK1lB2OmrSMYwUpd5OBZSnV8OsYEolUqPAomogqOT8Ll%2FbeyywVlPV%2F8%2FtrbeloNtPdjKuanJPxpxUI8FQJQ7g1pQI23Dbp7%2BTYSzt%2F%2ByaQgLyOBBKj0SkCZGjP2SXfLfw5VJrhkk7ddceKsex1TXNbKqyPvJuXfCD0MNSYrcYGOqUBQUphWOe%2Fpvt7mtH6k%2F4OvyGOdw%2FZHcccZXkT56ZsWd59ERV6a%2B1iind13A7i%2B6L0zAFVoTvxXAdmINx%2FyVms9OfLpLyL502SgUMdAgFz3TVFUBfz99gbdvTIUkOhxy53w8VFdfAZCrheVyVfZzvD2AgfEBY9xuoRcchENBP8RSa3SEN%2BQ7zq8TQFJ%2FPkcq3LW9Vsj9RTCF1ZYZQXsYES9RhKVyvl&X-Amz-Signature=bda6f16f91fda732dffdfc0d52e413518f3649ca050cfe6c441b409e85fc1f2c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25adb469-a81d-80e0-b196-d1815100b910",
+        "type": "paragraph",
+        "created_time": "2025-08-25T14:06:00.000Z",
+        "last_edited_time": "2025-08-25T14:06:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-80e2-baf8-ea94fb46536b",
+        "type": "paragraph",
+        "created_time": "2025-08-25T14:04:00.000Z",
+        "last_edited_time": "2025-08-25T14:05:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-804f-9b0f-d6075ddc4483",
+        "type": "paragraph",
+        "created_time": "2025-08-25T14:12:00.000Z",
+        "last_edited_time": "2025-08-25T14:12:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Viola, berhasill!",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-802b-9c53-e8a8d281d5b1",
+        "type": "paragraph",
+        "created_time": "2025-08-25T14:03:00.000Z",
+        "last_edited_time": "2025-08-25T14:03:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-8064-9417-c06cd8e0239b",
+        "type": "paragraph",
+        "created_time": "2025-08-25T14:01:00.000Z",
+        "last_edited_time": "2025-08-25T14:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25adb469-a81d-8075-9864-f7e47a355693",
+        "type": "paragraph",
+        "created_time": "2025-08-25T13:37:00.000Z",
+        "last_edited_time": "2025-08-25T13:37:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      }
+    ],
+    "og_image": "/posts/day-7-lab-sql-injection-attack-querying-the-databa-25adb469a81d804991edc95f93b63ac9/image-1.png",
+    "featured_image": "/posts/day-7-lab-sql-injection-attack-querying-the-databa-25adb469a81d804991edc95f93b63ac9/image-1.png"
+  }
+}

@@ -1,0 +1,1013 @@
+{
+  "meta": {
+    "generated_at": "2025-09-18T01:38:55.286Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863",
+    "slug": "day-8-lab-sql-injection-attack-listing-the-databas",
+    "og_image": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-1.png",
+    "featured_image": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-1.png"
+  },
+  "post": {
+    "id": "25bdb469-a81d-8011-a6e4-cd8b6af0e863",
+    "created_time": "2025-08-26T14:51:00.000Z",
+    "last_edited_time": "2025-08-26T15:08:00.000Z",
+    "url": "https://www.notion.so/Day-8-Lab-SQL-injection-attack-listing-the-database-contents-on-non-Oracle-databases-tulisan-ori-25bdb469a81d8011a6e4cd8b6af0e863",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-08-26T14:51:00.000Z"
+      },
+      "slug": "day-8-lab:-sql-injection-attack,-listing-the-database-contents-on-non-oracle-databases(tulisan-ori)",
+      "publisheddate": null,
+      "owner": [
+        {
+          "id": "ac3d6ce8-4cb1-4c2d-a068-480495e731ed"
+        }
+      ],
+      "featured_image": [],
+      "tags": [],
+      "published": false,
+      "title": "Day 8 Lab: SQL injection attack, listing the database contents on non-Oracle databases(tulisan ori)"
+    },
+    "title": "Day 8 Lab: SQL injection attack, listing the database contents on non-Oracle databases(tulisan ori)",
+    "content": [
+      {
+        "id": "25bdb469-a81d-81f6-81e4-ce17bfb3f83f",
+        "type": "image",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-1.png",
+          "expiry_time": "2025-09-18T02:38:47.249Z",
+          "localUrl": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-1.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/b81be9fb-5ed5-4ca9-b14f-6fa7180e9d8c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W5XTGWQO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIE0ckCstLf5fl%2BwSlNEMqQxQBjYExHhgneWlK7Wx57j3AiAkLam8XoI3aRqhxKkTplrZiqiPZnCn0AOYqP6Twvl15iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMnNXnmXC1M%2F1XpqMnKtwD6scKgKhA3%2FFWs%2FnskaUefziaIJQ6xoLaiC%2BflPgCTUMa9wQbrjsIddvv9czgv74lvKAxpPtxkEM9YpScpyPR0TzorKiDSUeMh9qpELz7UIinR5NBmOhEntFX%2Bk4vF5eBXRYdhCn2L0BCmKZ1QaqL92b%2B4VVvO%2FemhkZucGRxnfdEDvIPGWUtWojj6EV1GfKPJ2rfsWCm47p%2BU2bK7Rp1EtwDR4UKnCY5OqqmwzL3qy6Rls%2BpmfURYIrK2EXn1OsawIZVvvrVPz6RpflAWg4Su891BuKZwgip5lLAPLg7m9upvorQvwOY44ULFPS%2Bb8GfIeue4phE9iGx%2BC4EWsSFQzE9DBCz0UDholyUPrd169Q1E%2BuRnyH8b4SAB%2BUSY8rkFt8EaDwzLhpf1KSDHLHxoy%2FSNskQu4PmbAkGT%2FWOuXU9pNE3QXxjE4JVHdbjrr2x4jVfTP5wqSMPfPkTx7rMCri6U7BWLDr%2FOGCZIl%2FMfkAs6samYnVp9LD4kQRL6MO%2B9DoHEadSci5UqgTepGvH08XLQyEUOE5BBVD3bY9VgpFqpD%2BQImy2scazXQ7oglz0xJnVkFarmP1%2BERGEQvcyPjIEOZ6x4%2FEG61GvJJQSUO0AoYs8lykBOntGjB0w2ZitxgY6pgH0E5Habsdqskne0GAWa6ekQnG8NTNVIAepZXVWTxHsejfo%2Fde2OBfNNczX%2Br4uH6P%2BRBQsHkPy01mYhJFEAQ0xZDmRMB0HvgwleaccoPk0ch8MMsK54zxCk3OqD59BSuPbvCRA1QxqJ90S0Zoeyd60RrRVlTwW8l8OxsvGfgU58NsWxOe0LsLKy05zIdTNNzN1gs2l4OYgrMd10WA4XDTqkJCQH9vu&X-Amz-Signature=88e390ccf727619ae28500b131d647e10234caf4c28ef456a5a6c8fe497eb9a0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-810e-acd7-cea0059b9f75",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T15:08:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Deskripsi:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8128-93b8-d9a315348296",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "This lab contains a SQL injection vulnerability in the \nproduct category filter. The results from the query are returned in the \napplication's response so you can use a UNION attack to retrieve data \nfrom other tables.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81ca-8145-dc3c76b9089a",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "The application has a login function, and the database \ncontains a table that holds usernames and passwords. You need to \ndetermine the name of this table and the columns it contains, then \nretrieve the contents of the table to obtain the username and password \nof all users.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8127-994e-f046dfa0a878",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "To solve the lab, log in as the ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "administrator",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " user.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-812f-afc9-ee4ca4c38e8b",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-813c-8a96-d86ee1cd524c",
+        "type": "image",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-2.png",
+          "expiry_time": "2025-09-18T02:38:47.251Z",
+          "localUrl": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-2.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/7a71476c-7f75-44d9-8a6e-62bd9d6f696e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W5XTGWQO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIE0ckCstLf5fl%2BwSlNEMqQxQBjYExHhgneWlK7Wx57j3AiAkLam8XoI3aRqhxKkTplrZiqiPZnCn0AOYqP6Twvl15iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMnNXnmXC1M%2F1XpqMnKtwD6scKgKhA3%2FFWs%2FnskaUefziaIJQ6xoLaiC%2BflPgCTUMa9wQbrjsIddvv9czgv74lvKAxpPtxkEM9YpScpyPR0TzorKiDSUeMh9qpELz7UIinR5NBmOhEntFX%2Bk4vF5eBXRYdhCn2L0BCmKZ1QaqL92b%2B4VVvO%2FemhkZucGRxnfdEDvIPGWUtWojj6EV1GfKPJ2rfsWCm47p%2BU2bK7Rp1EtwDR4UKnCY5OqqmwzL3qy6Rls%2BpmfURYIrK2EXn1OsawIZVvvrVPz6RpflAWg4Su891BuKZwgip5lLAPLg7m9upvorQvwOY44ULFPS%2Bb8GfIeue4phE9iGx%2BC4EWsSFQzE9DBCz0UDholyUPrd169Q1E%2BuRnyH8b4SAB%2BUSY8rkFt8EaDwzLhpf1KSDHLHxoy%2FSNskQu4PmbAkGT%2FWOuXU9pNE3QXxjE4JVHdbjrr2x4jVfTP5wqSMPfPkTx7rMCri6U7BWLDr%2FOGCZIl%2FMfkAs6samYnVp9LD4kQRL6MO%2B9DoHEadSci5UqgTepGvH08XLQyEUOE5BBVD3bY9VgpFqpD%2BQImy2scazXQ7oglz0xJnVkFarmP1%2BERGEQvcyPjIEOZ6x4%2FEG61GvJJQSUO0AoYs8lykBOntGjB0w2ZitxgY6pgH0E5Habsdqskne0GAWa6ekQnG8NTNVIAepZXVWTxHsejfo%2Fde2OBfNNczX%2Br4uH6P%2BRBQsHkPy01mYhJFEAQ0xZDmRMB0HvgwleaccoPk0ch8MMsK54zxCk3OqD59BSuPbvCRA1QxqJ90S0Zoeyd60RrRVlTwW8l8OxsvGfgU58NsWxOe0LsLKy05zIdTNNzN1gs2l4OYgrMd10WA4XDTqkJCQH9vu&X-Amz-Signature=4fa3c2bc14e1e4c7ec5d9411a5d9f7b25251e3a406ee762f899655969b8f9f05&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-810b-b53a-f5799c439dd6",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8158-9c04-db389a9952e7",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Proof of concept:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-816b-8e02-c9888be3b465",
+        "type": "numbered_list_item",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Determine the number of columns that are being returned by the query and which columns contain text data. Verify that the query is returning two columns, both of which contain text, using a payload like the following in the category parameter: ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8170-9622-f0505607b50b",
+        "type": "code",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "'+UNION+SELECT+'xyz','test'--",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8196-9269-f4ce4f21314d",
+        "type": "image",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-3.png",
+          "expiry_time": "2025-09-18T02:38:47.275Z",
+          "localUrl": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-3.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/a06ff410-2a81-492a-ae42-a0760d9d27dd/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W5XTGWQO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIE0ckCstLf5fl%2BwSlNEMqQxQBjYExHhgneWlK7Wx57j3AiAkLam8XoI3aRqhxKkTplrZiqiPZnCn0AOYqP6Twvl15iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMnNXnmXC1M%2F1XpqMnKtwD6scKgKhA3%2FFWs%2FnskaUefziaIJQ6xoLaiC%2BflPgCTUMa9wQbrjsIddvv9czgv74lvKAxpPtxkEM9YpScpyPR0TzorKiDSUeMh9qpELz7UIinR5NBmOhEntFX%2Bk4vF5eBXRYdhCn2L0BCmKZ1QaqL92b%2B4VVvO%2FemhkZucGRxnfdEDvIPGWUtWojj6EV1GfKPJ2rfsWCm47p%2BU2bK7Rp1EtwDR4UKnCY5OqqmwzL3qy6Rls%2BpmfURYIrK2EXn1OsawIZVvvrVPz6RpflAWg4Su891BuKZwgip5lLAPLg7m9upvorQvwOY44ULFPS%2Bb8GfIeue4phE9iGx%2BC4EWsSFQzE9DBCz0UDholyUPrd169Q1E%2BuRnyH8b4SAB%2BUSY8rkFt8EaDwzLhpf1KSDHLHxoy%2FSNskQu4PmbAkGT%2FWOuXU9pNE3QXxjE4JVHdbjrr2x4jVfTP5wqSMPfPkTx7rMCri6U7BWLDr%2FOGCZIl%2FMfkAs6samYnVp9LD4kQRL6MO%2B9DoHEadSci5UqgTepGvH08XLQyEUOE5BBVD3bY9VgpFqpD%2BQImy2scazXQ7oglz0xJnVkFarmP1%2BERGEQvcyPjIEOZ6x4%2FEG61GvJJQSUO0AoYs8lykBOntGjB0w2ZitxgY6pgH0E5Habsdqskne0GAWa6ekQnG8NTNVIAepZXVWTxHsejfo%2Fde2OBfNNczX%2Br4uH6P%2BRBQsHkPy01mYhJFEAQ0xZDmRMB0HvgwleaccoPk0ch8MMsK54zxCk3OqD59BSuPbvCRA1QxqJ90S0Zoeyd60RrRVlTwW8l8OxsvGfgU58NsWxOe0LsLKy05zIdTNNzN1gs2l4OYgrMd10WA4XDTqkJCQH9vu&X-Amz-Signature=eed309c500288aa6d4d59125aa218749710a159871802cdfecd1d96ddd3bfd90&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8101-9efe-debfd77e2632",
+        "type": "numbered_list_item",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Use the following payload to retrieve the list of tables in the database: ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81e0-9a4f-eac15c34bfea",
+        "type": "code",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "'+UNION+SELECT+table_name,+NULL+FROM+information_schema.tables--",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "25bdb469-a81d-810c-9ff5-e1c4515454bd",
+        "type": "image",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-4.png",
+          "expiry_time": "2025-09-18T02:38:47.274Z",
+          "localUrl": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-4.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/aa7e2268-c6c7-4dd2-83d9-fba8cd2cab0a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W5XTGWQO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIE0ckCstLf5fl%2BwSlNEMqQxQBjYExHhgneWlK7Wx57j3AiAkLam8XoI3aRqhxKkTplrZiqiPZnCn0AOYqP6Twvl15iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMnNXnmXC1M%2F1XpqMnKtwD6scKgKhA3%2FFWs%2FnskaUefziaIJQ6xoLaiC%2BflPgCTUMa9wQbrjsIddvv9czgv74lvKAxpPtxkEM9YpScpyPR0TzorKiDSUeMh9qpELz7UIinR5NBmOhEntFX%2Bk4vF5eBXRYdhCn2L0BCmKZ1QaqL92b%2B4VVvO%2FemhkZucGRxnfdEDvIPGWUtWojj6EV1GfKPJ2rfsWCm47p%2BU2bK7Rp1EtwDR4UKnCY5OqqmwzL3qy6Rls%2BpmfURYIrK2EXn1OsawIZVvvrVPz6RpflAWg4Su891BuKZwgip5lLAPLg7m9upvorQvwOY44ULFPS%2Bb8GfIeue4phE9iGx%2BC4EWsSFQzE9DBCz0UDholyUPrd169Q1E%2BuRnyH8b4SAB%2BUSY8rkFt8EaDwzLhpf1KSDHLHxoy%2FSNskQu4PmbAkGT%2FWOuXU9pNE3QXxjE4JVHdbjrr2x4jVfTP5wqSMPfPkTx7rMCri6U7BWLDr%2FOGCZIl%2FMfkAs6samYnVp9LD4kQRL6MO%2B9DoHEadSci5UqgTepGvH08XLQyEUOE5BBVD3bY9VgpFqpD%2BQImy2scazXQ7oglz0xJnVkFarmP1%2BERGEQvcyPjIEOZ6x4%2FEG61GvJJQSUO0AoYs8lykBOntGjB0w2ZitxgY6pgH0E5Habsdqskne0GAWa6ekQnG8NTNVIAepZXVWTxHsejfo%2Fde2OBfNNczX%2Br4uH6P%2BRBQsHkPy01mYhJFEAQ0xZDmRMB0HvgwleaccoPk0ch8MMsK54zxCk3OqD59BSuPbvCRA1QxqJ90S0Zoeyd60RrRVlTwW8l8OxsvGfgU58NsWxOe0LsLKy05zIdTNNzN1gs2l4OYgrMd10WA4XDTqkJCQH9vu&X-Amz-Signature=5bb516f86753fe0dc7c289f942c64abef627c285629de195dea3e64e86b9a986&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8178-b553-f02e65cbe6af",
+        "type": "numbered_list_item",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Find the name of the table containing user credentials. ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81fc-aa7c-dbcfe5b5be31",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Agar bisa lihat lebih lengkap, disini saya copy show response agar lebih jelas lagi hasilnya.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81dd-801f-c99446994fc6",
+        "type": "image",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-5.png",
+          "expiry_time": "2025-09-18T02:38:47.249Z",
+          "localUrl": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-5.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/d59aac79-de1c-4e7e-b72a-8103329557c7/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W5XTGWQO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIE0ckCstLf5fl%2BwSlNEMqQxQBjYExHhgneWlK7Wx57j3AiAkLam8XoI3aRqhxKkTplrZiqiPZnCn0AOYqP6Twvl15iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMnNXnmXC1M%2F1XpqMnKtwD6scKgKhA3%2FFWs%2FnskaUefziaIJQ6xoLaiC%2BflPgCTUMa9wQbrjsIddvv9czgv74lvKAxpPtxkEM9YpScpyPR0TzorKiDSUeMh9qpELz7UIinR5NBmOhEntFX%2Bk4vF5eBXRYdhCn2L0BCmKZ1QaqL92b%2B4VVvO%2FemhkZucGRxnfdEDvIPGWUtWojj6EV1GfKPJ2rfsWCm47p%2BU2bK7Rp1EtwDR4UKnCY5OqqmwzL3qy6Rls%2BpmfURYIrK2EXn1OsawIZVvvrVPz6RpflAWg4Su891BuKZwgip5lLAPLg7m9upvorQvwOY44ULFPS%2Bb8GfIeue4phE9iGx%2BC4EWsSFQzE9DBCz0UDholyUPrd169Q1E%2BuRnyH8b4SAB%2BUSY8rkFt8EaDwzLhpf1KSDHLHxoy%2FSNskQu4PmbAkGT%2FWOuXU9pNE3QXxjE4JVHdbjrr2x4jVfTP5wqSMPfPkTx7rMCri6U7BWLDr%2FOGCZIl%2FMfkAs6samYnVp9LD4kQRL6MO%2B9DoHEadSci5UqgTepGvH08XLQyEUOE5BBVD3bY9VgpFqpD%2BQImy2scazXQ7oglz0xJnVkFarmP1%2BERGEQvcyPjIEOZ6x4%2FEG61GvJJQSUO0AoYs8lykBOntGjB0w2ZitxgY6pgH0E5Habsdqskne0GAWa6ekQnG8NTNVIAepZXVWTxHsejfo%2Fde2OBfNNczX%2Br4uH6P%2BRBQsHkPy01mYhJFEAQ0xZDmRMB0HvgwleaccoPk0ch8MMsK54zxCk3OqD59BSuPbvCRA1QxqJ90S0Zoeyd60RrRVlTwW8l8OxsvGfgU58NsWxOe0LsLKy05zIdTNNzN1gs2l4OYgrMd10WA4XDTqkJCQH9vu&X-Amz-Signature=ec30476a1f4b9635d441f1d5d438f1bc1adf34d72cbcf1a8e03c7f0cefaf6af0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-812a-befd-f668fc5aa699",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah itu akan muncul link copy webnya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81f1-a93e-e3b99061081e",
+        "type": "image",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T15:08:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-6.png",
+          "expiry_time": "2025-09-18T02:38:47.249Z",
+          "localUrl": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-6.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/2cab9103-7809-4ace-a9c3-628951d81b75/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W5XTGWQO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIE0ckCstLf5fl%2BwSlNEMqQxQBjYExHhgneWlK7Wx57j3AiAkLam8XoI3aRqhxKkTplrZiqiPZnCn0AOYqP6Twvl15iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMnNXnmXC1M%2F1XpqMnKtwD6scKgKhA3%2FFWs%2FnskaUefziaIJQ6xoLaiC%2BflPgCTUMa9wQbrjsIddvv9czgv74lvKAxpPtxkEM9YpScpyPR0TzorKiDSUeMh9qpELz7UIinR5NBmOhEntFX%2Bk4vF5eBXRYdhCn2L0BCmKZ1QaqL92b%2B4VVvO%2FemhkZucGRxnfdEDvIPGWUtWojj6EV1GfKPJ2rfsWCm47p%2BU2bK7Rp1EtwDR4UKnCY5OqqmwzL3qy6Rls%2BpmfURYIrK2EXn1OsawIZVvvrVPz6RpflAWg4Su891BuKZwgip5lLAPLg7m9upvorQvwOY44ULFPS%2Bb8GfIeue4phE9iGx%2BC4EWsSFQzE9DBCz0UDholyUPrd169Q1E%2BuRnyH8b4SAB%2BUSY8rkFt8EaDwzLhpf1KSDHLHxoy%2FSNskQu4PmbAkGT%2FWOuXU9pNE3QXxjE4JVHdbjrr2x4jVfTP5wqSMPfPkTx7rMCri6U7BWLDr%2FOGCZIl%2FMfkAs6samYnVp9LD4kQRL6MO%2B9DoHEadSci5UqgTepGvH08XLQyEUOE5BBVD3bY9VgpFqpD%2BQImy2scazXQ7oglz0xJnVkFarmP1%2BERGEQvcyPjIEOZ6x4%2FEG61GvJJQSUO0AoYs8lykBOntGjB0w2ZitxgY6pgH0E5Habsdqskne0GAWa6ekQnG8NTNVIAepZXVWTxHsejfo%2Fde2OBfNNczX%2Br4uH6P%2BRBQsHkPy01mYhJFEAQ0xZDmRMB0HvgwleaccoPk0ch8MMsK54zxCk3OqD59BSuPbvCRA1QxqJ90S0Zoeyd60RrRVlTwW8l8OxsvGfgU58NsWxOe0LsLKy05zIdTNNzN1gs2l4OYgrMd10WA4XDTqkJCQH9vu&X-Amz-Signature=1b2a68756147c2076819a313f025d1c3970f873af41a778c94c406e802fa878a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8175-bcc7-d8685996caa1",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81a1-b3e7-e7bc3110a4b9",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dan hasilnya bisa lebih jelas lagi:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8117-87e8-ecac35127d5c",
+        "type": "image",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-7.png",
+          "expiry_time": "2025-09-18T02:38:47.244Z",
+          "localUrl": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-7.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/11306e92-a2da-46fb-ab69-0d6110d5a1e6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W5XTGWQO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIE0ckCstLf5fl%2BwSlNEMqQxQBjYExHhgneWlK7Wx57j3AiAkLam8XoI3aRqhxKkTplrZiqiPZnCn0AOYqP6Twvl15iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMnNXnmXC1M%2F1XpqMnKtwD6scKgKhA3%2FFWs%2FnskaUefziaIJQ6xoLaiC%2BflPgCTUMa9wQbrjsIddvv9czgv74lvKAxpPtxkEM9YpScpyPR0TzorKiDSUeMh9qpELz7UIinR5NBmOhEntFX%2Bk4vF5eBXRYdhCn2L0BCmKZ1QaqL92b%2B4VVvO%2FemhkZucGRxnfdEDvIPGWUtWojj6EV1GfKPJ2rfsWCm47p%2BU2bK7Rp1EtwDR4UKnCY5OqqmwzL3qy6Rls%2BpmfURYIrK2EXn1OsawIZVvvrVPz6RpflAWg4Su891BuKZwgip5lLAPLg7m9upvorQvwOY44ULFPS%2Bb8GfIeue4phE9iGx%2BC4EWsSFQzE9DBCz0UDholyUPrd169Q1E%2BuRnyH8b4SAB%2BUSY8rkFt8EaDwzLhpf1KSDHLHxoy%2FSNskQu4PmbAkGT%2FWOuXU9pNE3QXxjE4JVHdbjrr2x4jVfTP5wqSMPfPkTx7rMCri6U7BWLDr%2FOGCZIl%2FMfkAs6samYnVp9LD4kQRL6MO%2B9DoHEadSci5UqgTepGvH08XLQyEUOE5BBVD3bY9VgpFqpD%2BQImy2scazXQ7oglz0xJnVkFarmP1%2BERGEQvcyPjIEOZ6x4%2FEG61GvJJQSUO0AoYs8lykBOntGjB0w2ZitxgY6pgH0E5Habsdqskne0GAWa6ekQnG8NTNVIAepZXVWTxHsejfo%2Fde2OBfNNczX%2Br4uH6P%2BRBQsHkPy01mYhJFEAQ0xZDmRMB0HvgwleaccoPk0ch8MMsK54zxCk3OqD59BSuPbvCRA1QxqJ90S0Zoeyd60RrRVlTwW8l8OxsvGfgU58NsWxOe0LsLKy05zIdTNNzN1gs2l4OYgrMd10WA4XDTqkJCQH9vu&X-Amz-Signature=2dda27fb995415c5de8fedb6e45a7f1d3a1de9e47c8fc66174e11d5ea659a2b5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8160-9706-c6360266f86b",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81b2-88f2-e0c2a6105d73",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Disini kita mencari table yang berisi user. Dari banyak nya table, saya menemukan table yang berisi user yaitu: users_coccth",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81ca-b8ee-f52569526679",
+        "type": "numbered_list_item",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Use the following payload (replacing the table name) to retrieve the details of the columns in the table: ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81bf-954b-ecfc80364796",
+        "type": "code",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "'+UNION+SELECT+column_name,+NULL+FROM+information_schema.columns+WHERE+table_name='users_coccth'--",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81a7-abdc-cd7fedc96492",
+        "type": "image",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-8.png",
+          "expiry_time": "2025-09-18T02:38:47.367Z",
+          "localUrl": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-8.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/72ab5bb2-58a6-4273-a144-13af8eaddb3f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W5XTGWQO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIE0ckCstLf5fl%2BwSlNEMqQxQBjYExHhgneWlK7Wx57j3AiAkLam8XoI3aRqhxKkTplrZiqiPZnCn0AOYqP6Twvl15iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMnNXnmXC1M%2F1XpqMnKtwD6scKgKhA3%2FFWs%2FnskaUefziaIJQ6xoLaiC%2BflPgCTUMa9wQbrjsIddvv9czgv74lvKAxpPtxkEM9YpScpyPR0TzorKiDSUeMh9qpELz7UIinR5NBmOhEntFX%2Bk4vF5eBXRYdhCn2L0BCmKZ1QaqL92b%2B4VVvO%2FemhkZucGRxnfdEDvIPGWUtWojj6EV1GfKPJ2rfsWCm47p%2BU2bK7Rp1EtwDR4UKnCY5OqqmwzL3qy6Rls%2BpmfURYIrK2EXn1OsawIZVvvrVPz6RpflAWg4Su891BuKZwgip5lLAPLg7m9upvorQvwOY44ULFPS%2Bb8GfIeue4phE9iGx%2BC4EWsSFQzE9DBCz0UDholyUPrd169Q1E%2BuRnyH8b4SAB%2BUSY8rkFt8EaDwzLhpf1KSDHLHxoy%2FSNskQu4PmbAkGT%2FWOuXU9pNE3QXxjE4JVHdbjrr2x4jVfTP5wqSMPfPkTx7rMCri6U7BWLDr%2FOGCZIl%2FMfkAs6samYnVp9LD4kQRL6MO%2B9DoHEadSci5UqgTepGvH08XLQyEUOE5BBVD3bY9VgpFqpD%2BQImy2scazXQ7oglz0xJnVkFarmP1%2BERGEQvcyPjIEOZ6x4%2FEG61GvJJQSUO0AoYs8lykBOntGjB0w2ZitxgY6pgH0E5Habsdqskne0GAWa6ekQnG8NTNVIAepZXVWTxHsejfo%2Fde2OBfNNczX%2Br4uH6P%2BRBQsHkPy01mYhJFEAQ0xZDmRMB0HvgwleaccoPk0ch8MMsK54zxCk3OqD59BSuPbvCRA1QxqJ90S0Zoeyd60RrRVlTwW8l8OxsvGfgU58NsWxOe0LsLKy05zIdTNNzN1gs2l4OYgrMd10WA4XDTqkJCQH9vu&X-Amz-Signature=22459824162e59b4127944987708713c4c7761d2fde9ae38986c45264fc04de9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8163-ab67-ef8b5321736b",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasil:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-817c-be55-e10286cb8bb4",
+        "type": "image",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-9.png",
+          "expiry_time": "2025-09-18T02:38:47.362Z",
+          "localUrl": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-9.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/16d8f28a-78d8-451b-acd9-6d25ae5126d5/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W5XTGWQO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIE0ckCstLf5fl%2BwSlNEMqQxQBjYExHhgneWlK7Wx57j3AiAkLam8XoI3aRqhxKkTplrZiqiPZnCn0AOYqP6Twvl15iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMnNXnmXC1M%2F1XpqMnKtwD6scKgKhA3%2FFWs%2FnskaUefziaIJQ6xoLaiC%2BflPgCTUMa9wQbrjsIddvv9czgv74lvKAxpPtxkEM9YpScpyPR0TzorKiDSUeMh9qpELz7UIinR5NBmOhEntFX%2Bk4vF5eBXRYdhCn2L0BCmKZ1QaqL92b%2B4VVvO%2FemhkZucGRxnfdEDvIPGWUtWojj6EV1GfKPJ2rfsWCm47p%2BU2bK7Rp1EtwDR4UKnCY5OqqmwzL3qy6Rls%2BpmfURYIrK2EXn1OsawIZVvvrVPz6RpflAWg4Su891BuKZwgip5lLAPLg7m9upvorQvwOY44ULFPS%2Bb8GfIeue4phE9iGx%2BC4EWsSFQzE9DBCz0UDholyUPrd169Q1E%2BuRnyH8b4SAB%2BUSY8rkFt8EaDwzLhpf1KSDHLHxoy%2FSNskQu4PmbAkGT%2FWOuXU9pNE3QXxjE4JVHdbjrr2x4jVfTP5wqSMPfPkTx7rMCri6U7BWLDr%2FOGCZIl%2FMfkAs6samYnVp9LD4kQRL6MO%2B9DoHEadSci5UqgTepGvH08XLQyEUOE5BBVD3bY9VgpFqpD%2BQImy2scazXQ7oglz0xJnVkFarmP1%2BERGEQvcyPjIEOZ6x4%2FEG61GvJJQSUO0AoYs8lykBOntGjB0w2ZitxgY6pgH0E5Habsdqskne0GAWa6ekQnG8NTNVIAepZXVWTxHsejfo%2Fde2OBfNNczX%2Br4uH6P%2BRBQsHkPy01mYhJFEAQ0xZDmRMB0HvgwleaccoPk0ch8MMsK54zxCk3OqD59BSuPbvCRA1QxqJ90S0Zoeyd60RrRVlTwW8l8OxsvGfgU58NsWxOe0LsLKy05zIdTNNzN1gs2l4OYgrMd10WA4XDTqkJCQH9vu&X-Amz-Signature=d42f753de635fe29b7c59937a3c1721b6ee3f669e972f0304c2df68e12d90113&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-810c-a322-f376ba000039",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari gambar tersebut, terdapat email,username_fhlsxd,password_mywvsc",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81cd-ad59-e6003cc317ee",
+        "type": "numbered_list_item",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Use the following payload (replacing the table and column names) to retrieve the usernames and passwords for all users: ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81e8-9a6d-c91ae2747cc0",
+        "type": "code",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "'+UNION+SELECT+username_fhlsxd,+password_mywvsc+FROM+users_coccth--",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8101-b676-d47ac42100f8",
+        "type": "image",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-10.png",
+          "expiry_time": "2025-09-18T02:38:47.374Z",
+          "localUrl": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-10.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/da07d8c8-de26-4efb-bbc0-6943f0fdfc71/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W5XTGWQO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIE0ckCstLf5fl%2BwSlNEMqQxQBjYExHhgneWlK7Wx57j3AiAkLam8XoI3aRqhxKkTplrZiqiPZnCn0AOYqP6Twvl15iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMnNXnmXC1M%2F1XpqMnKtwD6scKgKhA3%2FFWs%2FnskaUefziaIJQ6xoLaiC%2BflPgCTUMa9wQbrjsIddvv9czgv74lvKAxpPtxkEM9YpScpyPR0TzorKiDSUeMh9qpELz7UIinR5NBmOhEntFX%2Bk4vF5eBXRYdhCn2L0BCmKZ1QaqL92b%2B4VVvO%2FemhkZucGRxnfdEDvIPGWUtWojj6EV1GfKPJ2rfsWCm47p%2BU2bK7Rp1EtwDR4UKnCY5OqqmwzL3qy6Rls%2BpmfURYIrK2EXn1OsawIZVvvrVPz6RpflAWg4Su891BuKZwgip5lLAPLg7m9upvorQvwOY44ULFPS%2Bb8GfIeue4phE9iGx%2BC4EWsSFQzE9DBCz0UDholyUPrd169Q1E%2BuRnyH8b4SAB%2BUSY8rkFt8EaDwzLhpf1KSDHLHxoy%2FSNskQu4PmbAkGT%2FWOuXU9pNE3QXxjE4JVHdbjrr2x4jVfTP5wqSMPfPkTx7rMCri6U7BWLDr%2FOGCZIl%2FMfkAs6samYnVp9LD4kQRL6MO%2B9DoHEadSci5UqgTepGvH08XLQyEUOE5BBVD3bY9VgpFqpD%2BQImy2scazXQ7oglz0xJnVkFarmP1%2BERGEQvcyPjIEOZ6x4%2FEG61GvJJQSUO0AoYs8lykBOntGjB0w2ZitxgY6pgH0E5Habsdqskne0GAWa6ekQnG8NTNVIAepZXVWTxHsejfo%2Fde2OBfNNczX%2Br4uH6P%2BRBQsHkPy01mYhJFEAQ0xZDmRMB0HvgwleaccoPk0ch8MMsK54zxCk3OqD59BSuPbvCRA1QxqJ90S0Zoeyd60RrRVlTwW8l8OxsvGfgU58NsWxOe0LsLKy05zIdTNNzN1gs2l4OYgrMd10WA4XDTqkJCQH9vu&X-Amz-Signature=c12e77a096950a3e5383b0a35e2d4e9acafa1eefb48dfec821e66e183cb1198c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8117-9f71-f431f0ff71db",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasil:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81a1-b07e-efd01a4d03cd",
+        "type": "image",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-11.png",
+          "expiry_time": "2025-09-18T02:38:47.374Z",
+          "localUrl": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-11.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/cdcbe0ab-6746-492f-8003-4ed0a9eb456d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W5XTGWQO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIE0ckCstLf5fl%2BwSlNEMqQxQBjYExHhgneWlK7Wx57j3AiAkLam8XoI3aRqhxKkTplrZiqiPZnCn0AOYqP6Twvl15iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMnNXnmXC1M%2F1XpqMnKtwD6scKgKhA3%2FFWs%2FnskaUefziaIJQ6xoLaiC%2BflPgCTUMa9wQbrjsIddvv9czgv74lvKAxpPtxkEM9YpScpyPR0TzorKiDSUeMh9qpELz7UIinR5NBmOhEntFX%2Bk4vF5eBXRYdhCn2L0BCmKZ1QaqL92b%2B4VVvO%2FemhkZucGRxnfdEDvIPGWUtWojj6EV1GfKPJ2rfsWCm47p%2BU2bK7Rp1EtwDR4UKnCY5OqqmwzL3qy6Rls%2BpmfURYIrK2EXn1OsawIZVvvrVPz6RpflAWg4Su891BuKZwgip5lLAPLg7m9upvorQvwOY44ULFPS%2Bb8GfIeue4phE9iGx%2BC4EWsSFQzE9DBCz0UDholyUPrd169Q1E%2BuRnyH8b4SAB%2BUSY8rkFt8EaDwzLhpf1KSDHLHxoy%2FSNskQu4PmbAkGT%2FWOuXU9pNE3QXxjE4JVHdbjrr2x4jVfTP5wqSMPfPkTx7rMCri6U7BWLDr%2FOGCZIl%2FMfkAs6samYnVp9LD4kQRL6MO%2B9DoHEadSci5UqgTepGvH08XLQyEUOE5BBVD3bY9VgpFqpD%2BQImy2scazXQ7oglz0xJnVkFarmP1%2BERGEQvcyPjIEOZ6x4%2FEG61GvJJQSUO0AoYs8lykBOntGjB0w2ZitxgY6pgH0E5Habsdqskne0GAWa6ekQnG8NTNVIAepZXVWTxHsejfo%2Fde2OBfNNczX%2Br4uH6P%2BRBQsHkPy01mYhJFEAQ0xZDmRMB0HvgwleaccoPk0ch8MMsK54zxCk3OqD59BSuPbvCRA1QxqJ90S0Zoeyd60RrRVlTwW8l8OxsvGfgU58NsWxOe0LsLKy05zIdTNNzN1gs2l4OYgrMd10WA4XDTqkJCQH9vu&X-Amz-Signature=2ca64e28b92c73c228fcc587d10bca250db435b37a0f152159a84052a4a4f322&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8139-a5b5-cc0145f78512",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": " ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-811b-8464-e8dc2586b35b",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Terlihat pada gambar, terdapat beberapa username dan juga passwordnya. Namun untuk menyelesaikan lab ini, kita cukup login dengan user ‘administrator’.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81d6-b4ed-df3b414279d8",
+        "type": "image",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-12.png",
+          "expiry_time": "2025-09-18T02:38:47.370Z",
+          "localUrl": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-12.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/d78ae238-e1c6-4ec5-a557-659da9f9bd53/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W5XTGWQO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIE0ckCstLf5fl%2BwSlNEMqQxQBjYExHhgneWlK7Wx57j3AiAkLam8XoI3aRqhxKkTplrZiqiPZnCn0AOYqP6Twvl15iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMnNXnmXC1M%2F1XpqMnKtwD6scKgKhA3%2FFWs%2FnskaUefziaIJQ6xoLaiC%2BflPgCTUMa9wQbrjsIddvv9czgv74lvKAxpPtxkEM9YpScpyPR0TzorKiDSUeMh9qpELz7UIinR5NBmOhEntFX%2Bk4vF5eBXRYdhCn2L0BCmKZ1QaqL92b%2B4VVvO%2FemhkZucGRxnfdEDvIPGWUtWojj6EV1GfKPJ2rfsWCm47p%2BU2bK7Rp1EtwDR4UKnCY5OqqmwzL3qy6Rls%2BpmfURYIrK2EXn1OsawIZVvvrVPz6RpflAWg4Su891BuKZwgip5lLAPLg7m9upvorQvwOY44ULFPS%2Bb8GfIeue4phE9iGx%2BC4EWsSFQzE9DBCz0UDholyUPrd169Q1E%2BuRnyH8b4SAB%2BUSY8rkFt8EaDwzLhpf1KSDHLHxoy%2FSNskQu4PmbAkGT%2FWOuXU9pNE3QXxjE4JVHdbjrr2x4jVfTP5wqSMPfPkTx7rMCri6U7BWLDr%2FOGCZIl%2FMfkAs6samYnVp9LD4kQRL6MO%2B9DoHEadSci5UqgTepGvH08XLQyEUOE5BBVD3bY9VgpFqpD%2BQImy2scazXQ7oglz0xJnVkFarmP1%2BERGEQvcyPjIEOZ6x4%2FEG61GvJJQSUO0AoYs8lykBOntGjB0w2ZitxgY6pgH0E5Habsdqskne0GAWa6ekQnG8NTNVIAepZXVWTxHsejfo%2Fde2OBfNNczX%2Br4uH6P%2BRBQsHkPy01mYhJFEAQ0xZDmRMB0HvgwleaccoPk0ch8MMsK54zxCk3OqD59BSuPbvCRA1QxqJ90S0Zoeyd60RrRVlTwW8l8OxsvGfgU58NsWxOe0LsLKy05zIdTNNzN1gs2l4OYgrMd10WA4XDTqkJCQH9vu&X-Amz-Signature=085d918317cf65e015ce78fabc4a689e43505e8702a6cac0719edcd1edec5410&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81f1-a8fe-f1b1e4aa4e57",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81a8-859f-c09dcff51856",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Viola! berhasil login",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8104-b0ee-e673e01913c0",
+        "type": "image",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-13.png",
+          "expiry_time": "2025-09-18T02:38:47.364Z",
+          "localUrl": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-13.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/6a28191f-23fa-4638-991d-a93916865c4a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W5XTGWQO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIE0ckCstLf5fl%2BwSlNEMqQxQBjYExHhgneWlK7Wx57j3AiAkLam8XoI3aRqhxKkTplrZiqiPZnCn0AOYqP6Twvl15iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMnNXnmXC1M%2F1XpqMnKtwD6scKgKhA3%2FFWs%2FnskaUefziaIJQ6xoLaiC%2BflPgCTUMa9wQbrjsIddvv9czgv74lvKAxpPtxkEM9YpScpyPR0TzorKiDSUeMh9qpELz7UIinR5NBmOhEntFX%2Bk4vF5eBXRYdhCn2L0BCmKZ1QaqL92b%2B4VVvO%2FemhkZucGRxnfdEDvIPGWUtWojj6EV1GfKPJ2rfsWCm47p%2BU2bK7Rp1EtwDR4UKnCY5OqqmwzL3qy6Rls%2BpmfURYIrK2EXn1OsawIZVvvrVPz6RpflAWg4Su891BuKZwgip5lLAPLg7m9upvorQvwOY44ULFPS%2Bb8GfIeue4phE9iGx%2BC4EWsSFQzE9DBCz0UDholyUPrd169Q1E%2BuRnyH8b4SAB%2BUSY8rkFt8EaDwzLhpf1KSDHLHxoy%2FSNskQu4PmbAkGT%2FWOuXU9pNE3QXxjE4JVHdbjrr2x4jVfTP5wqSMPfPkTx7rMCri6U7BWLDr%2FOGCZIl%2FMfkAs6samYnVp9LD4kQRL6MO%2B9DoHEadSci5UqgTepGvH08XLQyEUOE5BBVD3bY9VgpFqpD%2BQImy2scazXQ7oglz0xJnVkFarmP1%2BERGEQvcyPjIEOZ6x4%2FEG61GvJJQSUO0AoYs8lykBOntGjB0w2ZitxgY6pgH0E5Habsdqskne0GAWa6ekQnG8NTNVIAepZXVWTxHsejfo%2Fde2OBfNNczX%2Br4uH6P%2BRBQsHkPy01mYhJFEAQ0xZDmRMB0HvgwleaccoPk0ch8MMsK54zxCk3OqD59BSuPbvCRA1QxqJ90S0Zoeyd60RrRVlTwW8l8OxsvGfgU58NsWxOe0LsLKy05zIdTNNzN1gs2l4OYgrMd10WA4XDTqkJCQH9vu&X-Amz-Signature=65590f876e7a4289d0e6edf6426cdda31caff1fe4432e0f551bf8d0edf95084b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81aa-8ac7-d703018a539a",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8144-9fee-d1cdcbce2ddf",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-81fb-bead-ea429cf4c14f",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8176-8c65-df3dae9ab623",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8197-9a99-f52caadac86b",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25bdb469-a81d-8165-938b-f79aaec9663c",
+        "type": "paragraph",
+        "created_time": "2025-08-26T14:51:00.000Z",
+        "last_edited_time": "2025-08-26T14:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      }
+    ],
+    "og_image": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-1.png",
+    "featured_image": "/posts/day-8-lab-sql-injection-attack-listing-the-databas-25bdb469a81d8011a6e4cd8b6af0e863/image-1.png"
+  }
+}

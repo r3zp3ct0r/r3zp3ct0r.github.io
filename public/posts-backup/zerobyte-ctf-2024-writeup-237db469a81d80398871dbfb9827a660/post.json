@@ -1,0 +1,1882 @@
+{
+  "meta": {
+    "generated_at": "2025-09-18T04:40:15.813Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660",
+    "slug": "zerobyte-ctf-2024-writeup",
+    "og_image": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/featured-image.png",
+    "featured_image": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/featured-image.png"
+  },
+  "post": {
+    "id": "237db469-a81d-8039-8871-dbfb9827a660",
+    "created_time": "2025-07-21T03:29:00.000Z",
+    "last_edited_time": "2025-07-21T03:32:00.000Z",
+    "url": "https://www.notion.so/ZeroByte-CTF-2024-Writeup-237db469a81d80398871dbfb9827a660",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-07-21T03:29:00.000Z"
+      },
+      "slug": "[zerobyte-ctf-2024]-writeup",
+      "publisheddate": "2024-08-18",
+      "owner": [
+        {
+          "id": "ac3d6ce8-4cb1-4c2d-a068-480495e731ed"
+        }
+      ],
+      "featured_image": [
+        {
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/99229568-0ba2-41ab-a66c-866249daf663/image-1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T043954Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=1c705dfcf5613ab81fc50c29706c24729bef1bcd224197da82c9cbf61711292d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "name": "image-1.png",
+          "expiry_time": "2025-09-18T05:39:54.831Z"
+        }
+      ],
+      "tags": [
+        "Boot2Root",
+        "Crypto",
+        "CTF Writeup"
+      ],
+      "published": true,
+      "title": "[ZeroByte CTF 2024] Writeup"
+    },
+    "title": "[ZeroByte CTF 2024] Writeup",
+    "content": [
+      {
+        "id": "237db469-a81d-8175-9b3a-d42bd3812108",
+        "type": "image",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-1.png",
+          "expiry_time": "2025-09-18T05:40:05.925Z",
+          "localUrl": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-1.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/434a0846-d40b-4a93-a851-93881d139120/image-1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXB4YDTP%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDeVArhaDAfx1rbqem16nGUusaPyKJd8X%2FrjadgGN6JxQIhAN2Ye1x7xbrIIV41Z2K%2BgDpyKYXNWGw9MFluSCeAoj5rKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBMS%2Bs86UGW87QQDUq3APU6I4C3GPqylFAERkvfraJ55BySlRvD0UVYJtGjdELuy623YXJX6jlhNA8s4tkFSBQnGFLo9xjgEHIeT28%2F0cirijf4OQAOGcmPW2pj3WL5hVl91P6NBr%2BrVxAlfPG66VVRqo%2FThxM8YsSHFrvm%2BXWxa0bl8siNtQ7P7d0RuSQDjF3eG7mmJLkDYi%2Bn7%2FpVBcLJe2LCw%2BBDqcjd7yW9FDab7qxBLC1m2QqUVGVtvtxc2fJB3%2BlMhSWkkxGqFoHq71z5kBO3KAdkzs2F1FFQAcuS4MwgN%2BDSRYdGhC9VSOQsUzQ%2FITuOiC2IWwd0xt5mCiBIU%2F4RcYR5MKcIS4dUd2rfrw4c8tNB6r6u7ZAA5edTisZYAKeCxOueLfHRdxVgPaP20tkLfyU7eSmbRoQdu6g7h3Y%2Fb%2BY3Bx5knEWdpqMSU0whpwA%2FoNTHjuna15wOFWX8086VO%2FZ4UF%2BpOPnD%2FIEanKNBHp%2BOLfPGpMC6w0pmfHPPGhOpm8Woixg3GlO42Nt7VGjkGKn%2F5e7ll8vNZEJuQcwRwOB7OtD83gA3NfnTKw7rc28%2B5EomWk5YTNh2U76Q0nj8%2Fyd3gXvd8sZvmJukMlD9eF%2FAiVdBc7nDfA%2F9F%2Bl4KMt%2B4cOhnONUTDvmK3GBjqkAdOvq4%2B%2BKql5J5CRuGab05YCRrzqN5rfJcpqQVgeAFI3KAEmcqpQw3e%2BKft5T3XXK9G%2F6cav90SEVlKhrG1ZrY8XChId5YlJSSzNcSCRBF8L1bHfDKNomaVqEZQzLjw6%2BCasQWMaPzaNUUj0%2B%2BsZFIZhBtd0sMQM2IRewB28FNW0%2F7hXKuOqS%2Bv24hGgNug9tX4ZHCVOpm7eOPJdiK2k1qrUZIbo&X-Amz-Signature=941ff6c13ddf69ce340f3f9c4a2858db50576bf212d9bf6b1a78315a81c565f3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-81a7-8d58-fa6d3cb03021",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "ZerobyteCTF 2024",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81ca-a519-d05d7c8aba24",
+        "type": "heading_2",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Misc",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-8105-b5de-f9402b22dcbd",
+        "type": "heading_3",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "[ Free Flag 4 All ]",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-8113-a716-e0e2ae825ec2",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Soal pertama yang saya kerjakan yaitu soal yg ‘free flag’, karna lumayan buat point petama hehe",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81f7-b191-ebe739df6069",
+        "type": "image",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-2.png",
+          "expiry_time": "2025-09-18T05:40:05.917Z",
+          "localUrl": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-2.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/40a30041-a5a2-43db-8aac-088749f1adb4/image-2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXB4YDTP%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDeVArhaDAfx1rbqem16nGUusaPyKJd8X%2FrjadgGN6JxQIhAN2Ye1x7xbrIIV41Z2K%2BgDpyKYXNWGw9MFluSCeAoj5rKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBMS%2Bs86UGW87QQDUq3APU6I4C3GPqylFAERkvfraJ55BySlRvD0UVYJtGjdELuy623YXJX6jlhNA8s4tkFSBQnGFLo9xjgEHIeT28%2F0cirijf4OQAOGcmPW2pj3WL5hVl91P6NBr%2BrVxAlfPG66VVRqo%2FThxM8YsSHFrvm%2BXWxa0bl8siNtQ7P7d0RuSQDjF3eG7mmJLkDYi%2Bn7%2FpVBcLJe2LCw%2BBDqcjd7yW9FDab7qxBLC1m2QqUVGVtvtxc2fJB3%2BlMhSWkkxGqFoHq71z5kBO3KAdkzs2F1FFQAcuS4MwgN%2BDSRYdGhC9VSOQsUzQ%2FITuOiC2IWwd0xt5mCiBIU%2F4RcYR5MKcIS4dUd2rfrw4c8tNB6r6u7ZAA5edTisZYAKeCxOueLfHRdxVgPaP20tkLfyU7eSmbRoQdu6g7h3Y%2Fb%2BY3Bx5knEWdpqMSU0whpwA%2FoNTHjuna15wOFWX8086VO%2FZ4UF%2BpOPnD%2FIEanKNBHp%2BOLfPGpMC6w0pmfHPPGhOpm8Woixg3GlO42Nt7VGjkGKn%2F5e7ll8vNZEJuQcwRwOB7OtD83gA3NfnTKw7rc28%2B5EomWk5YTNh2U76Q0nj8%2Fyd3gXvd8sZvmJukMlD9eF%2FAiVdBc7nDfA%2F9F%2Bl4KMt%2B4cOhnONUTDvmK3GBjqkAdOvq4%2B%2BKql5J5CRuGab05YCRrzqN5rfJcpqQVgeAFI3KAEmcqpQw3e%2BKft5T3XXK9G%2F6cav90SEVlKhrG1ZrY8XChId5YlJSSzNcSCRBF8L1bHfDKNomaVqEZQzLjw6%2BCasQWMaPzaNUUj0%2B%2BsZFIZhBtd0sMQM2IRewB28FNW0%2F7hXKuOqS%2Bv24hGgNug9tX4ZHCVOpm7eOPJdiK2k1qrUZIbo&X-Amz-Signature=814d87247e8294c4c7ac705d019071b9e80de807319be0ed1e45f47f887b1a24&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-8134-ab7f-e2c9ea3d9ba0",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-2",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8161-a0c4-c0b07cc99a5d",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Di dalam deskripsi soal sudah terlihat flag nya.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81bd-acb2-c8d814785cc3",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "flag: 0byteCTF{79_t4hun m3rd3k4_INDONESIA_m4kin_b3rk4ry4}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8120-84fd-e8766e0110c7",
+        "type": "heading_2",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Crypto",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-8144-a34f-ea9a0d1bb70a",
+        "type": "heading_3",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "[ Painless RSA ]",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-8180-977d-f53ea58d2966",
+        "type": "image",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-3.png",
+          "expiry_time": "2025-09-18T05:40:05.921Z",
+          "localUrl": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-3.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/4f0de37b-6a6c-48bf-969c-174b76294a00/image-3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXB4YDTP%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDeVArhaDAfx1rbqem16nGUusaPyKJd8X%2FrjadgGN6JxQIhAN2Ye1x7xbrIIV41Z2K%2BgDpyKYXNWGw9MFluSCeAoj5rKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBMS%2Bs86UGW87QQDUq3APU6I4C3GPqylFAERkvfraJ55BySlRvD0UVYJtGjdELuy623YXJX6jlhNA8s4tkFSBQnGFLo9xjgEHIeT28%2F0cirijf4OQAOGcmPW2pj3WL5hVl91P6NBr%2BrVxAlfPG66VVRqo%2FThxM8YsSHFrvm%2BXWxa0bl8siNtQ7P7d0RuSQDjF3eG7mmJLkDYi%2Bn7%2FpVBcLJe2LCw%2BBDqcjd7yW9FDab7qxBLC1m2QqUVGVtvtxc2fJB3%2BlMhSWkkxGqFoHq71z5kBO3KAdkzs2F1FFQAcuS4MwgN%2BDSRYdGhC9VSOQsUzQ%2FITuOiC2IWwd0xt5mCiBIU%2F4RcYR5MKcIS4dUd2rfrw4c8tNB6r6u7ZAA5edTisZYAKeCxOueLfHRdxVgPaP20tkLfyU7eSmbRoQdu6g7h3Y%2Fb%2BY3Bx5knEWdpqMSU0whpwA%2FoNTHjuna15wOFWX8086VO%2FZ4UF%2BpOPnD%2FIEanKNBHp%2BOLfPGpMC6w0pmfHPPGhOpm8Woixg3GlO42Nt7VGjkGKn%2F5e7ll8vNZEJuQcwRwOB7OtD83gA3NfnTKw7rc28%2B5EomWk5YTNh2U76Q0nj8%2Fyd3gXvd8sZvmJukMlD9eF%2FAiVdBc7nDfA%2F9F%2Bl4KMt%2B4cOhnONUTDvmK3GBjqkAdOvq4%2B%2BKql5J5CRuGab05YCRrzqN5rfJcpqQVgeAFI3KAEmcqpQw3e%2BKft5T3XXK9G%2F6cav90SEVlKhrG1ZrY8XChId5YlJSSzNcSCRBF8L1bHfDKNomaVqEZQzLjw6%2BCasQWMaPzaNUUj0%2B%2BsZFIZhBtd0sMQM2IRewB28FNW0%2F7hXKuOqS%2Bv24hGgNug9tX4ZHCVOpm7eOPJdiK2k1qrUZIbo&X-Amz-Signature=a64234d25bbd2fa3cae7dde880f460d780235eb379c98328d99fb75c269f5e5d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-81ca-ba0b-f16d3a86a053",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-3",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8177-85af-d3b30da0f7c1",
+        "type": "heading_3",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Executive Summary",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-81db-a877-d7e1156528ca",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Di soal ini, terdapat sebuah netcat untuk terhubung ke koneksi soal nya.Ketika saya mencoba menghubungkan nya dengan perintah ‘nc 152.42.176.161 300041’, maka hasilnya seperti berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8160-a87d-e0ee25e4b238",
+        "type": "image",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-4.png",
+          "expiry_time": "2025-09-18T05:40:05.925Z",
+          "localUrl": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-4.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/d279919f-ea33-4aad-adc9-73c4b9028500/image-4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXB4YDTP%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDeVArhaDAfx1rbqem16nGUusaPyKJd8X%2FrjadgGN6JxQIhAN2Ye1x7xbrIIV41Z2K%2BgDpyKYXNWGw9MFluSCeAoj5rKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBMS%2Bs86UGW87QQDUq3APU6I4C3GPqylFAERkvfraJ55BySlRvD0UVYJtGjdELuy623YXJX6jlhNA8s4tkFSBQnGFLo9xjgEHIeT28%2F0cirijf4OQAOGcmPW2pj3WL5hVl91P6NBr%2BrVxAlfPG66VVRqo%2FThxM8YsSHFrvm%2BXWxa0bl8siNtQ7P7d0RuSQDjF3eG7mmJLkDYi%2Bn7%2FpVBcLJe2LCw%2BBDqcjd7yW9FDab7qxBLC1m2QqUVGVtvtxc2fJB3%2BlMhSWkkxGqFoHq71z5kBO3KAdkzs2F1FFQAcuS4MwgN%2BDSRYdGhC9VSOQsUzQ%2FITuOiC2IWwd0xt5mCiBIU%2F4RcYR5MKcIS4dUd2rfrw4c8tNB6r6u7ZAA5edTisZYAKeCxOueLfHRdxVgPaP20tkLfyU7eSmbRoQdu6g7h3Y%2Fb%2BY3Bx5knEWdpqMSU0whpwA%2FoNTHjuna15wOFWX8086VO%2FZ4UF%2BpOPnD%2FIEanKNBHp%2BOLfPGpMC6w0pmfHPPGhOpm8Woixg3GlO42Nt7VGjkGKn%2F5e7ll8vNZEJuQcwRwOB7OtD83gA3NfnTKw7rc28%2B5EomWk5YTNh2U76Q0nj8%2Fyd3gXvd8sZvmJukMlD9eF%2FAiVdBc7nDfA%2F9F%2Bl4KMt%2B4cOhnONUTDvmK3GBjqkAdOvq4%2B%2BKql5J5CRuGab05YCRrzqN5rfJcpqQVgeAFI3KAEmcqpQw3e%2BKft5T3XXK9G%2F6cav90SEVlKhrG1ZrY8XChId5YlJSSzNcSCRBF8L1bHfDKNomaVqEZQzLjw6%2BCasQWMaPzaNUUj0%2B%2BsZFIZhBtd0sMQM2IRewB28FNW0%2F7hXKuOqS%2Bv24hGgNug9tX4ZHCVOpm7eOPJdiK2k1qrUZIbo&X-Amz-Signature=552929699b56ce6b192bd9f7f76c1a1d8991e05788016e2deea4325cccc3a852&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-813e-934d-c2c9b32b615a",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-4",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8165-9bb8-d7d16694166f",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari hasil tersebut, sesuai judul soal nya yaitu soal kriptografi dengan “RSA”. Di RSA ini, biasanya terdapat sebuah parameter utama yaitu modulus “n” dan exponen publik “e”. Parameter tersebut gunanya untuk mengenkripsi data.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8114-9415-e21ab5c3a147",
+        "type": "heading_3",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Technical Report",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-8124-85ef-c8c70039381e",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dilihat hasil dari gambar tadi, ada beberapa ciphertext yaitu ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "“flag-0x1”",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " sampai ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "“flag-0x15”",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ". Ciphertext ini sudah dienkripsi dengan RSA. Untuk mendapatkan flag nya maka bisa dilakukan dengan cara dekripsi ciphernya.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81af-b45b-d50b3bcd6c22",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Disini saya menggunakan program python untuk melakukan dekripsi nya, seperti berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8133-9829-ceb97709790e",
+        "type": "code",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "import sympy\n_# ambil dari hasil netcat tadi_n = 12702921637381668223e = 65537_# Cipher texts_cipher_texts = [\n8653543177909262164,\n8129368878150413257,\n10350103832841408363,\n7032331030093581600,\n4782305598758838406,\n2785159304879662933,\n2732051847576006533,\n11794173093819803751,\n11873112032135690728,\n9382562734350058402,\n579065509642778528,\n12332679177220217606,\n11536863561057576902,\n7642099693399375786,\n8458953175633811295]\n_# disini difaktorkan nilai n untuk mendapatkan p dan q_p, q = sympy.factorint(n).keys()\n_# menghitung nilai phi(n)_phi_n = (p - 1) \\* (q - 1)\n_# menghitung nilai d (private key exponent)_d = pow(e, -1, phi_n)\n_# membuat fungsi untuk dekripsi RSA_def decrypt_rsa(c, d, n):\nreturn pow(c, d, n)\n_# proses meendekripsi cipher texts_decrypted_flag = [decrypt_rsa(c, d, n) for c in cipher_texts]\n_# mengkonversi hasil dekripsi ke string ASCII_flag = ''.join([decrypted_value.to_bytes((decrypted_value.bit_length() + 7) // 8, 'big').decode() for decrypted_value in decrypted_flag])\nprint(\"Flag:\", flag)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "237db469-a81d-8159-b378-d75aeb64a9ea",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada kode diatas, saya menggunakan library Pythonyaitu sympy untuk memfaktorkan n, kemudian isa mendekripsi setiap bagian dari flag yang diberikan.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8173-9909-ff3565a21776",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah saya jalankan program nya, maka muncul flag dari soal ini",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-817a-95c3-c6878abb9a4f",
+        "type": "image",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-5.png",
+          "expiry_time": "2025-09-18T05:40:05.917Z",
+          "localUrl": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-5.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/a39601a6-9c37-4401-8b34-c7607207603e/image-5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXB4YDTP%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDeVArhaDAfx1rbqem16nGUusaPyKJd8X%2FrjadgGN6JxQIhAN2Ye1x7xbrIIV41Z2K%2BgDpyKYXNWGw9MFluSCeAoj5rKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBMS%2Bs86UGW87QQDUq3APU6I4C3GPqylFAERkvfraJ55BySlRvD0UVYJtGjdELuy623YXJX6jlhNA8s4tkFSBQnGFLo9xjgEHIeT28%2F0cirijf4OQAOGcmPW2pj3WL5hVl91P6NBr%2BrVxAlfPG66VVRqo%2FThxM8YsSHFrvm%2BXWxa0bl8siNtQ7P7d0RuSQDjF3eG7mmJLkDYi%2Bn7%2FpVBcLJe2LCw%2BBDqcjd7yW9FDab7qxBLC1m2QqUVGVtvtxc2fJB3%2BlMhSWkkxGqFoHq71z5kBO3KAdkzs2F1FFQAcuS4MwgN%2BDSRYdGhC9VSOQsUzQ%2FITuOiC2IWwd0xt5mCiBIU%2F4RcYR5MKcIS4dUd2rfrw4c8tNB6r6u7ZAA5edTisZYAKeCxOueLfHRdxVgPaP20tkLfyU7eSmbRoQdu6g7h3Y%2Fb%2BY3Bx5knEWdpqMSU0whpwA%2FoNTHjuna15wOFWX8086VO%2FZ4UF%2BpOPnD%2FIEanKNBHp%2BOLfPGpMC6w0pmfHPPGhOpm8Woixg3GlO42Nt7VGjkGKn%2F5e7ll8vNZEJuQcwRwOB7OtD83gA3NfnTKw7rc28%2B5EomWk5YTNh2U76Q0nj8%2Fyd3gXvd8sZvmJukMlD9eF%2FAiVdBc7nDfA%2F9F%2Bl4KMt%2B4cOhnONUTDvmK3GBjqkAdOvq4%2B%2BKql5J5CRuGab05YCRrzqN5rfJcpqQVgeAFI3KAEmcqpQw3e%2BKft5T3XXK9G%2F6cav90SEVlKhrG1ZrY8XChId5YlJSSzNcSCRBF8L1bHfDKNomaVqEZQzLjw6%2BCasQWMaPzaNUUj0%2B%2BsZFIZhBtd0sMQM2IRewB28FNW0%2F7hXKuOqS%2Bv24hGgNug9tX4ZHCVOpm7eOPJdiK2k1qrUZIbo&X-Amz-Signature=54fb96c67b632f68e682a43e71e3c176032820bdce139ea3849bab70dace14a3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-81cb-a6f7-d443ea1c968e",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-5",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81f9-853f-dab04e277ec4",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "flag: Flag: 0byteCTF{Congratz!___Th3_M0st_B4s1c_RSA_1s_s0_34sy_Right?}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8148-bab9-cf49d8abf5b3",
+        "type": "heading_3",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Conclusion",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-81fd-af68-cb81bac4760e",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Di soal ini melibatkan sebuah dekripsi flag yang telah dienkripsi menggunakan algoritma RSA. Selain itu diberikan nilai n (modulus), e (eksponen publik), dan beberapa cipher text (bagian-bagian dari flag yang terenkripsi) ketika menjalankan netcat nya.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8115-90aa-edce16bdc8db",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk menyelesaikannya, mencari nilai n terlebih dahulu dengan cara faktorisasi untuk mendapatkan bilangan prima ‘p’ dan ‘n’. Selanjutnya menghitung eksponen private (d) menggunakan rumus phi(n) = (p - 1) * (q - 1), lalu gunakan nilai ‘e’ dan ‘phi(n)’ untuk menghitung eksponen privat d dengan rumus d = e^(-1) mod phi(n). Setelah mendapatkan eksponen private ‘d’nya, maka lanjut dengan deskripsi cipher text dengan rumus ‘m = c^d mod n’. Setelah di deskripsi (dari format numerik), agar flag tersebut bisa terbaca maka dikonversi ke format string.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-818f-8e49-f44b118a87dc",
+        "type": "heading_2",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Boot2root",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-816b-abe2-eec286ae5d34",
+        "type": "heading_3",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "[ Sembunyi ]",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-81e5-9e8f-ff2ff0248a85",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Note: Untuk soal ini, setelah saya submit flag tersebut, sialnya saya tidak membaca terlebih dahulu untuk peraturan boot2root ini. Peraturan di boot2root ini tidak boleh dengan cara bypass password root. Jadi cara yg saya lakukan ini salah",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-811c-94e0-e473fa50a488",
+        "type": "image",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-6.png",
+          "expiry_time": "2025-09-18T05:40:06.253Z",
+          "localUrl": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-6.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/28dc7c4a-a7fb-4010-80db-0e580e96bdde/image-6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXB4YDTP%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044006Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDeVArhaDAfx1rbqem16nGUusaPyKJd8X%2FrjadgGN6JxQIhAN2Ye1x7xbrIIV41Z2K%2BgDpyKYXNWGw9MFluSCeAoj5rKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBMS%2Bs86UGW87QQDUq3APU6I4C3GPqylFAERkvfraJ55BySlRvD0UVYJtGjdELuy623YXJX6jlhNA8s4tkFSBQnGFLo9xjgEHIeT28%2F0cirijf4OQAOGcmPW2pj3WL5hVl91P6NBr%2BrVxAlfPG66VVRqo%2FThxM8YsSHFrvm%2BXWxa0bl8siNtQ7P7d0RuSQDjF3eG7mmJLkDYi%2Bn7%2FpVBcLJe2LCw%2BBDqcjd7yW9FDab7qxBLC1m2QqUVGVtvtxc2fJB3%2BlMhSWkkxGqFoHq71z5kBO3KAdkzs2F1FFQAcuS4MwgN%2BDSRYdGhC9VSOQsUzQ%2FITuOiC2IWwd0xt5mCiBIU%2F4RcYR5MKcIS4dUd2rfrw4c8tNB6r6u7ZAA5edTisZYAKeCxOueLfHRdxVgPaP20tkLfyU7eSmbRoQdu6g7h3Y%2Fb%2BY3Bx5knEWdpqMSU0whpwA%2FoNTHjuna15wOFWX8086VO%2FZ4UF%2BpOPnD%2FIEanKNBHp%2BOLfPGpMC6w0pmfHPPGhOpm8Woixg3GlO42Nt7VGjkGKn%2F5e7ll8vNZEJuQcwRwOB7OtD83gA3NfnTKw7rc28%2B5EomWk5YTNh2U76Q0nj8%2Fyd3gXvd8sZvmJukMlD9eF%2FAiVdBc7nDfA%2F9F%2Bl4KMt%2B4cOhnONUTDvmK3GBjqkAdOvq4%2B%2BKql5J5CRuGab05YCRrzqN5rfJcpqQVgeAFI3KAEmcqpQw3e%2BKft5T3XXK9G%2F6cav90SEVlKhrG1ZrY8XChId5YlJSSzNcSCRBF8L1bHfDKNomaVqEZQzLjw6%2BCasQWMaPzaNUUj0%2B%2BsZFIZhBtd0sMQM2IRewB28FNW0%2F7hXKuOqS%2Bv24hGgNug9tX4ZHCVOpm7eOPJdiK2k1qrUZIbo&X-Amz-Signature=8c64c026286132f03bf41dbe8683cfc3936bd6b2ff156d9a0af9db08dc3a50c4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-8132-81b3-fa22f61e417f",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-6",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8143-af2f-fa6b0730ce68",
+        "type": "heading_3",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Executive Summary",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-81cb-9213-c0c8b3bf5d93",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Di soal ini dengan kategori boot2root, tidak ada hint untuk menyelesaikan flag nya. Hanya terdapat sebuah link soal dan juga password zip. Isi dari link tersebut merupakan file dengan format .7z",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-818c-af69-e39c6b3cef3c",
+        "type": "image",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-7.png",
+          "expiry_time": "2025-09-18T05:40:06.260Z",
+          "localUrl": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-7.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/54a72e12-a09e-41a1-b342-a9e9689fc049/image-7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXB4YDTP%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044006Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDeVArhaDAfx1rbqem16nGUusaPyKJd8X%2FrjadgGN6JxQIhAN2Ye1x7xbrIIV41Z2K%2BgDpyKYXNWGw9MFluSCeAoj5rKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBMS%2Bs86UGW87QQDUq3APU6I4C3GPqylFAERkvfraJ55BySlRvD0UVYJtGjdELuy623YXJX6jlhNA8s4tkFSBQnGFLo9xjgEHIeT28%2F0cirijf4OQAOGcmPW2pj3WL5hVl91P6NBr%2BrVxAlfPG66VVRqo%2FThxM8YsSHFrvm%2BXWxa0bl8siNtQ7P7d0RuSQDjF3eG7mmJLkDYi%2Bn7%2FpVBcLJe2LCw%2BBDqcjd7yW9FDab7qxBLC1m2QqUVGVtvtxc2fJB3%2BlMhSWkkxGqFoHq71z5kBO3KAdkzs2F1FFQAcuS4MwgN%2BDSRYdGhC9VSOQsUzQ%2FITuOiC2IWwd0xt5mCiBIU%2F4RcYR5MKcIS4dUd2rfrw4c8tNB6r6u7ZAA5edTisZYAKeCxOueLfHRdxVgPaP20tkLfyU7eSmbRoQdu6g7h3Y%2Fb%2BY3Bx5knEWdpqMSU0whpwA%2FoNTHjuna15wOFWX8086VO%2FZ4UF%2BpOPnD%2FIEanKNBHp%2BOLfPGpMC6w0pmfHPPGhOpm8Woixg3GlO42Nt7VGjkGKn%2F5e7ll8vNZEJuQcwRwOB7OtD83gA3NfnTKw7rc28%2B5EomWk5YTNh2U76Q0nj8%2Fyd3gXvd8sZvmJukMlD9eF%2FAiVdBc7nDfA%2F9F%2Bl4KMt%2B4cOhnONUTDvmK3GBjqkAdOvq4%2B%2BKql5J5CRuGab05YCRrzqN5rfJcpqQVgeAFI3KAEmcqpQw3e%2BKft5T3XXK9G%2F6cav90SEVlKhrG1ZrY8XChId5YlJSSzNcSCRBF8L1bHfDKNomaVqEZQzLjw6%2BCasQWMaPzaNUUj0%2B%2BsZFIZhBtd0sMQM2IRewB28FNW0%2F7hXKuOqS%2Bv24hGgNug9tX4ZHCVOpm7eOPJdiK2k1qrUZIbo&X-Amz-Signature=68e231f8f4b92d2b93532cd76c9e213c4ee81b06a6d4b7ccdefd4b3178be1f67&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-81e6-ada0-d95493c799b1",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-7",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81c2-bc7c-e108694bf09e",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah saya download file arsip tersebut, terdapat sebuah file dengan format .ova",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8138-8d8c-c1e07a8649cb",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Format .ova ini intinya itu sama kayak file ZIP gitu, tapi isinya bukan dokumen atau gambar, melainkan sebuah sistem operasi lengkap dengan aplikasinya, biasanya untuk virtual mesin. Dalam konteks ini, berarti sebuah virtual mesin yang sudah siapkan untuk mencari flag nya. Mesin ini harus dipasang pada laptop/pc masing-masing. Disini saya menggunakan Virtual Box.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81cf-9ad1-fc2a19ca9dc2",
+        "type": "heading_3",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Technical Report",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-8116-96f6-e0d5cf0a359b",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk menyelesaikan flag nya, pertama import file .ova ke software virtual machine, salah satunya virtual box.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81ac-ba50-f48287f186f7",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk Caranya di virtualbox, klik file->Import Appliance->Lalu masukan file .ova tadi->klik next->finish. Maka hasilnya akan seperti berikut",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8103-ae3d-e2f914b9d05c",
+        "type": "image",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-8.png",
+          "expiry_time": "2025-09-18T05:40:06.267Z",
+          "localUrl": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-8.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/5a3ed7ed-1b74-4f17-b9bc-5b7e33ed9fd1/image-8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXB4YDTP%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044007Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDeVArhaDAfx1rbqem16nGUusaPyKJd8X%2FrjadgGN6JxQIhAN2Ye1x7xbrIIV41Z2K%2BgDpyKYXNWGw9MFluSCeAoj5rKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBMS%2Bs86UGW87QQDUq3APU6I4C3GPqylFAERkvfraJ55BySlRvD0UVYJtGjdELuy623YXJX6jlhNA8s4tkFSBQnGFLo9xjgEHIeT28%2F0cirijf4OQAOGcmPW2pj3WL5hVl91P6NBr%2BrVxAlfPG66VVRqo%2FThxM8YsSHFrvm%2BXWxa0bl8siNtQ7P7d0RuSQDjF3eG7mmJLkDYi%2Bn7%2FpVBcLJe2LCw%2BBDqcjd7yW9FDab7qxBLC1m2QqUVGVtvtxc2fJB3%2BlMhSWkkxGqFoHq71z5kBO3KAdkzs2F1FFQAcuS4MwgN%2BDSRYdGhC9VSOQsUzQ%2FITuOiC2IWwd0xt5mCiBIU%2F4RcYR5MKcIS4dUd2rfrw4c8tNB6r6u7ZAA5edTisZYAKeCxOueLfHRdxVgPaP20tkLfyU7eSmbRoQdu6g7h3Y%2Fb%2BY3Bx5knEWdpqMSU0whpwA%2FoNTHjuna15wOFWX8086VO%2FZ4UF%2BpOPnD%2FIEanKNBHp%2BOLfPGpMC6w0pmfHPPGhOpm8Woixg3GlO42Nt7VGjkGKn%2F5e7ll8vNZEJuQcwRwOB7OtD83gA3NfnTKw7rc28%2B5EomWk5YTNh2U76Q0nj8%2Fyd3gXvd8sZvmJukMlD9eF%2FAiVdBc7nDfA%2F9F%2Bl4KMt%2B4cOhnONUTDvmK3GBjqkAdOvq4%2B%2BKql5J5CRuGab05YCRrzqN5rfJcpqQVgeAFI3KAEmcqpQw3e%2BKft5T3XXK9G%2F6cav90SEVlKhrG1ZrY8XChId5YlJSSzNcSCRBF8L1bHfDKNomaVqEZQzLjw6%2BCasQWMaPzaNUUj0%2B%2BsZFIZhBtd0sMQM2IRewB28FNW0%2F7hXKuOqS%2Bv24hGgNug9tX4ZHCVOpm7eOPJdiK2k1qrUZIbo&X-Amz-Signature=bc3046ae685b2b74a5210c0a0824bbe808fe5fdf01d659eab23bbcffc49d3eaa&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-8183-adf5-c635dbd873d5",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-8",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-816e-b469-fdfeb46fdb92",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah itu Lanjut dengan klik Start.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8170-9310-ed8e035ab2df",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah mesin nya dijalankan, maka akan menampilkan login server nya",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-814e-953b-f122168f80a7",
+        "type": "image",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-9.png",
+          "expiry_time": "2025-09-18T05:40:06.271Z",
+          "localUrl": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-9.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/715521ae-305c-47d9-8db2-dca9d195337f/image-9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXB4YDTP%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044007Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDeVArhaDAfx1rbqem16nGUusaPyKJd8X%2FrjadgGN6JxQIhAN2Ye1x7xbrIIV41Z2K%2BgDpyKYXNWGw9MFluSCeAoj5rKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBMS%2Bs86UGW87QQDUq3APU6I4C3GPqylFAERkvfraJ55BySlRvD0UVYJtGjdELuy623YXJX6jlhNA8s4tkFSBQnGFLo9xjgEHIeT28%2F0cirijf4OQAOGcmPW2pj3WL5hVl91P6NBr%2BrVxAlfPG66VVRqo%2FThxM8YsSHFrvm%2BXWxa0bl8siNtQ7P7d0RuSQDjF3eG7mmJLkDYi%2Bn7%2FpVBcLJe2LCw%2BBDqcjd7yW9FDab7qxBLC1m2QqUVGVtvtxc2fJB3%2BlMhSWkkxGqFoHq71z5kBO3KAdkzs2F1FFQAcuS4MwgN%2BDSRYdGhC9VSOQsUzQ%2FITuOiC2IWwd0xt5mCiBIU%2F4RcYR5MKcIS4dUd2rfrw4c8tNB6r6u7ZAA5edTisZYAKeCxOueLfHRdxVgPaP20tkLfyU7eSmbRoQdu6g7h3Y%2Fb%2BY3Bx5knEWdpqMSU0whpwA%2FoNTHjuna15wOFWX8086VO%2FZ4UF%2BpOPnD%2FIEanKNBHp%2BOLfPGpMC6w0pmfHPPGhOpm8Woixg3GlO42Nt7VGjkGKn%2F5e7ll8vNZEJuQcwRwOB7OtD83gA3NfnTKw7rc28%2B5EomWk5YTNh2U76Q0nj8%2Fyd3gXvd8sZvmJukMlD9eF%2FAiVdBc7nDfA%2F9F%2Bl4KMt%2B4cOhnONUTDvmK3GBjqkAdOvq4%2B%2BKql5J5CRuGab05YCRrzqN5rfJcpqQVgeAFI3KAEmcqpQw3e%2BKft5T3XXK9G%2F6cav90SEVlKhrG1ZrY8XChId5YlJSSzNcSCRBF8L1bHfDKNomaVqEZQzLjw6%2BCasQWMaPzaNUUj0%2B%2BsZFIZhBtd0sMQM2IRewB28FNW0%2F7hXKuOqS%2Bv24hGgNug9tX4ZHCVOpm7eOPJdiK2k1qrUZIbo&X-Amz-Signature=2e7df9401f34f01803a2296841047c03586876e31cee70c31abe58fd1237217a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-81d6-a519-c1896aa6a064",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-9",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-818f-ad12-c65621bbdc1a",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Disini saya belum tau username dan password, dan di hint juga tidak ditemukan. Untuk mendapatkan flag ini saya mencoba melakukan masuk ke akun root melalui recovery mode.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8122-bc39-fcfb8fc0aeaf",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk masuk ke recovery mode, caranya mematikan mesin nya terlebih dahulu, setelah itu jalankan kembali mesin nya dan dibarengi dengan tekan shift. Setelah itu masuk ke ‘advance options for ubuntu’, lalu pilih yang recovery mode, dan akan muncul tampilan seperti berikut",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81ea-b983-cdea95ca46a9",
+        "type": "image",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-10.png",
+          "expiry_time": "2025-09-18T05:40:08.299Z",
+          "localUrl": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-10.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/66fb1cb9-3994-45d1-826d-ae7e9a5b7e5f/image-10.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXB4YDTP%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044008Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDeVArhaDAfx1rbqem16nGUusaPyKJd8X%2FrjadgGN6JxQIhAN2Ye1x7xbrIIV41Z2K%2BgDpyKYXNWGw9MFluSCeAoj5rKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBMS%2Bs86UGW87QQDUq3APU6I4C3GPqylFAERkvfraJ55BySlRvD0UVYJtGjdELuy623YXJX6jlhNA8s4tkFSBQnGFLo9xjgEHIeT28%2F0cirijf4OQAOGcmPW2pj3WL5hVl91P6NBr%2BrVxAlfPG66VVRqo%2FThxM8YsSHFrvm%2BXWxa0bl8siNtQ7P7d0RuSQDjF3eG7mmJLkDYi%2Bn7%2FpVBcLJe2LCw%2BBDqcjd7yW9FDab7qxBLC1m2QqUVGVtvtxc2fJB3%2BlMhSWkkxGqFoHq71z5kBO3KAdkzs2F1FFQAcuS4MwgN%2BDSRYdGhC9VSOQsUzQ%2FITuOiC2IWwd0xt5mCiBIU%2F4RcYR5MKcIS4dUd2rfrw4c8tNB6r6u7ZAA5edTisZYAKeCxOueLfHRdxVgPaP20tkLfyU7eSmbRoQdu6g7h3Y%2Fb%2BY3Bx5knEWdpqMSU0whpwA%2FoNTHjuna15wOFWX8086VO%2FZ4UF%2BpOPnD%2FIEanKNBHp%2BOLfPGpMC6w0pmfHPPGhOpm8Woixg3GlO42Nt7VGjkGKn%2F5e7ll8vNZEJuQcwRwOB7OtD83gA3NfnTKw7rc28%2B5EomWk5YTNh2U76Q0nj8%2Fyd3gXvd8sZvmJukMlD9eF%2FAiVdBc7nDfA%2F9F%2Bl4KMt%2B4cOhnONUTDvmK3GBjqkAdOvq4%2B%2BKql5J5CRuGab05YCRrzqN5rfJcpqQVgeAFI3KAEmcqpQw3e%2BKft5T3XXK9G%2F6cav90SEVlKhrG1ZrY8XChId5YlJSSzNcSCRBF8L1bHfDKNomaVqEZQzLjw6%2BCasQWMaPzaNUUj0%2B%2BsZFIZhBtd0sMQM2IRewB28FNW0%2F7hXKuOqS%2Bv24hGgNug9tX4ZHCVOpm7eOPJdiK2k1qrUZIbo&X-Amz-Signature=4dff623a1fc0dcc6d28cebd68cd5f216b1474cf97eddfcf8d416f0fab742ea0c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-8108-8319-cc76efa8337b",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-10",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8153-8458-e719c25b673b",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Di recovery menu ini, pilih bagian menu root. Maka akan langsung masuk sebagai root. Selanjut nya saya cek isi user pada mesin dengan cara ‘ls /home’, dan hasilnya terdapat 3 user yaitu ‘bambang’, ‘musaceous’, dan ‘ubuntu’.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8143-9c33-e7193a5309c4",
+        "type": "image",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-11.png",
+          "expiry_time": "2025-09-18T05:40:08.310Z",
+          "localUrl": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-11.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/a70a564b-2cbf-4ae0-a68d-6437ee321dca/image-11.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXB4YDTP%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044008Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDeVArhaDAfx1rbqem16nGUusaPyKJd8X%2FrjadgGN6JxQIhAN2Ye1x7xbrIIV41Z2K%2BgDpyKYXNWGw9MFluSCeAoj5rKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBMS%2Bs86UGW87QQDUq3APU6I4C3GPqylFAERkvfraJ55BySlRvD0UVYJtGjdELuy623YXJX6jlhNA8s4tkFSBQnGFLo9xjgEHIeT28%2F0cirijf4OQAOGcmPW2pj3WL5hVl91P6NBr%2BrVxAlfPG66VVRqo%2FThxM8YsSHFrvm%2BXWxa0bl8siNtQ7P7d0RuSQDjF3eG7mmJLkDYi%2Bn7%2FpVBcLJe2LCw%2BBDqcjd7yW9FDab7qxBLC1m2QqUVGVtvtxc2fJB3%2BlMhSWkkxGqFoHq71z5kBO3KAdkzs2F1FFQAcuS4MwgN%2BDSRYdGhC9VSOQsUzQ%2FITuOiC2IWwd0xt5mCiBIU%2F4RcYR5MKcIS4dUd2rfrw4c8tNB6r6u7ZAA5edTisZYAKeCxOueLfHRdxVgPaP20tkLfyU7eSmbRoQdu6g7h3Y%2Fb%2BY3Bx5knEWdpqMSU0whpwA%2FoNTHjuna15wOFWX8086VO%2FZ4UF%2BpOPnD%2FIEanKNBHp%2BOLfPGpMC6w0pmfHPPGhOpm8Woixg3GlO42Nt7VGjkGKn%2F5e7ll8vNZEJuQcwRwOB7OtD83gA3NfnTKw7rc28%2B5EomWk5YTNh2U76Q0nj8%2Fyd3gXvd8sZvmJukMlD9eF%2FAiVdBc7nDfA%2F9F%2Bl4KMt%2B4cOhnONUTDvmK3GBjqkAdOvq4%2B%2BKql5J5CRuGab05YCRrzqN5rfJcpqQVgeAFI3KAEmcqpQw3e%2BKft5T3XXK9G%2F6cav90SEVlKhrG1ZrY8XChId5YlJSSzNcSCRBF8L1bHfDKNomaVqEZQzLjw6%2BCasQWMaPzaNUUj0%2B%2BsZFIZhBtd0sMQM2IRewB28FNW0%2F7hXKuOqS%2Bv24hGgNug9tX4ZHCVOpm7eOPJdiK2k1qrUZIbo&X-Amz-Signature=8e145695465b043d6c134058e480832399b03e80d3ba77fa48905406db75e1aa&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-81a4-9dc0-e5924ef1839b",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-11",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81e2-902e-c254e4cbeec7",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Selanjutnya saya mencoba ganti password dari salah satu user tersebut,awalnya mencoba mengannti user bambang, tetapi ketika login, user bambang ini tiba2 keluar lagi. Lalu saya mencoba user musaceous, tetapi tidak melakukan sudo. Akhirnya saya mencoba mengganti user ubuntu dengan cara ‘passwd ubuntu’.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81e6-9cc6-f9cada4633ef",
+        "type": "image",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-12.png",
+          "expiry_time": "2025-09-18T05:40:08.304Z",
+          "localUrl": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-12.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/531eac15-bee4-4ed2-b33e-833a9c59547a/image-12.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXB4YDTP%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044008Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDeVArhaDAfx1rbqem16nGUusaPyKJd8X%2FrjadgGN6JxQIhAN2Ye1x7xbrIIV41Z2K%2BgDpyKYXNWGw9MFluSCeAoj5rKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBMS%2Bs86UGW87QQDUq3APU6I4C3GPqylFAERkvfraJ55BySlRvD0UVYJtGjdELuy623YXJX6jlhNA8s4tkFSBQnGFLo9xjgEHIeT28%2F0cirijf4OQAOGcmPW2pj3WL5hVl91P6NBr%2BrVxAlfPG66VVRqo%2FThxM8YsSHFrvm%2BXWxa0bl8siNtQ7P7d0RuSQDjF3eG7mmJLkDYi%2Bn7%2FpVBcLJe2LCw%2BBDqcjd7yW9FDab7qxBLC1m2QqUVGVtvtxc2fJB3%2BlMhSWkkxGqFoHq71z5kBO3KAdkzs2F1FFQAcuS4MwgN%2BDSRYdGhC9VSOQsUzQ%2FITuOiC2IWwd0xt5mCiBIU%2F4RcYR5MKcIS4dUd2rfrw4c8tNB6r6u7ZAA5edTisZYAKeCxOueLfHRdxVgPaP20tkLfyU7eSmbRoQdu6g7h3Y%2Fb%2BY3Bx5knEWdpqMSU0whpwA%2FoNTHjuna15wOFWX8086VO%2FZ4UF%2BpOPnD%2FIEanKNBHp%2BOLfPGpMC6w0pmfHPPGhOpm8Woixg3GlO42Nt7VGjkGKn%2F5e7ll8vNZEJuQcwRwOB7OtD83gA3NfnTKw7rc28%2B5EomWk5YTNh2U76Q0nj8%2Fyd3gXvd8sZvmJukMlD9eF%2FAiVdBc7nDfA%2F9F%2Bl4KMt%2B4cOhnONUTDvmK3GBjqkAdOvq4%2B%2BKql5J5CRuGab05YCRrzqN5rfJcpqQVgeAFI3KAEmcqpQw3e%2BKft5T3XXK9G%2F6cav90SEVlKhrG1ZrY8XChId5YlJSSzNcSCRBF8L1bHfDKNomaVqEZQzLjw6%2BCasQWMaPzaNUUj0%2B%2BsZFIZhBtd0sMQM2IRewB28FNW0%2F7hXKuOqS%2Bv24hGgNug9tX4ZHCVOpm7eOPJdiK2k1qrUZIbo&X-Amz-Signature=bbb189a056ab58e11aea1bc4b45044d8be6bece501405c541a03ec750dfbd7f1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-8124-a24a-e3a15f1c78a4",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-12",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-815e-b214-c226b4c87c10",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah mengganti password, maka keluar dari user root dengan ketik ‘exit’ dan akan ditampilakn kembali recovery menu. Di recover menu pilih ‘resume’ dan klik ‘ok’.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81f1-beb2-df5e66e1d470",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah itu masuk sebagai ubuntu, dan masukan password nya baru tadi",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8106-9162-e001a3b9f3f9",
+        "type": "image",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-13.png",
+          "expiry_time": "2025-09-18T05:40:08.306Z",
+          "localUrl": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-13.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/e7e58a4d-fe95-41b5-aa0b-af41ffe3b2fa/image-13.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXB4YDTP%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044008Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDeVArhaDAfx1rbqem16nGUusaPyKJd8X%2FrjadgGN6JxQIhAN2Ye1x7xbrIIV41Z2K%2BgDpyKYXNWGw9MFluSCeAoj5rKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBMS%2Bs86UGW87QQDUq3APU6I4C3GPqylFAERkvfraJ55BySlRvD0UVYJtGjdELuy623YXJX6jlhNA8s4tkFSBQnGFLo9xjgEHIeT28%2F0cirijf4OQAOGcmPW2pj3WL5hVl91P6NBr%2BrVxAlfPG66VVRqo%2FThxM8YsSHFrvm%2BXWxa0bl8siNtQ7P7d0RuSQDjF3eG7mmJLkDYi%2Bn7%2FpVBcLJe2LCw%2BBDqcjd7yW9FDab7qxBLC1m2QqUVGVtvtxc2fJB3%2BlMhSWkkxGqFoHq71z5kBO3KAdkzs2F1FFQAcuS4MwgN%2BDSRYdGhC9VSOQsUzQ%2FITuOiC2IWwd0xt5mCiBIU%2F4RcYR5MKcIS4dUd2rfrw4c8tNB6r6u7ZAA5edTisZYAKeCxOueLfHRdxVgPaP20tkLfyU7eSmbRoQdu6g7h3Y%2Fb%2BY3Bx5knEWdpqMSU0whpwA%2FoNTHjuna15wOFWX8086VO%2FZ4UF%2BpOPnD%2FIEanKNBHp%2BOLfPGpMC6w0pmfHPPGhOpm8Woixg3GlO42Nt7VGjkGKn%2F5e7ll8vNZEJuQcwRwOB7OtD83gA3NfnTKw7rc28%2B5EomWk5YTNh2U76Q0nj8%2Fyd3gXvd8sZvmJukMlD9eF%2FAiVdBc7nDfA%2F9F%2Bl4KMt%2B4cOhnONUTDvmK3GBjqkAdOvq4%2B%2BKql5J5CRuGab05YCRrzqN5rfJcpqQVgeAFI3KAEmcqpQw3e%2BKft5T3XXK9G%2F6cav90SEVlKhrG1ZrY8XChId5YlJSSzNcSCRBF8L1bHfDKNomaVqEZQzLjw6%2BCasQWMaPzaNUUj0%2B%2BsZFIZhBtd0sMQM2IRewB28FNW0%2F7hXKuOqS%2Bv24hGgNug9tX4ZHCVOpm7eOPJdiK2k1qrUZIbo&X-Amz-Signature=788fb2cc0bfd620d7d44f9d6894c63c39dba859338e6f5c8f079bdd78ea8172e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-81a5-adce-c34b89fb5050",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-13",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-811e-bdbf-d8a1fda116a8",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah berhasil login, selanjutnya mencari flag pada server dengan menggunakan perintah find dan grep, seperti ’find /* | grep “flag.txt”",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81e5-8bf2-c8f9f7bf5d16",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Perintah tersebut gunanya nyari file yang namanya “flag.txt” (dari perintah grep “flag.txt”) di SEMUA folder (karna pake /*) di mesin ini. Karna mencari nya di semua folder, maka menggunakan sudo agar tetep bisa akses meskpun folder tersebut hanya bisa diakses oleh root / superuser.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81e2-9b36-c6da692a07c1",
+        "type": "image",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-14.png",
+          "expiry_time": "2025-09-18T05:40:08.308Z",
+          "localUrl": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-14.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/44c8e769-e0d4-47ea-b8a0-d745cd10ce5b/image-14.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXB4YDTP%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044008Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDeVArhaDAfx1rbqem16nGUusaPyKJd8X%2FrjadgGN6JxQIhAN2Ye1x7xbrIIV41Z2K%2BgDpyKYXNWGw9MFluSCeAoj5rKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBMS%2Bs86UGW87QQDUq3APU6I4C3GPqylFAERkvfraJ55BySlRvD0UVYJtGjdELuy623YXJX6jlhNA8s4tkFSBQnGFLo9xjgEHIeT28%2F0cirijf4OQAOGcmPW2pj3WL5hVl91P6NBr%2BrVxAlfPG66VVRqo%2FThxM8YsSHFrvm%2BXWxa0bl8siNtQ7P7d0RuSQDjF3eG7mmJLkDYi%2Bn7%2FpVBcLJe2LCw%2BBDqcjd7yW9FDab7qxBLC1m2QqUVGVtvtxc2fJB3%2BlMhSWkkxGqFoHq71z5kBO3KAdkzs2F1FFQAcuS4MwgN%2BDSRYdGhC9VSOQsUzQ%2FITuOiC2IWwd0xt5mCiBIU%2F4RcYR5MKcIS4dUd2rfrw4c8tNB6r6u7ZAA5edTisZYAKeCxOueLfHRdxVgPaP20tkLfyU7eSmbRoQdu6g7h3Y%2Fb%2BY3Bx5knEWdpqMSU0whpwA%2FoNTHjuna15wOFWX8086VO%2FZ4UF%2BpOPnD%2FIEanKNBHp%2BOLfPGpMC6w0pmfHPPGhOpm8Woixg3GlO42Nt7VGjkGKn%2F5e7ll8vNZEJuQcwRwOB7OtD83gA3NfnTKw7rc28%2B5EomWk5YTNh2U76Q0nj8%2Fyd3gXvd8sZvmJukMlD9eF%2FAiVdBc7nDfA%2F9F%2Bl4KMt%2B4cOhnONUTDvmK3GBjqkAdOvq4%2B%2BKql5J5CRuGab05YCRrzqN5rfJcpqQVgeAFI3KAEmcqpQw3e%2BKft5T3XXK9G%2F6cav90SEVlKhrG1ZrY8XChId5YlJSSzNcSCRBF8L1bHfDKNomaVqEZQzLjw6%2BCasQWMaPzaNUUj0%2B%2BsZFIZhBtd0sMQM2IRewB28FNW0%2F7hXKuOqS%2Bv24hGgNug9tX4ZHCVOpm7eOPJdiK2k1qrUZIbo&X-Amz-Signature=0cdffbfb3ba51cabef2c542c008c56b4e271562e0822263605fbee9036dd431a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-8108-874d-e1435e4c3b22",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-14",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8102-9ead-e3acaff5eafe",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari hasil pencarian, terdapat sebuah flag di folder root ‘/root/flag.txt’. Jadi sebenarnya tadi bisa saja langsung akses melalui recover mode, cuman ntah kenapa yang saya lakukan ketika mencoba mengerjakan soal ini saya mencoba mencari nya dengan user terlebih dahulu.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81f0-a370-d00d0922a8a4",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Sekarang tinggal lihat isi flag nya dengan perintah ‘sudo /root/flag.txt’",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-816a-b22f-c0acaf699455",
+        "type": "image",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-15.png",
+          "expiry_time": "2025-09-18T05:40:08.314Z",
+          "localUrl": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/image-15.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/dea47341-49e9-432f-89b0-fd92e976b9ce/image-15.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXB4YDTP%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044008Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQDeVArhaDAfx1rbqem16nGUusaPyKJd8X%2FrjadgGN6JxQIhAN2Ye1x7xbrIIV41Z2K%2BgDpyKYXNWGw9MFluSCeAoj5rKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBMS%2Bs86UGW87QQDUq3APU6I4C3GPqylFAERkvfraJ55BySlRvD0UVYJtGjdELuy623YXJX6jlhNA8s4tkFSBQnGFLo9xjgEHIeT28%2F0cirijf4OQAOGcmPW2pj3WL5hVl91P6NBr%2BrVxAlfPG66VVRqo%2FThxM8YsSHFrvm%2BXWxa0bl8siNtQ7P7d0RuSQDjF3eG7mmJLkDYi%2Bn7%2FpVBcLJe2LCw%2BBDqcjd7yW9FDab7qxBLC1m2QqUVGVtvtxc2fJB3%2BlMhSWkkxGqFoHq71z5kBO3KAdkzs2F1FFQAcuS4MwgN%2BDSRYdGhC9VSOQsUzQ%2FITuOiC2IWwd0xt5mCiBIU%2F4RcYR5MKcIS4dUd2rfrw4c8tNB6r6u7ZAA5edTisZYAKeCxOueLfHRdxVgPaP20tkLfyU7eSmbRoQdu6g7h3Y%2Fb%2BY3Bx5knEWdpqMSU0whpwA%2FoNTHjuna15wOFWX8086VO%2FZ4UF%2BpOPnD%2FIEanKNBHp%2BOLfPGpMC6w0pmfHPPGhOpm8Woixg3GlO42Nt7VGjkGKn%2F5e7ll8vNZEJuQcwRwOB7OtD83gA3NfnTKw7rc28%2B5EomWk5YTNh2U76Q0nj8%2Fyd3gXvd8sZvmJukMlD9eF%2FAiVdBc7nDfA%2F9F%2Bl4KMt%2B4cOhnONUTDvmK3GBjqkAdOvq4%2B%2BKql5J5CRuGab05YCRrzqN5rfJcpqQVgeAFI3KAEmcqpQw3e%2BKft5T3XXK9G%2F6cav90SEVlKhrG1ZrY8XChId5YlJSSzNcSCRBF8L1bHfDKNomaVqEZQzLjw6%2BCasQWMaPzaNUUj0%2B%2BsZFIZhBtd0sMQM2IRewB28FNW0%2F7hXKuOqS%2Bv24hGgNug9tX4ZHCVOpm7eOPJdiK2k1qrUZIbo&X-Amz-Signature=9b35cd6d7c6c9baa8c2b070a79bfc5854cafac695b8261f9b3854246d04f77fb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-812c-b0c8-c692fb0b46b4",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-15",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-818c-8086-d7f2e71c8b4c",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "terdapat isi flag nya",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8175-948c-cea63948f668",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "flag:0byteCTF{nUS4NT4RA_y4n9_d!SeMBuNY!k4N_de2cd143b4}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-814f-ab1a-e2dee331cd15",
+        "type": "heading_3",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Conclusion",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-818b-8cc6-c4991ca02f30",
+        "type": "paragraph",
+        "created_time": "2025-07-21T03:29:00.000Z",
+        "last_edited_time": "2025-07-21T03:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Kesimpulan dari soal ini sebenarnya kita harus mencari terlebih dahulu network yg digunakan, celah apa yang ada di mesin ini, dan lainnya. Tetapi disini saya salah dengan cara menjawab soal ini, yang saya gunakan untuk menyelesaikan ini lebih tepatnya ketika mau mengganti password/lupa password os linux pada pc/laptop, sehingga mengganti dengan cara recover mode :(",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      }
+    ],
+    "featured_image": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/featured-image.png",
+    "og_image": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/featured-image.png"
+  }
+}

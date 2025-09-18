@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "generated_at": "2025-09-18T01:37:12.970Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "ctf-cyberacademy-kandik-271db469a81d80589aa2c53f34fd02b7",
+    "slug": "ctf-cyberacademy-kandik",
+    "og_image": "/posts/ctf-cyberacademy-kandik-271db469a81d80589aa2c53f34fd02b7/image-1.png",
+    "featured_image": "/posts/ctf-cyberacademy-kandik-271db469a81d80589aa2c53f34fd02b7/image-1.png"
+  },
+  "post": {
+    "id": "271db469-a81d-8058-9aa2-c53f34fd02b7",
+    "created_time": "2025-09-17T09:24:00.000Z",
+    "last_edited_time": "2025-09-17T09:55:00.000Z",
+    "url": "https://www.notion.so/CTF-CyberAcademy-Kandik-271db469a81d80589aa2c53f34fd02b7",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-09-17T09:24:00.000Z"
+      },
+      "slug": "ctf-cyberacademy---kandik",
+      "publisheddate": null,
+      "owner": [],
+      "featured_image": [],
+      "tags": [],
+      "published": false,
+      "title": "CTF CyberAcademy - Kandik"
+    },
+    "title": "CTF CyberAcademy - Kandik",
+    "content": [
+      {
+        "id": "271db469-a81d-80aa-af73-f23db3c6c15e",
+        "type": "image",
+        "created_time": "2025-09-17T09:25:00.000Z",
+        "last_edited_time": "2025-09-17T09:25:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-kandik-271db469a81d80589aa2c53f34fd02b7/image-1.png",
+          "expiry_time": "2025-09-18T02:37:03.687Z",
+          "localUrl": "/posts/ctf-cyberacademy-kandik-271db469a81d80589aa2c53f34fd02b7/image-1.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/41f854f2-5b00-4a3d-873f-ea62989c5827/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665J5OVH3B%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIAnUCCSX6LloA1nnyKRstfQgVScawSJQADStg7hTg7eGAiEArDEJB1xa9Qc5T3iekgkLOwSw2ype5mmIYCvwD1gJ7HoqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDEl8h3i0IEpeqfyskCrcAyApthqmm4lFuZ6mAOr5GCmfv%2BBVnwDqwClJm4RtEX5Hksm8i6rqQTtqNwQANQRlPLcNqonYWFcsG8X9IaoRffSM6XQlfFjs29l6aaxOgx9UIaUKkxEy4ky5Lprk8NxjG6Y5fK0D0JNisJ3z9ymFKPFv6bkVU6CD2oPmC%2FLT6p85srQmK5DkOTimqbXVpbql%2Bxpm3Fbav4t9GNkiQNJMy6VIQ1hBBHmtiJhNWTHnZb7Cwx17PugVvQSFnqQ0bkYTuqadQcoUxEbpk22tOUov2JUe7Z%2B9Oh331TM7KKkBm29X%2Bkek%2BPmSxgAG9snZuceDDtQSuO8BYvrM64tU7Zdhz0HPcLjKexhY0ALqbxdXJ1nGs%2F%2BMrkR3oMHNWx73NOvKiDzFO9r6AEeeNkdxgZc9rqi9STv9hT2w9oX%2Fgj9Vd6rfG7IX%2BHgip1oonZ5MGIZmc5OuaBE%2BIwTbY80Doh8Jv0%2Fz3In2iix0LbeSQvzvbFFldyhbVpA5f%2FrV7fny0330plqj1dzudrlm8ndMQWmJAAqvsoTaJlQ%2BndJpV9aKVicThhNoREc8qDm0nTdvZzY8ucmKt62c%2Fofhhfgbi0pvyYg%2FfhKbn%2Bszwug2HEjv%2FHMO7BxmMjvp1hbeJCwHMKqYrcYGOqUBErpA%2FzoG18%2FGqejRHUR9X8kAGRoTa%2F7LKg%2B%2FZeuMyWHOyuPkoLFhu%2BVPJhp3MysJu2%2FuK87cfuoQjywVcdjFKj5k3WpEyX%2FcNp%2FYqWZNLL7CKe%2BYobYd9xRzkRy768SQKi38fCi0lkxY3gH4zP7CFLPrpXgvjJikiy3w8ecOe4Tz9bLfumar4lRF2HioLo53nL%2BrPytjzJqd%2F79H5nK%2BR9j7xnXB&X-Amz-Signature=2ccc8a9e0795932dac6ecd012c92558fb108d33d7a230cc90d2e8483505833db&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "271db469-a81d-807e-b29f-e298da15e07a",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:25:00.000Z",
+        "last_edited_time": "2025-09-17T09:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-80b3-bd22-e0f72abde211",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:24:00.000Z",
+        "last_edited_time": "2025-09-17T09:24:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Recon:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-80c0-af37-f0695ca4a611",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:24:00.000Z",
+        "last_edited_time": "2025-09-17T09:24:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dirsearch",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-80eb-ae00-e1c0894862bd",
+        "type": "image",
+        "created_time": "2025-09-17T09:25:00.000Z",
+        "last_edited_time": "2025-09-17T09:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-kandik-271db469a81d80589aa2c53f34fd02b7/image-2.png",
+          "expiry_time": "2025-09-18T02:37:03.687Z",
+          "localUrl": "/posts/ctf-cyberacademy-kandik-271db469a81d80589aa2c53f34fd02b7/image-2.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/962bdd9e-13ca-4ed8-9698-8df6bc3f09a1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665J5OVH3B%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIAnUCCSX6LloA1nnyKRstfQgVScawSJQADStg7hTg7eGAiEArDEJB1xa9Qc5T3iekgkLOwSw2ype5mmIYCvwD1gJ7HoqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDEl8h3i0IEpeqfyskCrcAyApthqmm4lFuZ6mAOr5GCmfv%2BBVnwDqwClJm4RtEX5Hksm8i6rqQTtqNwQANQRlPLcNqonYWFcsG8X9IaoRffSM6XQlfFjs29l6aaxOgx9UIaUKkxEy4ky5Lprk8NxjG6Y5fK0D0JNisJ3z9ymFKPFv6bkVU6CD2oPmC%2FLT6p85srQmK5DkOTimqbXVpbql%2Bxpm3Fbav4t9GNkiQNJMy6VIQ1hBBHmtiJhNWTHnZb7Cwx17PugVvQSFnqQ0bkYTuqadQcoUxEbpk22tOUov2JUe7Z%2B9Oh331TM7KKkBm29X%2Bkek%2BPmSxgAG9snZuceDDtQSuO8BYvrM64tU7Zdhz0HPcLjKexhY0ALqbxdXJ1nGs%2F%2BMrkR3oMHNWx73NOvKiDzFO9r6AEeeNkdxgZc9rqi9STv9hT2w9oX%2Fgj9Vd6rfG7IX%2BHgip1oonZ5MGIZmc5OuaBE%2BIwTbY80Doh8Jv0%2Fz3In2iix0LbeSQvzvbFFldyhbVpA5f%2FrV7fny0330plqj1dzudrlm8ndMQWmJAAqvsoTaJlQ%2BndJpV9aKVicThhNoREc8qDm0nTdvZzY8ucmKt62c%2Fofhhfgbi0pvyYg%2FfhKbn%2Bszwug2HEjv%2FHMO7BxmMjvp1hbeJCwHMKqYrcYGOqUBErpA%2FzoG18%2FGqejRHUR9X8kAGRoTa%2F7LKg%2B%2FZeuMyWHOyuPkoLFhu%2BVPJhp3MysJu2%2FuK87cfuoQjywVcdjFKj5k3WpEyX%2FcNp%2FYqWZNLL7CKe%2BYobYd9xRzkRy768SQKi38fCi0lkxY3gH4zP7CFLPrpXgvjJikiy3w8ecOe4Tz9bLfumar4lRF2HioLo53nL%2BrPytjzJqd%2F79H5nK%2BR9j7xnXB&X-Amz-Signature=dcee4dc127faeb468a018831fcc0659804dae3dee7a8530d2a9b98ce558a520a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "271db469-a81d-8099-9e21-ee138f52ac01",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:25:00.000Z",
+        "last_edited_time": "2025-09-17T09:25:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-808e-a917-c8ead4aa985b",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:25:00.000Z",
+        "last_edited_time": "2025-09-17T09:25:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasil readme.txt:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-80ed-af6c-f746fd4e5ebc",
+        "type": "image",
+        "created_time": "2025-09-17T09:25:00.000Z",
+        "last_edited_time": "2025-09-17T09:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-kandik-271db469a81d80589aa2c53f34fd02b7/image-3.png",
+          "expiry_time": "2025-09-18T02:37:03.689Z",
+          "localUrl": "/posts/ctf-cyberacademy-kandik-271db469a81d80589aa2c53f34fd02b7/image-3.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/8ea617e7-ad35-4f9e-a3f1-4a689d56a6fd/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665J5OVH3B%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIAnUCCSX6LloA1nnyKRstfQgVScawSJQADStg7hTg7eGAiEArDEJB1xa9Qc5T3iekgkLOwSw2ype5mmIYCvwD1gJ7HoqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDEl8h3i0IEpeqfyskCrcAyApthqmm4lFuZ6mAOr5GCmfv%2BBVnwDqwClJm4RtEX5Hksm8i6rqQTtqNwQANQRlPLcNqonYWFcsG8X9IaoRffSM6XQlfFjs29l6aaxOgx9UIaUKkxEy4ky5Lprk8NxjG6Y5fK0D0JNisJ3z9ymFKPFv6bkVU6CD2oPmC%2FLT6p85srQmK5DkOTimqbXVpbql%2Bxpm3Fbav4t9GNkiQNJMy6VIQ1hBBHmtiJhNWTHnZb7Cwx17PugVvQSFnqQ0bkYTuqadQcoUxEbpk22tOUov2JUe7Z%2B9Oh331TM7KKkBm29X%2Bkek%2BPmSxgAG9snZuceDDtQSuO8BYvrM64tU7Zdhz0HPcLjKexhY0ALqbxdXJ1nGs%2F%2BMrkR3oMHNWx73NOvKiDzFO9r6AEeeNkdxgZc9rqi9STv9hT2w9oX%2Fgj9Vd6rfG7IX%2BHgip1oonZ5MGIZmc5OuaBE%2BIwTbY80Doh8Jv0%2Fz3In2iix0LbeSQvzvbFFldyhbVpA5f%2FrV7fny0330plqj1dzudrlm8ndMQWmJAAqvsoTaJlQ%2BndJpV9aKVicThhNoREc8qDm0nTdvZzY8ucmKt62c%2Fofhhfgbi0pvyYg%2FfhKbn%2Bszwug2HEjv%2FHMO7BxmMjvp1hbeJCwHMKqYrcYGOqUBErpA%2FzoG18%2FGqejRHUR9X8kAGRoTa%2F7LKg%2B%2FZeuMyWHOyuPkoLFhu%2BVPJhp3MysJu2%2FuK87cfuoQjywVcdjFKj5k3WpEyX%2FcNp%2FYqWZNLL7CKe%2BYobYd9xRzkRy768SQKi38fCi0lkxY3gH4zP7CFLPrpXgvjJikiy3w8ecOe4Tz9bLfumar4lRF2HioLo53nL%2BrPytjzJqd%2F79H5nK%2BR9j7xnXB&X-Amz-Signature=ae0b12d4b61f16debbc3e672973d33447b68aff5ca95220e615717775982ab85&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "271db469-a81d-80f8-98e6-c05d2aedd36a",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:55:00.000Z",
+        "last_edited_time": "2025-09-17T09:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-80a9-a387-c6617261df28",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:25:00.000Z",
+        "last_edited_time": "2025-09-17T09:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Udah coba dari ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "https://chatgpt.com/c/68ca7fca-4be4-8331-bd9b-5d3c329c58f2",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": "https://chatgpt.com/c/68ca7fca-4be4-8331-bd9b-5d3c329c58f2"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-80aa-b26d-ec663e8f2234",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:55:00.000Z",
+        "last_edited_time": "2025-09-17T09:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "hasilnya masih tidak bisa",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-80d0-9b77-cd2753325357",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:55:00.000Z",
+        "last_edited_time": "2025-09-17T09:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-8056-a269-d4371d457567",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:55:00.000Z",
+        "last_edited_time": "2025-09-17T09:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "udah coba brute force password pakai username admin@cyberacademy.id, dan password nya pakai rockyou dari 1-100 hasilny amasih tidak bisa",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      }
+    ],
+    "og_image": "/posts/ctf-cyberacademy-kandik-271db469a81d80589aa2c53f34fd02b7/image-1.png",
+    "featured_image": "/posts/ctf-cyberacademy-kandik-271db469a81d80589aa2c53f34fd02b7/image-1.png"
+  }
+}

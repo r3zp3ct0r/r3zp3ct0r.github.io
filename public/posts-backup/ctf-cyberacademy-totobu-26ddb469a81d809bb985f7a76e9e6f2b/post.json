@@ -1,0 +1,1780 @@
+{
+  "meta": {
+    "generated_at": "2025-09-18T01:37:20.484Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b",
+    "slug": "ctf-cyberacademy-totobu",
+    "og_image": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-1.png",
+    "featured_image": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-1.png"
+  },
+  "post": {
+    "id": "26ddb469-a81d-809b-b985-f7a76e9e6f2b",
+    "created_time": "2025-09-13T15:43:00.000Z",
+    "last_edited_time": "2025-09-17T09:18:00.000Z",
+    "url": "https://www.notion.so/CTF-CyberAcademy-Totobu-26ddb469a81d809bb985f7a76e9e6f2b",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-09-13T15:43:00.000Z"
+      },
+      "slug": "ctf-cyberacademy---totobu",
+      "publisheddate": null,
+      "owner": [],
+      "featured_image": [],
+      "tags": [],
+      "published": true,
+      "title": "CTF CyberAcademy - Totobu"
+    },
+    "title": "CTF CyberAcademy - Totobu",
+    "content": [
+      {
+        "id": "26ddb469-a81d-8056-8759-e7f4cad38e30",
+        "type": "paragraph",
+        "created_time": "2025-09-13T15:44:00.000Z",
+        "last_edited_time": "2025-09-13T15:44:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8034-8950-cd064cdcc715",
+        "type": "image",
+        "created_time": "2025-09-13T15:44:00.000Z",
+        "last_edited_time": "2025-09-13T15:44:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-1.png",
+          "expiry_time": "2025-09-18T02:37:03.224Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-1.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/d903a1d7-8685-441c-a928-4340af21b522/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=13746b7fc49c2698ad94fba6bd04f726055f132bd703ca072cd77436fa2302e2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80e9-9aaf-e978cec93a0d",
+        "type": "paragraph",
+        "created_time": "2025-09-13T15:44:00.000Z",
+        "last_edited_time": "2025-09-13T15:44:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8063-81bd-f43742495d9d",
+        "type": "paragraph",
+        "created_time": "2025-09-13T15:44:00.000Z",
+        "last_edited_time": "2025-09-13T15:44:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Target: ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "http://10.10.0.102/",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": "http://10.10.0.102/"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8051-90e8-da37afaefe7c",
+        "type": "paragraph",
+        "created_time": "2025-09-13T15:44:00.000Z",
+        "last_edited_time": "2025-09-13T15:44:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80b9-925d-d8029f4ae403",
+        "type": "paragraph",
+        "created_time": "2025-09-13T15:44:00.000Z",
+        "last_edited_time": "2025-09-13T15:44:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Ketika saya akses, berikut tampilannya:\n",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80ca-89fd-d411ca28e15a",
+        "type": "image",
+        "created_time": "2025-09-13T15:44:00.000Z",
+        "last_edited_time": "2025-09-17T08:53:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-2.png",
+          "expiry_time": "2025-09-18T02:37:03.225Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-2.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/e7b8eb52-558a-4bb1-b290-4ece92780122/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=ab05a9f2ca3e3343b5fcb5ad85508cf7f7188b94dead8b4145b7373f4318013d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80cd-b1cf-d538d4380b3a",
+        "type": "paragraph",
+        "created_time": "2025-09-13T15:44:00.000Z",
+        "last_edited_time": "2025-09-13T15:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada gambar diatas, situs tersebut menyediakan fitur untuk melakukan WHOIS DOMAIN. Pada form nya, saya coba isi dengan “google.com” untuk mengecek apakah fitur tersebut berfungsi atau tidak. Berikut hasilnya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-807b-90da-d2c1a6632f29",
+        "type": "image",
+        "created_time": "2025-09-13T15:46:00.000Z",
+        "last_edited_time": "2025-09-17T08:53:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-3.png",
+          "expiry_time": "2025-09-18T02:37:03.232Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-3.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/1024fd8b-c3e9-4947-b410-8f78fbb34d30/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=f0b97a7c98c5e766463b635739af4333127d53d5976b304340565e2be3075722&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8070-961c-cafafbe39848",
+        "type": "paragraph",
+        "created_time": "2025-09-13T15:46:00.000Z",
+        "last_edited_time": "2025-09-13T15:47:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari hasil tersebut, bahwa fungsi whois domain bisa digunakan dan sudah sesuai fungsinya.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8051-934e-d4417f6f153f",
+        "type": "paragraph",
+        "created_time": "2025-09-13T15:47:00.000Z",
+        "last_edited_time": "2025-09-13T15:48:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Namun disini saya melihat sebuah kerentanan. Karna situs tersebut menggunakan fungsi command “whois”, dimana itu di linux juga bisa kita jalankan seperti berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8053-9cba-ce1c28a9e77b",
+        "type": "code",
+        "created_time": "2025-09-13T15:48:00.000Z",
+        "last_edited_time": "2025-09-13T15:48:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "whois google.com",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8040-a9dd-f0bd0927b128",
+        "type": "image",
+        "created_time": "2025-09-13T15:48:00.000Z",
+        "last_edited_time": "2025-09-13T15:48:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-4.png",
+          "expiry_time": "2025-09-18T02:37:03.225Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-4.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/f9561c07-0c63-475d-82cd-ece43f73513c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=450902c843907081dd2d62427b4b36ce4e37f7a85b50e524030d8f77f3895d1d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-802c-9b93-e76aa7696e52",
+        "type": "paragraph",
+        "created_time": "2025-09-13T15:48:00.000Z",
+        "last_edited_time": "2025-09-13T15:49:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Terlihat, hasilnya sama dengan menggunakan terminal dan juga situs target. Nah command ini bisa menjalankan 2 perintah sekaligus, contohnya seperti ini:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80c7-9e96-f49dc6be0944",
+        "type": "code",
+        "created_time": "2025-09-13T15:49:00.000Z",
+        "last_edited_time": "2025-09-13T15:49:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "whois google.com; uname -a",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "26ddb469-a81d-806a-9327-f045595b63b2",
+        "type": "image",
+        "created_time": "2025-09-13T15:48:00.000Z",
+        "last_edited_time": "2025-09-13T15:50:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-5.png",
+          "expiry_time": "2025-09-18T02:37:03.236Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-5.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/3ac64e0f-a514-4fe5-89ea-7361e26ff565/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=1dc997344f4db09cdefff4d609235c3a1a0aa183c7d89a6192f40a4d1d2337e2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80f8-b93a-fa5d3104503e",
+        "type": "paragraph",
+        "created_time": "2025-09-13T15:48:00.000Z",
+        "last_edited_time": "2025-09-13T15:50:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Command diatas, akan melakukan eksekusi whois, setelah itu akan dilanjut command untuk mengecek kernel (uname -a). Dan berikut Hasilnya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80f1-9487-e243c4445a25",
+        "type": "image",
+        "created_time": "2025-09-13T15:50:00.000Z",
+        "last_edited_time": "2025-09-13T15:50:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-6.png",
+          "expiry_time": "2025-09-18T02:37:03.231Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-6.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/15bf5b0d-94be-4d3d-b1f9-6546d9f37dc1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=c2c868f1e958895f5511ee03c5769bb104d501a1e679c3d16be427a48f45d870&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80c7-803a-df3f081be1c9",
+        "type": "image",
+        "created_time": "2025-09-13T15:50:00.000Z",
+        "last_edited_time": "2025-09-13T15:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-7.png",
+          "expiry_time": "2025-09-18T02:37:03.220Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-7.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/a6c8cf57-5276-49d2-abb7-f59d3a95a510/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=59bd5b212970d648da9f1905448296a97319ba4a208dd9a27a72f0db38c33a96&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80ba-b680-eb4a268e6731",
+        "type": "paragraph",
+        "created_time": "2025-09-13T15:48:00.000Z",
+        "last_edited_time": "2025-09-13T15:48:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-804a-9da8-ef22bba41603",
+        "type": "paragraph",
+        "created_time": "2025-09-13T15:50:00.000Z",
+        "last_edited_time": "2025-09-13T15:57:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Terlihat, pada gambar terakhir command ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "uname -a",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ini dieksekusi setelah command ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "whois",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ". Maka dari itu, kita bisa melakukan command lainnya.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80f3-864d-c34b6f43b019",
+        "type": "paragraph",
+        "created_time": "2025-09-13T15:57:00.000Z",
+        "last_edited_time": "2025-09-13T15:57:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80e9-a455-c6ff89970e56",
+        "type": "paragraph",
+        "created_time": "2025-09-13T15:57:00.000Z",
+        "last_edited_time": "2025-09-13T15:58:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Sekarang saya coba cek di situs target dengan command yang sama",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80e4-b6bf-eaf2b848a016",
+        "type": "code",
+        "created_time": "2025-09-13T15:58:00.000Z",
+        "last_edited_time": "2025-09-13T15:58:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "google.com; uname -a",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8067-911f-ecd207ce5329",
+        "type": "image",
+        "created_time": "2025-09-13T15:59:00.000Z",
+        "last_edited_time": "2025-09-13T15:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-8.png",
+          "expiry_time": "2025-09-18T02:37:03.231Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-8.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/44a21091-9488-4d1a-ac02-75e6bfbf5a8e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=f8b848079f9c61e693ac0d0d66152af2f3cc4ebdc791f506f47433894808db3e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8057-acba-c672242e2289",
+        "type": "paragraph",
+        "created_time": "2025-09-13T15:46:00.000Z",
+        "last_edited_time": "2025-09-13T16:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Viola! Terlihat pada gambar diatas, bahwa command ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "uname -a",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " berhasil dieksekusi. Berarti di situs target ada kerentanan command injection.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8008-a89a-fad95cb5fbd6",
+        "type": "paragraph",
+        "created_time": "2025-09-13T16:02:00.000Z",
+        "last_edited_time": "2025-09-13T16:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-802f-9e12-d76c743811c7",
+        "type": "paragraph",
+        "created_time": "2025-09-13T16:02:00.000Z",
+        "last_edited_time": "2025-09-13T16:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Langsung saja saya coba untuk melihat lokasi dan liat ada isi apa saja, dengan command berikut",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80b1-8560-dc2f25bd8c51",
+        "type": "code",
+        "created_time": "2025-09-13T16:02:00.000Z",
+        "last_edited_time": "2025-09-13T16:03:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "xx;pwd;ls -la",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80f0-b3a9-e17c03f0b20c",
+        "type": "paragraph",
+        "created_time": "2025-09-13T16:03:00.000Z",
+        "last_edited_time": "2025-09-13T16:04:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "atau bisa juga ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "pwd && ls -la",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " . saya isi ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "xx",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "  agar tidak perlu scroll kebawah, sehingga kita bisa fokus ke command injection nya. Berikut hasilnya",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8090-9b0b-e18c30b93d7a",
+        "type": "image",
+        "created_time": "2025-09-13T16:05:00.000Z",
+        "last_edited_time": "2025-09-13T16:19:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-9.png",
+          "expiry_time": "2025-09-18T02:37:03.364Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-9.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/3f2e0244-26d1-4144-9e2c-4abed190fc47/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=4b6f725650ebe1c78ec1295316344706c242b3d2580a6f3985a608692ce872dc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8083-9ad5-d8b285e67173",
+        "type": "paragraph",
+        "created_time": "2025-09-13T16:05:00.000Z",
+        "last_edited_time": "2025-09-13T16:07:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Terlihat diatas, current path nya ada di /var/www/html, dan isi file nya ada index.php dan juga thumbnail.png. Jadi tidak ada flag di folder tersebut.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80d4-b93e-c732f7b9dc32",
+        "type": "paragraph",
+        "created_time": "2025-09-13T16:06:00.000Z",
+        "last_edited_time": "2025-09-13T16:06:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8029-8649-dd465d37430f",
+        "type": "paragraph",
+        "created_time": "2025-09-13T16:06:00.000Z",
+        "last_edited_time": "2025-09-13T16:07:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Oke lanjut saya coba cari flag nya. Saya cek di root path (",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "/",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ")terlebih dahulu",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-806b-b975-d09f04a28988",
+        "type": "code",
+        "created_time": "2025-09-13T16:07:00.000Z",
+        "last_edited_time": "2025-09-13T16:08:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "xx;ls /",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8051-a875-c786980e46d6",
+        "type": "image",
+        "created_time": "2025-09-13T16:08:00.000Z",
+        "last_edited_time": "2025-09-13T16:08:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-10.png",
+          "expiry_time": "2025-09-18T02:37:03.382Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-10.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/9bbe6465-01ed-4cbe-8ddf-e5e1e321802d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=ac654cd4ee1659fd6a3afeaf5694d1d7e2481c60ee55723e07c9c87510d2dacf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8053-9948-e20521e1a6f8",
+        "type": "paragraph",
+        "created_time": "2025-09-13T16:07:00.000Z",
+        "last_edited_time": "2025-09-13T16:08:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Terlihat pada gambar diatas, terdapat file flag nya. Tanpa lama, saya langsung buka saja:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8098-bb84-d4ead751c3af",
+        "type": "code",
+        "created_time": "2025-09-13T16:09:00.000Z",
+        "last_edited_time": "2025-09-13T16:09:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "xx; cat /flag.txt",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "26ddb469-a81d-8099-9ca1-e3b1925b4371",
+        "type": "image",
+        "created_time": "2025-09-13T16:09:00.000Z",
+        "last_edited_time": "2025-09-13T16:19:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-11.png",
+          "expiry_time": "2025-09-18T02:37:03.362Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-11.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/84d8d1ea-b0ff-4990-b59d-e41e5c878161/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=f573bc20d185155f06224bcdde1f46c1cd0b908f2121cea8c78fcc9b5f9c71f8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80a5-8fa1-fd586e2f1f12",
+        "type": "paragraph",
+        "created_time": "2025-09-13T16:09:00.000Z",
+        "last_edited_time": "2025-09-13T16:10:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Tetapi hasilnya hanya ada flag kosong ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "CACTF{....}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ". Oke berarti harus cari flag lain. Saya coba cek isi folder home",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-808e-bef5-ee6bca2f671f",
+        "type": "code",
+        "created_time": "2025-09-13T16:10:00.000Z",
+        "last_edited_time": "2025-09-13T16:10:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "xx;ls /home",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80a6-9470-e1b5dc6fbe44",
+        "type": "image",
+        "created_time": "2025-09-13T16:10:00.000Z",
+        "last_edited_time": "2025-09-13T16:19:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-12.png",
+          "expiry_time": "2025-09-18T02:37:03.356Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-12.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/ffe03055-677d-457a-acb6-851d6af6e030/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=463b77c5ff8d768667bdbd70fef66deb45264610a2fa3643dc30640097f3396d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-806c-93ee-f1a6715fcfc4",
+        "type": "paragraph",
+        "created_time": "2025-09-13T16:10:00.000Z",
+        "last_edited_time": "2025-09-13T16:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasilnya ada file flag di dalam home. Langsung saya buka dengan command berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80b2-b20e-d7e707c22561",
+        "type": "code",
+        "created_time": "2025-09-13T16:11:00.000Z",
+        "last_edited_time": "2025-09-13T16:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "xx; cat /home/flag.txt",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80dc-81c7-c9012fcd2705",
+        "type": "image",
+        "created_time": "2025-09-13T16:11:00.000Z",
+        "last_edited_time": "2025-09-13T16:19:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-13.png",
+          "expiry_time": "2025-09-18T02:37:03.355Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-13.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/e7bac81a-55f0-4a0a-a4a4-57cd14b638e3/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=4d43ce8f4728875484a0170c09280b4b6752de4fe845d0f0d7ee3ed0776c3003&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80e6-9112-e339b0e6f72c",
+        "type": "paragraph",
+        "created_time": "2025-09-13T16:10:00.000Z",
+        "last_edited_time": "2025-09-13T16:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "gotcha!! flag ditemukan.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80b4-bffc-ebde576b49a4",
+        "type": "paragraph",
+        "created_time": "2025-09-13T16:11:00.000Z",
+        "last_edited_time": "2025-09-13T16:12:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "flag: 74e0d7246da978759131b120cc78acc4",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-800c-ace0-cc086292d024",
+        "type": "paragraph",
+        "created_time": "2025-09-13T16:20:00.000Z",
+        "last_edited_time": "2025-09-13T16:20:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "26ddb469-a81d-80a3-8536-f2a89637e0d1",
+        "type": "paragraph",
+        "created_time": "2025-09-13T16:20:00.000Z",
+        "last_edited_time": "2025-09-17T09:05:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Tapi ternyata itu flag 1 dari total 5 flag. Berarti harus mencari lagi. Disini untuk mencari flag yang lain, saya cukup menggunakan command berikut",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-8065-b756-f1613acdced7",
+        "type": "code",
+        "created_time": "2025-09-17T08:58:00.000Z",
+        "last_edited_time": "2025-09-17T09:05:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "rezpector; find / | grep \"flag.txt\"",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "271db469-a81d-80d8-bc6d-fbe2073997b0",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:05:00.000Z",
+        "last_edited_time": "2025-09-17T09:06:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Command tersebut gunanya untuk mencari file “flag.txt di keseluruhan server. Jadi tidak perlu cek satu persatu. Berikut hasilnya",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-8044-85f7-eb4ef9d93344",
+        "type": "image",
+        "created_time": "2025-09-17T09:05:00.000Z",
+        "last_edited_time": "2025-09-17T09:05:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-14.png",
+          "expiry_time": "2025-09-18T02:37:03.503Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-14.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/5d6d1557-0937-466d-8e36-2572e5588b88/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=e45b4d185ff9fa927140111d85e3e5c4b6f09ecfc0759e080a591289e4bf3adf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "271db469-a81d-8007-8094-dcacafae54c6",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:05:00.000Z",
+        "last_edited_time": "2025-09-17T09:06:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Terlihat ada beberapa lokasi file flag nya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-80ca-a84d-d5a9ab00d631",
+        "type": "code",
+        "created_time": "2025-09-17T09:06:00.000Z",
+        "last_edited_time": "2025-09-17T09:06:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "/opt/flag.txt\n/home/flag.txt\n/usr/share/flag.txt\n/tmp/flag.txt\n/boot/flag.txt\n/flag.txt",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "271db469-a81d-8034-ae1b-cd9867c1ab3c",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:08:00.000Z",
+        "last_edited_time": "2025-09-17T09:08:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Berikut hasilnya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-808b-8b6d-ec3021ad6363",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:08:00.000Z",
+        "last_edited_time": "2025-09-17T09:08:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-8065-a8ae-e12db83e8460",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:09:00.000Z",
+        "last_edited_time": "2025-09-17T09:10:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "/opt/flag.txt",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-805c-a3a4-ee9a5683644e",
+        "type": "image",
+        "created_time": "2025-09-17T09:10:00.000Z",
+        "last_edited_time": "2025-09-17T09:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-15.png",
+          "expiry_time": "2025-09-18T02:37:03.496Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-15.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/bd32a837-020f-4eb0-b86d-75873f7c49d6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=4c45811310c599c23ffa08b1342034f0623444c47589fa64444fa649af32dea6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "271db469-a81d-8030-a87b-d03a7d83455a",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:10:00.000Z",
+        "last_edited_time": "2025-09-17T09:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "flag: 406a933bfd145a7c669e1465831b5e18",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-8088-a4d0-e16101062b3b",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:11:00.000Z",
+        "last_edited_time": "2025-09-17T09:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-8043-b1e9-cdc601ba826c",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:10:00.000Z",
+        "last_edited_time": "2025-09-17T09:10:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "/usr/share/flag.txt",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-8007-9c06-e514d0290f07",
+        "type": "image",
+        "created_time": "2025-09-17T09:12:00.000Z",
+        "last_edited_time": "2025-09-17T09:12:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-16.png",
+          "expiry_time": "2025-09-18T02:37:03.501Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-16.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/8767a7e2-ad94-4347-a488-dfc600fed465/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=6eaa22c092da195aef2e531c23312dc15bc7d08d619fac57b2dc58bda2d59c11&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "271db469-a81d-8009-befd-cc8e9b9d4bdf",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:11:00.000Z",
+        "last_edited_time": "2025-09-17T09:13:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "flag: 102fd959a8243968b46922292d832dff",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-801d-9db6-e8b97d5b85cd",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:12:00.000Z",
+        "last_edited_time": "2025-09-17T09:12:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-80b9-aa96-c9485dc614f6",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:12:00.000Z",
+        "last_edited_time": "2025-09-17T09:12:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-8013-bcd3-e32173641441",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:10:00.000Z",
+        "last_edited_time": "2025-09-17T09:10:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "/tmp/flag.txt",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-8006-ae7c-e96ccb661ae1",
+        "type": "image",
+        "created_time": "2025-09-17T09:12:00.000Z",
+        "last_edited_time": "2025-09-17T09:12:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-17.png",
+          "expiry_time": "2025-09-18T02:37:03.508Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-17.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/c5d8ffca-579e-42eb-8141-b7c205b8c678/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=bd6b98a3c327f672020bcdadae3013b0b9ae38cb623ca0e8d02cbaa01ee72cde&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "271db469-a81d-80e2-bc54-f9fc634bf825",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:12:00.000Z",
+        "last_edited_time": "2025-09-17T09:13:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "flag: f0e46aa1a63de2a0a6d43c5d641f7438",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-8032-8e01-fe863c8cac80",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:12:00.000Z",
+        "last_edited_time": "2025-09-17T09:12:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-80a5-a441-f93432ef102c",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:12:00.000Z",
+        "last_edited_time": "2025-09-17T09:12:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-80a1-9b2d-f6ec8156d8e6",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:10:00.000Z",
+        "last_edited_time": "2025-09-17T09:10:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "/boot/flag.txt",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-80a1-a651-f3b13b3cb909",
+        "type": "image",
+        "created_time": "2025-09-17T09:12:00.000Z",
+        "last_edited_time": "2025-09-17T09:13:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-18.png",
+          "expiry_time": "2025-09-18T02:37:03.499Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-18.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/1d8e7a77-68aa-4b80-a93b-5b640778bdf5/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=2b9408a410e8f538c848613f70a744847a6177da121975d22e0c10cab8d431c4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "271db469-a81d-8094-97f0-fd1358ce79bb",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:12:00.000Z",
+        "last_edited_time": "2025-09-17T09:13:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "flag: 802e6423cd82f3eefcfd11c828689f1a",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-80e6-ba6b-f94ca1b8440b",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:14:00.000Z",
+        "last_edited_time": "2025-09-17T09:14:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-8072-9264-d2b7f276c3db",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:14:00.000Z",
+        "last_edited_time": "2025-09-17T09:14:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-80b1-99dc-e0a5cd92401b",
+        "type": "image",
+        "created_time": "2025-09-17T09:14:00.000Z",
+        "last_edited_time": "2025-09-17T09:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-19.png",
+          "expiry_time": "2025-09-18T02:37:03.576Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-19.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/e99533f6-c1d7-45d3-a587-c54ee4a36596/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=c578f24c39a916eb865e6c5f18b377be8dcefe2901c15f410b26403957d2a617&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "271db469-a81d-80bc-a6a8-c5e047e7086e",
+        "type": "paragraph",
+        "created_time": "2025-09-17T09:18:00.000Z",
+        "last_edited_time": "2025-09-17T09:18:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "271db469-a81d-80fa-9d5b-cc97b9d01ceb",
+        "type": "image",
+        "created_time": "2025-09-17T09:18:00.000Z",
+        "last_edited_time": "2025-09-17T09:18:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-20.png",
+          "expiry_time": "2025-09-18T02:37:03.575Z",
+          "localUrl": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-20.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/740edd05-fd9c-42af-b5da-3d7846000e34/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013703Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=19037147b05b368c3e6515dfdb113f6560c1b0f206425594ec54eb32644f36b6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      }
+    ],
+    "og_image": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-1.png",
+    "featured_image": "/posts/ctf-cyberacademy-totobu-26ddb469a81d809bb985f7a76e9e6f2b/image-1.png"
+  }
+}

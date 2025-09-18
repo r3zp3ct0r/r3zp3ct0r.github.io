@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "generated_at": "2025-09-18T01:38:06.966Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452",
+    "slug": "ctf-cyberacademy-sabele",
+    "og_image": "/posts/ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452/image-1.png",
+    "featured_image": "/posts/ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452/image-1.png"
+  },
+  "post": {
+    "id": "262db469-a81d-805c-964f-c00c36957452",
+    "created_time": "2025-09-02T14:50:00.000Z",
+    "last_edited_time": "2025-09-03T15:49:00.000Z",
+    "url": "https://www.notion.so/CTF-CyberAcademy-Sabele-262db469a81d805c964fc00c36957452",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-09-02T14:50:00.000Z"
+      },
+      "slug": "ctf-cyberacademy--sabele",
+      "publisheddate": null,
+      "owner": [],
+      "featured_image": [],
+      "tags": [],
+      "published": false,
+      "title": "CTF CyberAcademy- Sabele"
+    },
+    "title": "CTF CyberAcademy- Sabele",
+    "content": [
+      {
+        "id": "262db469-a81d-8020-8ee8-cdda63006961",
+        "type": "image",
+        "created_time": "2025-09-02T14:50:00.000Z",
+        "last_edited_time": "2025-09-02T14:50:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452/image-1.png",
+          "expiry_time": "2025-09-18T02:38:04.181Z",
+          "localUrl": "/posts/ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452/image-1.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/04ee76c2-d37c-4edb-9f80-c828e68fc4ab/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXJAIDCO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013804Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQCYPkWw4Tu5KUVz5uwbKgZvDafsjTlKGxDYPGCrkLgCowIgI%2BEy7KgmKyXxX0Ff7ML3mipjMReQqzrm0642s4in8mgqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCQI8S%2FeDjcCpDDfcSrcA%2B%2BqATlfexUG3cYDueuJj016%2BmmJ6DLbQHsWX2SE5YRdtOzhO9y7ezc6vM9UWK0U0HBY3zANok%2FVRbYNnzu1va7%2Bgnb0uzp0xT8YRBRnCJIiI7uPQVqPz5qZ%2B58IpqNCLX0aPi4bGSGRzsq%2F7iwjGM5pMjv4OSZx5rW%2BUq2gTPQzcK%2FlTwCCjsIZFHX7QetPRIHIZ7a%2FrnqqcIAc3NOEbqFbg9IKjZecDGuoaV%2BvIigaAOBzFlpLFJcgCKGAU4QFqwh%2BBy4Z9rSAHa48AVHMG21yjarTw%2BI3%2Ftwr8lRL5Dc0C3T3kgKS1xgHYTu1eFXIfL5gyvKjKL4QCjCeLZyuIRaJSjL%2BBGwBfTlmZ2HzcgO3D20eAWQHT7TTI1oUg%2BwzfQYu2Hc6Oi2GGxyJqkPt%2B25H0DIU%2FeZIkmxq40mDTonyzHHuAH2J1S88eyC53sdkC1frOsH25q5X13mGqfDiu3oTlWqrSKe6YvuGuEcL%2BmueuYW9uhFv50H2nRBu17dE5xDPFU43Ia8jOWD7rwkkq8%2FfABoNdS%2FUpoRZ%2FEn125%2FNpWd8vLgTQBQ1jVzMOU03FBNGddNLHC9E01FvXEPZEN7U%2BxcI6PibCs7bM%2FLMX%2Fe8SlVqgBuItuP%2BGZN4MNeYrcYGOqUB4LylK4NVfgFYCHrjY6uQdMoNmmLeJmz7BWFpuApyGPVBpWheB0p%2BdA7d5r2NVe3BKRhj3MQwiIxvDKem5eX6ayLmE3bb2BUQIYEzW%2BjweVKRZ%2Bh8i465kN82%2FOazzSEHfBIBKi7%2FvmpuGpxvDhK2bbVmBLOpJpO5AwMs8cbrUr8AzG031lrf8zSWZBfJp7qpJHMwioomkIoJZWDVS3%2FN0squ11Go&X-Amz-Signature=f2d1cbc455e8365a60d93dd687d744098ae9c10464464d721d6922257eb6259a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "262db469-a81d-8064-9ebc-dff6202348fc",
+        "type": "paragraph",
+        "created_time": "2025-09-02T15:08:00.000Z",
+        "last_edited_time": "2025-09-02T15:08:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "262db469-a81d-8003-a217-e8108041bfa9",
+        "type": "paragraph",
+        "created_time": "2025-09-02T15:08:00.000Z",
+        "last_edited_time": "2025-09-03T15:19:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "262db469-a81d-8038-8878-e0e0f04b2010",
+        "type": "image",
+        "created_time": "2025-09-02T15:08:00.000Z",
+        "last_edited_time": "2025-09-02T15:08:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452/image-2.png",
+          "expiry_time": "2025-09-18T02:38:04.182Z",
+          "localUrl": "/posts/ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452/image-2.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/b005c272-1624-430e-b06c-cb63cbc63024/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXJAIDCO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013804Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQCYPkWw4Tu5KUVz5uwbKgZvDafsjTlKGxDYPGCrkLgCowIgI%2BEy7KgmKyXxX0Ff7ML3mipjMReQqzrm0642s4in8mgqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCQI8S%2FeDjcCpDDfcSrcA%2B%2BqATlfexUG3cYDueuJj016%2BmmJ6DLbQHsWX2SE5YRdtOzhO9y7ezc6vM9UWK0U0HBY3zANok%2FVRbYNnzu1va7%2Bgnb0uzp0xT8YRBRnCJIiI7uPQVqPz5qZ%2B58IpqNCLX0aPi4bGSGRzsq%2F7iwjGM5pMjv4OSZx5rW%2BUq2gTPQzcK%2FlTwCCjsIZFHX7QetPRIHIZ7a%2FrnqqcIAc3NOEbqFbg9IKjZecDGuoaV%2BvIigaAOBzFlpLFJcgCKGAU4QFqwh%2BBy4Z9rSAHa48AVHMG21yjarTw%2BI3%2Ftwr8lRL5Dc0C3T3kgKS1xgHYTu1eFXIfL5gyvKjKL4QCjCeLZyuIRaJSjL%2BBGwBfTlmZ2HzcgO3D20eAWQHT7TTI1oUg%2BwzfQYu2Hc6Oi2GGxyJqkPt%2B25H0DIU%2FeZIkmxq40mDTonyzHHuAH2J1S88eyC53sdkC1frOsH25q5X13mGqfDiu3oTlWqrSKe6YvuGuEcL%2BmueuYW9uhFv50H2nRBu17dE5xDPFU43Ia8jOWD7rwkkq8%2FfABoNdS%2FUpoRZ%2FEn125%2FNpWd8vLgTQBQ1jVzMOU03FBNGddNLHC9E01FvXEPZEN7U%2BxcI6PibCs7bM%2FLMX%2Fe8SlVqgBuItuP%2BGZN4MNeYrcYGOqUB4LylK4NVfgFYCHrjY6uQdMoNmmLeJmz7BWFpuApyGPVBpWheB0p%2BdA7d5r2NVe3BKRhj3MQwiIxvDKem5eX6ayLmE3bb2BUQIYEzW%2BjweVKRZ%2Bh8i465kN82%2FOazzSEHfBIBKi7%2FvmpuGpxvDhK2bbVmBLOpJpO5AwMs8cbrUr8AzG031lrf8zSWZBfJp7qpJHMwioomkIoJZWDVS3%2FN0squ11Go&X-Amz-Signature=af0eb30bb4a036e07c8631766a91dd16ae5bcc1f0c95f57ae89cc91bc6c7ced8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "262db469-a81d-80c0-9bb3-f6caaca68ec5",
+        "type": "paragraph",
+        "created_time": "2025-09-02T15:27:00.000Z",
+        "last_edited_time": "2025-09-02T15:27:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "262db469-a81d-80ae-b514-c7bf82578794",
+        "type": "paragraph",
+        "created_time": "2025-09-02T15:27:00.000Z",
+        "last_edited_time": "2025-09-02T15:27:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "262db469-a81d-809d-8ea7-dea8f7405049",
+        "type": "image",
+        "created_time": "2025-09-02T15:27:00.000Z",
+        "last_edited_time": "2025-09-02T15:27:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452/image-3.png",
+          "expiry_time": "2025-09-18T02:38:04.183Z",
+          "localUrl": "/posts/ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452/image-3.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/7a2bd43d-fdd6-407c-8320-0cbeb8a0498f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXJAIDCO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013804Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQCYPkWw4Tu5KUVz5uwbKgZvDafsjTlKGxDYPGCrkLgCowIgI%2BEy7KgmKyXxX0Ff7ML3mipjMReQqzrm0642s4in8mgqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCQI8S%2FeDjcCpDDfcSrcA%2B%2BqATlfexUG3cYDueuJj016%2BmmJ6DLbQHsWX2SE5YRdtOzhO9y7ezc6vM9UWK0U0HBY3zANok%2FVRbYNnzu1va7%2Bgnb0uzp0xT8YRBRnCJIiI7uPQVqPz5qZ%2B58IpqNCLX0aPi4bGSGRzsq%2F7iwjGM5pMjv4OSZx5rW%2BUq2gTPQzcK%2FlTwCCjsIZFHX7QetPRIHIZ7a%2FrnqqcIAc3NOEbqFbg9IKjZecDGuoaV%2BvIigaAOBzFlpLFJcgCKGAU4QFqwh%2BBy4Z9rSAHa48AVHMG21yjarTw%2BI3%2Ftwr8lRL5Dc0C3T3kgKS1xgHYTu1eFXIfL5gyvKjKL4QCjCeLZyuIRaJSjL%2BBGwBfTlmZ2HzcgO3D20eAWQHT7TTI1oUg%2BwzfQYu2Hc6Oi2GGxyJqkPt%2B25H0DIU%2FeZIkmxq40mDTonyzHHuAH2J1S88eyC53sdkC1frOsH25q5X13mGqfDiu3oTlWqrSKe6YvuGuEcL%2BmueuYW9uhFv50H2nRBu17dE5xDPFU43Ia8jOWD7rwkkq8%2FfABoNdS%2FUpoRZ%2FEn125%2FNpWd8vLgTQBQ1jVzMOU03FBNGddNLHC9E01FvXEPZEN7U%2BxcI6PibCs7bM%2FLMX%2Fe8SlVqgBuItuP%2BGZN4MNeYrcYGOqUB4LylK4NVfgFYCHrjY6uQdMoNmmLeJmz7BWFpuApyGPVBpWheB0p%2BdA7d5r2NVe3BKRhj3MQwiIxvDKem5eX6ayLmE3bb2BUQIYEzW%2BjweVKRZ%2Bh8i465kN82%2FOazzSEHfBIBKi7%2FvmpuGpxvDhK2bbVmBLOpJpO5AwMs8cbrUr8AzG031lrf8zSWZBfJp7qpJHMwioomkIoJZWDVS3%2FN0squ11Go&X-Amz-Signature=a2d6e882b7c19e1e2a0aac4ea2317178d46527238a405163a0b0b8560aa0adc0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "262db469-a81d-8039-8149-f56435b3c8c1",
+        "type": "paragraph",
+        "created_time": "2025-09-02T15:32:00.000Z",
+        "last_edited_time": "2025-09-02T15:32:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "262db469-a81d-80cb-8ffa-cb1f64f7793f",
+        "type": "image",
+        "created_time": "2025-09-02T15:32:00.000Z",
+        "last_edited_time": "2025-09-02T15:32:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452/image-4.png",
+          "expiry_time": "2025-09-18T02:38:04.173Z",
+          "localUrl": "/posts/ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452/image-4.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/2593b319-05cf-4433-80b0-41b4b840208e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXJAIDCO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013804Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQCYPkWw4Tu5KUVz5uwbKgZvDafsjTlKGxDYPGCrkLgCowIgI%2BEy7KgmKyXxX0Ff7ML3mipjMReQqzrm0642s4in8mgqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCQI8S%2FeDjcCpDDfcSrcA%2B%2BqATlfexUG3cYDueuJj016%2BmmJ6DLbQHsWX2SE5YRdtOzhO9y7ezc6vM9UWK0U0HBY3zANok%2FVRbYNnzu1va7%2Bgnb0uzp0xT8YRBRnCJIiI7uPQVqPz5qZ%2B58IpqNCLX0aPi4bGSGRzsq%2F7iwjGM5pMjv4OSZx5rW%2BUq2gTPQzcK%2FlTwCCjsIZFHX7QetPRIHIZ7a%2FrnqqcIAc3NOEbqFbg9IKjZecDGuoaV%2BvIigaAOBzFlpLFJcgCKGAU4QFqwh%2BBy4Z9rSAHa48AVHMG21yjarTw%2BI3%2Ftwr8lRL5Dc0C3T3kgKS1xgHYTu1eFXIfL5gyvKjKL4QCjCeLZyuIRaJSjL%2BBGwBfTlmZ2HzcgO3D20eAWQHT7TTI1oUg%2BwzfQYu2Hc6Oi2GGxyJqkPt%2B25H0DIU%2FeZIkmxq40mDTonyzHHuAH2J1S88eyC53sdkC1frOsH25q5X13mGqfDiu3oTlWqrSKe6YvuGuEcL%2BmueuYW9uhFv50H2nRBu17dE5xDPFU43Ia8jOWD7rwkkq8%2FfABoNdS%2FUpoRZ%2FEn125%2FNpWd8vLgTQBQ1jVzMOU03FBNGddNLHC9E01FvXEPZEN7U%2BxcI6PibCs7bM%2FLMX%2Fe8SlVqgBuItuP%2BGZN4MNeYrcYGOqUB4LylK4NVfgFYCHrjY6uQdMoNmmLeJmz7BWFpuApyGPVBpWheB0p%2BdA7d5r2NVe3BKRhj3MQwiIxvDKem5eX6ayLmE3bb2BUQIYEzW%2BjweVKRZ%2Bh8i465kN82%2FOazzSEHfBIBKi7%2FvmpuGpxvDhK2bbVmBLOpJpO5AwMs8cbrUr8AzG031lrf8zSWZBfJp7qpJHMwioomkIoJZWDVS3%2FN0squ11Go&X-Amz-Signature=f6c1b40f08597b996214f43f728a7e61e87fd4a438b0ea4b384e97ba619a12e6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "262db469-a81d-8047-9cd5-e27ad4d8d28b",
+        "type": "paragraph",
+        "created_time": "2025-09-02T15:37:00.000Z",
+        "last_edited_time": "2025-09-02T15:37:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "262db469-a81d-8077-a87c-db610892b014",
+        "type": "image",
+        "created_time": "2025-09-02T15:37:00.000Z",
+        "last_edited_time": "2025-09-02T15:37:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452/image-5.png",
+          "expiry_time": "2025-09-18T02:38:04.178Z",
+          "localUrl": "/posts/ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452/image-5.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/f8e5944a-f215-43b3-8171-6ae60335e2e9/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXJAIDCO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013804Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQCYPkWw4Tu5KUVz5uwbKgZvDafsjTlKGxDYPGCrkLgCowIgI%2BEy7KgmKyXxX0Ff7ML3mipjMReQqzrm0642s4in8mgqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCQI8S%2FeDjcCpDDfcSrcA%2B%2BqATlfexUG3cYDueuJj016%2BmmJ6DLbQHsWX2SE5YRdtOzhO9y7ezc6vM9UWK0U0HBY3zANok%2FVRbYNnzu1va7%2Bgnb0uzp0xT8YRBRnCJIiI7uPQVqPz5qZ%2B58IpqNCLX0aPi4bGSGRzsq%2F7iwjGM5pMjv4OSZx5rW%2BUq2gTPQzcK%2FlTwCCjsIZFHX7QetPRIHIZ7a%2FrnqqcIAc3NOEbqFbg9IKjZecDGuoaV%2BvIigaAOBzFlpLFJcgCKGAU4QFqwh%2BBy4Z9rSAHa48AVHMG21yjarTw%2BI3%2Ftwr8lRL5Dc0C3T3kgKS1xgHYTu1eFXIfL5gyvKjKL4QCjCeLZyuIRaJSjL%2BBGwBfTlmZ2HzcgO3D20eAWQHT7TTI1oUg%2BwzfQYu2Hc6Oi2GGxyJqkPt%2B25H0DIU%2FeZIkmxq40mDTonyzHHuAH2J1S88eyC53sdkC1frOsH25q5X13mGqfDiu3oTlWqrSKe6YvuGuEcL%2BmueuYW9uhFv50H2nRBu17dE5xDPFU43Ia8jOWD7rwkkq8%2FfABoNdS%2FUpoRZ%2FEn125%2FNpWd8vLgTQBQ1jVzMOU03FBNGddNLHC9E01FvXEPZEN7U%2BxcI6PibCs7bM%2FLMX%2Fe8SlVqgBuItuP%2BGZN4MNeYrcYGOqUB4LylK4NVfgFYCHrjY6uQdMoNmmLeJmz7BWFpuApyGPVBpWheB0p%2BdA7d5r2NVe3BKRhj3MQwiIxvDKem5eX6ayLmE3bb2BUQIYEzW%2BjweVKRZ%2Bh8i465kN82%2FOazzSEHfBIBKi7%2FvmpuGpxvDhK2bbVmBLOpJpO5AwMs8cbrUr8AzG031lrf8zSWZBfJp7qpJHMwioomkIoJZWDVS3%2FN0squ11Go&X-Amz-Signature=b9b6703d217c8b0d1a5ba7c2daadfd63fb07a5ca49ec0eca019673c4f9b3feb4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "263db469-a81d-8099-aa04-d828d627b509",
+        "type": "paragraph",
+        "created_time": "2025-09-03T15:49:00.000Z",
+        "last_edited_time": "2025-09-03T15:49:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "263db469-a81d-8057-bfb7-c500f8d7eeb5",
+        "type": "paragraph",
+        "created_time": "2025-09-03T15:49:00.000Z",
+        "last_edited_time": "2025-09-03T15:49:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "263db469-a81d-8072-8026-e205ec6bdcf9",
+        "type": "image",
+        "created_time": "2025-09-03T15:49:00.000Z",
+        "last_edited_time": "2025-09-03T15:49:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452/image-6.png",
+          "expiry_time": "2025-09-18T02:38:04.178Z",
+          "localUrl": "/posts/ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452/image-6.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/2b6c6765-a13d-462a-8940-9359ecf6f2ed/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXJAIDCO%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013804Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQCYPkWw4Tu5KUVz5uwbKgZvDafsjTlKGxDYPGCrkLgCowIgI%2BEy7KgmKyXxX0Ff7ML3mipjMReQqzrm0642s4in8mgqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCQI8S%2FeDjcCpDDfcSrcA%2B%2BqATlfexUG3cYDueuJj016%2BmmJ6DLbQHsWX2SE5YRdtOzhO9y7ezc6vM9UWK0U0HBY3zANok%2FVRbYNnzu1va7%2Bgnb0uzp0xT8YRBRnCJIiI7uPQVqPz5qZ%2B58IpqNCLX0aPi4bGSGRzsq%2F7iwjGM5pMjv4OSZx5rW%2BUq2gTPQzcK%2FlTwCCjsIZFHX7QetPRIHIZ7a%2FrnqqcIAc3NOEbqFbg9IKjZecDGuoaV%2BvIigaAOBzFlpLFJcgCKGAU4QFqwh%2BBy4Z9rSAHa48AVHMG21yjarTw%2BI3%2Ftwr8lRL5Dc0C3T3kgKS1xgHYTu1eFXIfL5gyvKjKL4QCjCeLZyuIRaJSjL%2BBGwBfTlmZ2HzcgO3D20eAWQHT7TTI1oUg%2BwzfQYu2Hc6Oi2GGxyJqkPt%2B25H0DIU%2FeZIkmxq40mDTonyzHHuAH2J1S88eyC53sdkC1frOsH25q5X13mGqfDiu3oTlWqrSKe6YvuGuEcL%2BmueuYW9uhFv50H2nRBu17dE5xDPFU43Ia8jOWD7rwkkq8%2FfABoNdS%2FUpoRZ%2FEn125%2FNpWd8vLgTQBQ1jVzMOU03FBNGddNLHC9E01FvXEPZEN7U%2BxcI6PibCs7bM%2FLMX%2Fe8SlVqgBuItuP%2BGZN4MNeYrcYGOqUB4LylK4NVfgFYCHrjY6uQdMoNmmLeJmz7BWFpuApyGPVBpWheB0p%2BdA7d5r2NVe3BKRhj3MQwiIxvDKem5eX6ayLmE3bb2BUQIYEzW%2BjweVKRZ%2Bh8i465kN82%2FOazzSEHfBIBKi7%2FvmpuGpxvDhK2bbVmBLOpJpO5AwMs8cbrUr8AzG031lrf8zSWZBfJp7qpJHMwioomkIoJZWDVS3%2FN0squ11Go&X-Amz-Signature=7599e81d36276be924ad5f54ddbd990e2f30837d64119c0e71b6b6859c9f6317&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      }
+    ],
+    "og_image": "/posts/ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452/image-1.png",
+    "featured_image": "/posts/ctf-cyberacademy-sabele-262db469a81d805c964fc00c36957452/image-1.png"
+  }
+}

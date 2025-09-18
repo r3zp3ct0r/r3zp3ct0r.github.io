@@ -1,0 +1,1296 @@
+{
+  "meta": {
+    "generated_at": "2025-09-18T04:40:20.553Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6",
+    "slug": "tsa-cyber-champion-2024-reverse-engineering-101-wr",
+    "og_image": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/featured-image.png",
+    "featured_image": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/featured-image.png"
+  },
+  "post": {
+    "id": "237db469-a81d-8038-b6c1-e28cb2dbe2b6",
+    "created_time": "2025-07-21T02:01:00.000Z",
+    "last_edited_time": "2025-07-21T02:04:00.000Z",
+    "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Reverse-Engineering-101-Writeup-237db469a81d8038b6c1e28cb2dbe2b6",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-07-21T02:01:00.000Z"
+      },
+      "slug": "[tsa-cyber-champion-2024]---reverse-engineering-101-writeup",
+      "publisheddate": "2024-11-10",
+      "owner": [
+        {
+          "id": "ac3d6ce8-4cb1-4c2d-a068-480495e731ed"
+        }
+      ],
+      "featured_image": [
+        {
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/7fcff675-ac3a-48e8-a3fc-17c36cdbf467/image-31.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T5LBUOJ%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T043954Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJGMEQCIBbufCT956hyn3rHdAZwlRlREzQbnG3wu%2BnqOMKrBdUWAiBOQ9jbPp3SZpHBRxcWlpN2P%2FRzGUMqdoE9%2FuH4Jj0RtCqIBAix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMvLw3y%2FPZ8a53mVY0KtwDJYgFPZFA7qPAEvNpdmdkuD8M9gQzv3PANw4C%2Fv0uPA2Zga02N3uiXbDVF6Z6OR%2BaMmb0ZEKAK9SNakQQdgxRFPYrDXST5tTclPLhoF7U3SwFP2%2F1ay6yQdAIOp2GtHsJuaPg1d75%2BoGExRWCNS7wtc6ZRg6dTqDFzMUyrhIFrfAHAKbGkXP2wEywvEaIUhbOdroW3qNe0OVyPFNjHgIVh6zVndV%2F%2FvN4r6aLgP2baVOwDAG5pqh9s72Odwn9qSYt6833Sd4GW4Pio8ZONWiY4l5Vo8q0nMJtQXnNtvTXTyJ3ZHN%2FP8U42f8LPoDC%2FRkhnSp2bAfAp%2BH9rhZsFG0ujQ6cSKHcw2%2FM4RRbwZDlLkclzqh6PRf5apyncVSLIKvtd7i%2Fqo%2FvFeK%2BqI1KZG%2FGsMoMx1A1jPVMn4AU6ywYtMcKlRlKes3xB2iC8TU7V88BRd5crmS8uXqeABLrIadtszb9oT%2Bhwxn6g9aiJ90KHZolcOEy3RS3JS44nP3J57w%2BOV%2FkxYmgRmyryDSoHN6NX70ApT73imbrGt7MimcpoX5MM%2FmYUU1E91DtORlpwUk4YJEz0P5%2BVLD4jjbADEhi9JZHXmWztBaHBNW%2FRZ21KEI176gmJB6fUkN7kXkwx5itxgY6pgEYByXAVRFkjxx3pFiyZBB3ehiYlo8h6FIN5aLfTLGseWEzJmEjsVTMSEOBO2mkg3MAsKOl%2BODjU7ZhdTJETNRlg5R1gCCWaznGa9gLER2aQD9e07A6gQsYX9BvVtCjuBoOC3iN6j3VdfjnhabC3s5b2WONWqmkzHltZ%2BbhpnIQ8rY8prS1qVUHys%2BKS%2F5ySvjaiRHkPuwvw%2FvfVBSB464kVQRga3NK&X-Amz-Signature=9e2a1fc2894d4356b566e6a18ccd645c7a28d703ac8475a86ce35c5df9017350&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "name": "image-31.png",
+          "expiry_time": "2025-09-18T05:39:54.832Z"
+        }
+      ],
+      "tags": [
+        "Reverse Engineering",
+        "CTF Writeup"
+      ],
+      "published": true,
+      "title": "[TSA Cyber Champion 2024] - Reverse Engineering 101 Writeup"
+    },
+    "title": "[TSA Cyber Champion 2024] - Reverse Engineering 101 Writeup",
+    "content": [
+      {
+        "id": "237db469-a81d-81f4-859b-d8d115a1520e",
+        "type": "heading_2",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Deskripsi Soal",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-817c-89c9-fe285ccdd8af",
+        "type": "image",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/image-1.png",
+          "expiry_time": "2025-09-18T05:40:17.609Z",
+          "localUrl": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/image-1.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/3ee75287-95a1-4048-9131-fc802eaa524d/image-28.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SEJHHROC%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044017Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQCo9k4GskCfFJnspkVnxCFJKn0Q%2Bh%2FX7Wg8DN2bgC9N%2FwIhAJBd%2BCKvyma9pQR7xWGzVx%2BOkTB3YD4fBZu%2FAJyhEe4YKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwM0nJJGfb0CAs9Mwkq3AO88rjU8bxOsqSwNNUuaDm1gon4TwpVIukPylcQAwJ0l8uyN2wiwORaUbso8tfJc9v8Sjq4SzQilGF1aQudrwhlvUTtj9yLPd0sR5RCEliTp%2F0ueAUuK0ao7fqvtBthEYBDvzVEMHTxEpBmkTz6euAVHNbALhE5HTFoMVefHgDApOPPRVgRKdDh8Y2BMtY8lPVc%2FIgByH9t4WIUZHMrcgpoNpipA3cea4%2B%2F12w6kAzdssQzqkYBBjpnHkShZdg9ZxdTwMHAfCu2dGVvPvOF0PBKkZxNiEmYjBCH7myEU9chMTsFbuciUXdZJ60yltsZ6%2FWHyV4vV8vh0eFKy%2Fq01wreSpxNuTn6fe%2F6PNR1BDld9PNtxoU7%2FSjoidALMTCQoPCDFPk8AvZboIOgmyuVOmS6wp4luPTjRwl3CpWiQaA1JdzxHH6RAyZU00l6zTavggOQHpPGoT%2FfWL6Y6AV%2BKqqADOp4oM2O49hB%2ByBu6zsvzGScfJxCMSbFT09%2Fl%2F0iiWV90ZMwB7rRs3WvRqB2eR5jNWK%2BA7SOY9ShnbzDEP969vdTrxotFBTLXmjXZfIaCDOZ9MjN7xxZ%2BazzP8MquYfq%2B8ig%2FB29kaCP0kBPLU0d5KSzsQZ0dk38m7v64DComK3GBjqkAdM2fEuqXF%2B3K1%2FMmEIq6YChzUHIDO5VLq36assv9vdwp4ecY%2BEBExH7UBh6kKAKadgw42RKLqa8%2FWkET5iSwYaXdOYmrqMKBhh6DCt3ZG2ZTjcdIjoM0F4p1sFdLbGgDlT3vA7jP0NVbHpC0S0PVFhxcgI3LepOImjaanl2LSOISNdNNOxZQK%2ByUuxaW0b462EHZNVX%2BrpjpI%2B3hYK5KwC8eJje&X-Amz-Signature=ce6f07c2f0b86d3d4477ff087e48dffbbff881fe1637a7bea61f8b157ca2240f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-81dc-92d5-fabc5e73f6cb",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Deskripsi Soal",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8152-a3e1-f2236539b463",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada soal ini, saya diberikan sebuah file bernama ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "main",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-814e-9c7f-f6fff3ba89a0",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pertama, saya coba cek dulu file ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "main",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ini.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-819c-a87f-e898d5b06e01",
+        "type": "image",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/image-2.png",
+          "expiry_time": "2025-09-18T05:40:17.607Z",
+          "localUrl": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/image-2.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/8ecf107e-fd14-436b-8683-0ea561b11c0e/image-29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SEJHHROC%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044017Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQCo9k4GskCfFJnspkVnxCFJKn0Q%2Bh%2FX7Wg8DN2bgC9N%2FwIhAJBd%2BCKvyma9pQR7xWGzVx%2BOkTB3YD4fBZu%2FAJyhEe4YKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwM0nJJGfb0CAs9Mwkq3AO88rjU8bxOsqSwNNUuaDm1gon4TwpVIukPylcQAwJ0l8uyN2wiwORaUbso8tfJc9v8Sjq4SzQilGF1aQudrwhlvUTtj9yLPd0sR5RCEliTp%2F0ueAUuK0ao7fqvtBthEYBDvzVEMHTxEpBmkTz6euAVHNbALhE5HTFoMVefHgDApOPPRVgRKdDh8Y2BMtY8lPVc%2FIgByH9t4WIUZHMrcgpoNpipA3cea4%2B%2F12w6kAzdssQzqkYBBjpnHkShZdg9ZxdTwMHAfCu2dGVvPvOF0PBKkZxNiEmYjBCH7myEU9chMTsFbuciUXdZJ60yltsZ6%2FWHyV4vV8vh0eFKy%2Fq01wreSpxNuTn6fe%2F6PNR1BDld9PNtxoU7%2FSjoidALMTCQoPCDFPk8AvZboIOgmyuVOmS6wp4luPTjRwl3CpWiQaA1JdzxHH6RAyZU00l6zTavggOQHpPGoT%2FfWL6Y6AV%2BKqqADOp4oM2O49hB%2ByBu6zsvzGScfJxCMSbFT09%2Fl%2F0iiWV90ZMwB7rRs3WvRqB2eR5jNWK%2BA7SOY9ShnbzDEP969vdTrxotFBTLXmjXZfIaCDOZ9MjN7xxZ%2BazzP8MquYfq%2B8ig%2FB29kaCP0kBPLU0d5KSzsQZ0dk38m7v64DComK3GBjqkAdM2fEuqXF%2B3K1%2FMmEIq6YChzUHIDO5VLq36assv9vdwp4ecY%2BEBExH7UBh6kKAKadgw42RKLqa8%2FWkET5iSwYaXdOYmrqMKBhh6DCt3ZG2ZTjcdIjoM0F4p1sFdLbGgDlT3vA7jP0NVbHpC0S0PVFhxcgI3LepOImjaanl2LSOISNdNNOxZQK%2ByUuxaW0b462EHZNVX%2BrpjpI%2B3hYK5KwC8eJje&X-Amz-Signature=13d5b4f56a064000bfab4dbe2c9e148b003ff8f92cca0fae2996aa2427c7baa7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-8178-ba30-f608f2d5a900",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pengecekan File Main",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8112-afb2-d65ece98e93c",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Lalu, saya coba jalankan programnya.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81fb-a17d-c05556291774",
+        "type": "image",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/image-3.png",
+          "expiry_time": "2025-09-18T05:40:17.617Z",
+          "localUrl": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/image-3.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/dfbddcd2-2c6a-423b-a616-87f5e7418aab/image-30.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SEJHHROC%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044017Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQCo9k4GskCfFJnspkVnxCFJKn0Q%2Bh%2FX7Wg8DN2bgC9N%2FwIhAJBd%2BCKvyma9pQR7xWGzVx%2BOkTB3YD4fBZu%2FAJyhEe4YKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwM0nJJGfb0CAs9Mwkq3AO88rjU8bxOsqSwNNUuaDm1gon4TwpVIukPylcQAwJ0l8uyN2wiwORaUbso8tfJc9v8Sjq4SzQilGF1aQudrwhlvUTtj9yLPd0sR5RCEliTp%2F0ueAUuK0ao7fqvtBthEYBDvzVEMHTxEpBmkTz6euAVHNbALhE5HTFoMVefHgDApOPPRVgRKdDh8Y2BMtY8lPVc%2FIgByH9t4WIUZHMrcgpoNpipA3cea4%2B%2F12w6kAzdssQzqkYBBjpnHkShZdg9ZxdTwMHAfCu2dGVvPvOF0PBKkZxNiEmYjBCH7myEU9chMTsFbuciUXdZJ60yltsZ6%2FWHyV4vV8vh0eFKy%2Fq01wreSpxNuTn6fe%2F6PNR1BDld9PNtxoU7%2FSjoidALMTCQoPCDFPk8AvZboIOgmyuVOmS6wp4luPTjRwl3CpWiQaA1JdzxHH6RAyZU00l6zTavggOQHpPGoT%2FfWL6Y6AV%2BKqqADOp4oM2O49hB%2ByBu6zsvzGScfJxCMSbFT09%2Fl%2F0iiWV90ZMwB7rRs3WvRqB2eR5jNWK%2BA7SOY9ShnbzDEP969vdTrxotFBTLXmjXZfIaCDOZ9MjN7xxZ%2BazzP8MquYfq%2B8ig%2FB29kaCP0kBPLU0d5KSzsQZ0dk38m7v64DComK3GBjqkAdM2fEuqXF%2B3K1%2FMmEIq6YChzUHIDO5VLq36assv9vdwp4ecY%2BEBExH7UBh6kKAKadgw42RKLqa8%2FWkET5iSwYaXdOYmrqMKBhh6DCt3ZG2ZTjcdIjoM0F4p1sFdLbGgDlT3vA7jP0NVbHpC0S0PVFhxcgI3LepOImjaanl2LSOISNdNNOxZQK%2ByUuxaW0b462EHZNVX%2BrpjpI%2B3hYK5KwC8eJje&X-Amz-Signature=e53f4766451ce401277840980b6cd274983a9e20ee90d3824187d7227e034602&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-81bf-a1ba-f6404cce97b3",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Menjalankan Program Main",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81fd-a7b6-d1d19f13ec15",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Program meminta inputan “FLAG”. Saya coba masukkan sembarang, dan program langsung berhenti. Oke, sepertinya kita harus menganalisis program ini lebih lanjut.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81c2-9bbd-c01740addc4f",
+        "type": "heading_2",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Analisis Program",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-817a-8f2b-ce0c004747d6",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk menganalisis program ini, saya menggunakan Ghidra.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8190-8b54-fdd3c498d62a",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah dianalisis, saya menemukan fungsi ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "m",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " (main) yang berhasil di-decompile. Berikut adalah kode decompile-nya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-819f-8f28-f960379cc1ac",
+        "type": "image",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/image-4.png",
+          "expiry_time": "2025-09-18T05:40:17.611Z",
+          "localUrl": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/image-4.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/d1888344-7096-49a7-8009-466a1cef94af/image-31.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SEJHHROC%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044017Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQCo9k4GskCfFJnspkVnxCFJKn0Q%2Bh%2FX7Wg8DN2bgC9N%2FwIhAJBd%2BCKvyma9pQR7xWGzVx%2BOkTB3YD4fBZu%2FAJyhEe4YKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwM0nJJGfb0CAs9Mwkq3AO88rjU8bxOsqSwNNUuaDm1gon4TwpVIukPylcQAwJ0l8uyN2wiwORaUbso8tfJc9v8Sjq4SzQilGF1aQudrwhlvUTtj9yLPd0sR5RCEliTp%2F0ueAUuK0ao7fqvtBthEYBDvzVEMHTxEpBmkTz6euAVHNbALhE5HTFoMVefHgDApOPPRVgRKdDh8Y2BMtY8lPVc%2FIgByH9t4WIUZHMrcgpoNpipA3cea4%2B%2F12w6kAzdssQzqkYBBjpnHkShZdg9ZxdTwMHAfCu2dGVvPvOF0PBKkZxNiEmYjBCH7myEU9chMTsFbuciUXdZJ60yltsZ6%2FWHyV4vV8vh0eFKy%2Fq01wreSpxNuTn6fe%2F6PNR1BDld9PNtxoU7%2FSjoidALMTCQoPCDFPk8AvZboIOgmyuVOmS6wp4luPTjRwl3CpWiQaA1JdzxHH6RAyZU00l6zTavggOQHpPGoT%2FfWL6Y6AV%2BKqqADOp4oM2O49hB%2ByBu6zsvzGScfJxCMSbFT09%2Fl%2F0iiWV90ZMwB7rRs3WvRqB2eR5jNWK%2BA7SOY9ShnbzDEP969vdTrxotFBTLXmjXZfIaCDOZ9MjN7xxZ%2BazzP8MquYfq%2B8ig%2FB29kaCP0kBPLU0d5KSzsQZ0dk38m7v64DComK3GBjqkAdM2fEuqXF%2B3K1%2FMmEIq6YChzUHIDO5VLq36assv9vdwp4ecY%2BEBExH7UBh6kKAKadgw42RKLqa8%2FWkET5iSwYaXdOYmrqMKBhh6DCt3ZG2ZTjcdIjoM0F4p1sFdLbGgDlT3vA7jP0NVbHpC0S0PVFhxcgI3LepOImjaanl2LSOISNdNNOxZQK%2ByUuxaW0b462EHZNVX%2BrpjpI%2B3hYK5KwC8eJje&X-Amz-Signature=dcc69a8de4e7ccccd18407ff8e9f31d25057d9bc951b19313338c1a44eebe55c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-812c-b3ba-fd5981515719",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Kode Decompile Fungsi Main",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-816c-9e43-dd2dd08d07ca",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Selain fungsi ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "main",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ", saya juga menemukan dua fungsi penting lainnya, yaitu ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "cl",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " dan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "cr",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ". Fungsi ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "cl",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ini sepertinya untuk validasi bagian kiri dari flag, sedangkan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "cr",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " untuk validasi bagian kanan.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-813b-b30a-ee7357f13246",
+        "type": "heading_3",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Fungsi cl()",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-8145-a957-d31bfdadc2f4",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Berikut adalah kode dari fungsi ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "cl()",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ":",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-814a-9eec-d53c9b15465b",
+        "type": "image",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/image-5.png",
+          "expiry_time": "2025-09-18T05:40:17.614Z",
+          "localUrl": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/image-5.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/562fc409-74e6-404b-b8e4-7ebde2581676/image-32.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SEJHHROC%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044017Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQCo9k4GskCfFJnspkVnxCFJKn0Q%2Bh%2FX7Wg8DN2bgC9N%2FwIhAJBd%2BCKvyma9pQR7xWGzVx%2BOkTB3YD4fBZu%2FAJyhEe4YKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwM0nJJGfb0CAs9Mwkq3AO88rjU8bxOsqSwNNUuaDm1gon4TwpVIukPylcQAwJ0l8uyN2wiwORaUbso8tfJc9v8Sjq4SzQilGF1aQudrwhlvUTtj9yLPd0sR5RCEliTp%2F0ueAUuK0ao7fqvtBthEYBDvzVEMHTxEpBmkTz6euAVHNbALhE5HTFoMVefHgDApOPPRVgRKdDh8Y2BMtY8lPVc%2FIgByH9t4WIUZHMrcgpoNpipA3cea4%2B%2F12w6kAzdssQzqkYBBjpnHkShZdg9ZxdTwMHAfCu2dGVvPvOF0PBKkZxNiEmYjBCH7myEU9chMTsFbuciUXdZJ60yltsZ6%2FWHyV4vV8vh0eFKy%2Fq01wreSpxNuTn6fe%2F6PNR1BDld9PNtxoU7%2FSjoidALMTCQoPCDFPk8AvZboIOgmyuVOmS6wp4luPTjRwl3CpWiQaA1JdzxHH6RAyZU00l6zTavggOQHpPGoT%2FfWL6Y6AV%2BKqqADOp4oM2O49hB%2ByBu6zsvzGScfJxCMSbFT09%2Fl%2F0iiWV90ZMwB7rRs3WvRqB2eR5jNWK%2BA7SOY9ShnbzDEP969vdTrxotFBTLXmjXZfIaCDOZ9MjN7xxZ%2BazzP8MquYfq%2B8ig%2FB29kaCP0kBPLU0d5KSzsQZ0dk38m7v64DComK3GBjqkAdM2fEuqXF%2B3K1%2FMmEIq6YChzUHIDO5VLq36assv9vdwp4ecY%2BEBExH7UBh6kKAKadgw42RKLqa8%2FWkET5iSwYaXdOYmrqMKBhh6DCt3ZG2ZTjcdIjoM0F4p1sFdLbGgDlT3vA7jP0NVbHpC0S0PVFhxcgI3LepOImjaanl2LSOISNdNNOxZQK%2ByUuxaW0b462EHZNVX%2BrpjpI%2B3hYK5KwC8eJje&X-Amz-Signature=0a9329788e4ab6d4683a3165cd2bb9b1c417c49c0dd22c6e6d600044649a5e2a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-8109-80e0-cd7438beaf92",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Kode Fungsi cl()",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-815a-baef-fde165feb0ff",
+        "type": "heading_3",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Fungsi cr()",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-812c-9bb9-fc69c5020d0d",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Berikut adalah kode dari fungsi ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "cr()",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ":",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81fc-969c-fb64f531c939",
+        "type": "image",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/image-6.png",
+          "expiry_time": "2025-09-18T05:40:17.614Z",
+          "localUrl": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/image-6.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/868b6d68-6e2e-46a8-8235-b391413a0fff/image-33.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SEJHHROC%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044017Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQCo9k4GskCfFJnspkVnxCFJKn0Q%2Bh%2FX7Wg8DN2bgC9N%2FwIhAJBd%2BCKvyma9pQR7xWGzVx%2BOkTB3YD4fBZu%2FAJyhEe4YKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwM0nJJGfb0CAs9Mwkq3AO88rjU8bxOsqSwNNUuaDm1gon4TwpVIukPylcQAwJ0l8uyN2wiwORaUbso8tfJc9v8Sjq4SzQilGF1aQudrwhlvUTtj9yLPd0sR5RCEliTp%2F0ueAUuK0ao7fqvtBthEYBDvzVEMHTxEpBmkTz6euAVHNbALhE5HTFoMVefHgDApOPPRVgRKdDh8Y2BMtY8lPVc%2FIgByH9t4WIUZHMrcgpoNpipA3cea4%2B%2F12w6kAzdssQzqkYBBjpnHkShZdg9ZxdTwMHAfCu2dGVvPvOF0PBKkZxNiEmYjBCH7myEU9chMTsFbuciUXdZJ60yltsZ6%2FWHyV4vV8vh0eFKy%2Fq01wreSpxNuTn6fe%2F6PNR1BDld9PNtxoU7%2FSjoidALMTCQoPCDFPk8AvZboIOgmyuVOmS6wp4luPTjRwl3CpWiQaA1JdzxHH6RAyZU00l6zTavggOQHpPGoT%2FfWL6Y6AV%2BKqqADOp4oM2O49hB%2ByBu6zsvzGScfJxCMSbFT09%2Fl%2F0iiWV90ZMwB7rRs3WvRqB2eR5jNWK%2BA7SOY9ShnbzDEP969vdTrxotFBTLXmjXZfIaCDOZ9MjN7xxZ%2BazzP8MquYfq%2B8ig%2FB29kaCP0kBPLU0d5KSzsQZ0dk38m7v64DComK3GBjqkAdM2fEuqXF%2B3K1%2FMmEIq6YChzUHIDO5VLq36assv9vdwp4ecY%2BEBExH7UBh6kKAKadgw42RKLqa8%2FWkET5iSwYaXdOYmrqMKBhh6DCt3ZG2ZTjcdIjoM0F4p1sFdLbGgDlT3vA7jP0NVbHpC0S0PVFhxcgI3LepOImjaanl2LSOISNdNNOxZQK%2ByUuxaW0b462EHZNVX%2BrpjpI%2B3hYK5KwC8eJje&X-Amz-Signature=9876ded81f96337012fedc2d0a3487c8cb09a23d1187de5dd0e4fd287f30f63b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-81a0-bfb3-e681f02351e7",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Kode Fungsi cr()",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81b2-92a1-f6e3ffccfe88",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari analisis kode, saya menyimpulkan cara kerja programnya adalah sebagai berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8179-9ef0-c8214998a21f",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Input flag dibagi menjadi dua bagian sama panjang, yaitu bagian kiri (",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "l",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ") dan bagian kanan (",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "r",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ").",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81d3-a320-c00c8b351147",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Fungsi ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "cl()",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " mengecek bagian kiri dengan operasi XOR.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81d9-82b6-fb53dffb2490",
+        "type": "numbered_list_item",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Fungsi ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "cr()",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " mengecek bagian kanan dengan operasi XOR terhadap bagian kiri.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-8150-b417-f4a04e4c0d87",
+        "type": "heading_2",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Membuat Solver",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-81f1-b5a0-f03f39f1516b",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Karena saya sudah memahami cara kerja program, saya membuat script solver menggunakan Python untuk mendapatkan flag. Berikut adalah script solver yang saya buat:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-818c-a463-f3ab0a2fbaff",
+        "type": "code",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "def get_left_part(length):\n   # values from cl() function   target_values = [\n       0xeb, 0xed, 0xfc, 0xc7,\n       0xe9, 0xff, 0xe6, 0x89,\n       0x87, 0x87, 0xea, 0x81,\n       0x81, 0x80, 0xd4, 0xd2,\n       0x99, 0xcf, 0x99, 0x94,\n       0x9a, 0x9e   ]\n   # solve for left part: c[i] ^ 0xbf ^ i = target   # Therefore: c[i] = target ^ 0xbf ^ i   left = \"\"   for i in range(len(target_values)):\n       char = target_values[i] ^ 0xbf ^ i\n       left += chr(char)\n   return left\ndef get_right_part(left_part):\n   # Values from cr() function   target_values = [\n       0x37, 0x60, 0x21, 0x41,\n       0x33, 0x22, 0x6e, 0x06,\n       0x5a, 0x0f, 0x31, 0x0f,\n       0x5b, 0x5d, 0x5f, 0x0c,\n       0x40, 0x40, 0x13, 0x19,\n       0x47, 0x5c   ]\n   # Solve for right part: (r[i] ^ l[i]) ^ i = target   # Therefore: r[i] = (target ^ i) ^ l[i]   right = \"\"   for i in range(len(target_values)):\n       char = (target_values[i] ^ i) ^ ord(left_part[i])\n       right += chr(char)\n   return right\ndef main():\n   # Get left part of the flag   left_part = get_left_part(22)  # Length based on array sizes   # Get right part of the flag using left part   right_part = get_right_part(left_part)\n   # combine to get full flag   flag = left_part + right_part\n   print(\"Flag:\", flag)\nif __name__ == \"__main__\":\n   main()",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "237db469-a81d-81e7-a644-c2e424a204a1",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Saya menjalankan script solver ini, dan mendapatkan flag-nya!",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81da-b5f0-ddb8910fc245",
+        "type": "image",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/image-7.png",
+          "expiry_time": "2025-09-18T05:40:17.796Z",
+          "localUrl": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/image-7.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/cdd0443e-e02f-4e2a-86fd-8a646ab47db8/image-34.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SEJHHROC%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T044017Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJIMEYCIQCo9k4GskCfFJnspkVnxCFJKn0Q%2Bh%2FX7Wg8DN2bgC9N%2FwIhAJBd%2BCKvyma9pQR7xWGzVx%2BOkTB3YD4fBZu%2FAJyhEe4YKogECLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwM0nJJGfb0CAs9Mwkq3AO88rjU8bxOsqSwNNUuaDm1gon4TwpVIukPylcQAwJ0l8uyN2wiwORaUbso8tfJc9v8Sjq4SzQilGF1aQudrwhlvUTtj9yLPd0sR5RCEliTp%2F0ueAUuK0ao7fqvtBthEYBDvzVEMHTxEpBmkTz6euAVHNbALhE5HTFoMVefHgDApOPPRVgRKdDh8Y2BMtY8lPVc%2FIgByH9t4WIUZHMrcgpoNpipA3cea4%2B%2F12w6kAzdssQzqkYBBjpnHkShZdg9ZxdTwMHAfCu2dGVvPvOF0PBKkZxNiEmYjBCH7myEU9chMTsFbuciUXdZJ60yltsZ6%2FWHyV4vV8vh0eFKy%2Fq01wreSpxNuTn6fe%2F6PNR1BDld9PNtxoU7%2FSjoidALMTCQoPCDFPk8AvZboIOgmyuVOmS6wp4luPTjRwl3CpWiQaA1JdzxHH6RAyZU00l6zTavggOQHpPGoT%2FfWL6Y6AV%2BKqqADOp4oM2O49hB%2ByBu6zsvzGScfJxCMSbFT09%2Fl%2F0iiWV90ZMwB7rRs3WvRqB2eR5jNWK%2BA7SOY9ShnbzDEP969vdTrxotFBTLXmjXZfIaCDOZ9MjN7xxZ%2BazzP8MquYfq%2B8ig%2FB29kaCP0kBPLU0d5KSzsQZ0dk38m7v64DComK3GBjqkAdM2fEuqXF%2B3K1%2FMmEIq6YChzUHIDO5VLq36assv9vdwp4ecY%2BEBExH7UBh6kKAKadgw42RKLqa8%2FWkET5iSwYaXdOYmrqMKBhh6DCt3ZG2ZTjcdIjoM0F4p1sFdLbGgDlT3vA7jP0NVbHpC0S0PVFhxcgI3LepOImjaanl2LSOISNdNNOxZQK%2ByUuxaW0b462EHZNVX%2BrpjpI%2B3hYK5KwC8eJje&X-Amz-Signature=fae58ae0eafb6bdd45870fbe1c9d89d6ee4d2127cafcc2659bf5b51b12e61942&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "237db469-a81d-8167-9c23-ee5b4c855ce1",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasil Menjalankan Solver",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-81cc-b6da-edc4c838a382",
+        "type": "heading_2",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Solusi",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "237db469-a81d-8127-80ef-c003dcd00e81",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Flag:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "TSA{RE_101_522eb6a4814c2b9eb70b7d1eb4af052b}",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "237db469-a81d-80a1-82cf-f17c242af5bb",
+        "type": "paragraph",
+        "created_time": "2025-07-21T02:02:00.000Z",
+        "last_edited_time": "2025-07-21T02:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      }
+    ],
+    "featured_image": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/featured-image.png",
+    "og_image": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/featured-image.png"
+  }
+}

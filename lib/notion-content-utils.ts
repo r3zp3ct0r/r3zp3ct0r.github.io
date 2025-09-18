@@ -93,7 +93,19 @@ export function sanitizeUrl(url: string): string {
       return url
     }
   } catch {
-    // If URL parsing fails, return an empty string
+    // Support root-relative paths and data/blob URLs commonly used for local assets
+    if (typeof url === 'string') {
+      const trimmed = url.trim()
+      if (!trimmed) return ''
+      // Allow root-relative paths like /posts/... which are served from public
+      if (trimmed.startsWith('/')) {
+        return withBasePath(trimmed)
+      }
+      // Allow data URLs (e.g., data:image/png;base64,...) and blob URLs
+      if (trimmed.startsWith('data:') || trimmed.startsWith('blob:')) {
+        return trimmed
+      }
+    }
     return ''
   }
   return ''

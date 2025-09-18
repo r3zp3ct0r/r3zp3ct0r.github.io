@@ -10,10 +10,16 @@ const { URL } = require('url');
 const NOTION_TOKEN = process.env.NOTION_TOKEN;
 const DATABASE_ID = process.env.NOTION_DATABASE_ID;
 const OUTPUT_DIR = process.env.POSTS_DIR;
+const FORCE_UPDATE_IMAGES = process.env.FORCE_UPDATE_IMAGES === 'true' || process.argv.includes('--force-images');
 
-// Initialize Notion client
+// Initialize Notion client with timeout and retry settings
 const notion = new Client({
   auth: NOTION_TOKEN,
+  timeoutMs: 30000, // 30 second timeout
+  retry: {
+    maxRetries: 3,
+    retryDelay: 1000, // 1 second delay between retries
+  }
 });
 
 // Helper function to extract plain text from rich text
@@ -113,64 +119,118 @@ function getCleanFileExtension(url) {
   }
 }
 
-// Helper function to download image
-function downloadImage(urlString) {
+// Helper function to download image with retry and timeout
+function downloadImage(urlString, retries = 3) {
   return new Promise((resolve, reject) => {
-    const handleResponse = (response) => {
-      // Handle redirects
-      if (response.statusCode === 301 || response.statusCode === 302) {
-        const redirectUrl = response.headers.location;
-        if (!redirectUrl) {
-          reject(new Error(`Redirect location not found: ${response.statusCode}`));
+    const downloadAttempt = (attempt = 1) => {
+      const handleResponse = (response) => {
+        // Handle redirects
+        if (response.statusCode === 301 || response.statusCode === 302) {
+          const redirectUrl = response.headers.location;
+          if (!redirectUrl) {
+            if (attempt < retries) {
+              console.log(`🔄 Retrying redirect for ${urlString} (attempt ${attempt + 1})`);
+              setTimeout(() => downloadAttempt(attempt + 1), 1000);
+              return;
+            }
+            reject(new Error(`Redirect location not found: ${response.statusCode}`));
+            return;
+          }
+          // Handle relative redirects
+          const finalUrl = new URL(redirectUrl, urlString);
+          const client = finalUrl.protocol === 'https:' ? https : http;
+          client.get(finalUrl, handleResponse).on('error', (err) => {
+            if (attempt < retries) {
+              console.log(`🔄 Retrying redirect request for ${urlString} (attempt ${attempt + 1})`);
+              setTimeout(() => downloadAttempt(attempt + 1), 1000);
+            } else {
+              reject(err);
+            }
+          });
           return;
         }
-        // Handle relative redirects
-        const finalUrl = new URL(redirectUrl, urlString);
-        const client = finalUrl.protocol === 'https:' ? https : http;
-        client.get(finalUrl, handleResponse).on('error', reject);
-        return;
-      }
 
-      if (response.statusCode !== 200) {
-        reject(new Error(`Failed to download image: ${response.statusCode}`));
-        return;
-      }
+        if (response.statusCode !== 200) {
+          if (attempt < retries) {
+            console.log(`🔄 Retrying failed request for ${urlString} (attempt ${attempt + 1})`);
+            setTimeout(() => downloadAttempt(attempt + 1), 1000);
+            return;
+          }
+          reject(new Error(`Failed to download image: ${response.statusCode}`));
+          return;
+        }
 
-      // Try to get extension from content-type
-      let contentTypeExt = '';
-      const contentType = response.headers['content-type'];
-      if (contentType) {
-        const match = contentType.match(/image\/(.*)/);
-        if (match && match[1]) {
-          contentTypeExt = match[1].split(';')[0].toLowerCase();
-          if (contentTypeExt === 'jpeg') contentTypeExt = 'jpg';
+        // Try to get extension from content-type
+        let contentTypeExt = '';
+        const contentType = response.headers['content-type'];
+        if (contentType) {
+          const match = contentType.match(/image\/(.*)/);
+          if (match && match[1]) {
+            contentTypeExt = match[1].split(';')[0].toLowerCase();
+            if (contentTypeExt === 'jpeg') contentTypeExt = 'jpg';
+          }
+        }
+
+        const chunks = [];
+        response.on('data', (chunk) => chunks.push(chunk));
+        response.on('end', () => {
+          const buffer = Buffer.concat(chunks);
+          // Return both the buffer and the content type extension
+          resolve({ buffer, contentTypeExt });
+        });
+        response.on('error', (err) => {
+          if (attempt < retries) {
+            console.log(`🔄 Retrying data error for ${urlString} (attempt ${attempt + 1})`);
+            setTimeout(() => downloadAttempt(attempt + 1), 1000);
+          } else {
+            reject(err);
+          }
+        });
+      };
+
+      try {
+        const url = new URL(urlString);
+        const client = url.protocol === 'https:' ? https : http;
+        const options = {
+          hostname: url.hostname,
+          path: url.pathname + url.search,
+          timeout: 15000, // 15 second timeout
+          headers: {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+          }
+        };
+
+        const req = client.get(options, handleResponse);
+        req.on('error', (err) => {
+          if (attempt < retries) {
+            console.log(`🔄 Retrying connection error for ${urlString} (attempt ${attempt + 1})`);
+            setTimeout(() => downloadAttempt(attempt + 1), 1000);
+          } else {
+            reject(err);
+          }
+        });
+
+        req.on('timeout', () => {
+          req.destroy();
+          if (attempt < retries) {
+            console.log(`🔄 Retrying timeout for ${urlString} (attempt ${attempt + 1})`);
+            setTimeout(() => downloadAttempt(attempt + 1), 1000);
+          } else {
+            reject(new Error(`Timeout downloading image: ${urlString}`));
+          }
+        });
+
+      } catch (error) {
+        if (attempt < retries) {
+          console.log(`🔄 Retrying invalid URL for ${urlString} (attempt ${attempt + 1})`);
+          setTimeout(() => downloadAttempt(attempt + 1), 1000);
+        } else {
+          reject(new Error(`Invalid URL: ${error.message}`));
         }
       }
-
-      const chunks = [];
-      response.on('data', (chunk) => chunks.push(chunk));
-      response.on('end', () => {
-        const buffer = Buffer.concat(chunks);
-        // Return both the buffer and the content type extension
-        resolve({ buffer, contentTypeExt });
-      });
-      response.on('error', reject);
     };
 
-    try {
-      const url = new URL(urlString);
-      const client = url.protocol === 'https:' ? https : http;
-      const options = {
-        hostname: url.hostname,
-        path: url.pathname + url.search,
-        headers: {
-          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-        }
-      };
-      client.get(options, handleResponse).on('error', reject);
-    } catch (error) {
-      reject(new Error(`Invalid URL: ${error.message}`));
-    }
+    downloadAttempt();
   });
 }
 
@@ -187,7 +247,7 @@ function processBlock(block) {
   };
 
   const blockContent = block[block.type];
-  
+
   switch (block.type) {
     case 'paragraph':
       processedBlock.content = {
@@ -195,7 +255,7 @@ function processBlock(block) {
         color: blockContent.color
       };
       break;
-      
+
     case 'heading_1':
     case 'heading_2':
     case 'heading_3':
@@ -205,7 +265,7 @@ function processBlock(block) {
         is_toggleable: blockContent.is_toggleable
       };
       break;
-      
+
     case 'bulleted_list_item':
     case 'numbered_list_item':
       processedBlock.content = {
@@ -213,7 +273,7 @@ function processBlock(block) {
         color: blockContent.color
       };
       break;
-      
+
     case 'to_do':
       processedBlock.content = {
         rich_text: extractRichText(blockContent.rich_text),
@@ -221,14 +281,14 @@ function processBlock(block) {
         color: blockContent.color
       };
       break;
-      
+
     case 'toggle':
       processedBlock.content = {
         rich_text: extractRichText(blockContent.rich_text),
         color: blockContent.color
       };
       break;
-      
+
     case 'code':
       processedBlock.content = {
         rich_text: extractRichText(blockContent.rich_text),
@@ -236,14 +296,14 @@ function processBlock(block) {
         caption: extractRichText(blockContent.caption)
       };
       break;
-      
+
     case 'quote':
       processedBlock.content = {
         rich_text: extractRichText(blockContent.rich_text),
         color: blockContent.color
       };
       break;
-      
+
     case 'callout':
       processedBlock.content = {
         rich_text: extractRichText(blockContent.rich_text),
@@ -251,11 +311,11 @@ function processBlock(block) {
         color: blockContent.color
       };
       break;
-      
+
     case 'divider':
       processedBlock.content = {};
       break;
-      
+
     case 'image':
       processedBlock.content = {
         caption: extractRichText(blockContent.caption),
@@ -268,7 +328,7 @@ function processBlock(block) {
         processedBlock.content.url = blockContent.external.url;
       }
       break;
-      
+
     case 'video':
       processedBlock.content = {
         caption: extractRichText(blockContent.caption),
@@ -281,7 +341,7 @@ function processBlock(block) {
         processedBlock.content.url = blockContent.external.url;
       }
       break;
-      
+
     case 'file':
       processedBlock.content = {
         caption: extractRichText(blockContent.caption),
@@ -295,27 +355,27 @@ function processBlock(block) {
         processedBlock.content.url = blockContent.external.url;
       }
       break;
-      
+
     case 'embed':
       processedBlock.content = {
         url: blockContent.url,
         caption: extractRichText(blockContent.caption)
       };
       break;
-      
+
     case 'bookmark':
       processedBlock.content = {
         url: blockContent.url,
         caption: extractRichText(blockContent.caption)
       };
       break;
-      
+
     case 'equation':
       processedBlock.content = {
         expression: blockContent.expression
       };
       break;
-      
+
     case 'table':
       processedBlock.content = {
         table_width: blockContent.table_width,
@@ -323,17 +383,17 @@ function processBlock(block) {
         has_row_header: blockContent.has_row_header
       };
       break;
-      
+
     case 'table_row':
       processedBlock.content = {
         cells: blockContent.cells.map(cell => extractRichText(cell))
       };
       break;
-      
+
     default:
       processedBlock.content = blockContent;
   }
-  
+
   return processedBlock;
 }
 
@@ -368,7 +428,7 @@ class RateLimiter {
       reject(error);
     } finally {
       this.running--;
-      
+
       // Add smaller delay before processing next task
       setTimeout(() => {
         this.process();
@@ -377,23 +437,23 @@ class RateLimiter {
   }
 }
 
-// Global rate limiter instance - more aggressive settings
-const rateLimiter = new RateLimiter(5, 200); // ~5 requests per second across all workers
+// Global rate limiter instance - more conservative settings for stability
+const rateLimiter = new RateLimiter(2, 500); // ~2 requests per second for better stability
 
 // Function to get page content (blocks) recursively with pagination support
 async function getPageContent(pageId, depth = 0, maxDepth = 3) {
   if (depth > maxDepth) return [];
-  
+
   try {
     let allBlocks = [];
     let hasMore = true;
     let nextCursor = undefined;
     let pageCount = 0;
-    
+
     // Keep fetching until all blocks are retrieved
     while (hasMore) {
       pageCount++;
-      
+
       // Use rate limiter for API calls
       const response = await rateLimiter.execute(async () => {
         return await notion.blocks.children.list({
@@ -402,40 +462,40 @@ async function getPageContent(pageId, depth = 0, maxDepth = 3) {
           page_size: 100, // Maximum allowed by Notion API
         });
       });
-      
+
       // Early exit if no results to reduce unnecessary processing
       if (!response.results || response.results.length === 0) {
         break;
       }
-      
+
       if (depth === 0 && pageCount > 1) {
         console.log(`   📄 Fetching page ${pageCount} of blocks for ${pageId} (${response.results.length} blocks)`);
       }
-      
+
       // Process blocks in parallel for better performance
       const blockPromises = response.results.map(async (block) => {
         const processedBlock = processBlock(block);
-        
+
         // If block has children, fetch them recursively (but limit depth)
         if (block.has_children && depth < maxDepth) {
           processedBlock.children = await getPageContent(block.id, depth + 1, maxDepth);
         }
-        
+
         return processedBlock;
       });
-      
+
       // Wait for all blocks in this page to be processed
       const processedBlocks = await Promise.all(blockPromises);
       allBlocks = allBlocks.concat(processedBlocks);
-      
+
       hasMore = response.has_more;
       nextCursor = response.next_cursor;
     }
-    
+
     if (depth === 0 && allBlocks.length > 100) {
       console.log(`   ✅ Total blocks fetched: ${allBlocks.length} (across ${pageCount} pages)`);
     }
-    
+
     return allBlocks;
   } catch (error) {
     console.error(`Error fetching content for page ${pageId}:`, error.message);
@@ -446,7 +506,7 @@ async function getPageContent(pageId, depth = 0, maxDepth = 3) {
 // Function to convert Notion page to blog post object
 function convertPageToBlogPost(page) {
   const properties = page.properties;
-  
+
   const blogPost = {
     id: page.id,
     created_time: page.created_time,
@@ -462,53 +522,53 @@ function convertPageToBlogPost(page) {
   // Process all properties dynamically
   for (const [key, property] of Object.entries(properties)) {
     const propertyName = key.toLowerCase().replace(/\s+/g, '_');
-    
+
     switch (property.type) {
       case 'title':
         blogPost.properties[propertyName] = extractPlainText(property.title);
         blogPost.title = blogPost.properties[propertyName];
         break;
-      
+
       case 'rich_text':
         blogPost.properties[propertyName] = extractPlainText(property.rich_text);
         break;
-      
+
       case 'date':
         blogPost.properties[propertyName] = extractDate(property);
         break;
-      
+
       case 'select':
         blogPost.properties[propertyName] = extractSelectValues(property);
         break;
-      
+
       case 'multi_select':
         blogPost.properties[propertyName] = extractSelectValues(property);
         break;
-      
+
       case 'checkbox':
         blogPost.properties[propertyName] = property.checkbox;
         break;
-      
+
       case 'number':
         blogPost.properties[propertyName] = property.number;
         break;
-      
+
       case 'url':
         blogPost.properties[propertyName] = property.url;
         break;
-      
+
       case 'email':
         blogPost.properties[propertyName] = property.email;
         break;
-      
+
       case 'phone_number':
         blogPost.properties[propertyName] = property.phone_number;
         break;
-      
+
       case 'files':
         blogPost.properties[propertyName] = extractFiles(property);
         break;
-      
+
       case 'people':
         blogPost.properties[propertyName] = property.people ? property.people.map(person => ({
           id: person.id,
@@ -517,11 +577,11 @@ function convertPageToBlogPost(page) {
           type: person.type
         })) : [];
         break;
-      
+
       case 'relation':
         blogPost.properties[propertyName] = property.relation ? property.relation.map(rel => rel.id) : [];
         break;
-      
+
       case 'formula':
         if (property.formula) {
           switch (property.formula.type) {
@@ -544,7 +604,7 @@ function convertPageToBlogPost(page) {
           blogPost.properties[propertyName] = null;
         }
         break;
-      
+
       default:
         blogPost.properties[propertyName] = property;
     }
@@ -557,21 +617,60 @@ function convertPageToBlogPost(page) {
 async function processSinglePage(page, pageIndex, totalPages) {
   try {
     console.log(`🔄 Processing page ${pageIndex + 1}/${totalPages}: ${page.id}`);
-    
+
     const blogPost = convertPageToBlogPost(page);
-    
+
     // Fetch page content (blocks)
     console.log(`📝 Fetching content for page: ${page.id}`);
     blogPost.content = await getPageContent(page.id);
-    
+
     // Create folder name using slug and ID for uniqueness
     const slug = createSlug(blogPost.title);
     const folderName = `${slug}-${page.id.replace(/-/g, '')}`;
     const postDir = path.join(OUTPUT_DIR, folderName);
-    
+
     // Create post directory
     if (!fs.existsSync(postDir)) {
       fs.mkdirSync(postDir, { recursive: true });
+    }
+
+    // Check if post already exists and if we need to update images
+    let needsImageUpdate = true;
+
+    const postFile = path.join(postDir, 'post.json');
+
+    if (fs.existsSync(postFile)) {
+      try {
+        const existingPost = JSON.parse(fs.readFileSync(postFile, 'utf8'));
+        const lastEdited = new Date(blogPost.last_edited_time);
+        const existingEdited = new Date(existingPost.post.last_edited_time);
+
+        // Only update if the post was edited after the last generation or if force update is enabled
+        if (lastEdited <= existingEdited && !FORCE_UPDATE_IMAGES) {
+          console.log(`⏭️  Skipping ${folderName} - no changes detected`);
+          return {
+            id: blogPost.id,
+            title: blogPost.title,
+            folder: folderName,
+            slug: slug,
+            created_time: blogPost.created_time,
+            last_edited_time: blogPost.last_edited_time,
+            properties: {
+              published: blogPost.properties.published,
+              tags: blogPost.properties.tags,
+              excerpt: blogPost.properties.excerpt,
+              featured_image: existingPost.post.featured_image
+            },
+            og_image: existingPost.post.og_image,
+            file_size_kb: 0,
+            file_size_bytes: 0
+          };
+        } else {
+          console.log(`🔄 Updating ${folderName} - changes detected${FORCE_UPDATE_IMAGES ? ' (force update)' : ''}`);
+        }
+      } catch (error) {
+        console.log(`⚠️  Error reading existing post, will regenerate: ${error.message}`);
+      }
     }
 
     // Download and save cover image if it exists
@@ -609,37 +708,59 @@ async function processSinglePage(page, pageIndex, totalPages) {
       }
     }
 
+    // Download all images in content and update their URLs to local paths
+    let imageCounter = 0;
+    const downloadContentImages = async (blocks) => {
+      for (const block of blocks) {
+        if (block.type === 'image' && block.content && block.content.url) {
+          try {
+            imageCounter++;
+            const { buffer, contentTypeExt } = await downloadImage(block.content.url);
+            const imageExtension = contentTypeExt || getCleanFileExtension(block.content.url);
+            const imageFileName = `image-${imageCounter}.${imageExtension}`;
+            const imagePath = path.join(postDir, imageFileName);
+            fs.writeFileSync(imagePath, buffer);
+            console.log(`📸 Saved content image: ${imageFileName}`);
+
+            // Update the block content URL to local path
+            block.content.localUrl = `/posts/${folderName}/${imageFileName}`;
+            block.content.originalUrl = block.content.url;
+            block.content.url = block.content.localUrl;
+          } catch (error) {
+            console.error(`❌ Failed to save content image ${imageCounter} for ${folderName}:`, error.message);
+          }
+        }
+
+        // Recursively process children blocks
+        if (block.children && Array.isArray(block.children)) {
+          await downloadContentImages(block.children);
+        }
+      }
+    };
+
+    // Download all images in content
+    await downloadContentImages(blogPost.content);
+
     // If no cover or featured image, try to find first image in content
     if (!blogPost.og_image) {
       let firstImage = null;
       for (const block of blogPost.content) {
-        if (block.type === 'image') {
+        if (block.type === 'image' && block.content && block.content.localUrl) {
           firstImage = block.content;
           break;
         }
       }
-      
-      if (firstImage && firstImage.url) {
-        try {
-          const { buffer, contentTypeExt } = await downloadImage(firstImage.url);
-          const imageExtension = contentTypeExt || getCleanFileExtension(firstImage.url);
-          const imagePath = path.join(postDir, `og-image.${imageExtension}`);
-          fs.writeFileSync(imagePath, buffer);
-          console.log(`📸 Saved OG image: ${imagePath}`);
 
-          // Add the image path to the post metadata
-          blogPost.og_image = `/posts/${folderName}/og-image.${imageExtension}`;
-          if (!blogPost.featured_image) {
-            blogPost.featured_image = blogPost.og_image;
-          }
-        } catch (error) {
-          console.error(`❌ Failed to save OG image for ${folderName}:`, error.message);
+      if (firstImage && firstImage.localUrl) {
+        // Use the first downloaded image as OG image
+        blogPost.og_image = firstImage.localUrl;
+        if (!blogPost.featured_image) {
+          blogPost.featured_image = blogPost.og_image;
         }
       }
     }
-    
+
     // Save individual post JSON
-    const postFile = path.join(postDir, 'post.json');
     const postData = {
       meta: {
         generated_at: new Date().toISOString(),
@@ -652,15 +773,15 @@ async function processSinglePage(page, pageIndex, totalPages) {
       },
       post: blogPost
     };
-    
+
     fs.writeFileSync(postFile, JSON.stringify(postData, null, 2), 'utf8');
-    
+
     // Calculate file size
     const stats = fs.statSync(postFile);
     const fileSizeInKB = (stats.size / 1024).toFixed(2);
-    
+
     console.log(`✅ Saved: ${folderName} (${fileSizeInKB} KB)`);
-    
+
     // Return summary for index
     return {
       id: blogPost.id,
@@ -680,7 +801,7 @@ async function processSinglePage(page, pageIndex, totalPages) {
       file_size_kb: parseFloat(fileSizeInKB),
       file_size_bytes: stats.size
     };
-    
+
   } catch (error) {
     console.error(`❌ Error processing page ${page.id}:`, error.message);
     return null;
@@ -694,61 +815,82 @@ async function generateBlogJsonWithContent() {
     console.log('🚀 Starting Notion blog generation with content...');
     console.log(`📋 Database ID: ${DATABASE_ID}`);
     console.log('⚡ Rate limit: ~5 requests/second for faster processing');
-    
+
     // Fetch all pages from the database
     let allPages = [];
     let hasMore = true;
     let nextCursor = undefined;
-    
+
     while (hasMore) {
-      const response = await notion.databases.query({
-        database_id: DATABASE_ID,
-        start_cursor: nextCursor,
-        page_size: 100,
-      });
-      
-      allPages = allPages.concat(response.results);
-      hasMore = response.has_more;
-      nextCursor = response.next_cursor;
-      
-      console.log(`📄 Fetched ${response.results.length} pages...`);
+      try {
+        const response = await notion.databases.query({
+          database_id: DATABASE_ID,
+          start_cursor: nextCursor,
+          page_size: 50, // Reduced page size for stability
+          filter: {
+            property: "published",
+            checkbox: {
+              equals: true
+            }
+          }
+        });
+
+        allPages = allPages.concat(response.results);
+        hasMore = response.has_more;
+        nextCursor = response.next_cursor;
+
+        console.log(`📄 Fetched ${response.results.length} published pages...`);
+
+        // Add delay between database queries
+        if (hasMore) {
+          await new Promise(resolve => setTimeout(resolve, 1000));
+        }
+      } catch (error) {
+        console.error(`❌ Error fetching database pages:`, error.message);
+        if (error.code === 'rate_limited') {
+          console.log(`⏱️  Rate limited, waiting 5 seconds...`);
+          await new Promise(resolve => setTimeout(resolve, 5000));
+          continue;
+        }
+        throw error;
+      }
     }
-    
+
     console.log(`📚 Total pages found: ${allPages.length}`);
     const estimatedTime = Math.ceil((allPages.length * 0.12) / 60); // Updated estimate: much faster with optimized parallel processing
     console.log(`⏱️  Estimated completion time: ~${estimatedTime} minutes (with optimized parallel processing)`);
-    
+
     // Ensure output directory exists
     if (!fs.existsSync(OUTPUT_DIR)) {
       fs.mkdirSync(OUTPUT_DIR, { recursive: true });
     }
-    
-    // Process pages in parallel batches - increased batch size for better performance
-    const BATCH_SIZE = 10; // Increased from 6 to 10 for faster processing
+
+    // Process pages in parallel batches - reduced batch size for stability
+    const BATCH_SIZE = 3; // Reduced for better stability with timeout issues
     const blogPostsSummary = [];
     let totalSize = 0;
     let processedCount = 0;
-    
+
     console.log(`🚀 Processing ${allPages.length} pages in batches of ${BATCH_SIZE}...`);
-    
+
     for (let i = 0; i < allPages.length; i += BATCH_SIZE) {
       const batch = allPages.slice(i, i + BATCH_SIZE);
       const batchNumber = Math.floor(i / BATCH_SIZE) + 1;
       const totalBatches = Math.ceil(allPages.length / BATCH_SIZE);
-      
+
       console.log(`\n📦 Processing batch ${batchNumber}/${totalBatches} (${batch.length} pages)...`);
-      
+
       // Add progress indicator
       const progress = ((processedCount / allPages.length) * 100).toFixed(1);
       console.log(`📊 Progress: ${progress}% (${processedCount}/${allPages.length} completed)`);
-      
+
       // Process batch in parallel
-      const batchPromises = batch.map((page, index) => 
+      const batchPromises = batch.map((page, index) =>
         processSinglePage(page, i + index, allPages.length)
       );
-      
+
       const batchResults = await Promise.allSettled(batchPromises);
-      
+
       // Collect successful results
       let batchSuccessCount = 0;
       for (const result of batchResults) {
@@ -760,10 +902,10 @@ async function generateBlogJsonWithContent() {
           console.error(`❌ Batch processing error:`, result.reason);
         }
       }
-      
+
       processedCount += batchSuccessCount;
       console.log(`✅ Batch ${batchNumber} completed (${batchSuccessCount}/${batch.length} successful)`);
-      
+
       // Show estimated time remaining
       if (batchNumber > 1) {
         const elapsed = (Date.now() - startTime) / 1000 / 60;
@@ -772,7 +914,7 @@ async function generateBlogJsonWithContent() {
         console.log(`⏱️  Estimated time remaining: ${remaining.toFixed(1)} minutes`);
       }
     }
-    
+
     // Create index file with summary of all posts
     const indexData = {
       meta: {
@@ -784,26 +926,26 @@ async function generateBlogJsonWithContent() {
       },
       posts: blogPostsSummary
     };
-    
+
     const indexFile = path.join(OUTPUT_DIR, 'index.json');
     fs.writeFileSync(indexFile, JSON.stringify(indexData, null, 2), 'utf8');
-    
+
     console.log(`✅ Blog posts generated successfully!`);
     console.log(`📁 Output directory: ${OUTPUT_DIR}`);
     console.log(`📊 Total posts: ${blogPostsSummary.length}`);
     console.log(`📦 Total size: ${(totalSize / (1024 * 1024)).toFixed(2)} MB`);
     console.log(`📋 Index file created: ${indexFile}`);
-    
+
     const endTime = Date.now();
     const actualTime = ((endTime - startTime) / 1000 / 60).toFixed(1);
     console.log(`⏱️  Actual completion time: ${actualTime} minutes`);
     console.log(`🚀 Average processing rate: ${(blogPostsSummary.length / (actualTime || 1)).toFixed(1)} posts/minute`);
     console.log(`🔥 Performance: ~${Math.round(10 / (actualTime / (blogPostsSummary.length / 10) || 1))}x faster than sequential processing!`);
-    console.log(`⚡ Optimization: ~${Math.round(5/3 * 100)}% faster rate limiting + ${Math.round(10/6 * 100)}% larger batches = ${Math.round((5/3) * (10/6) * 100)}% overall speedup!`);
-    
+    console.log(`⚡ Optimization: ~${Math.round(5 / 3 * 100)}% faster rate limiting + ${Math.round(10 / 6 * 100)}% larger batches = ${Math.round((5 / 3) * (10 / 6) * 100)}% overall speedup!`);
+
   } catch (error) {
     console.error('❌ Error generating blog JSON with content:', error);
-    
+
     if (error.code === 'unauthorized') {
       console.error('🔐 Authorization failed. Please check your Notion token.');
     } else if (error.code === 'object_not_found') {
@@ -811,7 +953,7 @@ async function generateBlogJsonWithContent() {
     } else if (error.code === 'rate_limited') {
       console.error('⏱️  Rate limited. Please try again later.');
     }
-    
+
     process.exit(1);
   }
 }

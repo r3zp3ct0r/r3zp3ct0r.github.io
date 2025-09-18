@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2025-07-26T09:14:31.594Z",
+    "generated_at": "2025-09-18T05:31:21.845Z",
     "total_posts": 13,
-    "published_posts": 12,
-    "draft_posts": 1,
+    "published_posts": 13,
+    "draft_posts": 0,
     "featured_posts": 0,
     "total_tags": 9,
     "total_categories": 4,
@@ -13,7 +13,7 @@
     "categories": [
       {
         "name": "CTF",
-        "count": 11,
+        "count": 12,
         "slug": "ctf"
       },
       {
@@ -23,7 +23,7 @@
       },
       {
         "name": "Security",
-        "count": 2,
+        "count": 3,
         "slug": "security"
       },
       {
@@ -54,6 +54,11 @@
         "slug": "web-exploit"
       },
       {
+        "name": "RCE",
+        "count": 2,
+        "slug": "rce"
+      },
+      {
         "name": "Stegano",
         "count": 1,
         "slug": "stegano"
@@ -62,11 +67,6 @@
         "name": "PWN",
         "count": 1,
         "slug": "pwn"
-      },
-      {
-        "name": "RCE",
-        "count": 1,
-        "slug": "rce"
       },
       {
         "name": "Forensics",
@@ -83,6 +83,32 @@
   "posts": {
     "all": [
       {
+        "id": "23cdb469-a81d-8013-9c15-df63dc21a607",
+        "title": "TryHackMe - Pyrat",
+        "slug": "tryhackme-pyrat",
+        "folder": "tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607",
+        "excerpt": "Pada kesempatan ini, saya menyelesaikan tantangan CTF Boot2Root yang cukup menarik karena memadukan eksploitasi service TCP kustom, Git credential leak, dan bruteforce password untuk mengakses shell r...",
+        "featured_image": "/posts/tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607/image-1.png",
+        "created_time": "2025-07-26T11:42:00.000Z",
+        "last_edited_time": "2025-09-18T01:50:00.000Z",
+        "reading_time": 3,
+        "url": "https://www.notion.so/TryHackMe-Pyrat-23cdb469a81d80139c15df63dc21a607",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "CTF",
+          "Security"
+        ],
+        "tags": [
+          "RCE"
+        ],
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
         "id": "237db469-a81d-805b-8d45-cc6858afce55",
         "title": "[Cyber Strike Competition 1.0 CTF 2024] - Reverse",
         "slug": "cyber-strike-competition-1-0-ctf-2024-reverse",
@@ -397,27 +423,6 @@
         ],
         "properties": {
           "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "22adb469-a81d-81f1-afa8-f44983433ec6",
-        "title": "Sample Blog",
-        "slug": "sample-blog",
-        "folder": "sample-blog-22adb469a81d81f1afa8f44983433ec6",
-        "excerpt": "This is sample blog as draft. So it’s should not rendered.",
-        "featured_image": null,
-        "created_time": "2025-07-08T15:57:00.000Z",
-        "last_edited_time": "2025-07-08T15:57:00.000Z",
-        "reading_time": 1,
-        "url": "https://www.notion.so/Sample-Blog-22adb469a81d81f1afa8f44983433ec6",
-        "public_url": null,
-        "archived": false,
-        "categories": [],
-        "tags": [],
-        "properties": {
-          "published": false,
           "featured": false,
           "author": "Anonymous"
         }
@@ -425,6 +430,32 @@
     ],
     "published": [
       {
+        "id": "23cdb469-a81d-8013-9c15-df63dc21a607",
+        "title": "TryHackMe - Pyrat",
+        "slug": "tryhackme-pyrat",
+        "folder": "tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607",
+        "excerpt": "Pada kesempatan ini, saya menyelesaikan tantangan CTF Boot2Root yang cukup menarik karena memadukan eksploitasi service TCP kustom, Git credential leak, dan bruteforce password untuk mengakses shell r...",
+        "featured_image": "/posts/tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607/image-1.png",
+        "created_time": "2025-07-26T11:42:00.000Z",
+        "last_edited_time": "2025-09-18T01:50:00.000Z",
+        "reading_time": 3,
+        "url": "https://www.notion.so/TryHackMe-Pyrat-23cdb469a81d80139c15df63dc21a607",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "CTF",
+          "Security"
+        ],
+        "tags": [
+          "RCE"
+        ],
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
         "id": "237db469-a81d-805b-8d45-cc6858afce55",
         "title": "[Cyber Strike Competition 1.0 CTF 2024] - Reverse",
         "slug": "cyber-strike-competition-1-0-ctf-2024-reverse",
@@ -744,32 +775,36 @@
         }
       }
     ],
-    "drafts": [
-      {
-        "id": "22adb469-a81d-81f1-afa8-f44983433ec6",
-        "title": "Sample Blog",
-        "slug": "sample-blog",
-        "folder": "sample-blog-22adb469a81d81f1afa8f44983433ec6",
-        "excerpt": "This is sample blog as draft. So it’s should not rendered.",
-        "featured_image": null,
-        "created_time": "2025-07-08T15:57:00.000Z",
-        "last_edited_time": "2025-07-08T15:57:00.000Z",
-        "reading_time": 1,
-        "url": "https://www.notion.so/Sample-Blog-22adb469a81d81f1afa8f44983433ec6",
-        "public_url": null,
-        "archived": false,
-        "categories": [],
-        "tags": [],
-        "properties": {
-          "published": false,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      }
-    ],
+    "drafts": [],
     "featured": [],
     "by_date": [
       {
+        "id": "23cdb469-a81d-8013-9c15-df63dc21a607",
+        "title": "TryHackMe - Pyrat",
+        "slug": "tryhackme-pyrat",
+        "folder": "tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607",
+        "excerpt": "Pada kesempatan ini, saya menyelesaikan tantangan CTF Boot2Root yang cukup menarik karena memadukan eksploitasi service TCP kustom, Git credential leak, dan bruteforce password untuk mengakses shell r...",
+        "featured_image": "/posts/tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607/image-1.png",
+        "created_time": "2025-07-26T11:42:00.000Z",
+        "last_edited_time": "2025-09-18T01:50:00.000Z",
+        "reading_time": 3,
+        "url": "https://www.notion.so/TryHackMe-Pyrat-23cdb469a81d80139c15df63dc21a607",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "CTF",
+          "Security"
+        ],
+        "tags": [
+          "RCE"
+        ],
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
         "id": "237db469-a81d-805b-8d45-cc6858afce55",
         "title": "[Cyber Strike Competition 1.0 CTF 2024] - Reverse",
         "slug": "cyber-strike-competition-1-0-ctf-2024-reverse",
@@ -1084,27 +1119,6 @@
         ],
         "properties": {
           "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "22adb469-a81d-81f1-afa8-f44983433ec6",
-        "title": "Sample Blog",
-        "slug": "sample-blog",
-        "folder": "sample-blog-22adb469a81d81f1afa8f44983433ec6",
-        "excerpt": "This is sample blog as draft. So it’s should not rendered.",
-        "featured_image": null,
-        "created_time": "2025-07-08T15:57:00.000Z",
-        "last_edited_time": "2025-07-08T15:57:00.000Z",
-        "reading_time": 1,
-        "url": "https://www.notion.so/Sample-Blog-22adb469a81d81f1afa8f44983433ec6",
-        "public_url": null,
-        "archived": false,
-        "categories": [],
-        "tags": [],
-        "properties": {
-          "published": false,
           "featured": false,
           "author": "Anonymous"
         }
@@ -1378,22 +1392,27 @@
         }
       },
       {
-        "id": "22adb469-a81d-81f1-afa8-f44983433ec6",
-        "title": "Sample Blog",
-        "slug": "sample-blog",
-        "folder": "sample-blog-22adb469a81d81f1afa8f44983433ec6",
-        "excerpt": "This is sample blog as draft. So it’s should not rendered.",
-        "featured_image": null,
-        "created_time": "2025-07-08T15:57:00.000Z",
-        "last_edited_time": "2025-07-08T15:57:00.000Z",
-        "reading_time": 1,
-        "url": "https://www.notion.so/Sample-Blog-22adb469a81d81f1afa8f44983433ec6",
+        "id": "23cdb469-a81d-8013-9c15-df63dc21a607",
+        "title": "TryHackMe - Pyrat",
+        "slug": "tryhackme-pyrat",
+        "folder": "tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607",
+        "excerpt": "Pada kesempatan ini, saya menyelesaikan tantangan CTF Boot2Root yang cukup menarik karena memadukan eksploitasi service TCP kustom, Git credential leak, dan bruteforce password untuk mengakses shell r...",
+        "featured_image": "/posts/tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607/image-1.png",
+        "created_time": "2025-07-26T11:42:00.000Z",
+        "last_edited_time": "2025-09-18T01:50:00.000Z",
+        "reading_time": 3,
+        "url": "https://www.notion.so/TryHackMe-Pyrat-23cdb469a81d80139c15df63dc21a607",
         "public_url": null,
         "archived": false,
-        "categories": [],
-        "tags": [],
+        "categories": [
+          "CTF",
+          "Security"
+        ],
+        "tags": [
+          "RCE"
+        ],
         "properties": {
-          "published": false,
+          "published": true,
           "featured": false,
           "author": "Anonymous"
         }
@@ -1585,6 +1604,32 @@
         }
       },
       {
+        "id": "23cdb469-a81d-8013-9c15-df63dc21a607",
+        "title": "TryHackMe - Pyrat",
+        "slug": "tryhackme-pyrat",
+        "folder": "tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607",
+        "excerpt": "Pada kesempatan ini, saya menyelesaikan tantangan CTF Boot2Root yang cukup menarik karena memadukan eksploitasi service TCP kustom, Git credential leak, dan bruteforce password untuk mengakses shell r...",
+        "featured_image": "/posts/tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607/image-1.png",
+        "created_time": "2025-07-26T11:42:00.000Z",
+        "last_edited_time": "2025-09-18T01:50:00.000Z",
+        "reading_time": 3,
+        "url": "https://www.notion.so/TryHackMe-Pyrat-23cdb469a81d80139c15df63dc21a607",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "CTF",
+          "Security"
+        ],
+        "tags": [
+          "RCE"
+        ],
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
         "id": "237db469-a81d-8038-b6c1-e28cb2dbe2b6",
         "title": "[TSA Cyber Champion 2024] - Reverse Engineering 101 Writeup",
         "slug": "tsa-cyber-champion-2024-reverse-engineering-101-wr",
@@ -1741,27 +1786,6 @@
         ],
         "properties": {
           "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "22adb469-a81d-81f1-afa8-f44983433ec6",
-        "title": "Sample Blog",
-        "slug": "sample-blog",
-        "folder": "sample-blog-22adb469a81d81f1afa8f44983433ec6",
-        "excerpt": "This is sample blog as draft. So it’s should not rendered.",
-        "featured_image": null,
-        "created_time": "2025-07-08T15:57:00.000Z",
-        "last_edited_time": "2025-07-08T15:57:00.000Z",
-        "reading_time": 1,
-        "url": "https://www.notion.so/Sample-Blog-22adb469a81d81f1afa8f44983433ec6",
-        "public_url": null,
-        "archived": false,
-        "categories": [],
-        "tags": [],
-        "properties": {
-          "published": false,
           "featured": false,
           "author": "Anonymous"
         }

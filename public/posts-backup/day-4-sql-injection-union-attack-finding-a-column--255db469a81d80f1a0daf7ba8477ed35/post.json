@@ -1,0 +1,998 @@
+{
+  "meta": {
+    "generated_at": "2025-09-18T01:39:46.070Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35",
+    "slug": "day-4-sql-injection-union-attack-finding-a-column-",
+    "og_image": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-1.png",
+    "featured_image": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-1.png"
+  },
+  "post": {
+    "id": "255db469-a81d-80f1-a0da-f7ba8477ed35",
+    "created_time": "2025-08-20T11:32:00.000Z",
+    "last_edited_time": "2025-08-20T15:15:00.000Z",
+    "url": "https://www.notion.so/Day-4-SQL-injection-UNION-attack-finding-a-column-containing-text-255db469a81d80f1a0daf7ba8477ed35",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-08-20T11:32:00.000Z"
+      },
+      "slug": "day-4-sql-injection-union-attack,-finding-a-column-containing-text",
+      "publisheddate": null,
+      "owner": [],
+      "featured_image": [],
+      "tags": [],
+      "published": false,
+      "title": "Day 4 SQL injection UNION attack, finding a column containing text"
+    },
+    "title": "Day 4 SQL injection UNION attack, finding a column containing text",
+    "content": [
+      {
+        "id": "255db469-a81d-80d6-9cd5-eb9c602fd8cd",
+        "type": "image",
+        "created_time": "2025-08-20T11:33:00.000Z",
+        "last_edited_time": "2025-08-20T15:02:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-1.png",
+          "expiry_time": "2025-09-18T02:39:41.812Z",
+          "localUrl": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-1.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/f6bd9192-1a6a-417a-abfb-a2a6b8ba774d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667VMSYCIN%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013941Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQClAd4gC8RqA7MJLEb5000DILasBJ7RB4aZVQKGjUgTJgIgas7S5JYUtA%2BL1qolvhjT46BINgsauCxYZpomh6yfcfIqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDBO0CRVtecFgdkgwBircA%2FxOkUiX%2B2b0jDIVO4aDRhZb1RDBwFwXvDrDYrzvt2gbCZIMVlF5wgEJNz2wKmAVPIffjKTVkES3luOKo8DPDZZ49DQterlYkur3eKSmnM9CVi%2FIeAGoXNMilOCoUZmscAoZlA5VkkPjPEA8g4RcJBvhvnbgEUfQxp8lyBRtmGyBuCbUdOqIoXL%2BRCYGLtKFOWspExJvHvWI7NJZwJtqPsMPsE7cgY4lGBde11mylkaFDOby9TjLonhAomnofjA8LzCa8NN1%2BtZMt3NsyglAIWoi8ZOnY%2Fxv0VZf5lPNlMzPPFGyqn5%2FN8BgH0Z5dt2zslGIwYlzOd%2FRpz5Cgyduczg4vJb1imzQOZSm8u1hvAn1lA%2BAIyclIDGNywkj54K9KfEIfi3n4L2PGRLyiTtqcsHesfLVWSiX%2BMxDPmxASVutj7YoOtNjXSnCbtWTi2D0gKAjMVNDXY6OCs5j8JYnP4wDDaz3EXjcj9KgbYhOaXqxpfdLL1%2BXfOkKQPxt4VmOxukxjO70HNWZT3x27ZqWMaA0o%2BkNRER1y7snKOEbz9jZ%2FfaYhHSDtH9uq%2BWiMcJgktEu1OgcX4g%2Bip%2BoD08BKWgJzWfKI5pzDWXOtFBIq7UrQlOH2c4y2FXO0ZwzMLuZrcYGOqUBbuoWDj3Sdi0rBq0ZDNBZgg%2FJiBCmuUFlCKJWdvekr2IEXj7QIok93tgUkjowSbzeGejYOYWiL2RNt%2BVRCuKBafY%2BsKfR7V8tlIoi%2FjKWgkWZMbnHdG6qnphkrCDdbwPF4rMmIu6JTREDmmOd7nX00tbpiLRLj%2B7EYmfTAxDkK5gRNbU0FG%2FzPy5MS0foDIEXnbUqo9k67XxaUsMrLvk%2FAslW1mX9&X-Amz-Signature=8e980666011c82547838af1f4f0f7e445b637b559f736a71f7afb3a4b886544a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "255db469-a81d-80f3-892e-d5a6fc73acff",
+        "type": "paragraph",
+        "created_time": "2025-08-20T11:33:00.000Z",
+        "last_edited_time": "2025-08-20T11:33:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-8017-abf6-ed98024cdc31",
+        "type": "paragraph",
+        "created_time": "2025-08-20T11:32:00.000Z",
+        "last_edited_time": "2025-08-20T11:33:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Link Lab: ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "https://portswigger.net/web-security/sql-injection/union-attacks/lab-find-column-containing-text",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": "https://portswigger.net/web-security/sql-injection/union-attacks/lab-find-column-containing-text"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-80bb-bc59-e189111d0814",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:05:00.000Z",
+        "last_edited_time": "2025-08-20T12:05:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-8084-8c9e-d2237564784c",
+        "type": "code",
+        "created_time": "2025-08-20T12:05:00.000Z",
+        "last_edited_time": "2025-08-20T12:05:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Deskripsi lab:\n\n            This lab contains a SQL injection vulnerability in the \nproduct category filter. The results from the query are returned in the \napplication's response, so you can use a UNION attack to retrieve data \nfrom other tables. To construct such an attack, you first need to \ndetermine the number of columns returned by the query. You can do this \nusing a technique you learned in a previous lab. The next step is to identify a column that is compatible with string data.\n        \n            The lab will provide a random value that you need to make \nappear within the query results. To solve the lab, perform a SQL \ninjection UNION attack that returns an additional row containing the \nvalue provided. This technique helps you determine which columns are \ncompatible with string data.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "255db469-a81d-80f7-9fae-e1baaedec0f8",
+        "type": "paragraph",
+        "created_time": "2025-08-20T15:15:00.000Z",
+        "last_edited_time": "2025-08-20T15:15:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-80f4-9d2a-cec97c1e05cc",
+        "type": "divider",
+        "created_time": "2025-08-20T15:15:00.000Z",
+        "last_edited_time": "2025-08-20T15:15:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "255db469-a81d-80e1-95d2-cb8052ea0152",
+        "type": "paragraph",
+        "created_time": "2025-08-20T15:15:00.000Z",
+        "last_edited_time": "2025-08-20T15:15:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-8068-b383-eae027958aee",
+        "type": "paragraph",
+        "created_time": "2025-08-20T15:15:00.000Z",
+        "last_edited_time": "2025-08-20T15:15:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Ada SQLi di fitur ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "product category filter",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ". Karena hasil query nongol di halaman, kita bisa pakai ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "UNION SELECT",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " buat nyisipin baris tambahan. Tujuan lab kali ini: ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "nemuin kolom yang kompatibel tipe string",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " dengan cara nampilin nilai acak ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "Y6Yra4",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " di hasil. ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-80fd-9dee-e3d17cf883f7",
+        "type": "paragraph",
+        "created_time": "2025-08-20T15:15:00.000Z",
+        "last_edited_time": "2025-08-20T15:15:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-8062-ab19-db990e376c03",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:04:00.000Z",
+        "last_edited_time": "2025-08-20T12:04:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-805f-b089-fd1d64ed8e1b",
+        "type": "paragraph",
+        "created_time": "2025-08-20T11:33:00.000Z",
+        "last_edited_time": "2025-08-20T12:08:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Oke untuk lab ini, sesuai pada deskripsi kerentanan nya masih sama seperti pada lab sebelumnya. Jadi masih menggunakan payload yang sama.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-8000-9c42-e0fa40fb6c4a",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:08:00.000Z",
+        "last_edited_time": "2025-08-20T12:08:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-80f3-a159-fe94781d32ba",
+        "type": "heading_2",
+        "created_time": "2025-08-20T12:08:00.000Z",
+        "last_edited_time": "2025-08-20T12:09:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Solusi",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "255db469-a81d-801a-9094-d5b0018fbd62",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:10:00.000Z",
+        "last_edited_time": "2025-08-20T12:10:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-80e1-abac-f36560abb537",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:10:00.000Z",
+        "last_edited_time": "2025-08-20T12:19:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Disini saya pilih salah satu kategori, dan di intercept ke burp suite.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-80fb-b4b3-e2fc56e81766",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:19:00.000Z",
+        "last_edited_time": "2025-08-20T12:20:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Seperti biasa, pilih salah satu kategori, dan disini saya masuk ke kategori Tech gifts. Berikut tampilannya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-8044-a84e-e2ca42481f81",
+        "type": "image",
+        "created_time": "2025-08-20T12:10:00.000Z",
+        "last_edited_time": "2025-08-20T12:10:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-2.png",
+          "expiry_time": "2025-09-18T02:39:41.802Z",
+          "localUrl": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-2.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/10859308-10e1-42e9-a0d1-3d99c89f33d3/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667VMSYCIN%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013941Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQClAd4gC8RqA7MJLEb5000DILasBJ7RB4aZVQKGjUgTJgIgas7S5JYUtA%2BL1qolvhjT46BINgsauCxYZpomh6yfcfIqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDBO0CRVtecFgdkgwBircA%2FxOkUiX%2B2b0jDIVO4aDRhZb1RDBwFwXvDrDYrzvt2gbCZIMVlF5wgEJNz2wKmAVPIffjKTVkES3luOKo8DPDZZ49DQterlYkur3eKSmnM9CVi%2FIeAGoXNMilOCoUZmscAoZlA5VkkPjPEA8g4RcJBvhvnbgEUfQxp8lyBRtmGyBuCbUdOqIoXL%2BRCYGLtKFOWspExJvHvWI7NJZwJtqPsMPsE7cgY4lGBde11mylkaFDOby9TjLonhAomnofjA8LzCa8NN1%2BtZMt3NsyglAIWoi8ZOnY%2Fxv0VZf5lPNlMzPPFGyqn5%2FN8BgH0Z5dt2zslGIwYlzOd%2FRpz5Cgyduczg4vJb1imzQOZSm8u1hvAn1lA%2BAIyclIDGNywkj54K9KfEIfi3n4L2PGRLyiTtqcsHesfLVWSiX%2BMxDPmxASVutj7YoOtNjXSnCbtWTi2D0gKAjMVNDXY6OCs5j8JYnP4wDDaz3EXjcj9KgbYhOaXqxpfdLL1%2BXfOkKQPxt4VmOxukxjO70HNWZT3x27ZqWMaA0o%2BkNRER1y7snKOEbz9jZ%2FfaYhHSDtH9uq%2BWiMcJgktEu1OgcX4g%2Bip%2BoD08BKWgJzWfKI5pzDWXOtFBIq7UrQlOH2c4y2FXO0ZwzMLuZrcYGOqUBbuoWDj3Sdi0rBq0ZDNBZgg%2FJiBCmuUFlCKJWdvekr2IEXj7QIok93tgUkjowSbzeGejYOYWiL2RNt%2BVRCuKBafY%2BsKfR7V8tlIoi%2FjKWgkWZMbnHdG6qnphkrCDdbwPF4rMmIu6JTREDmmOd7nX00tbpiLRLj%2B7EYmfTAxDkK5gRNbU0FG%2FzPy5MS0foDIEXnbUqo9k67XxaUsMrLvk%2FAslW1mX9&X-Amz-Signature=dc40ff158c709f14d292b8ac25bcb41a5a4a163b0729c2e2d39edce26b98acab&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "255db469-a81d-80c7-bf0f-c85be92839ac",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:20:00.000Z",
+        "last_edited_time": "2025-08-20T12:20:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-8077-bd10-cbb73f865123",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:11:00.000Z",
+        "last_edited_time": "2025-08-20T12:20:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Langsung saja ke exploitasi. Untuk Sql inject nya, masih menggunakan payload yang kemarin, yaitu menggunakan payload berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-8043-aca8-f73efd21379a",
+        "type": "code",
+        "created_time": "2025-08-20T12:12:00.000Z",
+        "last_edited_time": "2025-08-20T12:12:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "'+UNION+SELECT+NULL,NULL,NULL-- ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "255db469-a81d-8088-8d70-d8dfce5724b2",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:21:00.000Z",
+        "last_edited_time": "2025-08-20T12:21:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-80b9-851c-e2e42acad918",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:11:00.000Z",
+        "last_edited_time": "2025-08-20T12:21:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Berikut adalah response nya.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-80bf-9d5d-ee753ac47d59",
+        "type": "image",
+        "created_time": "2025-08-20T12:11:00.000Z",
+        "last_edited_time": "2025-08-20T12:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-3.png",
+          "expiry_time": "2025-09-18T02:39:41.814Z",
+          "localUrl": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-3.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/7a4fe7f1-e807-400a-bf37-438c4983c98a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667VMSYCIN%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013941Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQClAd4gC8RqA7MJLEb5000DILasBJ7RB4aZVQKGjUgTJgIgas7S5JYUtA%2BL1qolvhjT46BINgsauCxYZpomh6yfcfIqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDBO0CRVtecFgdkgwBircA%2FxOkUiX%2B2b0jDIVO4aDRhZb1RDBwFwXvDrDYrzvt2gbCZIMVlF5wgEJNz2wKmAVPIffjKTVkES3luOKo8DPDZZ49DQterlYkur3eKSmnM9CVi%2FIeAGoXNMilOCoUZmscAoZlA5VkkPjPEA8g4RcJBvhvnbgEUfQxp8lyBRtmGyBuCbUdOqIoXL%2BRCYGLtKFOWspExJvHvWI7NJZwJtqPsMPsE7cgY4lGBde11mylkaFDOby9TjLonhAomnofjA8LzCa8NN1%2BtZMt3NsyglAIWoi8ZOnY%2Fxv0VZf5lPNlMzPPFGyqn5%2FN8BgH0Z5dt2zslGIwYlzOd%2FRpz5Cgyduczg4vJb1imzQOZSm8u1hvAn1lA%2BAIyclIDGNywkj54K9KfEIfi3n4L2PGRLyiTtqcsHesfLVWSiX%2BMxDPmxASVutj7YoOtNjXSnCbtWTi2D0gKAjMVNDXY6OCs5j8JYnP4wDDaz3EXjcj9KgbYhOaXqxpfdLL1%2BXfOkKQPxt4VmOxukxjO70HNWZT3x27ZqWMaA0o%2BkNRER1y7snKOEbz9jZ%2FfaYhHSDtH9uq%2BWiMcJgktEu1OgcX4g%2Bip%2BoD08BKWgJzWfKI5pzDWXOtFBIq7UrQlOH2c4y2FXO0ZwzMLuZrcYGOqUBbuoWDj3Sdi0rBq0ZDNBZgg%2FJiBCmuUFlCKJWdvekr2IEXj7QIok93tgUkjowSbzeGejYOYWiL2RNt%2BVRCuKBafY%2BsKfR7V8tlIoi%2FjKWgkWZMbnHdG6qnphkrCDdbwPF4rMmIu6JTREDmmOd7nX00tbpiLRLj%2B7EYmfTAxDkK5gRNbU0FG%2FzPy5MS0foDIEXnbUqo9k67XxaUsMrLvk%2FAslW1mX9&X-Amz-Signature=f2f95071038a4b5a999e4c774b364f1fd21637100f0b945405c7c1def47ffa69&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "255db469-a81d-80a1-aefb-e04ec29731cc",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:11:00.000Z",
+        "last_edited_time": "2025-08-20T12:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-8041-afb5-d44756cd74e0",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:11:00.000Z",
+        "last_edited_time": "2025-08-20T12:13:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah itu, kita ganti pada bagian salah satu NULL nya dengan string yang sudah ditentukan oleh lab nya. Disini saya string nya adalah ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "Y6Yra4",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-802b-b652-c17a395da3a6",
+        "type": "image",
+        "created_time": "2025-08-20T12:13:00.000Z",
+        "last_edited_time": "2025-08-20T12:13:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-4.png",
+          "expiry_time": "2025-09-18T02:39:41.934Z",
+          "localUrl": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-4.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/28aed535-1280-4a21-ade0-a553bfede594/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667VMSYCIN%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013941Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQClAd4gC8RqA7MJLEb5000DILasBJ7RB4aZVQKGjUgTJgIgas7S5JYUtA%2BL1qolvhjT46BINgsauCxYZpomh6yfcfIqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDBO0CRVtecFgdkgwBircA%2FxOkUiX%2B2b0jDIVO4aDRhZb1RDBwFwXvDrDYrzvt2gbCZIMVlF5wgEJNz2wKmAVPIffjKTVkES3luOKo8DPDZZ49DQterlYkur3eKSmnM9CVi%2FIeAGoXNMilOCoUZmscAoZlA5VkkPjPEA8g4RcJBvhvnbgEUfQxp8lyBRtmGyBuCbUdOqIoXL%2BRCYGLtKFOWspExJvHvWI7NJZwJtqPsMPsE7cgY4lGBde11mylkaFDOby9TjLonhAomnofjA8LzCa8NN1%2BtZMt3NsyglAIWoi8ZOnY%2Fxv0VZf5lPNlMzPPFGyqn5%2FN8BgH0Z5dt2zslGIwYlzOd%2FRpz5Cgyduczg4vJb1imzQOZSm8u1hvAn1lA%2BAIyclIDGNywkj54K9KfEIfi3n4L2PGRLyiTtqcsHesfLVWSiX%2BMxDPmxASVutj7YoOtNjXSnCbtWTi2D0gKAjMVNDXY6OCs5j8JYnP4wDDaz3EXjcj9KgbYhOaXqxpfdLL1%2BXfOkKQPxt4VmOxukxjO70HNWZT3x27ZqWMaA0o%2BkNRER1y7snKOEbz9jZ%2FfaYhHSDtH9uq%2BWiMcJgktEu1OgcX4g%2Bip%2BoD08BKWgJzWfKI5pzDWXOtFBIq7UrQlOH2c4y2FXO0ZwzMLuZrcYGOqUBbuoWDj3Sdi0rBq0ZDNBZgg%2FJiBCmuUFlCKJWdvekr2IEXj7QIok93tgUkjowSbzeGejYOYWiL2RNt%2BVRCuKBafY%2BsKfR7V8tlIoi%2FjKWgkWZMbnHdG6qnphkrCDdbwPF4rMmIu6JTREDmmOd7nX00tbpiLRLj%2B7EYmfTAxDkK5gRNbU0FG%2FzPy5MS0foDIEXnbUqo9k67XxaUsMrLvk%2FAslW1mX9&X-Amz-Signature=938a06d2245ef2c10346c07819df3e86e662b539e01b96857def42580dfc8008&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "255db469-a81d-80de-add1-e6ddadb91ebc",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:15:00.000Z",
+        "last_edited_time": "2025-08-20T12:15:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-800b-866b-c4a142723450",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:15:00.000Z",
+        "last_edited_time": "2025-08-20T12:15:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk payload nya, disini saya ganti NULL pertama ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-80f0-8199-c871501cd9fc",
+        "type": "code",
+        "created_time": "2025-08-20T12:15:00.000Z",
+        "last_edited_time": "2025-08-20T12:15:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "GET /filter?category=Tech+gifts'+UNION+SELECT+'Y6Yra4',NULL,NULL--",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "255db469-a81d-8058-81b0-c0512355c079",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:14:00.000Z",
+        "last_edited_time": "2025-08-20T12:14:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Sehingga menjadi seperti ini:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-808d-8d78-edcabf5298ff",
+        "type": "image",
+        "created_time": "2025-08-20T12:16:00.000Z",
+        "last_edited_time": "2025-08-20T12:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-5.png",
+          "expiry_time": "2025-09-18T02:39:41.940Z",
+          "localUrl": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-5.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/bb12429d-fcc3-4114-99c0-b9e7d3651723/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667VMSYCIN%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013941Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQClAd4gC8RqA7MJLEb5000DILasBJ7RB4aZVQKGjUgTJgIgas7S5JYUtA%2BL1qolvhjT46BINgsauCxYZpomh6yfcfIqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDBO0CRVtecFgdkgwBircA%2FxOkUiX%2B2b0jDIVO4aDRhZb1RDBwFwXvDrDYrzvt2gbCZIMVlF5wgEJNz2wKmAVPIffjKTVkES3luOKo8DPDZZ49DQterlYkur3eKSmnM9CVi%2FIeAGoXNMilOCoUZmscAoZlA5VkkPjPEA8g4RcJBvhvnbgEUfQxp8lyBRtmGyBuCbUdOqIoXL%2BRCYGLtKFOWspExJvHvWI7NJZwJtqPsMPsE7cgY4lGBde11mylkaFDOby9TjLonhAomnofjA8LzCa8NN1%2BtZMt3NsyglAIWoi8ZOnY%2Fxv0VZf5lPNlMzPPFGyqn5%2FN8BgH0Z5dt2zslGIwYlzOd%2FRpz5Cgyduczg4vJb1imzQOZSm8u1hvAn1lA%2BAIyclIDGNywkj54K9KfEIfi3n4L2PGRLyiTtqcsHesfLVWSiX%2BMxDPmxASVutj7YoOtNjXSnCbtWTi2D0gKAjMVNDXY6OCs5j8JYnP4wDDaz3EXjcj9KgbYhOaXqxpfdLL1%2BXfOkKQPxt4VmOxukxjO70HNWZT3x27ZqWMaA0o%2BkNRER1y7snKOEbz9jZ%2FfaYhHSDtH9uq%2BWiMcJgktEu1OgcX4g%2Bip%2BoD08BKWgJzWfKI5pzDWXOtFBIq7UrQlOH2c4y2FXO0ZwzMLuZrcYGOqUBbuoWDj3Sdi0rBq0ZDNBZgg%2FJiBCmuUFlCKJWdvekr2IEXj7QIok93tgUkjowSbzeGejYOYWiL2RNt%2BVRCuKBafY%2BsKfR7V8tlIoi%2FjKWgkWZMbnHdG6qnphkrCDdbwPF4rMmIu6JTREDmmOd7nX00tbpiLRLj%2B7EYmfTAxDkK5gRNbU0FG%2FzPy5MS0foDIEXnbUqo9k67XxaUsMrLvk%2FAslW1mX9&X-Amz-Signature=dcefd260214391289cc94309c4792afc1ad4aad3dd0efcab26930be905f6af0e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "255db469-a81d-801e-8eca-c6fa8dc18e12",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:16:00.000Z",
+        "last_edited_time": "2025-08-20T12:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-8017-ae10-cb6f2b0eb2d5",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:14:00.000Z",
+        "last_edited_time": "2025-08-20T12:17:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Tetapi, apabila masih error seperti pada gambar dibawah. Maka ganti NULL selanjutnya,",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-8022-84f0-d92a18a7809b",
+        "type": "image",
+        "created_time": "2025-08-20T12:18:00.000Z",
+        "last_edited_time": "2025-08-20T12:18:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-6.png",
+          "expiry_time": "2025-09-18T02:39:41.993Z",
+          "localUrl": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-6.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/247da70c-eebd-465e-987f-5bf06240f277/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667VMSYCIN%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013942Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQClAd4gC8RqA7MJLEb5000DILasBJ7RB4aZVQKGjUgTJgIgas7S5JYUtA%2BL1qolvhjT46BINgsauCxYZpomh6yfcfIqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDBO0CRVtecFgdkgwBircA%2FxOkUiX%2B2b0jDIVO4aDRhZb1RDBwFwXvDrDYrzvt2gbCZIMVlF5wgEJNz2wKmAVPIffjKTVkES3luOKo8DPDZZ49DQterlYkur3eKSmnM9CVi%2FIeAGoXNMilOCoUZmscAoZlA5VkkPjPEA8g4RcJBvhvnbgEUfQxp8lyBRtmGyBuCbUdOqIoXL%2BRCYGLtKFOWspExJvHvWI7NJZwJtqPsMPsE7cgY4lGBde11mylkaFDOby9TjLonhAomnofjA8LzCa8NN1%2BtZMt3NsyglAIWoi8ZOnY%2Fxv0VZf5lPNlMzPPFGyqn5%2FN8BgH0Z5dt2zslGIwYlzOd%2FRpz5Cgyduczg4vJb1imzQOZSm8u1hvAn1lA%2BAIyclIDGNywkj54K9KfEIfi3n4L2PGRLyiTtqcsHesfLVWSiX%2BMxDPmxASVutj7YoOtNjXSnCbtWTi2D0gKAjMVNDXY6OCs5j8JYnP4wDDaz3EXjcj9KgbYhOaXqxpfdLL1%2BXfOkKQPxt4VmOxukxjO70HNWZT3x27ZqWMaA0o%2BkNRER1y7snKOEbz9jZ%2FfaYhHSDtH9uq%2BWiMcJgktEu1OgcX4g%2Bip%2BoD08BKWgJzWfKI5pzDWXOtFBIq7UrQlOH2c4y2FXO0ZwzMLuZrcYGOqUBbuoWDj3Sdi0rBq0ZDNBZgg%2FJiBCmuUFlCKJWdvekr2IEXj7QIok93tgUkjowSbzeGejYOYWiL2RNt%2BVRCuKBafY%2BsKfR7V8tlIoi%2FjKWgkWZMbnHdG6qnphkrCDdbwPF4rMmIu6JTREDmmOd7nX00tbpiLRLj%2B7EYmfTAxDkK5gRNbU0FG%2FzPy5MS0foDIEXnbUqo9k67XxaUsMrLvk%2FAslW1mX9&X-Amz-Signature=e1c768515a121d55e3bc63a810c7cb474bba2590ab3adfbb47f3178d69b7f916&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "255db469-a81d-80e9-b962-d43948c01fb2",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:18:00.000Z",
+        "last_edited_time": "2025-08-20T12:18:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-80e1-bb45-e9dc52d8edb7",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:17:00.000Z",
+        "last_edited_time": "2025-08-20T12:18:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Disini saya coba di NULL kedua:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-80b4-a6e9-e09a15efbfd0",
+        "type": "code",
+        "created_time": "2025-08-20T12:18:00.000Z",
+        "last_edited_time": "2025-08-20T12:18:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "GET /filter?category=Tech+gifts'+UNION+SELECT+NULL,'Y6Yra4',NULL--",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "255db469-a81d-80c2-9aea-f34930610796",
+        "type": "image",
+        "created_time": "2025-08-20T12:17:00.000Z",
+        "last_edited_time": "2025-08-20T12:17:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-7.png",
+          "expiry_time": "2025-09-18T02:39:41.937Z",
+          "localUrl": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-7.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/d98961a8-ec0a-4f82-8ad0-03fbc25ef722/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667VMSYCIN%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013941Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQClAd4gC8RqA7MJLEb5000DILasBJ7RB4aZVQKGjUgTJgIgas7S5JYUtA%2BL1qolvhjT46BINgsauCxYZpomh6yfcfIqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDBO0CRVtecFgdkgwBircA%2FxOkUiX%2B2b0jDIVO4aDRhZb1RDBwFwXvDrDYrzvt2gbCZIMVlF5wgEJNz2wKmAVPIffjKTVkES3luOKo8DPDZZ49DQterlYkur3eKSmnM9CVi%2FIeAGoXNMilOCoUZmscAoZlA5VkkPjPEA8g4RcJBvhvnbgEUfQxp8lyBRtmGyBuCbUdOqIoXL%2BRCYGLtKFOWspExJvHvWI7NJZwJtqPsMPsE7cgY4lGBde11mylkaFDOby9TjLonhAomnofjA8LzCa8NN1%2BtZMt3NsyglAIWoi8ZOnY%2Fxv0VZf5lPNlMzPPFGyqn5%2FN8BgH0Z5dt2zslGIwYlzOd%2FRpz5Cgyduczg4vJb1imzQOZSm8u1hvAn1lA%2BAIyclIDGNywkj54K9KfEIfi3n4L2PGRLyiTtqcsHesfLVWSiX%2BMxDPmxASVutj7YoOtNjXSnCbtWTi2D0gKAjMVNDXY6OCs5j8JYnP4wDDaz3EXjcj9KgbYhOaXqxpfdLL1%2BXfOkKQPxt4VmOxukxjO70HNWZT3x27ZqWMaA0o%2BkNRER1y7snKOEbz9jZ%2FfaYhHSDtH9uq%2BWiMcJgktEu1OgcX4g%2Bip%2BoD08BKWgJzWfKI5pzDWXOtFBIq7UrQlOH2c4y2FXO0ZwzMLuZrcYGOqUBbuoWDj3Sdi0rBq0ZDNBZgg%2FJiBCmuUFlCKJWdvekr2IEXj7QIok93tgUkjowSbzeGejYOYWiL2RNt%2BVRCuKBafY%2BsKfR7V8tlIoi%2FjKWgkWZMbnHdG6qnphkrCDdbwPF4rMmIu6JTREDmmOd7nX00tbpiLRLj%2B7EYmfTAxDkK5gRNbU0FG%2FzPy5MS0foDIEXnbUqo9k67XxaUsMrLvk%2FAslW1mX9&X-Amz-Signature=d80aa3a94598f29121b1e56c47a57d7e0b8b1f02bf95473c182f2bd3942a4b14&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "255db469-a81d-804c-8f2f-fe2dcd32319c",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:19:00.000Z",
+        "last_edited_time": "2025-08-20T12:19:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-804e-ad27-f0d26e81d414",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:13:00.000Z",
+        "last_edited_time": "2025-08-20T12:19:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dan berikut hasilnya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-809d-93fe-e25456fc31c1",
+        "type": "image",
+        "created_time": "2025-08-20T12:19:00.000Z",
+        "last_edited_time": "2025-08-20T12:19:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-8.png",
+          "expiry_time": "2025-09-18T02:39:41.993Z",
+          "localUrl": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-8.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/697deb76-4556-44ff-b889-fc47585caaed/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667VMSYCIN%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013942Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQClAd4gC8RqA7MJLEb5000DILasBJ7RB4aZVQKGjUgTJgIgas7S5JYUtA%2BL1qolvhjT46BINgsauCxYZpomh6yfcfIqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDBO0CRVtecFgdkgwBircA%2FxOkUiX%2B2b0jDIVO4aDRhZb1RDBwFwXvDrDYrzvt2gbCZIMVlF5wgEJNz2wKmAVPIffjKTVkES3luOKo8DPDZZ49DQterlYkur3eKSmnM9CVi%2FIeAGoXNMilOCoUZmscAoZlA5VkkPjPEA8g4RcJBvhvnbgEUfQxp8lyBRtmGyBuCbUdOqIoXL%2BRCYGLtKFOWspExJvHvWI7NJZwJtqPsMPsE7cgY4lGBde11mylkaFDOby9TjLonhAomnofjA8LzCa8NN1%2BtZMt3NsyglAIWoi8ZOnY%2Fxv0VZf5lPNlMzPPFGyqn5%2FN8BgH0Z5dt2zslGIwYlzOd%2FRpz5Cgyduczg4vJb1imzQOZSm8u1hvAn1lA%2BAIyclIDGNywkj54K9KfEIfi3n4L2PGRLyiTtqcsHesfLVWSiX%2BMxDPmxASVutj7YoOtNjXSnCbtWTi2D0gKAjMVNDXY6OCs5j8JYnP4wDDaz3EXjcj9KgbYhOaXqxpfdLL1%2BXfOkKQPxt4VmOxukxjO70HNWZT3x27ZqWMaA0o%2BkNRER1y7snKOEbz9jZ%2FfaYhHSDtH9uq%2BWiMcJgktEu1OgcX4g%2Bip%2BoD08BKWgJzWfKI5pzDWXOtFBIq7UrQlOH2c4y2FXO0ZwzMLuZrcYGOqUBbuoWDj3Sdi0rBq0ZDNBZgg%2FJiBCmuUFlCKJWdvekr2IEXj7QIok93tgUkjowSbzeGejYOYWiL2RNt%2BVRCuKBafY%2BsKfR7V8tlIoi%2FjKWgkWZMbnHdG6qnphkrCDdbwPF4rMmIu6JTREDmmOd7nX00tbpiLRLj%2B7EYmfTAxDkK5gRNbU0FG%2FzPy5MS0foDIEXnbUqo9k67XxaUsMrLvk%2FAslW1mX9&X-Amz-Signature=d1ce28b529d550117526563ea4fee44e44a178df4ac609051f6ee52af5a28f7d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "255db469-a81d-80ad-bac5-fa7d948adfe0",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:19:00.000Z",
+        "last_edited_time": "2025-08-20T12:19:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-8051-9483-cf2b9bd3faff",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:19:00.000Z",
+        "last_edited_time": "2025-08-20T12:19:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Yups bisa!!",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-803d-83ca-fde654af33e5",
+        "type": "paragraph",
+        "created_time": "2025-08-20T12:19:00.000Z",
+        "last_edited_time": "2025-08-20T12:19:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "255db469-a81d-8064-83eb-cb20ef93ecaf",
+        "type": "image",
+        "created_time": "2025-08-20T12:19:00.000Z",
+        "last_edited_time": "2025-08-20T12:19:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-9.png",
+          "expiry_time": "2025-09-18T02:39:41.942Z",
+          "localUrl": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-9.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/0d5ddd72-5d21-49de-b23f-ae1e461e3f42/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667VMSYCIN%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T013941Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQClAd4gC8RqA7MJLEb5000DILasBJ7RB4aZVQKGjUgTJgIgas7S5JYUtA%2BL1qolvhjT46BINgsauCxYZpomh6yfcfIqiAQIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDBO0CRVtecFgdkgwBircA%2FxOkUiX%2B2b0jDIVO4aDRhZb1RDBwFwXvDrDYrzvt2gbCZIMVlF5wgEJNz2wKmAVPIffjKTVkES3luOKo8DPDZZ49DQterlYkur3eKSmnM9CVi%2FIeAGoXNMilOCoUZmscAoZlA5VkkPjPEA8g4RcJBvhvnbgEUfQxp8lyBRtmGyBuCbUdOqIoXL%2BRCYGLtKFOWspExJvHvWI7NJZwJtqPsMPsE7cgY4lGBde11mylkaFDOby9TjLonhAomnofjA8LzCa8NN1%2BtZMt3NsyglAIWoi8ZOnY%2Fxv0VZf5lPNlMzPPFGyqn5%2FN8BgH0Z5dt2zslGIwYlzOd%2FRpz5Cgyduczg4vJb1imzQOZSm8u1hvAn1lA%2BAIyclIDGNywkj54K9KfEIfi3n4L2PGRLyiTtqcsHesfLVWSiX%2BMxDPmxASVutj7YoOtNjXSnCbtWTi2D0gKAjMVNDXY6OCs5j8JYnP4wDDaz3EXjcj9KgbYhOaXqxpfdLL1%2BXfOkKQPxt4VmOxukxjO70HNWZT3x27ZqWMaA0o%2BkNRER1y7snKOEbz9jZ%2FfaYhHSDtH9uq%2BWiMcJgktEu1OgcX4g%2Bip%2BoD08BKWgJzWfKI5pzDWXOtFBIq7UrQlOH2c4y2FXO0ZwzMLuZrcYGOqUBbuoWDj3Sdi0rBq0ZDNBZgg%2FJiBCmuUFlCKJWdvekr2IEXj7QIok93tgUkjowSbzeGejYOYWiL2RNt%2BVRCuKBafY%2BsKfR7V8tlIoi%2FjKWgkWZMbnHdG6qnphkrCDdbwPF4rMmIu6JTREDmmOd7nX00tbpiLRLj%2B7EYmfTAxDkK5gRNbU0FG%2FzPy5MS0foDIEXnbUqo9k67XxaUsMrLvk%2FAslW1mX9&X-Amz-Signature=4071177ef008783043e0aaee2205a659fc4cc43e4d0ff756adfdb1749d50da3a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      }
+    ],
+    "og_image": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-1.png",
+    "featured_image": "/posts/day-4-sql-injection-union-attack-finding-a-column--255db469a81d80f1a0daf7ba8477ed35/image-1.png"
+  }
+}
