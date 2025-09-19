@@ -142,7 +142,7 @@ export function CTFSection() {
 
   const difficultyColors = {
     Legendary: "text-yellow-500 bg-yellow-500/20",
-    Epic: "text-purple-500 bg-purple-500/20",
+    Epic: "text-red-500 bg-red-500/20",
     Rare: "text-blue-500 bg-blue-500/20",
     Uncommon: "text-green-500 bg-green-500/20",
     Common: "text-gray-500 bg-gray-500/20",

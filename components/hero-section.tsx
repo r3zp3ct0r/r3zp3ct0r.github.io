@@ -60,7 +60,7 @@ export function HeroSection() {
 
   const tabContent = {
     hacker: {
-      title: "Purple Team Specialist",
+      title: "Red Team Specialist",
       subtitle: "Penetration Tester | CTF Player | Security Researcher",
       description:
         "Bridging the gap between offensive and defensive security. Exploring cybersecurity, web development, and CTF competitions to create secure digital solutions.",
@@ -131,10 +131,10 @@ export function HeroSection() {
               },
             },
             fpsLimit: 60,
-            particles: {
-              color: {
-                value: ["#a855f7", "#3b82f6", "#8b5cf6"],
-              },
+          particles: {
+            color: {
+              value: ["#ef4444", "#f97316", "#991b1b"],
+            },
               links: {
                 color: "#ffffff",
                 distance: 150,
@@ -205,7 +205,7 @@ export function HeroSection() {
             <div className="space-y-4">
               <div className="inline-block px-4 py-2 mb-4 text-sm font-medium rounded-full bg-primary/20 text-primary">
                 <TypeAnimation
-                  sequence={["Purple Team", 1000, "CTF Player", 1000, "Web Developer", 1000, "Security Researcher", 1000]}
+                  sequence={["Red Team", 1000, "CTF Player", 1000, "Web Developer", 1000, "Security Researcher", 1000]}
                   wrapper="span"
                   speed={50}
                   repeat={Number.POSITIVE_INFINITY}
@@ -217,7 +217,7 @@ export function HeroSection() {
                 data-text="Mizar"
               >
                 <span
-                  className={`${activeTab === "hacker" ? "neon-text-white" : ""}`}
+                  className={`${activeTab === "hacker" ? "dark:neon-text-white text-red-600" : ""}`}
                 >
                   Mizar
                 </span>
@@ -369,7 +369,7 @@ export function HeroSection() {
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="w-full max-w-md p-6 rounded-lg retro-terminal scanlines">
                       <div className="mb-4 text-sm">
-                        <span className="text-purple-400">root@mizar:~#</span>{" "}
+                        <span className="text-red-400">root@mizar:~#</span>{" "}
                         <span className="cursor-blink">whoami</span>
                       </div>
                       <div className="mb-4">
@@ -382,12 +382,12 @@ export function HeroSection() {
 |    -|_  |- _| . |_  |  _|  _| | |  _|
 |__|__|___|___|  _|___|___|_| |___|_|  
               |_|                           
-Purple Team | CTF Player | Web Developer
+Red Team | CTF Player | Web Developer
 `}
                         </pre>
                       </div>
                       <div className="mb-4 text-sm">
-                        <span className="text-purple-400">root@mizar:~#</span> ls -la skills/
+                        <span className="text-red-400">root@mizar:~#</span> ls -la skills/
                       </div>
                       <div className="mb-4 text-sm">
                         <pre>
@@ -404,8 +404,8 @@ drwxr-xr-x 10 mizar mizar 4096 May 22 06:23 ..
                         </pre>
                       </div>
                       <div className="text-sm">
-                        <span className="text-purple-400">root@mizar:~#</span>{" "}
-                        <span className="cursor-blink">./start_purple_team.sh</span>
+                        <span className="text-red-400">root@mizar:~#</span>{" "}
+                        <span className="cursor-blink">./start_red_team.sh</span>
                       </div>
                     </div>
                   </div>
@@ -468,7 +468,7 @@ drwxr-xr-x 10 mizar mizar 4096 May 22 06:23 ..
                           <div className="flex flex-wrap gap-2">
                             <span className="px-2 py-1 text-xs text-white bg-blue-500 rounded-full">Laravel</span>
                             <span className="px-2 py-1 text-xs text-white bg-yellow-500 rounded-full">Node.js</span>
-                            <span className="px-2 py-1 text-xs text-white bg-purple-500 rounded-full">Tailwind CSS</span>
+                          <span className="px-2 py-1 text-xs text-white bg-red-600 rounded-full">Tailwind CSS</span>
                             <span className="px-2 py-1 text-xs text-white bg-gray-700 rounded-full">MySQL</span>
                           </div>
                         </div>

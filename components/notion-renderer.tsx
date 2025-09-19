@@ -66,7 +66,7 @@ const NotionRenderer: React.FC<NotionRendererProps> = ({ blocks }) => {
         {
           pattern:
             /\b(function|return|if|else|for|while|const|let|var|class|import|export|from|async|await|try|catch|finally)\b/g,
-          className: "text-purple-400",
+          className: "text-red-400",
         },
         { pattern: /(["'`])((?:\\.|(?!\1)[^\\])*?)\1/g, className: "text-green-400" },
         { pattern: /\/\/.*$/gm, className: "text-gray-500 italic" },
@@ -78,7 +78,7 @@ const NotionRenderer: React.FC<NotionRendererProps> = ({ blocks }) => {
         {
           pattern:
             /\b(function|return|if|else|for|while|const|let|var|class|import|export|from|async|await|try|catch|finally|interface|type|enum|namespace)\b/g,
-          className: "text-purple-400",
+          className: "text-red-400",
         },
         { pattern: /(["'`])((?:\\.|(?!\1)[^\\])*?)\1/g, className: "text-green-400" },
         { pattern: /\/\/.*$/gm, className: "text-gray-500 italic" },
@@ -90,7 +90,7 @@ const NotionRenderer: React.FC<NotionRendererProps> = ({ blocks }) => {
         {
           pattern:
             /\b(def|return|if|elif|else|for|while|class|import|from|as|try|except|finally|with|lambda|and|or|not|in|is)\b/g,
-          className: "text-purple-400",
+          className: "text-red-400",
         },
         { pattern: /(["'])((?:\\.|(?!\1)[^\\])*?)\1/g, className: "text-green-400" },
         { pattern: /#.*$/gm, className: "text-gray-500 italic" },
@@ -111,13 +111,13 @@ const NotionRenderer: React.FC<NotionRendererProps> = ({ blocks }) => {
       json: [
         { pattern: /(["'])((?:\\.|(?!\1)[^\\])*?)\1(?=\s*:)/g, className: "text-blue-400" },
         { pattern: /(["'])((?:\\.|(?!\1)[^\\])*?)\1(?!\s*:)/g, className: "text-green-400" },
-        { pattern: /\b(true|false|null)\b/g, className: "text-purple-400" },
+        { pattern: /\b(true|false|null)\b/g, className: "text-red-400" },
         { pattern: /\b-?\d+\.?\d*\b/g, className: "text-amber-400" },
       ],
       bash: [
         {
           pattern: /\b(if|then|else|elif|fi|for|while|do|done|case|esac|function|return|exit|export|source|alias)\b/g,
-          className: "text-purple-400",
+          className: "text-red-400",
         },
         { pattern: /(["'])((?:\\.|(?!\1)[^\\])*?)\1/g, className: "text-green-400" },
         { pattern: /#.*$/gm, className: "text-gray-500 italic" },
@@ -128,7 +128,7 @@ const NotionRenderer: React.FC<NotionRendererProps> = ({ blocks }) => {
         {
           pattern:
             /\b(SELECT|FROM|WHERE|INSERT|UPDATE|DELETE|CREATE|ALTER|DROP|INDEX|TABLE|DATABASE|JOIN|INNER|LEFT|RIGHT|OUTER|ON|GROUP|ORDER|BY|HAVING|LIMIT|OFFSET|UNION|ALL|DISTINCT|AS|AND|OR|NOT|IN|EXISTS|BETWEEN|LIKE|IS|NULL|TRUE|FALSE)\b/gi,
-          className: "text-purple-400",
+          className: "text-red-400",
         },
         { pattern: /(["'])((?:\\.|(?!\1)[^\\])*?)\1/g, className: "text-green-400" },
         { pattern: /--.*$/gm, className: "text-gray-500 italic" },

@@ -83,7 +83,7 @@ export function MediumBlogStats() {
         return postDate.getFullYear() === currentYear
       }).length,
       icon: Calendar,
-      color: "text-purple-600"
+      color: "text-red-600"
     }
   ]
 
