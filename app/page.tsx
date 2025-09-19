@@ -8,9 +8,9 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ""
 const fullUrl = `${baseUrl}${basePath}`
 
 export const metadata: Metadata = {
-  title: "Mizar - Purple Team Specialist | Cybersecurity & Web Developer",
-  description: "Personal website of Mizar, a Purple Team specialist, CTF Player, Web Developer, and cybersecurity enthusiast from Indonesia.",
-  keywords: ["cybersecurity", "purple team", "CTF", "capture the flag", "web developer", "penetration testing", 
+  title: "Mizar - Red Team Specialist | Penetration Tester | Security Researcher",
+  description: "Personal website of Mizar, a Red Team specialist, CTF Player, Web Developer, and cybersecurity enthusiast from Indonesia.",
+  keywords: ["cybersecurity", "red team", "CTF", "capture the flag", "web developer", "penetration testing", "Blue Team", 
     "blue team", "red team", "security research", "Indonesia", "Mizar"],
   authors: [{ name: "Mizar", url: fullUrl }],
   creator: "Mizar",
@@ -23,14 +23,14 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: fullUrl,
     siteName: "Mizar",
-    title: "Mizar - Purple Team Specialist | Cybersecurity & Web Developer",
-    description: "Personal website of Mizar, a Purple Team specialist, CTF Player, Web Developer, and cybersecurity enthusiast from Indonesia.",
+    title: "Mizar - Red Team Specialist | Penetration Tester | Security Researcher",
+    description: "Personal website of Mizar, a Red Team specialist, CTF Player, Web Developer, and cybersecurity enthusiast from Indonesia.",
     images: [
       {
         url: `${fullUrl}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: "Mizar - Purple Team Specialist | Cybersecurity & Web Developer",
+        alt: "Mizar - Red Team Specialist | Cybersecurity & Web Developer",
         type: "image/jpeg",
       },
     ],
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@mizar",
     creator: "@mizar",
-    title: "Mizar - Purple Team Specialist | Cybersecurity & Web Developer",
-    description: "Personal website of Mizar, a Purple Team specialist, CTF Player, Web Developer, and cybersecurity enthusiast from Indonesia.",
+    title: "Mizar - Red Team Specialist | Penetration Tester | Security ResearcherPurple Team Specialist | Cybersecurity & Web Developer",
+    description: "Personal website of Mizar, a Red Team specialist, CTF Player, Web Developer, and cybersecurity enthusiast from Indonesia.",
     images: [`${fullUrl}/og-image.jpg`],
   },
   robots: {

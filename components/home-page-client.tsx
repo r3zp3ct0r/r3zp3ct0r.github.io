@@ -21,17 +21,23 @@ const AboutSection = memo(() => (
         <div className="grid gap-8 md:grid-cols-2">
           <div className="space-y-4">
             <p className="text-lg">
-            I'm a passionate cybersecurity enthusiast and web developer based in Indonesia. I specialize in both offensive and defensive security, 
-            embracing the Purple Team approach that combines Red Team and Blue Team methodologies.
+I am a Red Team Specialist and Security Researcher focused on offensive security with an ethical hacking approach. Based in Indonesia, I have a deep passion for discovering system vulnerabilities, developing custom penetration testing tools, and competing in international CTF competitions.
             </p>
             <p className="text-lg">
-              I specialize in Penetration Testing, Web Application Security, CTF competitions, and Web Development.
-              I'm passionate about Cybersecurity and always eager to learn new technologies in both security and development.
+With a proven track record of discovering 7+ critical vulnerabilities including RCE exploitation and Admin Bypass in real-world systems, I combine theoretical knowledge with hands-on penetration testing experience. My specializations include Web Application Security, Vulnerability Research, Custom Tool Development, and Advanced Exploitation Techniques.
             </p>
             <p className="text-lg">
-              I enjoy reading, learning new things, participating in CTF events, building web applications, and sharing knowledge through my blog posts.
+I believe that the best security comes from understanding the attacker's mindset. Through a Red Team approach, I help organizations understand the real-world threat landscape and strengthen their defensive posture. Every vulnerability discovered is an opportunity to build more secure systems.
             </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-lg">
+Beyond penetration testing, I am actively involved in security research, open-source tool development, and knowledge sharing through CTF {" "}
+              <Link href={"/blog"} className="text-primary hover:underline">
+                WriteUps
+              </Link>{" "} and security {" "}              <Link href={"/medium-blog"} className="text-primary hover:underline">
+                Blog
+              </Link>{" "}. I also maintain a fundamental understanding of Blue Team operations to provide a more comprehensive perspective in security assessments.
+            </p>
+            {/* <p className="text-lg text-muted-foreground leading-relaxed">
               Passionate Purple Team specialist with expertise in penetration testing, CTF competitions, web development, and secure development practices. 
               I love sharing knowledge and experiences through my blogs. Check out my latest{" "}
               <Link href={"/blog"} className="text-primary hover:underline">
@@ -42,7 +48,7 @@ const AboutSection = memo(() => (
                 Medium blog
               </Link>
               {" "}for more articles and insights.
-            </p>
+            </p> */}
           </div>
           <div className="flex items-center justify-center">
             <div className="relative w-64 h-64 overflow-hidden rounded-full border-4 border-primary/20">

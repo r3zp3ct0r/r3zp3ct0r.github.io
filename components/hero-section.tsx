@@ -63,7 +63,7 @@ export function HeroSection() {
       title: "Red Team Specialist",
       subtitle: "Penetration Tester | CTF Player | Security Researcher",
       description:
-        "Bridging the gap between offensive and defensive security. Exploring cybersecurity, web development, and CTF competitions to create secure digital solutions.",
+        "Offensive security professional specializing in vulnerability discovery, custom tool development, and ethical hacking. Turning security weaknesses into organizational strength through comprehensive penetration testing.",
       stats: [
         { label: "Years of Experience", value: "3+" },
         { label: "Security Tools", value: "2+" },
@@ -369,7 +369,7 @@ export function HeroSection() {
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="w-full max-w-md p-6 rounded-lg retro-terminal scanlines">
                       <div className="mb-4 text-sm">
-                        <span className="text-red-400">root@mizar:~#</span>{" "}
+                        <span className="text-red-400">root@kali:~#</span>{" "}
                         <span className="cursor-blink">whoami</span>
                       </div>
                       <div className="mb-4">
@@ -382,12 +382,12 @@ export function HeroSection() {
 |    -|_  |- _| . |_  |  _|  _| | |  _|
 |__|__|___|___|  _|___|___|_| |___|_|  
               |_|                           
-Red Team | CTF Player | Web Developer
+Penetration Tester | CTF Player | Web Developer
 `}
                         </pre>
                       </div>
                       <div className="mb-4 text-sm">
-                        <span className="text-red-400">root@mizar:~#</span> ls -la skills/
+                        <span className="text-red-400">root@kali:~#</span> ls -la skills/
                       </div>
                       <div className="mb-4 text-sm">
                         <pre>
@@ -396,16 +396,26 @@ total 42
 drwxr-xr-x  2 mizar mizar 4096 May 22 06:23 .
 drwxr-xr-x 10 mizar mizar 4096 May 22 06:23 ..
 -rwxr-xr-x  1 mizar mizar 8192 May 22 06:23 web_security.sh
--rwxr-xr-x  1 mizar mizar 6144 May 22 06:23 web_development.py
--rwxr-xr-x  1 mizar mizar 5120 May 22 06:23 penetration_testing.c
--rwxr-xr-x  1 mizar mizar 4096 May 22 06:23 blue_team.rb
--rwxr-xr-x  1 mizar mizar 3072 May 22 06:23 ctf_tools.go
+-rwxr-xr-x  1 mizar mizar 12288 Dec 19 15:23 web_exploitation.py
+-rwxr-xr-x  1 mizar mizar 8192 Dec 19 15:23 custom_pentest_tools.c
+-rwxr-xr-x  1 mizar mizar 6144 Dec 19 15:23 vulnerability_research.rb
+-rwxr-xr-x  1 mizar mizar 5120 Dec 19 15:23 ctf_exploits.go
+-rwxr-xr-x  1 mizar mizar 4096 Dec 19 15:23 security_automation.js
+-rw-r--r--  1 mizar mizar 2048 Dec 19 15:23 blue_team_knowledge.md
 `}
                         </pre>
                       </div>
                       <div className="text-sm">
-                        <span className="text-red-400">root@mizar:~#</span>{" "}
-                        <span className="cursor-blink">./start_red_team.sh</span>
+                        <span className="text-red-400">root@kali:~#</span>{" "}
+                        <span className="cursor-blink">./initialize_red_team_ops.sh</span>
+                                                <pre>
+                          {`
+[+] Loading penetration testing...
+[+] Initializing vulnerability scanners...
+[+] Custom tools ready for deployment...
+[+] Red Team operations: ACTIVE
+`}
+                        </pre>
                       </div>
                     </div>
                   </div>
