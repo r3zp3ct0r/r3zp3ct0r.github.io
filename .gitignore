@@ -39,7 +39,6 @@ pnpm-debug.log*
 Thumbs.db
 
 # post public
-public/posts/*
 
 
 # backups/archives

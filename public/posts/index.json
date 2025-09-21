@@ -1,15 +1,95 @@
 {
   "meta": {
-    "generated_at": "2025-07-26T09:14:31.594Z",
-    "total_posts": 13,
-    "published_posts": 12,
-    "draft_posts": 1,
+    "generated_at": "2025-09-18T12:56:00.176Z",
+    "total_posts": 15,
+    "published_posts": 15,
+    "draft_posts": 0,
     "featured_posts": 0,
     "total_tags": 9,
     "total_categories": 4,
     "posts_directory": "public/posts"
   },
   "posts": [
+    {
+      "id": "24adb469-a81d-807e-b9dd-c92c2292fde2",
+      "title": "TryHack3M: Bricks Heist",
+      "slug": "tryhack3m-bricks-heist",
+      "folder": "tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2",
+      "excerpt": "Link Room: https://tryhackme.com/room/tryhack3mbricksheistOke sebelum kita mulai, mulai dibiasakan baca deskripsi lab nya terlebih dahulu, seperti pada gambar diatas. Pada deskripsi nya menjelaskan un...",
+      "featured_image": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/featured-image.png",
+      "created_time": "2025-08-09T13:18:00.000Z",
+      "last_edited_time": "2025-09-18T10:33:00.000Z",
+      "reading_time": 5,
+      "url": "https://www.notion.so/TryHack3M-Bricks-Heist-24adb469a81d807eb9ddc92c2292fde2",
+      "public_url": null,
+      "archived": false,
+      "categories": [
+        "Security"
+      ],
+      "tags": [
+        "Web Exploit",
+        "Forensics"
+      ],
+      "properties": {
+        "published": true,
+        "featured": false,
+        "author": "Anonymous"
+      }
+    },
+    {
+      "id": "24fdb469-a81d-80dd-9682-e650068e0590",
+      "title": "TryHackMe-Compile",
+      "slug": "tryhackme-compile",
+      "folder": "tryhackme-compile-24fdb469a81d80dd9682e650068e0590",
+      "excerpt": "Pada challenge Compiled dari TryHackMe, deskripsi hanya berbunyi:Dan soalnya:Kita juga diberikan sebuah file biner bernama Compiled-1688545393558.Compiled untuk dianalisis.Pertama, kita cek tipe file...",
+      "featured_image": "/posts/tryhackme-compile-24fdb469a81d80dd9682e650068e0590/featured-image.png",
+      "created_time": "2025-08-14T13:31:00.000Z",
+      "last_edited_time": "2025-09-18T10:06:00.000Z",
+      "reading_time": 2,
+      "url": "https://www.notion.so/TryHackMe-Compile-24fdb469a81d80dd9682e650068e0590",
+      "public_url": null,
+      "archived": false,
+      "categories": [
+        "CTF",
+        "Security"
+      ],
+      "tags": [
+        "Reverse Engineering"
+      ],
+      "properties": {
+        "published": true,
+        "featured": false,
+        "author": "Anonymous"
+      }
+    },
+    {
+      "id": "23cdb469-a81d-8013-9c15-df63dc21a607",
+      "title": "TryHackMe - Pyrat",
+      "slug": "tryhackme-pyrat",
+      "folder": "tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607",
+      "excerpt": "Pada kesempatan ini, saya menyelesaikan tantangan CTF Boot2Root yang cukup menarik karena memadukan eksploitasi service TCP kustom, Git credential leak, dan bruteforce password untuk mengakses shell r...",
+      "featured_image": "/posts/tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607/image-1.png",
+      "created_time": "2025-07-26T11:42:00.000Z",
+      "last_edited_time": "2025-09-18T09:57:00.000Z",
+      "reading_time": 3,
+      "url": "https://www.notion.so/TryHackMe-Pyrat-23cdb469a81d80139c15df63dc21a607",
+      "public_url": null,
+      "archived": false,
+      "categories": [
+        "CTF",
+        "Security"
+      ],
+      "tags": [
+        "CTF Writeup",
+        "Boot2Root",
+        "RCE"
+      ],
+      "properties": {
+        "published": true,
+        "featured": false,
+        "author": "Anonymous"
+      }
+    },
     {
       "id": "237db469-a81d-805b-8d45-cc6858afce55",
       "title": "[Cyber Strike Competition 1.0 CTF 2024] - Reverse",
@@ -333,18 +413,18 @@
   "categories": [
     {
       "name": "CTF",
-      "count": 11,
+      "count": 13,
       "slug": "ctf"
+    },
+    {
+      "name": "Security",
+      "count": 5,
+      "slug": "security"
     },
     {
       "name": "Web",
       "count": 3,
       "slug": "web"
-    },
-    {
-      "name": "Security",
-      "count": 2,
-      "slug": "security"
     },
     {
       "name": "Programming",
@@ -355,7 +435,7 @@
   "tags": [
     {
       "name": "CTF Writeup",
-      "count": 11,
+      "count": 12,
       "slug": "ctf-writeup"
     },
     {
@@ -365,13 +445,28 @@
     },
     {
       "name": "Reverse Engineering",
-      "count": 2,
+      "count": 3,
       "slug": "reverse-engineering"
     },
     {
       "name": "Web Exploit",
-      "count": 2,
+      "count": 3,
       "slug": "web-exploit"
+    },
+    {
+      "name": "Forensics",
+      "count": 2,
+      "slug": "forensics"
+    },
+    {
+      "name": "Boot2Root",
+      "count": 2,
+      "slug": "boot2root"
+    },
+    {
+      "name": "RCE",
+      "count": 2,
+      "slug": "rce"
     },
     {
       "name": "Stegano",
@@ -382,21 +477,6 @@
       "name": "PWN",
       "count": 1,
       "slug": "pwn"
-    },
-    {
-      "name": "RCE",
-      "count": 1,
-      "slug": "rce"
-    },
-    {
-      "name": "Forensics",
-      "count": 1,
-      "slug": "forensics"
-    },
-    {
-      "name": "Boot2Root",
-      "count": 1,
-      "slug": "boot2root"
     }
   ]
 }
