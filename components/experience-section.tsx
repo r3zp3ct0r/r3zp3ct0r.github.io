@@ -176,7 +176,7 @@ export function ExperienceSection() {
         viewport={{ once: true }}
         className="mb-12 text-center"
       >
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight neon-text-white">Professional Experience</h2>
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-black dark:text-white">Professional Experience</h2>
         <p className="mt-4 text-base sm:text-lg md:text-xl text-muted-foreground">My journey in the cybersecurity realm</p>
       </motion.div>
       <div className="flex justify-start md:justify-center gap-2 mb-8 overflow-x-auto -mx-4 px-4 md:mx-0 md:px-0">

@@ -13,6 +13,7 @@ const ProjectsSection = lazy(() => import("@/components/projects-section").then(
 const SkillsSection = lazy(() => import("@/components/skills-section").then(m => ({ default: m.SkillsSection })))
 const CTFSection = lazy(() => import("@/components/ctf-section").then(m => ({ default: m.CTFSection })))
 const ExperienceSection = lazy(() => import("@/components/experience-section").then(m => ({ default: m.ExperienceSection })))
+const NotableAchievementsSection = lazy(() => import("@/components/notable-achievements-section").then(m => ({ default: m.NotableAchievementsSection })))
 
 // Memoized About section component
 const AboutSection = memo(() => (
@@ -161,6 +162,10 @@ function HomePageClient() {
 
       <Suspense fallback={<SectionFallback />}>
         <CTFSection />
+      </Suspense>
+
+      <Suspense fallback={<SectionFallback />}>
+        <NotableAchievementsSection />
       </Suspense>
 
       <BlogSection posts={latestPosts} loading={loading} />
