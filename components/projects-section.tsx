@@ -348,7 +348,7 @@ export function ProjectsSection() {
         </div>
 
         <div className="mt-12 text-center">
-          <Link href="https://github.com/dimasma0305?tab=repositories" target="_blank" rel="noopener noreferrer">
+          <Link href="https://github.com/mzrismuarf?tab=repositories" target="_blank" rel="noopener noreferrer">
             <Button
               variant="outline"
               className="gap-2 border-2 border-primary/50 hover:border-primary hover:bg-primary/10"

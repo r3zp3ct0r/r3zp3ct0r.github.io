@@ -245,7 +245,7 @@
     <text x="850" y="532">║ SYSTEM_SECURE ║</text>
     <text x="850" y="544">╚═══════════════╝</text>
     
-    <text x="20" y="100">┌─[ root@kali ]─[ /home/dimas ]</text>
+    <text x="20" y="100">┌─[ root@kali ]─[ /home/mizar ]</text>
     <text x="20" y="112">└─$ nmap -sS target.io</text>
   </g>
 
@@ -330,7 +330,7 @@
       
       <!-- GitHub profile image -->
       <image 
-        href="https://avatars.githubusercontent.com/u/92920739" 
+        href="https://avatars.githubusercontent.com/u/87894083" 
         width="192" 
         height="192" 
         clip-path="url(#logoClip)"
@@ -368,7 +368,7 @@
     <rect x="-10" y="10" width="420" height="55" fill="rgba(0,255,136,0.02)" rx="8" opacity="0.5"/>
     <text x="0" y="48" font-family="Inter, sans-serif" font-size="56" font-weight="800" 
           fill="#ffffff" filter="url(#titleGlow)" letter-spacing="-0.02em">
-      Dimas Maulana
+      Mizar Ismu Arief
     </text>
     
     <!-- Professional badge with enhanced design -->
@@ -473,7 +473,7 @@
       
       <text x="22" y="12" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="500" 
             fill="#00ff88">
-        dimasma0305.github.io/blog
+        www.mizar.my.id/blog
       </text>
       
       <!-- Command prompt style -->

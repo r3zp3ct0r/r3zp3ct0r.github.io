@@ -1,7 +1,7 @@
 {
-  "name": "Dimas Maulana | Cybersecurity Researcher & CTF Player",
-  "short_name": "Dimas Maulana",
-  "description": "Personal website of Dimas Maulana, a cybersecurity researcher, CTF player, gamer, and manga enthusiast from Indonesia.",
+  "name": "Mizar Ismu Arief | Cybersecurity Researcher & CTF Player",
+  "short_name": "Mizar Ismu Arief",
+  "description": "Personal website of Mizar Ismu Arief, a cybersecurity researcher, CTF player, gamer, and manga enthusiast from Indonesia.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
@@ -9,7 +9,7 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "https://dimasma0305.github.io/favicon.svg",
+      "src": "https://www.mizar.my.id/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"

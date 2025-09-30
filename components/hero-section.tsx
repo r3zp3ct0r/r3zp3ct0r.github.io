@@ -298,7 +298,7 @@ export function HeroSection() {
                   <Github className="w-5 h-5" />
                 </Button>
               </Link>
-              <Link href="https://www.linkedin.com/in/mizarismuarief" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.linkedin.com/in/mizarismu/" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="ghost"
                   size="icon"

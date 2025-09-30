@@ -56,7 +56,7 @@ export const viewport: Viewport = {
   ],
 }
 
-const baseUrl = (process.env.NEXT_PUBLIC_BASE_URL || 'https://mizar1337.github.io') + (process.env.NEXT_PUBLIC_BASE_PATH || '')
+const baseUrl = (process.env.NEXT_PUBLIC_BASE_URL || 'https://r3zp3ct0r.github.io/') + (process.env.NEXT_PUBLIC_BASE_PATH || '')
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
@@ -95,7 +95,7 @@ export const metadata: Metadata = {
         url: baseUrl+"/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Dimas Maulana",
+        alt: "Mizar Ismu Arief",
       },
     ],
   },
