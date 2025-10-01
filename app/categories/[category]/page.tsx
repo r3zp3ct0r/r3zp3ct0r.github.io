@@ -29,6 +29,16 @@ export async function generateStaticParams() {
             categoriesSet.add(category)
           })
         }
+        // Also add subcategories
+        if (post.subcategories) {
+          Object.values(post.subcategories).forEach((subcats: any) => {
+            if (Array.isArray(subcats)) {
+              subcats.forEach((subcat: string) => {
+                categoriesSet.add(subcat)
+              })
+            }
+          })
+        }
       })
       
       categories = Array.from(categoriesSet)

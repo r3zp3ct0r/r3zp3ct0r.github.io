@@ -28,6 +28,7 @@ export type Post = {
   readonly coverImage: string
   readonly iconEmoji?: string
   readonly categories: readonly string[]
+  readonly subcategories?: Record<string, readonly string[]>
   readonly verification: PostVerification
   readonly owner?: PostOwner
   readonly notionUrl?: string | null
@@ -65,6 +66,14 @@ export function getAllCategories(posts: readonly Post[]): string[] {
     for (const category of post.categories) {
       categories.add(category)
     }
+    // Also add subcategories
+    if (post.subcategories) {
+      Object.values(post.subcategories).forEach((subcats) => {
+        subcats.forEach((subcat) => {
+          categories.add(subcat)
+        })
+      })
+    }
   }
 
   categoryCache.set(cacheKey, categories)
@@ -84,7 +93,19 @@ export function getPostsByCategory(posts: readonly Post[], category: string): Po
     return categoryMap.get(category)!
   }
 
-  const filtered = posts.filter(post => post.categories.includes(category))
+  const filtered = posts.filter(post => {
+    // Check main categories
+    if (post.categories.includes(category)) {
+      return true
+    }
+    // Check subcategories
+    if (post.subcategories) {
+      return Object.values(post.subcategories).some((subcats) => 
+        subcats.includes(category)
+      )
+    }
+    return false
+  })
   categoryMap.set(category, filtered)
   
   return filtered

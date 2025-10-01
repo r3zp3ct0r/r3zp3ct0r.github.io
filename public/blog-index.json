@@ -1,38 +1,21 @@
 {
   "meta": {
-    "generated_at": "2025-09-18T12:56:00.176Z",
+    "generated_at": "2025-10-01T02:45:33.156Z",
     "total_posts": 15,
     "published_posts": 15,
     "draft_posts": 0,
     "featured_posts": 0,
-    "total_tags": 9,
-    "total_categories": 4,
+    "total_tags": 5,
+    "total_categories": 15,
     "posts_directory": "public/posts"
   },
   "taxonomy": {
     "categories": [
       {
-        "name": "CTF",
-        "count": 13,
-        "slug": "ctf"
+        "name": "Event CTF",
+        "count": 12,
+        "slug": "event-ctf"
       },
-      {
-        "name": "Security",
-        "count": 5,
-        "slug": "security"
-      },
-      {
-        "name": "Web",
-        "count": 3,
-        "slug": "web"
-      },
-      {
-        "name": "Programming",
-        "count": 1,
-        "slug": "programming"
-      }
-    ],
-    "tags": [
       {
         "name": "CTF Writeup",
         "count": 12,
@@ -42,6 +25,21 @@
         "name": "Crypto",
         "count": 6,
         "slug": "crypto"
+      },
+      {
+        "name": "CSC CTF",
+        "count": 4,
+        "slug": "csc-ctf"
+      },
+      {
+        "name": "THM",
+        "count": 4,
+        "slug": "thm"
+      },
+      {
+        "name": "TSA CTF",
+        "count": 4,
+        "slug": "tsa-ctf"
       },
       {
         "name": "Reverse Engineering",
@@ -64,11 +62,6 @@
         "slug": "boot2root"
       },
       {
-        "name": "RCE",
-        "count": 2,
-        "slug": "rce"
-      },
-      {
         "name": "Stegano",
         "count": 1,
         "slug": "stegano"
@@ -77,85 +70,119 @@
         "name": "PWN",
         "count": 1,
         "slug": "pwn"
+      },
+      {
+        "name": "Wreck IT CTF",
+        "count": 1,
+        "slug": "wreck-it-ctf"
+      },
+      {
+        "name": "TCP1P CTF",
+        "count": 1,
+        "slug": "tcp1p-ctf"
+      },
+      {
+        "name": "ZeroByte CTF",
+        "count": 1,
+        "slug": "zerobyte-ctf"
       }
-    ]
+    ],
+    "tags": [
+      {
+        "name": "CTF",
+        "count": 13,
+        "slug": "ctf"
+      },
+      {
+        "name": "Security",
+        "count": 5,
+        "slug": "security"
+      },
+      {
+        "name": "Web",
+        "count": 3,
+        "slug": "web"
+      },
+      {
+        "name": "RCE",
+        "count": 2,
+        "slug": "rce"
+      },
+      {
+        "name": "Programming",
+        "count": 1,
+        "slug": "programming"
+      }
+    ],
+    "subcategories": {
+      "Event CTF": [
+        {
+          "name": "Event CTF",
+          "count": 12,
+          "slug": "event-ctf"
+        },
+        {
+          "name": "CTF Writeup",
+          "count": 12,
+          "slug": "ctf-writeup"
+        },
+        {
+          "name": "CSC CTF",
+          "count": 4,
+          "slug": "csc-ctf"
+        },
+        {
+          "name": "TSA CTF",
+          "count": 4,
+          "slug": "tsa-ctf"
+        },
+        {
+          "name": "Wreck IT CTF",
+          "count": 1,
+          "slug": "wreck-it-ctf"
+        },
+        {
+          "name": "TCP1P CTF",
+          "count": 1,
+          "slug": "tcp1p-ctf"
+        },
+        {
+          "name": "ZeroByte CTF",
+          "count": 1,
+          "slug": "zerobyte-ctf"
+        }
+      ]
+    }
   },
   "posts": {
     "all": [
       {
-        "id": "24adb469-a81d-807e-b9dd-c92c2292fde2",
-        "title": "TryHack3M: Bricks Heist",
-        "slug": "tryhack3m-bricks-heist",
-        "folder": "tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2",
-        "excerpt": "Link Room: https://tryhackme.com/room/tryhack3mbricksheistOke sebelum kita mulai, mulai dibiasakan baca deskripsi lab nya terlebih dahulu, seperti pada gambar diatas. Pada deskripsi nya menjelaskan un...",
-        "featured_image": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/featured-image.png",
-        "created_time": "2025-08-09T13:18:00.000Z",
-        "last_edited_time": "2025-09-18T10:33:00.000Z",
-        "reading_time": 5,
-        "url": "https://www.notion.so/TryHack3M-Bricks-Heist-24adb469a81d807eb9ddc92c2292fde2",
+        "id": "236db469-a81d-80ba-9e1a-e5d9314a837f",
+        "title": "WriteUP - TCP1P CTF 2024 International",
+        "slug": "writeup-tcp1p-ctf-2024-international",
+        "folder": "writeup-tcp1p-ctf-2024-international-236db469a81d80ba9e1ae5d9314a837f",
+        "excerpt": "",
+        "featured_image": "/posts/writeup-tcp1p-ctf-2024-international-236db469a81d80ba9e1ae5d9314a837f/featured-image.png",
+        "created_time": "2025-07-20T06:32:00.000Z",
+        "last_edited_time": "2025-10-01T02:36:00.000Z",
+        "reading_time": 0,
+        "url": "https://www.notion.so/WriteUP-TCP1P-CTF-2024-International-236db469a81d80ba9e1ae5d9314a837f",
         "public_url": null,
         "archived": false,
         "categories": [
-          "Security"
+          "Forensics",
+          "Crypto",
+          "Event CTF"
         ],
         "tags": [
-          "Web Exploit",
-          "Forensics"
+          "CTF"
         ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "24fdb469-a81d-80dd-9682-e650068e0590",
-        "title": "TryHackMe-Compile",
-        "slug": "tryhackme-compile",
-        "folder": "tryhackme-compile-24fdb469a81d80dd9682e650068e0590",
-        "excerpt": "Pada challenge Compiled dari TryHackMe, deskripsi hanya berbunyi:Dan soalnya:Kita juga diberikan sebuah file biner bernama Compiled-1688545393558.Compiled untuk dianalisis.Pertama, kita cek tipe file...",
-        "featured_image": "/posts/tryhackme-compile-24fdb469a81d80dd9682e650068e0590/featured-image.png",
-        "created_time": "2025-08-14T13:31:00.000Z",
-        "last_edited_time": "2025-09-18T10:06:00.000Z",
-        "reading_time": 2,
-        "url": "https://www.notion.so/TryHackMe-Compile-24fdb469a81d80dd9682e650068e0590",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF",
-          "Security"
-        ],
-        "tags": [
-          "Reverse Engineering"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "23cdb469-a81d-8013-9c15-df63dc21a607",
-        "title": "TryHackMe - Pyrat",
-        "slug": "tryhackme-pyrat",
-        "folder": "tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607",
-        "excerpt": "Pada kesempatan ini, saya menyelesaikan tantangan CTF Boot2Root yang cukup menarik karena memadukan eksploitasi service TCP kustom, Git credential leak, dan bruteforce password untuk mengakses shell r...",
-        "featured_image": "/posts/tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607/image-1.png",
-        "created_time": "2025-07-26T11:42:00.000Z",
-        "last_edited_time": "2025-09-18T09:57:00.000Z",
-        "reading_time": 3,
-        "url": "https://www.notion.so/TryHackMe-Pyrat-23cdb469a81d80139c15df63dc21a607",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF",
-          "Security"
-        ],
-        "tags": [
-          "CTF Writeup",
-          "Boot2Root",
-          "RCE"
-        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TCP1P CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -170,18 +197,24 @@
         "excerpt": "Cyber Strike Competition 1.0Reverse EngineeringPada soal-soal reverse engineering ini, disini ada ‘celah’ pada setiap soal nya. Celah yang dimaksud yaitu untuk mendapatkan flag nya tanpa harus secara...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-reverse-237db469a81d805b8d45cc6858afce55/featured-image.png",
         "created_time": "2025-07-21T13:37:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
         "reading_time": 3,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Reverse-237db469a81d805b8d45cc6858afce55",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Reverse Engineering",
+          "Event CTF"
         ],
         "tags": [
-          "Reverse Engineering",
-          "CTF Writeup"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -196,19 +229,119 @@
         "excerpt": "Cyber Strike Competition 1.0Pada write up ini dibuat, sayangnya kondisi event ctf pada website nya sudah tutup, sehingga saya lupa untuk melakukan screenshoot soal nya.Intinya pada soal kali ini, terd...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/featured-image.png",
         "created_time": "2025-07-21T03:37:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
         "reading_time": 1,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Stegano-237db469a81d808eacd1eabae64a1e57",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Stegano",
+          "Event CTF"
+        ],
+        "tags": [
           "CTF",
           "Web"
         ],
-        "tags": [
-          "Stegano",
-          "CTF Writeup"
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "24adb469-a81d-807e-b9dd-c92c2292fde2",
+        "title": "TryHack3M: Bricks Heist",
+        "slug": "tryhack3m-bricks-heist",
+        "folder": "tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2",
+        "excerpt": "Link Room: https://tryhackme.com/room/tryhack3mbricksheistOke sebelum kita mulai, mulai dibiasakan baca deskripsi lab nya terlebih dahulu, seperti pada gambar diatas. Pada deskripsi nya menjelaskan un...",
+        "featured_image": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/featured-image.png",
+        "created_time": "2025-08-09T13:18:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
+        "reading_time": 5,
+        "url": "https://www.notion.so/TryHack3M-Bricks-Heist-24adb469a81d807eb9ddc92c2292fde2",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Web Exploit",
+          "Forensics",
+          "THM"
         ],
+        "tags": [
+          "Security"
+        ],
+        "subcategories": {
+          "Event CTF": []
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "24fdb469-a81d-80dd-9682-e650068e0590",
+        "title": "TryHackMe-Compile",
+        "slug": "tryhackme-compile",
+        "folder": "tryhackme-compile-24fdb469a81d80dd9682e650068e0590",
+        "excerpt": "Pada challenge Compiled dari TryHackMe, deskripsi hanya berbunyi:Dan soalnya:Kita juga diberikan sebuah file biner bernama Compiled-1688545393558.Compiled untuk dianalisis.Pertama, kita cek tipe file...",
+        "featured_image": "/posts/tryhackme-compile-24fdb469a81d80dd9682e650068e0590/featured-image.png",
+        "created_time": "2025-08-14T13:31:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
+        "reading_time": 2,
+        "url": "https://www.notion.so/TryHackMe-Compile-24fdb469a81d80dd9682e650068e0590",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Reverse Engineering",
+          "THM"
+        ],
+        "tags": [
+          "CTF",
+          "Security"
+        ],
+        "subcategories": {
+          "Event CTF": []
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "23cdb469-a81d-8013-9c15-df63dc21a607",
+        "title": "TryHackMe - Pyrat",
+        "slug": "tryhackme-pyrat",
+        "folder": "tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607",
+        "excerpt": "Pada kesempatan ini, saya menyelesaikan tantangan CTF Boot2Root yang cukup menarik karena memadukan eksploitasi service TCP kustom, Git credential leak, dan bruteforce password untuk mengakses shell r...",
+        "featured_image": "/posts/tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607/image-1.png",
+        "created_time": "2025-07-26T11:42:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
+        "reading_time": 3,
+        "url": "https://www.notion.so/TryHackMe-Pyrat-23cdb469a81d80139c15df63dc21a607",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Boot2Root",
+          "THM",
+          "Event CTF"
+        ],
+        "tags": [
+          "CTF",
+          "Security",
+          "RCE"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -223,46 +356,25 @@
         "excerpt": "Cyber Strike Competition 1.0image-45Pada soal ini, hanya ada link web target dan juga hint untuk path flag nya.Ketika saya akses web nya, tampilan nya seperti ini:image-46Terlihat ada informasi bahwa...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-web-237db469a81d80559f1cd4ea698c7656/featured-image.png",
         "created_time": "2025-07-21T03:34:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:48:00.000Z",
         "reading_time": 1,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Web-237db469a81d80559f1cd4ea698c7656",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Web Exploit",
+          "Event CTF"
+        ],
+        "tags": [
           "CTF",
           "Web"
         ],
-        "tags": [
-          "Web Exploit",
-          "CTF Writeup"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "236db469-a81d-80ba-9e1a-e5d9314a837f",
-        "title": "WriteUP - TCP1P CTF 2024 International",
-        "slug": "writeup-tcp1p-ctf-2024-international",
-        "folder": "writeup-tcp1p-ctf-2024-international-236db469a81d80ba9e1ae5d9314a837f",
-        "excerpt": "",
-        "featured_image": "/posts/writeup-tcp1p-ctf-2024-international-236db469a81d80ba9e1ae5d9314a837f/featured-image.png",
-        "created_time": "2025-07-20T06:32:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
-        "reading_time": 0,
-        "url": "https://www.notion.so/WriteUP-TCP1P-CTF-2024-International-236db469a81d80ba9e1ae5d9314a837f",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF"
-        ],
-        "tags": [
-          "CTF Writeup",
-          "Forensics",
-          "Crypto"
-        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -277,152 +389,25 @@
         "excerpt": "ZerobyteCTF 2024Soal pertama yang saya kerjakan yaitu soal yg ‘free flag’, karna lumayan buat point petama heheimage-2Di dalam deskripsi soal sudah terlihat flag nya.flag: 0byteCTF{79_t4hun m3rd3k4_IN...",
         "featured_image": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/featured-image.png",
         "created_time": "2025-07-21T03:29:00.000Z",
-        "last_edited_time": "2025-07-21T03:32:00.000Z",
+        "last_edited_time": "2025-10-01T01:48:00.000Z",
         "reading_time": 5,
         "url": "https://www.notion.so/ZeroByte-CTF-2024-Writeup-237db469a81d80398871dbfb9827a660",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
-        ],
-        "tags": [
           "Boot2Root",
           "Crypto",
-          "CTF Writeup"
+          "Event CTF"
         ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "237db469-a81d-80f7-827d-ec9ef553a967",
-        "title": "[Wreck-IT 5.0 CTF] Writeup",
-        "slug": "wreck-it-5-0-ctf-writeup",
-        "folder": "wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967",
-        "excerpt": "with agrxSoal:Soal Free FlagSesuai dengan namanya, soal ini memang memberikan flag secara cuma-cuma. kami langsung memasukkan flag yang tertera pada deskripsi soal, dan ternyata valid!Flag: WRECKIT50{...",
-        "featured_image": "/posts/wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967/featured-image.png",
-        "created_time": "2025-07-21T02:45:00.000Z",
-        "last_edited_time": "2025-07-21T03:28:00.000Z",
-        "reading_time": 6,
-        "url": "https://www.notion.so/Wreck-IT-5-0-CTF-Writeup-237db469a81d80f7827dec9ef553a967",
-        "public_url": null,
-        "archived": false,
-        "categories": [
+        "tags": [
           "CTF"
         ],
-        "tags": [
-          "Crypto",
-          "CTF Writeup"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "237db469-a81d-801d-8fff-c833a4986a84",
-        "title": "[TSA Cyber Champion 2024] Cryptography 101 Writeup",
-        "slug": "tsa-cyber-champion-2024-cryptography-101-writeup",
-        "folder": "tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84",
-        "excerpt": "Writeup ini akan membahas bagaimana saya menyelesaikan soal Cryptography 101 dan Cryptomata dari TSA Cyber Champion 2024. Soal-soal ini melibatkan pemahaman tentang RSA dan BLS Signature.Pada soal ini...",
-        "featured_image": "/posts/tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84/featured-image.png",
-        "created_time": "2025-07-21T02:38:00.000Z",
-        "last_edited_time": "2025-07-21T02:43:00.000Z",
-        "reading_time": 5,
-        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Cryptography-101-Writeup-237db469a81d801d8fffc833a4986a84",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF"
-        ],
-        "tags": [
-          "Crypto",
-          "CTF Writeup"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "237db469-a81d-8007-9fd4-cd2f55312a5c",
-        "title": "[TSA Cyber Champion 2024] - Pwn",
-        "slug": "tsa-cyber-champion-2024-pwn",
-        "folder": "tsa-cyber-champion-2024-pwn-237db469a81d80079fd4cd2f55312a5c",
-        "excerpt": "Deskripsi SoalDi soal ini, diberikan sebuah source code dan juga server yang bisa saya hubungkan. Ketika saya coba akses servernya, tampilannya seperti ini:Tampilan ServerLalu, saya cek kode PWN-nya....",
-        "featured_image": "/posts/tsa-cyber-champion-2024-pwn-237db469a81d80079fd4cd2f55312a5c/featured-image.png",
-        "created_time": "2025-07-21T02:06:00.000Z",
-        "last_edited_time": "2025-07-21T02:11:00.000Z",
-        "reading_time": 2,
-        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Pwn-237db469a81d80079fd4cd2f55312a5c",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "Programming"
-        ],
-        "tags": [
-          "PWN",
-          "CTF Writeup",
-          "RCE"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "237db469-a81d-8038-b6c1-e28cb2dbe2b6",
-        "title": "[TSA Cyber Champion 2024] - Reverse Engineering 101 Writeup",
-        "slug": "tsa-cyber-champion-2024-reverse-engineering-101-wr",
-        "folder": "tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6",
-        "excerpt": "Deskripsi SoalPada soal ini, saya diberikan sebuah file bernama main.Pertama, saya coba cek dulu file main ini.Pengecekan File MainLalu, saya coba jalankan programnya.Menjalankan Program MainProgram m...",
-        "featured_image": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/featured-image.png",
-        "created_time": "2025-07-21T02:01:00.000Z",
-        "last_edited_time": "2025-07-21T02:04:00.000Z",
-        "reading_time": 3,
-        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Reverse-Engineering-101-Writeup-237db469a81d8038b6c1e28cb2dbe2b6",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF"
-        ],
-        "tags": [
-          "Reverse Engineering",
-          "CTF Writeup"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "237db469-a81d-80b4-96d5-d316780826b8",
-        "title": "[TSA Cyber Champion 2024] - Web Exploit 101 Writeup",
-        "slug": "tsa-cyber-champion-2024-web-exploit-101-writeup",
-        "folder": "tsa-cyber-champion-2024-web-exploit-101-writeup-237db469a81d80b496d5d316780826b8",
-        "excerpt": "Deskripsi SoalSoal ini hanya memberikan sebuah tautan (link) website tanpa deskripsi tambahan, sehingga pendekatan blackbox testing diperlukan.URL: https://cyberchampion-web-101.chals.io/Mirror: http:...",
-        "featured_image": "/posts/tsa-cyber-champion-2024-web-exploit-101-writeup-237db469a81d80b496d5d316780826b8/featured-image.png",
-        "created_time": "2025-07-21T01:58:00.000Z",
-        "last_edited_time": "2025-07-21T02:00:00.000Z",
-        "reading_time": 3,
-        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Web-Exploit-101-Writeup-237db469a81d80b496d5d316780826b8",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF",
-          "Security",
-          "Web"
-        ],
-        "tags": [
-          "Web Exploit",
-          "CTF Writeup"
-        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "ZeroByte CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -437,18 +422,187 @@
         "excerpt": "Gambar SoalPada soal ini, deskripsi menyebutkan bahwa dalam file zip “secret_data.zip” terdapat file bernama “secret_data.txt” yang berisi informasi sensitif, yaitu flag. Deskripsi juga memberikan pet...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-crypto-237db469a81d80c6a345e4cd2fbb64af/featured-image.png",
         "created_time": "2025-07-21T01:42:00.000Z",
-        "last_edited_time": "2025-07-21T01:48:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
         "reading_time": 2,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Crypto-237db469a81d80c6a345e4cd2fbb64af",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Crypto",
+          "Event CTF"
         ],
         "tags": [
-          "Crypto",
-          "CTF Writeup"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "237db469-a81d-801d-8fff-c833a4986a84",
+        "title": "[TSA Cyber Champion 2024] Cryptography 101 Writeup",
+        "slug": "tsa-cyber-champion-2024-cryptography-101-writeup",
+        "folder": "tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84",
+        "excerpt": "Writeup ini akan membahas bagaimana saya menyelesaikan soal Cryptography 101 dan Cryptomata dari TSA Cyber Champion 2024. Soal-soal ini melibatkan pemahaman tentang RSA dan BLS Signature.Pada soal ini...",
+        "featured_image": "/posts/tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84/featured-image.png",
+        "created_time": "2025-07-21T02:38:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
+        "reading_time": 5,
+        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Cryptography-101-Writeup-237db469a81d801d8fffc833a4986a84",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Crypto",
+          "Event CTF"
+        ],
+        "tags": [
+          "CTF"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "237db469-a81d-8007-9fd4-cd2f55312a5c",
+        "title": "[TSA Cyber Champion 2024] - Pwn",
+        "slug": "tsa-cyber-champion-2024-pwn",
+        "folder": "tsa-cyber-champion-2024-pwn-237db469a81d80079fd4cd2f55312a5c",
+        "excerpt": "Deskripsi SoalDi soal ini, diberikan sebuah source code dan juga server yang bisa saya hubungkan. Ketika saya coba akses servernya, tampilannya seperti ini:Tampilan ServerLalu, saya cek kode PWN-nya....",
+        "featured_image": "/posts/tsa-cyber-champion-2024-pwn-237db469a81d80079fd4cd2f55312a5c/featured-image.png",
+        "created_time": "2025-07-21T02:06:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
+        "reading_time": 2,
+        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Pwn-237db469a81d80079fd4cd2f55312a5c",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "PWN",
+          "Event CTF"
+        ],
+        "tags": [
+          "Programming",
+          "RCE"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "237db469-a81d-8038-b6c1-e28cb2dbe2b6",
+        "title": "[TSA Cyber Champion 2024] - Reverse Engineering 101 Writeup",
+        "slug": "tsa-cyber-champion-2024-reverse-engineering-101-wr",
+        "folder": "tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6",
+        "excerpt": "Deskripsi SoalPada soal ini, saya diberikan sebuah file bernama main.Pertama, saya coba cek dulu file main ini.Pengecekan File MainLalu, saya coba jalankan programnya.Menjalankan Program MainProgram m...",
+        "featured_image": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/featured-image.png",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
+        "reading_time": 3,
+        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Reverse-Engineering-101-Writeup-237db469a81d8038b6c1e28cb2dbe2b6",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Reverse Engineering",
+          "Event CTF"
+        ],
+        "tags": [
+          "CTF"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "237db469-a81d-80b4-96d5-d316780826b8",
+        "title": "[TSA Cyber Champion 2024] - Web Exploit 101 Writeup",
+        "slug": "tsa-cyber-champion-2024-web-exploit-101-writeup",
+        "folder": "tsa-cyber-champion-2024-web-exploit-101-writeup-237db469a81d80b496d5d316780826b8",
+        "excerpt": "Deskripsi SoalSoal ini hanya memberikan sebuah tautan (link) website tanpa deskripsi tambahan, sehingga pendekatan blackbox testing diperlukan.URL: https://cyberchampion-web-101.chals.io/Mirror: http:...",
+        "featured_image": "/posts/tsa-cyber-champion-2024-web-exploit-101-writeup-237db469a81d80b496d5d316780826b8/featured-image.png",
+        "created_time": "2025-07-21T01:58:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
+        "reading_time": 3,
+        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Web-Exploit-101-Writeup-237db469a81d80b496d5d316780826b8",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Web Exploit",
+          "Event CTF"
+        ],
+        "tags": [
+          "CTF",
+          "Security",
+          "Web"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "237db469-a81d-80f7-827d-ec9ef553a967",
+        "title": "[Wreck-IT 5.0 CTF] Writeup",
+        "slug": "wreck-it-5-0-ctf-writeup",
+        "folder": "wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967",
+        "excerpt": "with agrxSoal:Soal Free FlagSesuai dengan namanya, soal ini memang memberikan flag secara cuma-cuma. kami langsung memasukkan flag yang tertera pada deskripsi soal, dan ternyata valid!Flag: WRECKIT50{...",
+        "featured_image": "/posts/wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967/featured-image.png",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
+        "reading_time": 6,
+        "url": "https://www.notion.so/Wreck-IT-5-0-CTF-Writeup-237db469a81d80f7827dec9ef553a967",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Crypto",
+          "Event CTF"
+        ],
+        "tags": [
+          "CTF"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "Wreck IT CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -463,18 +617,22 @@
         "excerpt": "Pada artikel ini, saya akan membahas penyelesaian soal CTF kategori cryptography yang menggunakan XOR cipher. Soal ini cukup menarik karena memerlukan teknik known plaintext attack untuk mendapatkan e...",
         "featured_image": "/posts/tryhackme-w1seguy-22adb469a81d81d8aca6c994479eb096/featured-image.png",
         "created_time": "2025-07-08T15:57:00.000Z",
-        "last_edited_time": "2025-07-09T06:30:00.000Z",
+        "last_edited_time": "2025-10-01T01:46:00.000Z",
         "reading_time": 8,
         "url": "https://www.notion.so/TryHackMe-W1seGuy-22adb469a81d81d8aca6c994479eb096",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Crypto",
+          "THM"
+        ],
+        "tags": [
           "CTF",
           "Security"
         ],
-        "tags": [
-          "Crypto"
-        ],
+        "subcategories": {
+          "Event CTF": []
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -484,79 +642,32 @@
     ],
     "published": [
       {
-        "id": "24adb469-a81d-807e-b9dd-c92c2292fde2",
-        "title": "TryHack3M: Bricks Heist",
-        "slug": "tryhack3m-bricks-heist",
-        "folder": "tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2",
-        "excerpt": "Link Room: https://tryhackme.com/room/tryhack3mbricksheistOke sebelum kita mulai, mulai dibiasakan baca deskripsi lab nya terlebih dahulu, seperti pada gambar diatas. Pada deskripsi nya menjelaskan un...",
-        "featured_image": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/featured-image.png",
-        "created_time": "2025-08-09T13:18:00.000Z",
-        "last_edited_time": "2025-09-18T10:33:00.000Z",
-        "reading_time": 5,
-        "url": "https://www.notion.so/TryHack3M-Bricks-Heist-24adb469a81d807eb9ddc92c2292fde2",
+        "id": "236db469-a81d-80ba-9e1a-e5d9314a837f",
+        "title": "WriteUP - TCP1P CTF 2024 International",
+        "slug": "writeup-tcp1p-ctf-2024-international",
+        "folder": "writeup-tcp1p-ctf-2024-international-236db469a81d80ba9e1ae5d9314a837f",
+        "excerpt": "",
+        "featured_image": "/posts/writeup-tcp1p-ctf-2024-international-236db469a81d80ba9e1ae5d9314a837f/featured-image.png",
+        "created_time": "2025-07-20T06:32:00.000Z",
+        "last_edited_time": "2025-10-01T02:36:00.000Z",
+        "reading_time": 0,
+        "url": "https://www.notion.so/WriteUP-TCP1P-CTF-2024-International-236db469a81d80ba9e1ae5d9314a837f",
         "public_url": null,
         "archived": false,
         "categories": [
-          "Security"
+          "Forensics",
+          "Crypto",
+          "Event CTF"
         ],
         "tags": [
-          "Web Exploit",
-          "Forensics"
+          "CTF"
         ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "24fdb469-a81d-80dd-9682-e650068e0590",
-        "title": "TryHackMe-Compile",
-        "slug": "tryhackme-compile",
-        "folder": "tryhackme-compile-24fdb469a81d80dd9682e650068e0590",
-        "excerpt": "Pada challenge Compiled dari TryHackMe, deskripsi hanya berbunyi:Dan soalnya:Kita juga diberikan sebuah file biner bernama Compiled-1688545393558.Compiled untuk dianalisis.Pertama, kita cek tipe file...",
-        "featured_image": "/posts/tryhackme-compile-24fdb469a81d80dd9682e650068e0590/featured-image.png",
-        "created_time": "2025-08-14T13:31:00.000Z",
-        "last_edited_time": "2025-09-18T10:06:00.000Z",
-        "reading_time": 2,
-        "url": "https://www.notion.so/TryHackMe-Compile-24fdb469a81d80dd9682e650068e0590",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF",
-          "Security"
-        ],
-        "tags": [
-          "Reverse Engineering"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "23cdb469-a81d-8013-9c15-df63dc21a607",
-        "title": "TryHackMe - Pyrat",
-        "slug": "tryhackme-pyrat",
-        "folder": "tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607",
-        "excerpt": "Pada kesempatan ini, saya menyelesaikan tantangan CTF Boot2Root yang cukup menarik karena memadukan eksploitasi service TCP kustom, Git credential leak, dan bruteforce password untuk mengakses shell r...",
-        "featured_image": "/posts/tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607/image-1.png",
-        "created_time": "2025-07-26T11:42:00.000Z",
-        "last_edited_time": "2025-09-18T09:57:00.000Z",
-        "reading_time": 3,
-        "url": "https://www.notion.so/TryHackMe-Pyrat-23cdb469a81d80139c15df63dc21a607",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF",
-          "Security"
-        ],
-        "tags": [
-          "CTF Writeup",
-          "Boot2Root",
-          "RCE"
-        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TCP1P CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -571,18 +682,24 @@
         "excerpt": "Cyber Strike Competition 1.0Reverse EngineeringPada soal-soal reverse engineering ini, disini ada ‘celah’ pada setiap soal nya. Celah yang dimaksud yaitu untuk mendapatkan flag nya tanpa harus secara...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-reverse-237db469a81d805b8d45cc6858afce55/featured-image.png",
         "created_time": "2025-07-21T13:37:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
         "reading_time": 3,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Reverse-237db469a81d805b8d45cc6858afce55",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Reverse Engineering",
+          "Event CTF"
         ],
         "tags": [
-          "Reverse Engineering",
-          "CTF Writeup"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -597,19 +714,119 @@
         "excerpt": "Cyber Strike Competition 1.0Pada write up ini dibuat, sayangnya kondisi event ctf pada website nya sudah tutup, sehingga saya lupa untuk melakukan screenshoot soal nya.Intinya pada soal kali ini, terd...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/featured-image.png",
         "created_time": "2025-07-21T03:37:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
         "reading_time": 1,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Stegano-237db469a81d808eacd1eabae64a1e57",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Stegano",
+          "Event CTF"
+        ],
+        "tags": [
           "CTF",
           "Web"
         ],
-        "tags": [
-          "Stegano",
-          "CTF Writeup"
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "24adb469-a81d-807e-b9dd-c92c2292fde2",
+        "title": "TryHack3M: Bricks Heist",
+        "slug": "tryhack3m-bricks-heist",
+        "folder": "tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2",
+        "excerpt": "Link Room: https://tryhackme.com/room/tryhack3mbricksheistOke sebelum kita mulai, mulai dibiasakan baca deskripsi lab nya terlebih dahulu, seperti pada gambar diatas. Pada deskripsi nya menjelaskan un...",
+        "featured_image": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/featured-image.png",
+        "created_time": "2025-08-09T13:18:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
+        "reading_time": 5,
+        "url": "https://www.notion.so/TryHack3M-Bricks-Heist-24adb469a81d807eb9ddc92c2292fde2",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Web Exploit",
+          "Forensics",
+          "THM"
         ],
+        "tags": [
+          "Security"
+        ],
+        "subcategories": {
+          "Event CTF": []
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "24fdb469-a81d-80dd-9682-e650068e0590",
+        "title": "TryHackMe-Compile",
+        "slug": "tryhackme-compile",
+        "folder": "tryhackme-compile-24fdb469a81d80dd9682e650068e0590",
+        "excerpt": "Pada challenge Compiled dari TryHackMe, deskripsi hanya berbunyi:Dan soalnya:Kita juga diberikan sebuah file biner bernama Compiled-1688545393558.Compiled untuk dianalisis.Pertama, kita cek tipe file...",
+        "featured_image": "/posts/tryhackme-compile-24fdb469a81d80dd9682e650068e0590/featured-image.png",
+        "created_time": "2025-08-14T13:31:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
+        "reading_time": 2,
+        "url": "https://www.notion.so/TryHackMe-Compile-24fdb469a81d80dd9682e650068e0590",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Reverse Engineering",
+          "THM"
+        ],
+        "tags": [
+          "CTF",
+          "Security"
+        ],
+        "subcategories": {
+          "Event CTF": []
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "23cdb469-a81d-8013-9c15-df63dc21a607",
+        "title": "TryHackMe - Pyrat",
+        "slug": "tryhackme-pyrat",
+        "folder": "tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607",
+        "excerpt": "Pada kesempatan ini, saya menyelesaikan tantangan CTF Boot2Root yang cukup menarik karena memadukan eksploitasi service TCP kustom, Git credential leak, dan bruteforce password untuk mengakses shell r...",
+        "featured_image": "/posts/tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607/image-1.png",
+        "created_time": "2025-07-26T11:42:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
+        "reading_time": 3,
+        "url": "https://www.notion.so/TryHackMe-Pyrat-23cdb469a81d80139c15df63dc21a607",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Boot2Root",
+          "THM",
+          "Event CTF"
+        ],
+        "tags": [
+          "CTF",
+          "Security",
+          "RCE"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -624,46 +841,25 @@
         "excerpt": "Cyber Strike Competition 1.0image-45Pada soal ini, hanya ada link web target dan juga hint untuk path flag nya.Ketika saya akses web nya, tampilan nya seperti ini:image-46Terlihat ada informasi bahwa...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-web-237db469a81d80559f1cd4ea698c7656/featured-image.png",
         "created_time": "2025-07-21T03:34:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:48:00.000Z",
         "reading_time": 1,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Web-237db469a81d80559f1cd4ea698c7656",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Web Exploit",
+          "Event CTF"
+        ],
+        "tags": [
           "CTF",
           "Web"
         ],
-        "tags": [
-          "Web Exploit",
-          "CTF Writeup"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "236db469-a81d-80ba-9e1a-e5d9314a837f",
-        "title": "WriteUP - TCP1P CTF 2024 International",
-        "slug": "writeup-tcp1p-ctf-2024-international",
-        "folder": "writeup-tcp1p-ctf-2024-international-236db469a81d80ba9e1ae5d9314a837f",
-        "excerpt": "",
-        "featured_image": "/posts/writeup-tcp1p-ctf-2024-international-236db469a81d80ba9e1ae5d9314a837f/featured-image.png",
-        "created_time": "2025-07-20T06:32:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
-        "reading_time": 0,
-        "url": "https://www.notion.so/WriteUP-TCP1P-CTF-2024-International-236db469a81d80ba9e1ae5d9314a837f",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF"
-        ],
-        "tags": [
-          "CTF Writeup",
-          "Forensics",
-          "Crypto"
-        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -678,152 +874,25 @@
         "excerpt": "ZerobyteCTF 2024Soal pertama yang saya kerjakan yaitu soal yg ‘free flag’, karna lumayan buat point petama heheimage-2Di dalam deskripsi soal sudah terlihat flag nya.flag: 0byteCTF{79_t4hun m3rd3k4_IN...",
         "featured_image": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/featured-image.png",
         "created_time": "2025-07-21T03:29:00.000Z",
-        "last_edited_time": "2025-07-21T03:32:00.000Z",
+        "last_edited_time": "2025-10-01T01:48:00.000Z",
         "reading_time": 5,
         "url": "https://www.notion.so/ZeroByte-CTF-2024-Writeup-237db469a81d80398871dbfb9827a660",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
-        ],
-        "tags": [
           "Boot2Root",
           "Crypto",
-          "CTF Writeup"
+          "Event CTF"
         ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "237db469-a81d-80f7-827d-ec9ef553a967",
-        "title": "[Wreck-IT 5.0 CTF] Writeup",
-        "slug": "wreck-it-5-0-ctf-writeup",
-        "folder": "wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967",
-        "excerpt": "with agrxSoal:Soal Free FlagSesuai dengan namanya, soal ini memang memberikan flag secara cuma-cuma. kami langsung memasukkan flag yang tertera pada deskripsi soal, dan ternyata valid!Flag: WRECKIT50{...",
-        "featured_image": "/posts/wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967/featured-image.png",
-        "created_time": "2025-07-21T02:45:00.000Z",
-        "last_edited_time": "2025-07-21T03:28:00.000Z",
-        "reading_time": 6,
-        "url": "https://www.notion.so/Wreck-IT-5-0-CTF-Writeup-237db469a81d80f7827dec9ef553a967",
-        "public_url": null,
-        "archived": false,
-        "categories": [
+        "tags": [
           "CTF"
         ],
-        "tags": [
-          "Crypto",
-          "CTF Writeup"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "237db469-a81d-801d-8fff-c833a4986a84",
-        "title": "[TSA Cyber Champion 2024] Cryptography 101 Writeup",
-        "slug": "tsa-cyber-champion-2024-cryptography-101-writeup",
-        "folder": "tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84",
-        "excerpt": "Writeup ini akan membahas bagaimana saya menyelesaikan soal Cryptography 101 dan Cryptomata dari TSA Cyber Champion 2024. Soal-soal ini melibatkan pemahaman tentang RSA dan BLS Signature.Pada soal ini...",
-        "featured_image": "/posts/tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84/featured-image.png",
-        "created_time": "2025-07-21T02:38:00.000Z",
-        "last_edited_time": "2025-07-21T02:43:00.000Z",
-        "reading_time": 5,
-        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Cryptography-101-Writeup-237db469a81d801d8fffc833a4986a84",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF"
-        ],
-        "tags": [
-          "Crypto",
-          "CTF Writeup"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "237db469-a81d-8007-9fd4-cd2f55312a5c",
-        "title": "[TSA Cyber Champion 2024] - Pwn",
-        "slug": "tsa-cyber-champion-2024-pwn",
-        "folder": "tsa-cyber-champion-2024-pwn-237db469a81d80079fd4cd2f55312a5c",
-        "excerpt": "Deskripsi SoalDi soal ini, diberikan sebuah source code dan juga server yang bisa saya hubungkan. Ketika saya coba akses servernya, tampilannya seperti ini:Tampilan ServerLalu, saya cek kode PWN-nya....",
-        "featured_image": "/posts/tsa-cyber-champion-2024-pwn-237db469a81d80079fd4cd2f55312a5c/featured-image.png",
-        "created_time": "2025-07-21T02:06:00.000Z",
-        "last_edited_time": "2025-07-21T02:11:00.000Z",
-        "reading_time": 2,
-        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Pwn-237db469a81d80079fd4cd2f55312a5c",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "Programming"
-        ],
-        "tags": [
-          "PWN",
-          "CTF Writeup",
-          "RCE"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "237db469-a81d-8038-b6c1-e28cb2dbe2b6",
-        "title": "[TSA Cyber Champion 2024] - Reverse Engineering 101 Writeup",
-        "slug": "tsa-cyber-champion-2024-reverse-engineering-101-wr",
-        "folder": "tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6",
-        "excerpt": "Deskripsi SoalPada soal ini, saya diberikan sebuah file bernama main.Pertama, saya coba cek dulu file main ini.Pengecekan File MainLalu, saya coba jalankan programnya.Menjalankan Program MainProgram m...",
-        "featured_image": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/featured-image.png",
-        "created_time": "2025-07-21T02:01:00.000Z",
-        "last_edited_time": "2025-07-21T02:04:00.000Z",
-        "reading_time": 3,
-        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Reverse-Engineering-101-Writeup-237db469a81d8038b6c1e28cb2dbe2b6",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF"
-        ],
-        "tags": [
-          "Reverse Engineering",
-          "CTF Writeup"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "237db469-a81d-80b4-96d5-d316780826b8",
-        "title": "[TSA Cyber Champion 2024] - Web Exploit 101 Writeup",
-        "slug": "tsa-cyber-champion-2024-web-exploit-101-writeup",
-        "folder": "tsa-cyber-champion-2024-web-exploit-101-writeup-237db469a81d80b496d5d316780826b8",
-        "excerpt": "Deskripsi SoalSoal ini hanya memberikan sebuah tautan (link) website tanpa deskripsi tambahan, sehingga pendekatan blackbox testing diperlukan.URL: https://cyberchampion-web-101.chals.io/Mirror: http:...",
-        "featured_image": "/posts/tsa-cyber-champion-2024-web-exploit-101-writeup-237db469a81d80b496d5d316780826b8/featured-image.png",
-        "created_time": "2025-07-21T01:58:00.000Z",
-        "last_edited_time": "2025-07-21T02:00:00.000Z",
-        "reading_time": 3,
-        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Web-Exploit-101-Writeup-237db469a81d80b496d5d316780826b8",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF",
-          "Security",
-          "Web"
-        ],
-        "tags": [
-          "Web Exploit",
-          "CTF Writeup"
-        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "ZeroByte CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -838,18 +907,187 @@
         "excerpt": "Gambar SoalPada soal ini, deskripsi menyebutkan bahwa dalam file zip “secret_data.zip” terdapat file bernama “secret_data.txt” yang berisi informasi sensitif, yaitu flag. Deskripsi juga memberikan pet...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-crypto-237db469a81d80c6a345e4cd2fbb64af/featured-image.png",
         "created_time": "2025-07-21T01:42:00.000Z",
-        "last_edited_time": "2025-07-21T01:48:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
         "reading_time": 2,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Crypto-237db469a81d80c6a345e4cd2fbb64af",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Crypto",
+          "Event CTF"
         ],
         "tags": [
-          "Crypto",
-          "CTF Writeup"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "237db469-a81d-801d-8fff-c833a4986a84",
+        "title": "[TSA Cyber Champion 2024] Cryptography 101 Writeup",
+        "slug": "tsa-cyber-champion-2024-cryptography-101-writeup",
+        "folder": "tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84",
+        "excerpt": "Writeup ini akan membahas bagaimana saya menyelesaikan soal Cryptography 101 dan Cryptomata dari TSA Cyber Champion 2024. Soal-soal ini melibatkan pemahaman tentang RSA dan BLS Signature.Pada soal ini...",
+        "featured_image": "/posts/tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84/featured-image.png",
+        "created_time": "2025-07-21T02:38:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
+        "reading_time": 5,
+        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Cryptography-101-Writeup-237db469a81d801d8fffc833a4986a84",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Crypto",
+          "Event CTF"
+        ],
+        "tags": [
+          "CTF"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "237db469-a81d-8007-9fd4-cd2f55312a5c",
+        "title": "[TSA Cyber Champion 2024] - Pwn",
+        "slug": "tsa-cyber-champion-2024-pwn",
+        "folder": "tsa-cyber-champion-2024-pwn-237db469a81d80079fd4cd2f55312a5c",
+        "excerpt": "Deskripsi SoalDi soal ini, diberikan sebuah source code dan juga server yang bisa saya hubungkan. Ketika saya coba akses servernya, tampilannya seperti ini:Tampilan ServerLalu, saya cek kode PWN-nya....",
+        "featured_image": "/posts/tsa-cyber-champion-2024-pwn-237db469a81d80079fd4cd2f55312a5c/featured-image.png",
+        "created_time": "2025-07-21T02:06:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
+        "reading_time": 2,
+        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Pwn-237db469a81d80079fd4cd2f55312a5c",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "PWN",
+          "Event CTF"
+        ],
+        "tags": [
+          "Programming",
+          "RCE"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "237db469-a81d-8038-b6c1-e28cb2dbe2b6",
+        "title": "[TSA Cyber Champion 2024] - Reverse Engineering 101 Writeup",
+        "slug": "tsa-cyber-champion-2024-reverse-engineering-101-wr",
+        "folder": "tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6",
+        "excerpt": "Deskripsi SoalPada soal ini, saya diberikan sebuah file bernama main.Pertama, saya coba cek dulu file main ini.Pengecekan File MainLalu, saya coba jalankan programnya.Menjalankan Program MainProgram m...",
+        "featured_image": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/featured-image.png",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
+        "reading_time": 3,
+        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Reverse-Engineering-101-Writeup-237db469a81d8038b6c1e28cb2dbe2b6",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Reverse Engineering",
+          "Event CTF"
+        ],
+        "tags": [
+          "CTF"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "237db469-a81d-80b4-96d5-d316780826b8",
+        "title": "[TSA Cyber Champion 2024] - Web Exploit 101 Writeup",
+        "slug": "tsa-cyber-champion-2024-web-exploit-101-writeup",
+        "folder": "tsa-cyber-champion-2024-web-exploit-101-writeup-237db469a81d80b496d5d316780826b8",
+        "excerpt": "Deskripsi SoalSoal ini hanya memberikan sebuah tautan (link) website tanpa deskripsi tambahan, sehingga pendekatan blackbox testing diperlukan.URL: https://cyberchampion-web-101.chals.io/Mirror: http:...",
+        "featured_image": "/posts/tsa-cyber-champion-2024-web-exploit-101-writeup-237db469a81d80b496d5d316780826b8/featured-image.png",
+        "created_time": "2025-07-21T01:58:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
+        "reading_time": 3,
+        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Web-Exploit-101-Writeup-237db469a81d80b496d5d316780826b8",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Web Exploit",
+          "Event CTF"
+        ],
+        "tags": [
+          "CTF",
+          "Security",
+          "Web"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "237db469-a81d-80f7-827d-ec9ef553a967",
+        "title": "[Wreck-IT 5.0 CTF] Writeup",
+        "slug": "wreck-it-5-0-ctf-writeup",
+        "folder": "wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967",
+        "excerpt": "with agrxSoal:Soal Free FlagSesuai dengan namanya, soal ini memang memberikan flag secara cuma-cuma. kami langsung memasukkan flag yang tertera pada deskripsi soal, dan ternyata valid!Flag: WRECKIT50{...",
+        "featured_image": "/posts/wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967/featured-image.png",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
+        "reading_time": 6,
+        "url": "https://www.notion.so/Wreck-IT-5-0-CTF-Writeup-237db469a81d80f7827dec9ef553a967",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Crypto",
+          "Event CTF"
+        ],
+        "tags": [
+          "CTF"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "Wreck IT CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -864,18 +1102,22 @@
         "excerpt": "Pada artikel ini, saya akan membahas penyelesaian soal CTF kategori cryptography yang menggunakan XOR cipher. Soal ini cukup menarik karena memerlukan teknik known plaintext attack untuk mendapatkan e...",
         "featured_image": "/posts/tryhackme-w1seguy-22adb469a81d81d8aca6c994479eb096/featured-image.png",
         "created_time": "2025-07-08T15:57:00.000Z",
-        "last_edited_time": "2025-07-09T06:30:00.000Z",
+        "last_edited_time": "2025-10-01T01:46:00.000Z",
         "reading_time": 8,
         "url": "https://www.notion.so/TryHackMe-W1seGuy-22adb469a81d81d8aca6c994479eb096",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Crypto",
+          "THM"
+        ],
+        "tags": [
           "CTF",
           "Security"
         ],
-        "tags": [
-          "Crypto"
-        ],
+        "subcategories": {
+          "Event CTF": []
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -887,79 +1129,32 @@
     "featured": [],
     "by_date": [
       {
-        "id": "24adb469-a81d-807e-b9dd-c92c2292fde2",
-        "title": "TryHack3M: Bricks Heist",
-        "slug": "tryhack3m-bricks-heist",
-        "folder": "tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2",
-        "excerpt": "Link Room: https://tryhackme.com/room/tryhack3mbricksheistOke sebelum kita mulai, mulai dibiasakan baca deskripsi lab nya terlebih dahulu, seperti pada gambar diatas. Pada deskripsi nya menjelaskan un...",
-        "featured_image": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/featured-image.png",
-        "created_time": "2025-08-09T13:18:00.000Z",
-        "last_edited_time": "2025-09-18T10:33:00.000Z",
-        "reading_time": 5,
-        "url": "https://www.notion.so/TryHack3M-Bricks-Heist-24adb469a81d807eb9ddc92c2292fde2",
+        "id": "236db469-a81d-80ba-9e1a-e5d9314a837f",
+        "title": "WriteUP - TCP1P CTF 2024 International",
+        "slug": "writeup-tcp1p-ctf-2024-international",
+        "folder": "writeup-tcp1p-ctf-2024-international-236db469a81d80ba9e1ae5d9314a837f",
+        "excerpt": "",
+        "featured_image": "/posts/writeup-tcp1p-ctf-2024-international-236db469a81d80ba9e1ae5d9314a837f/featured-image.png",
+        "created_time": "2025-07-20T06:32:00.000Z",
+        "last_edited_time": "2025-10-01T02:36:00.000Z",
+        "reading_time": 0,
+        "url": "https://www.notion.so/WriteUP-TCP1P-CTF-2024-International-236db469a81d80ba9e1ae5d9314a837f",
         "public_url": null,
         "archived": false,
         "categories": [
-          "Security"
+          "Forensics",
+          "Crypto",
+          "Event CTF"
         ],
         "tags": [
-          "Web Exploit",
-          "Forensics"
+          "CTF"
         ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "24fdb469-a81d-80dd-9682-e650068e0590",
-        "title": "TryHackMe-Compile",
-        "slug": "tryhackme-compile",
-        "folder": "tryhackme-compile-24fdb469a81d80dd9682e650068e0590",
-        "excerpt": "Pada challenge Compiled dari TryHackMe, deskripsi hanya berbunyi:Dan soalnya:Kita juga diberikan sebuah file biner bernama Compiled-1688545393558.Compiled untuk dianalisis.Pertama, kita cek tipe file...",
-        "featured_image": "/posts/tryhackme-compile-24fdb469a81d80dd9682e650068e0590/featured-image.png",
-        "created_time": "2025-08-14T13:31:00.000Z",
-        "last_edited_time": "2025-09-18T10:06:00.000Z",
-        "reading_time": 2,
-        "url": "https://www.notion.so/TryHackMe-Compile-24fdb469a81d80dd9682e650068e0590",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF",
-          "Security"
-        ],
-        "tags": [
-          "Reverse Engineering"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "23cdb469-a81d-8013-9c15-df63dc21a607",
-        "title": "TryHackMe - Pyrat",
-        "slug": "tryhackme-pyrat",
-        "folder": "tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607",
-        "excerpt": "Pada kesempatan ini, saya menyelesaikan tantangan CTF Boot2Root yang cukup menarik karena memadukan eksploitasi service TCP kustom, Git credential leak, dan bruteforce password untuk mengakses shell r...",
-        "featured_image": "/posts/tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607/image-1.png",
-        "created_time": "2025-07-26T11:42:00.000Z",
-        "last_edited_time": "2025-09-18T09:57:00.000Z",
-        "reading_time": 3,
-        "url": "https://www.notion.so/TryHackMe-Pyrat-23cdb469a81d80139c15df63dc21a607",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF",
-          "Security"
-        ],
-        "tags": [
-          "CTF Writeup",
-          "Boot2Root",
-          "RCE"
-        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TCP1P CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -974,18 +1169,24 @@
         "excerpt": "Cyber Strike Competition 1.0Reverse EngineeringPada soal-soal reverse engineering ini, disini ada ‘celah’ pada setiap soal nya. Celah yang dimaksud yaitu untuk mendapatkan flag nya tanpa harus secara...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-reverse-237db469a81d805b8d45cc6858afce55/featured-image.png",
         "created_time": "2025-07-21T13:37:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
         "reading_time": 3,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Reverse-237db469a81d805b8d45cc6858afce55",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Reverse Engineering",
+          "Event CTF"
         ],
         "tags": [
-          "Reverse Engineering",
-          "CTF Writeup"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1000,19 +1201,119 @@
         "excerpt": "Cyber Strike Competition 1.0Pada write up ini dibuat, sayangnya kondisi event ctf pada website nya sudah tutup, sehingga saya lupa untuk melakukan screenshoot soal nya.Intinya pada soal kali ini, terd...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/featured-image.png",
         "created_time": "2025-07-21T03:37:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
         "reading_time": 1,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Stegano-237db469a81d808eacd1eabae64a1e57",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Stegano",
+          "Event CTF"
+        ],
+        "tags": [
           "CTF",
           "Web"
         ],
-        "tags": [
-          "Stegano",
-          "CTF Writeup"
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "24adb469-a81d-807e-b9dd-c92c2292fde2",
+        "title": "TryHack3M: Bricks Heist",
+        "slug": "tryhack3m-bricks-heist",
+        "folder": "tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2",
+        "excerpt": "Link Room: https://tryhackme.com/room/tryhack3mbricksheistOke sebelum kita mulai, mulai dibiasakan baca deskripsi lab nya terlebih dahulu, seperti pada gambar diatas. Pada deskripsi nya menjelaskan un...",
+        "featured_image": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/featured-image.png",
+        "created_time": "2025-08-09T13:18:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
+        "reading_time": 5,
+        "url": "https://www.notion.so/TryHack3M-Bricks-Heist-24adb469a81d807eb9ddc92c2292fde2",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Web Exploit",
+          "Forensics",
+          "THM"
         ],
+        "tags": [
+          "Security"
+        ],
+        "subcategories": {
+          "Event CTF": []
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "24fdb469-a81d-80dd-9682-e650068e0590",
+        "title": "TryHackMe-Compile",
+        "slug": "tryhackme-compile",
+        "folder": "tryhackme-compile-24fdb469a81d80dd9682e650068e0590",
+        "excerpt": "Pada challenge Compiled dari TryHackMe, deskripsi hanya berbunyi:Dan soalnya:Kita juga diberikan sebuah file biner bernama Compiled-1688545393558.Compiled untuk dianalisis.Pertama, kita cek tipe file...",
+        "featured_image": "/posts/tryhackme-compile-24fdb469a81d80dd9682e650068e0590/featured-image.png",
+        "created_time": "2025-08-14T13:31:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
+        "reading_time": 2,
+        "url": "https://www.notion.so/TryHackMe-Compile-24fdb469a81d80dd9682e650068e0590",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Reverse Engineering",
+          "THM"
+        ],
+        "tags": [
+          "CTF",
+          "Security"
+        ],
+        "subcategories": {
+          "Event CTF": []
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "23cdb469-a81d-8013-9c15-df63dc21a607",
+        "title": "TryHackMe - Pyrat",
+        "slug": "tryhackme-pyrat",
+        "folder": "tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607",
+        "excerpt": "Pada kesempatan ini, saya menyelesaikan tantangan CTF Boot2Root yang cukup menarik karena memadukan eksploitasi service TCP kustom, Git credential leak, dan bruteforce password untuk mengakses shell r...",
+        "featured_image": "/posts/tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607/image-1.png",
+        "created_time": "2025-07-26T11:42:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
+        "reading_time": 3,
+        "url": "https://www.notion.so/TryHackMe-Pyrat-23cdb469a81d80139c15df63dc21a607",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Boot2Root",
+          "THM",
+          "Event CTF"
+        ],
+        "tags": [
+          "CTF",
+          "Security",
+          "RCE"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1027,46 +1328,25 @@
         "excerpt": "Cyber Strike Competition 1.0image-45Pada soal ini, hanya ada link web target dan juga hint untuk path flag nya.Ketika saya akses web nya, tampilan nya seperti ini:image-46Terlihat ada informasi bahwa...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-web-237db469a81d80559f1cd4ea698c7656/featured-image.png",
         "created_time": "2025-07-21T03:34:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:48:00.000Z",
         "reading_time": 1,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Web-237db469a81d80559f1cd4ea698c7656",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Web Exploit",
+          "Event CTF"
+        ],
+        "tags": [
           "CTF",
           "Web"
         ],
-        "tags": [
-          "Web Exploit",
-          "CTF Writeup"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "236db469-a81d-80ba-9e1a-e5d9314a837f",
-        "title": "WriteUP - TCP1P CTF 2024 International",
-        "slug": "writeup-tcp1p-ctf-2024-international",
-        "folder": "writeup-tcp1p-ctf-2024-international-236db469a81d80ba9e1ae5d9314a837f",
-        "excerpt": "",
-        "featured_image": "/posts/writeup-tcp1p-ctf-2024-international-236db469a81d80ba9e1ae5d9314a837f/featured-image.png",
-        "created_time": "2025-07-20T06:32:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
-        "reading_time": 0,
-        "url": "https://www.notion.so/WriteUP-TCP1P-CTF-2024-International-236db469a81d80ba9e1ae5d9314a837f",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF"
-        ],
-        "tags": [
-          "CTF Writeup",
-          "Forensics",
-          "Crypto"
-        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1081,152 +1361,25 @@
         "excerpt": "ZerobyteCTF 2024Soal pertama yang saya kerjakan yaitu soal yg ‘free flag’, karna lumayan buat point petama heheimage-2Di dalam deskripsi soal sudah terlihat flag nya.flag: 0byteCTF{79_t4hun m3rd3k4_IN...",
         "featured_image": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/featured-image.png",
         "created_time": "2025-07-21T03:29:00.000Z",
-        "last_edited_time": "2025-07-21T03:32:00.000Z",
+        "last_edited_time": "2025-10-01T01:48:00.000Z",
         "reading_time": 5,
         "url": "https://www.notion.so/ZeroByte-CTF-2024-Writeup-237db469a81d80398871dbfb9827a660",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
-        ],
-        "tags": [
           "Boot2Root",
           "Crypto",
-          "CTF Writeup"
+          "Event CTF"
         ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "237db469-a81d-80f7-827d-ec9ef553a967",
-        "title": "[Wreck-IT 5.0 CTF] Writeup",
-        "slug": "wreck-it-5-0-ctf-writeup",
-        "folder": "wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967",
-        "excerpt": "with agrxSoal:Soal Free FlagSesuai dengan namanya, soal ini memang memberikan flag secara cuma-cuma. kami langsung memasukkan flag yang tertera pada deskripsi soal, dan ternyata valid!Flag: WRECKIT50{...",
-        "featured_image": "/posts/wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967/featured-image.png",
-        "created_time": "2025-07-21T02:45:00.000Z",
-        "last_edited_time": "2025-07-21T03:28:00.000Z",
-        "reading_time": 6,
-        "url": "https://www.notion.so/Wreck-IT-5-0-CTF-Writeup-237db469a81d80f7827dec9ef553a967",
-        "public_url": null,
-        "archived": false,
-        "categories": [
+        "tags": [
           "CTF"
         ],
-        "tags": [
-          "Crypto",
-          "CTF Writeup"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "237db469-a81d-801d-8fff-c833a4986a84",
-        "title": "[TSA Cyber Champion 2024] Cryptography 101 Writeup",
-        "slug": "tsa-cyber-champion-2024-cryptography-101-writeup",
-        "folder": "tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84",
-        "excerpt": "Writeup ini akan membahas bagaimana saya menyelesaikan soal Cryptography 101 dan Cryptomata dari TSA Cyber Champion 2024. Soal-soal ini melibatkan pemahaman tentang RSA dan BLS Signature.Pada soal ini...",
-        "featured_image": "/posts/tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84/featured-image.png",
-        "created_time": "2025-07-21T02:38:00.000Z",
-        "last_edited_time": "2025-07-21T02:43:00.000Z",
-        "reading_time": 5,
-        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Cryptography-101-Writeup-237db469a81d801d8fffc833a4986a84",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF"
-        ],
-        "tags": [
-          "Crypto",
-          "CTF Writeup"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "237db469-a81d-8007-9fd4-cd2f55312a5c",
-        "title": "[TSA Cyber Champion 2024] - Pwn",
-        "slug": "tsa-cyber-champion-2024-pwn",
-        "folder": "tsa-cyber-champion-2024-pwn-237db469a81d80079fd4cd2f55312a5c",
-        "excerpt": "Deskripsi SoalDi soal ini, diberikan sebuah source code dan juga server yang bisa saya hubungkan. Ketika saya coba akses servernya, tampilannya seperti ini:Tampilan ServerLalu, saya cek kode PWN-nya....",
-        "featured_image": "/posts/tsa-cyber-champion-2024-pwn-237db469a81d80079fd4cd2f55312a5c/featured-image.png",
-        "created_time": "2025-07-21T02:06:00.000Z",
-        "last_edited_time": "2025-07-21T02:11:00.000Z",
-        "reading_time": 2,
-        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Pwn-237db469a81d80079fd4cd2f55312a5c",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "Programming"
-        ],
-        "tags": [
-          "PWN",
-          "CTF Writeup",
-          "RCE"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "237db469-a81d-8038-b6c1-e28cb2dbe2b6",
-        "title": "[TSA Cyber Champion 2024] - Reverse Engineering 101 Writeup",
-        "slug": "tsa-cyber-champion-2024-reverse-engineering-101-wr",
-        "folder": "tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6",
-        "excerpt": "Deskripsi SoalPada soal ini, saya diberikan sebuah file bernama main.Pertama, saya coba cek dulu file main ini.Pengecekan File MainLalu, saya coba jalankan programnya.Menjalankan Program MainProgram m...",
-        "featured_image": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/featured-image.png",
-        "created_time": "2025-07-21T02:01:00.000Z",
-        "last_edited_time": "2025-07-21T02:04:00.000Z",
-        "reading_time": 3,
-        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Reverse-Engineering-101-Writeup-237db469a81d8038b6c1e28cb2dbe2b6",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF"
-        ],
-        "tags": [
-          "Reverse Engineering",
-          "CTF Writeup"
-        ],
-        "properties": {
-          "published": true,
-          "featured": false,
-          "author": "Anonymous"
-        }
-      },
-      {
-        "id": "237db469-a81d-80b4-96d5-d316780826b8",
-        "title": "[TSA Cyber Champion 2024] - Web Exploit 101 Writeup",
-        "slug": "tsa-cyber-champion-2024-web-exploit-101-writeup",
-        "folder": "tsa-cyber-champion-2024-web-exploit-101-writeup-237db469a81d80b496d5d316780826b8",
-        "excerpt": "Deskripsi SoalSoal ini hanya memberikan sebuah tautan (link) website tanpa deskripsi tambahan, sehingga pendekatan blackbox testing diperlukan.URL: https://cyberchampion-web-101.chals.io/Mirror: http:...",
-        "featured_image": "/posts/tsa-cyber-champion-2024-web-exploit-101-writeup-237db469a81d80b496d5d316780826b8/featured-image.png",
-        "created_time": "2025-07-21T01:58:00.000Z",
-        "last_edited_time": "2025-07-21T02:00:00.000Z",
-        "reading_time": 3,
-        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Web-Exploit-101-Writeup-237db469a81d80b496d5d316780826b8",
-        "public_url": null,
-        "archived": false,
-        "categories": [
-          "CTF",
-          "Security",
-          "Web"
-        ],
-        "tags": [
-          "Web Exploit",
-          "CTF Writeup"
-        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "ZeroByte CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1241,18 +1394,187 @@
         "excerpt": "Gambar SoalPada soal ini, deskripsi menyebutkan bahwa dalam file zip “secret_data.zip” terdapat file bernama “secret_data.txt” yang berisi informasi sensitif, yaitu flag. Deskripsi juga memberikan pet...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-crypto-237db469a81d80c6a345e4cd2fbb64af/featured-image.png",
         "created_time": "2025-07-21T01:42:00.000Z",
-        "last_edited_time": "2025-07-21T01:48:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
         "reading_time": 2,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Crypto-237db469a81d80c6a345e4cd2fbb64af",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Crypto",
+          "Event CTF"
         ],
         "tags": [
-          "Crypto",
-          "CTF Writeup"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "237db469-a81d-801d-8fff-c833a4986a84",
+        "title": "[TSA Cyber Champion 2024] Cryptography 101 Writeup",
+        "slug": "tsa-cyber-champion-2024-cryptography-101-writeup",
+        "folder": "tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84",
+        "excerpt": "Writeup ini akan membahas bagaimana saya menyelesaikan soal Cryptography 101 dan Cryptomata dari TSA Cyber Champion 2024. Soal-soal ini melibatkan pemahaman tentang RSA dan BLS Signature.Pada soal ini...",
+        "featured_image": "/posts/tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84/featured-image.png",
+        "created_time": "2025-07-21T02:38:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
+        "reading_time": 5,
+        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Cryptography-101-Writeup-237db469a81d801d8fffc833a4986a84",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Crypto",
+          "Event CTF"
+        ],
+        "tags": [
+          "CTF"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "237db469-a81d-8007-9fd4-cd2f55312a5c",
+        "title": "[TSA Cyber Champion 2024] - Pwn",
+        "slug": "tsa-cyber-champion-2024-pwn",
+        "folder": "tsa-cyber-champion-2024-pwn-237db469a81d80079fd4cd2f55312a5c",
+        "excerpt": "Deskripsi SoalDi soal ini, diberikan sebuah source code dan juga server yang bisa saya hubungkan. Ketika saya coba akses servernya, tampilannya seperti ini:Tampilan ServerLalu, saya cek kode PWN-nya....",
+        "featured_image": "/posts/tsa-cyber-champion-2024-pwn-237db469a81d80079fd4cd2f55312a5c/featured-image.png",
+        "created_time": "2025-07-21T02:06:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
+        "reading_time": 2,
+        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Pwn-237db469a81d80079fd4cd2f55312a5c",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "PWN",
+          "Event CTF"
+        ],
+        "tags": [
+          "Programming",
+          "RCE"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "237db469-a81d-8038-b6c1-e28cb2dbe2b6",
+        "title": "[TSA Cyber Champion 2024] - Reverse Engineering 101 Writeup",
+        "slug": "tsa-cyber-champion-2024-reverse-engineering-101-wr",
+        "folder": "tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6",
+        "excerpt": "Deskripsi SoalPada soal ini, saya diberikan sebuah file bernama main.Pertama, saya coba cek dulu file main ini.Pengecekan File MainLalu, saya coba jalankan programnya.Menjalankan Program MainProgram m...",
+        "featured_image": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/featured-image.png",
+        "created_time": "2025-07-21T02:01:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
+        "reading_time": 3,
+        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Reverse-Engineering-101-Writeup-237db469a81d8038b6c1e28cb2dbe2b6",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Reverse Engineering",
+          "Event CTF"
+        ],
+        "tags": [
+          "CTF"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "237db469-a81d-80b4-96d5-d316780826b8",
+        "title": "[TSA Cyber Champion 2024] - Web Exploit 101 Writeup",
+        "slug": "tsa-cyber-champion-2024-web-exploit-101-writeup",
+        "folder": "tsa-cyber-champion-2024-web-exploit-101-writeup-237db469a81d80b496d5d316780826b8",
+        "excerpt": "Deskripsi SoalSoal ini hanya memberikan sebuah tautan (link) website tanpa deskripsi tambahan, sehingga pendekatan blackbox testing diperlukan.URL: https://cyberchampion-web-101.chals.io/Mirror: http:...",
+        "featured_image": "/posts/tsa-cyber-champion-2024-web-exploit-101-writeup-237db469a81d80b496d5d316780826b8/featured-image.png",
+        "created_time": "2025-07-21T01:58:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
+        "reading_time": 3,
+        "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Web-Exploit-101-Writeup-237db469a81d80b496d5d316780826b8",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Web Exploit",
+          "Event CTF"
+        ],
+        "tags": [
+          "CTF",
+          "Security",
+          "Web"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "Anonymous"
+        }
+      },
+      {
+        "id": "237db469-a81d-80f7-827d-ec9ef553a967",
+        "title": "[Wreck-IT 5.0 CTF] Writeup",
+        "slug": "wreck-it-5-0-ctf-writeup",
+        "folder": "wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967",
+        "excerpt": "with agrxSoal:Soal Free FlagSesuai dengan namanya, soal ini memang memberikan flag secara cuma-cuma. kami langsung memasukkan flag yang tertera pada deskripsi soal, dan ternyata valid!Flag: WRECKIT50{...",
+        "featured_image": "/posts/wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967/featured-image.png",
+        "created_time": "2025-07-21T02:45:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
+        "reading_time": 6,
+        "url": "https://www.notion.so/Wreck-IT-5-0-CTF-Writeup-237db469a81d80f7827dec9ef553a967",
+        "public_url": null,
+        "archived": false,
+        "categories": [
+          "Crypto",
+          "Event CTF"
+        ],
+        "tags": [
+          "CTF"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "Wreck IT CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1267,18 +1589,22 @@
         "excerpt": "Pada artikel ini, saya akan membahas penyelesaian soal CTF kategori cryptography yang menggunakan XOR cipher. Soal ini cukup menarik karena memerlukan teknik known plaintext attack untuk mendapatkan e...",
         "featured_image": "/posts/tryhackme-w1seguy-22adb469a81d81d8aca6c994479eb096/featured-image.png",
         "created_time": "2025-07-08T15:57:00.000Z",
-        "last_edited_time": "2025-07-09T06:30:00.000Z",
+        "last_edited_time": "2025-10-01T01:46:00.000Z",
         "reading_time": 8,
         "url": "https://www.notion.so/TryHackMe-W1seGuy-22adb469a81d81d8aca6c994479eb096",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Crypto",
+          "THM"
+        ],
+        "tags": [
           "CTF",
           "Security"
         ],
-        "tags": [
-          "Crypto"
-        ],
+        "subcategories": {
+          "Event CTF": []
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1295,18 +1621,24 @@
         "excerpt": "Gambar SoalPada soal ini, deskripsi menyebutkan bahwa dalam file zip “secret_data.zip” terdapat file bernama “secret_data.txt” yang berisi informasi sensitif, yaitu flag. Deskripsi juga memberikan pet...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-crypto-237db469a81d80c6a345e4cd2fbb64af/featured-image.png",
         "created_time": "2025-07-21T01:42:00.000Z",
-        "last_edited_time": "2025-07-21T01:48:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
         "reading_time": 2,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Crypto-237db469a81d80c6a345e4cd2fbb64af",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Crypto",
+          "Event CTF"
         ],
         "tags": [
-          "Crypto",
-          "CTF Writeup"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1321,18 +1653,24 @@
         "excerpt": "Cyber Strike Competition 1.0Reverse EngineeringPada soal-soal reverse engineering ini, disini ada ‘celah’ pada setiap soal nya. Celah yang dimaksud yaitu untuk mendapatkan flag nya tanpa harus secara...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-reverse-237db469a81d805b8d45cc6858afce55/featured-image.png",
         "created_time": "2025-07-21T13:37:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
         "reading_time": 3,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Reverse-237db469a81d805b8d45cc6858afce55",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Reverse Engineering",
+          "Event CTF"
         ],
         "tags": [
-          "Reverse Engineering",
-          "CTF Writeup"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1347,19 +1685,25 @@
         "excerpt": "Cyber Strike Competition 1.0Pada write up ini dibuat, sayangnya kondisi event ctf pada website nya sudah tutup, sehingga saya lupa untuk melakukan screenshoot soal nya.Intinya pada soal kali ini, terd...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/featured-image.png",
         "created_time": "2025-07-21T03:37:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
         "reading_time": 1,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Stegano-237db469a81d808eacd1eabae64a1e57",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Stegano",
+          "Event CTF"
+        ],
+        "tags": [
           "CTF",
           "Web"
         ],
-        "tags": [
-          "Stegano",
-          "CTF Writeup"
-        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1374,19 +1718,25 @@
         "excerpt": "Cyber Strike Competition 1.0image-45Pada soal ini, hanya ada link web target dan juga hint untuk path flag nya.Ketika saya akses web nya, tampilan nya seperti ini:image-46Terlihat ada informasi bahwa...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-web-237db469a81d80559f1cd4ea698c7656/featured-image.png",
         "created_time": "2025-07-21T03:34:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:48:00.000Z",
         "reading_time": 1,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Web-237db469a81d80559f1cd4ea698c7656",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Web Exploit",
+          "Event CTF"
+        ],
+        "tags": [
           "CTF",
           "Web"
         ],
-        "tags": [
-          "Web Exploit",
-          "CTF Writeup"
-        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1401,19 +1751,25 @@
         "excerpt": "Deskripsi SoalDi soal ini, diberikan sebuah source code dan juga server yang bisa saya hubungkan. Ketika saya coba akses servernya, tampilannya seperti ini:Tampilan ServerLalu, saya cek kode PWN-nya....",
         "featured_image": "/posts/tsa-cyber-champion-2024-pwn-237db469a81d80079fd4cd2f55312a5c/featured-image.png",
         "created_time": "2025-07-21T02:06:00.000Z",
-        "last_edited_time": "2025-07-21T02:11:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
         "reading_time": 2,
         "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Pwn-237db469a81d80079fd4cd2f55312a5c",
         "public_url": null,
         "archived": false,
         "categories": [
-          "Programming"
+          "PWN",
+          "Event CTF"
         ],
         "tags": [
-          "PWN",
-          "CTF Writeup",
+          "Programming",
           "RCE"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1428,18 +1784,24 @@
         "excerpt": "Deskripsi SoalPada soal ini, saya diberikan sebuah file bernama main.Pertama, saya coba cek dulu file main ini.Pengecekan File MainLalu, saya coba jalankan programnya.Menjalankan Program MainProgram m...",
         "featured_image": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/featured-image.png",
         "created_time": "2025-07-21T02:01:00.000Z",
-        "last_edited_time": "2025-07-21T02:04:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
         "reading_time": 3,
         "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Reverse-Engineering-101-Writeup-237db469a81d8038b6c1e28cb2dbe2b6",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Reverse Engineering",
+          "Event CTF"
         ],
         "tags": [
-          "Reverse Engineering",
-          "CTF Writeup"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1454,20 +1816,26 @@
         "excerpt": "Deskripsi SoalSoal ini hanya memberikan sebuah tautan (link) website tanpa deskripsi tambahan, sehingga pendekatan blackbox testing diperlukan.URL: https://cyberchampion-web-101.chals.io/Mirror: http:...",
         "featured_image": "/posts/tsa-cyber-champion-2024-web-exploit-101-writeup-237db469a81d80b496d5d316780826b8/featured-image.png",
         "created_time": "2025-07-21T01:58:00.000Z",
-        "last_edited_time": "2025-07-21T02:00:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
         "reading_time": 3,
         "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Web-Exploit-101-Writeup-237db469a81d80b496d5d316780826b8",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Web Exploit",
+          "Event CTF"
+        ],
+        "tags": [
           "CTF",
           "Security",
           "Web"
         ],
-        "tags": [
-          "Web Exploit",
-          "CTF Writeup"
-        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1482,18 +1850,24 @@
         "excerpt": "Writeup ini akan membahas bagaimana saya menyelesaikan soal Cryptography 101 dan Cryptomata dari TSA Cyber Champion 2024. Soal-soal ini melibatkan pemahaman tentang RSA dan BLS Signature.Pada soal ini...",
         "featured_image": "/posts/tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84/featured-image.png",
         "created_time": "2025-07-21T02:38:00.000Z",
-        "last_edited_time": "2025-07-21T02:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
         "reading_time": 5,
         "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Cryptography-101-Writeup-237db469a81d801d8fffc833a4986a84",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Crypto",
+          "Event CTF"
         ],
         "tags": [
-          "Crypto",
-          "CTF Writeup"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1508,18 +1882,24 @@
         "excerpt": "with agrxSoal:Soal Free FlagSesuai dengan namanya, soal ini memang memberikan flag secara cuma-cuma. kami langsung memasukkan flag yang tertera pada deskripsi soal, dan ternyata valid!Flag: WRECKIT50{...",
         "featured_image": "/posts/wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967/featured-image.png",
         "created_time": "2025-07-21T02:45:00.000Z",
-        "last_edited_time": "2025-07-21T03:28:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
         "reading_time": 6,
         "url": "https://www.notion.so/Wreck-IT-5-0-CTF-Writeup-237db469a81d80f7827dec9ef553a967",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Crypto",
+          "Event CTF"
         ],
         "tags": [
-          "Crypto",
-          "CTF Writeup"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "Wreck IT CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1534,19 +1914,25 @@
         "excerpt": "ZerobyteCTF 2024Soal pertama yang saya kerjakan yaitu soal yg ‘free flag’, karna lumayan buat point petama heheimage-2Di dalam deskripsi soal sudah terlihat flag nya.flag: 0byteCTF{79_t4hun m3rd3k4_IN...",
         "featured_image": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/featured-image.png",
         "created_time": "2025-07-21T03:29:00.000Z",
-        "last_edited_time": "2025-07-21T03:32:00.000Z",
+        "last_edited_time": "2025-10-01T01:48:00.000Z",
         "reading_time": 5,
         "url": "https://www.notion.so/ZeroByte-CTF-2024-Writeup-237db469a81d80398871dbfb9827a660",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
-        ],
-        "tags": [
           "Boot2Root",
           "Crypto",
-          "CTF Writeup"
+          "Event CTF"
         ],
+        "tags": [
+          "CTF"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "ZeroByte CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1561,18 +1947,22 @@
         "excerpt": "Link Room: https://tryhackme.com/room/tryhack3mbricksheistOke sebelum kita mulai, mulai dibiasakan baca deskripsi lab nya terlebih dahulu, seperti pada gambar diatas. Pada deskripsi nya menjelaskan un...",
         "featured_image": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/featured-image.png",
         "created_time": "2025-08-09T13:18:00.000Z",
-        "last_edited_time": "2025-09-18T10:33:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
         "reading_time": 5,
         "url": "https://www.notion.so/TryHack3M-Bricks-Heist-24adb469a81d807eb9ddc92c2292fde2",
         "public_url": null,
         "archived": false,
         "categories": [
-          "Security"
+          "Web Exploit",
+          "Forensics",
+          "THM"
         ],
         "tags": [
-          "Web Exploit",
-          "Forensics"
+          "Security"
         ],
+        "subcategories": {
+          "Event CTF": []
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1587,20 +1977,26 @@
         "excerpt": "Pada kesempatan ini, saya menyelesaikan tantangan CTF Boot2Root yang cukup menarik karena memadukan eksploitasi service TCP kustom, Git credential leak, dan bruteforce password untuk mengakses shell r...",
         "featured_image": "/posts/tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607/image-1.png",
         "created_time": "2025-07-26T11:42:00.000Z",
-        "last_edited_time": "2025-09-18T09:57:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
         "reading_time": 3,
         "url": "https://www.notion.so/TryHackMe-Pyrat-23cdb469a81d80139c15df63dc21a607",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF",
-          "Security"
+          "Boot2Root",
+          "THM",
+          "Event CTF"
         ],
         "tags": [
-          "CTF Writeup",
-          "Boot2Root",
+          "CTF",
+          "Security",
           "RCE"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1615,18 +2011,22 @@
         "excerpt": "Pada artikel ini, saya akan membahas penyelesaian soal CTF kategori cryptography yang menggunakan XOR cipher. Soal ini cukup menarik karena memerlukan teknik known plaintext attack untuk mendapatkan e...",
         "featured_image": "/posts/tryhackme-w1seguy-22adb469a81d81d8aca6c994479eb096/featured-image.png",
         "created_time": "2025-07-08T15:57:00.000Z",
-        "last_edited_time": "2025-07-09T06:30:00.000Z",
+        "last_edited_time": "2025-10-01T01:46:00.000Z",
         "reading_time": 8,
         "url": "https://www.notion.so/TryHackMe-W1seGuy-22adb469a81d81d8aca6c994479eb096",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Crypto",
+          "THM"
+        ],
+        "tags": [
           "CTF",
           "Security"
         ],
-        "tags": [
-          "Crypto"
-        ],
+        "subcategories": {
+          "Event CTF": []
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1641,18 +2041,22 @@
         "excerpt": "Pada challenge Compiled dari TryHackMe, deskripsi hanya berbunyi:Dan soalnya:Kita juga diberikan sebuah file biner bernama Compiled-1688545393558.Compiled untuk dianalisis.Pertama, kita cek tipe file...",
         "featured_image": "/posts/tryhackme-compile-24fdb469a81d80dd9682e650068e0590/featured-image.png",
         "created_time": "2025-08-14T13:31:00.000Z",
-        "last_edited_time": "2025-09-18T10:06:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
         "reading_time": 2,
         "url": "https://www.notion.so/TryHackMe-Compile-24fdb469a81d80dd9682e650068e0590",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Reverse Engineering",
+          "THM"
+        ],
+        "tags": [
           "CTF",
           "Security"
         ],
-        "tags": [
-          "Reverse Engineering"
-        ],
+        "subcategories": {
+          "Event CTF": []
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1667,19 +2071,25 @@
         "excerpt": "",
         "featured_image": "/posts/writeup-tcp1p-ctf-2024-international-236db469a81d80ba9e1ae5d9314a837f/featured-image.png",
         "created_time": "2025-07-20T06:32:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T02:36:00.000Z",
         "reading_time": 0,
         "url": "https://www.notion.so/WriteUP-TCP1P-CTF-2024-International-236db469a81d80ba9e1ae5d9314a837f",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Forensics",
+          "Crypto",
+          "Event CTF"
         ],
         "tags": [
-          "CTF Writeup",
-          "Forensics",
-          "Crypto"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TCP1P CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1696,18 +2106,22 @@
         "excerpt": "Pada artikel ini, saya akan membahas penyelesaian soal CTF kategori cryptography yang menggunakan XOR cipher. Soal ini cukup menarik karena memerlukan teknik known plaintext attack untuk mendapatkan e...",
         "featured_image": "/posts/tryhackme-w1seguy-22adb469a81d81d8aca6c994479eb096/featured-image.png",
         "created_time": "2025-07-08T15:57:00.000Z",
-        "last_edited_time": "2025-07-09T06:30:00.000Z",
+        "last_edited_time": "2025-10-01T01:46:00.000Z",
         "reading_time": 8,
         "url": "https://www.notion.so/TryHackMe-W1seGuy-22adb469a81d81d8aca6c994479eb096",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Crypto",
+          "THM"
+        ],
+        "tags": [
           "CTF",
           "Security"
         ],
-        "tags": [
-          "Crypto"
-        ],
+        "subcategories": {
+          "Event CTF": []
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1722,18 +2136,24 @@
         "excerpt": "with agrxSoal:Soal Free FlagSesuai dengan namanya, soal ini memang memberikan flag secara cuma-cuma. kami langsung memasukkan flag yang tertera pada deskripsi soal, dan ternyata valid!Flag: WRECKIT50{...",
         "featured_image": "/posts/wreck-it-5-0-ctf-writeup-237db469a81d80f7827dec9ef553a967/featured-image.png",
         "created_time": "2025-07-21T02:45:00.000Z",
-        "last_edited_time": "2025-07-21T03:28:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
         "reading_time": 6,
         "url": "https://www.notion.so/Wreck-IT-5-0-CTF-Writeup-237db469a81d80f7827dec9ef553a967",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Crypto",
+          "Event CTF"
         ],
         "tags": [
-          "Crypto",
-          "CTF Writeup"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "Wreck IT CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1748,18 +2168,22 @@
         "excerpt": "Link Room: https://tryhackme.com/room/tryhack3mbricksheistOke sebelum kita mulai, mulai dibiasakan baca deskripsi lab nya terlebih dahulu, seperti pada gambar diatas. Pada deskripsi nya menjelaskan un...",
         "featured_image": "/posts/tryhack3m-bricks-heist-24adb469a81d807eb9ddc92c2292fde2/featured-image.png",
         "created_time": "2025-08-09T13:18:00.000Z",
-        "last_edited_time": "2025-09-18T10:33:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
         "reading_time": 5,
         "url": "https://www.notion.so/TryHack3M-Bricks-Heist-24adb469a81d807eb9ddc92c2292fde2",
         "public_url": null,
         "archived": false,
         "categories": [
-          "Security"
+          "Web Exploit",
+          "Forensics",
+          "THM"
         ],
         "tags": [
-          "Web Exploit",
-          "Forensics"
+          "Security"
         ],
+        "subcategories": {
+          "Event CTF": []
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1774,18 +2198,24 @@
         "excerpt": "Writeup ini akan membahas bagaimana saya menyelesaikan soal Cryptography 101 dan Cryptomata dari TSA Cyber Champion 2024. Soal-soal ini melibatkan pemahaman tentang RSA dan BLS Signature.Pada soal ini...",
         "featured_image": "/posts/tsa-cyber-champion-2024-cryptography-101-writeup-237db469a81d801d8fffc833a4986a84/featured-image.png",
         "created_time": "2025-07-21T02:38:00.000Z",
-        "last_edited_time": "2025-07-21T02:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
         "reading_time": 5,
         "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Cryptography-101-Writeup-237db469a81d801d8fffc833a4986a84",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Crypto",
+          "Event CTF"
         ],
         "tags": [
-          "Crypto",
-          "CTF Writeup"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1800,19 +2230,25 @@
         "excerpt": "ZerobyteCTF 2024Soal pertama yang saya kerjakan yaitu soal yg ‘free flag’, karna lumayan buat point petama heheimage-2Di dalam deskripsi soal sudah terlihat flag nya.flag: 0byteCTF{79_t4hun m3rd3k4_IN...",
         "featured_image": "/posts/zerobyte-ctf-2024-writeup-237db469a81d80398871dbfb9827a660/featured-image.png",
         "created_time": "2025-07-21T03:29:00.000Z",
-        "last_edited_time": "2025-07-21T03:32:00.000Z",
+        "last_edited_time": "2025-10-01T01:48:00.000Z",
         "reading_time": 5,
         "url": "https://www.notion.so/ZeroByte-CTF-2024-Writeup-237db469a81d80398871dbfb9827a660",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
-        ],
-        "tags": [
           "Boot2Root",
           "Crypto",
-          "CTF Writeup"
+          "Event CTF"
         ],
+        "tags": [
+          "CTF"
+        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "ZeroByte CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1827,18 +2263,24 @@
         "excerpt": "Cyber Strike Competition 1.0Reverse EngineeringPada soal-soal reverse engineering ini, disini ada ‘celah’ pada setiap soal nya. Celah yang dimaksud yaitu untuk mendapatkan flag nya tanpa harus secara...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-reverse-237db469a81d805b8d45cc6858afce55/featured-image.png",
         "created_time": "2025-07-21T13:37:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
         "reading_time": 3,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Reverse-237db469a81d805b8d45cc6858afce55",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Reverse Engineering",
+          "Event CTF"
         ],
         "tags": [
-          "Reverse Engineering",
-          "CTF Writeup"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1853,20 +2295,26 @@
         "excerpt": "Pada kesempatan ini, saya menyelesaikan tantangan CTF Boot2Root yang cukup menarik karena memadukan eksploitasi service TCP kustom, Git credential leak, dan bruteforce password untuk mengakses shell r...",
         "featured_image": "/posts/tryhackme-pyrat-23cdb469a81d80139c15df63dc21a607/image-1.png",
         "created_time": "2025-07-26T11:42:00.000Z",
-        "last_edited_time": "2025-09-18T09:57:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
         "reading_time": 3,
         "url": "https://www.notion.so/TryHackMe-Pyrat-23cdb469a81d80139c15df63dc21a607",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF",
-          "Security"
+          "Boot2Root",
+          "THM",
+          "Event CTF"
         ],
         "tags": [
-          "CTF Writeup",
-          "Boot2Root",
+          "CTF",
+          "Security",
           "RCE"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1881,18 +2329,24 @@
         "excerpt": "Deskripsi SoalPada soal ini, saya diberikan sebuah file bernama main.Pertama, saya coba cek dulu file main ini.Pengecekan File MainLalu, saya coba jalankan programnya.Menjalankan Program MainProgram m...",
         "featured_image": "/posts/tsa-cyber-champion-2024-reverse-engineering-101-wr-237db469a81d8038b6c1e28cb2dbe2b6/featured-image.png",
         "created_time": "2025-07-21T02:01:00.000Z",
-        "last_edited_time": "2025-07-21T02:04:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
         "reading_time": 3,
         "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Reverse-Engineering-101-Writeup-237db469a81d8038b6c1e28cb2dbe2b6",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Reverse Engineering",
+          "Event CTF"
         ],
         "tags": [
-          "Reverse Engineering",
-          "CTF Writeup"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1907,20 +2361,26 @@
         "excerpt": "Deskripsi SoalSoal ini hanya memberikan sebuah tautan (link) website tanpa deskripsi tambahan, sehingga pendekatan blackbox testing diperlukan.URL: https://cyberchampion-web-101.chals.io/Mirror: http:...",
         "featured_image": "/posts/tsa-cyber-champion-2024-web-exploit-101-writeup-237db469a81d80b496d5d316780826b8/featured-image.png",
         "created_time": "2025-07-21T01:58:00.000Z",
-        "last_edited_time": "2025-07-21T02:00:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
         "reading_time": 3,
         "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Web-Exploit-101-Writeup-237db469a81d80b496d5d316780826b8",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Web Exploit",
+          "Event CTF"
+        ],
+        "tags": [
           "CTF",
           "Security",
           "Web"
         ],
-        "tags": [
-          "Web Exploit",
-          "CTF Writeup"
-        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1935,18 +2395,24 @@
         "excerpt": "Gambar SoalPada soal ini, deskripsi menyebutkan bahwa dalam file zip “secret_data.zip” terdapat file bernama “secret_data.txt” yang berisi informasi sensitif, yaitu flag. Deskripsi juga memberikan pet...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-crypto-237db469a81d80c6a345e4cd2fbb64af/featured-image.png",
         "created_time": "2025-07-21T01:42:00.000Z",
-        "last_edited_time": "2025-07-21T01:48:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
         "reading_time": 2,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Crypto-237db469a81d80c6a345e4cd2fbb64af",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Crypto",
+          "Event CTF"
         ],
         "tags": [
-          "Crypto",
-          "CTF Writeup"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1961,18 +2427,22 @@
         "excerpt": "Pada challenge Compiled dari TryHackMe, deskripsi hanya berbunyi:Dan soalnya:Kita juga diberikan sebuah file biner bernama Compiled-1688545393558.Compiled untuk dianalisis.Pertama, kita cek tipe file...",
         "featured_image": "/posts/tryhackme-compile-24fdb469a81d80dd9682e650068e0590/featured-image.png",
         "created_time": "2025-08-14T13:31:00.000Z",
-        "last_edited_time": "2025-09-18T10:06:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
         "reading_time": 2,
         "url": "https://www.notion.so/TryHackMe-Compile-24fdb469a81d80dd9682e650068e0590",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Reverse Engineering",
+          "THM"
+        ],
+        "tags": [
           "CTF",
           "Security"
         ],
-        "tags": [
-          "Reverse Engineering"
-        ],
+        "subcategories": {
+          "Event CTF": []
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -1987,19 +2457,25 @@
         "excerpt": "Deskripsi SoalDi soal ini, diberikan sebuah source code dan juga server yang bisa saya hubungkan. Ketika saya coba akses servernya, tampilannya seperti ini:Tampilan ServerLalu, saya cek kode PWN-nya....",
         "featured_image": "/posts/tsa-cyber-champion-2024-pwn-237db469a81d80079fd4cd2f55312a5c/featured-image.png",
         "created_time": "2025-07-21T02:06:00.000Z",
-        "last_edited_time": "2025-07-21T02:11:00.000Z",
+        "last_edited_time": "2025-10-01T01:47:00.000Z",
         "reading_time": 2,
         "url": "https://www.notion.so/TSA-Cyber-Champion-2024-Pwn-237db469a81d80079fd4cd2f55312a5c",
         "public_url": null,
         "archived": false,
         "categories": [
-          "Programming"
+          "PWN",
+          "Event CTF"
         ],
         "tags": [
-          "PWN",
-          "CTF Writeup",
+          "Programming",
           "RCE"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TSA CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -2014,19 +2490,25 @@
         "excerpt": "Cyber Strike Competition 1.0Pada write up ini dibuat, sayangnya kondisi event ctf pada website nya sudah tutup, sehingga saya lupa untuk melakukan screenshoot soal nya.Intinya pada soal kali ini, terd...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-stegano-237db469a81d808eacd1eabae64a1e57/featured-image.png",
         "created_time": "2025-07-21T03:37:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:50:00.000Z",
         "reading_time": 1,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Stegano-237db469a81d808eacd1eabae64a1e57",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Stegano",
+          "Event CTF"
+        ],
+        "tags": [
           "CTF",
           "Web"
         ],
-        "tags": [
-          "Stegano",
-          "CTF Writeup"
-        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -2041,19 +2523,25 @@
         "excerpt": "Cyber Strike Competition 1.0image-45Pada soal ini, hanya ada link web target dan juga hint untuk path flag nya.Ketika saya akses web nya, tampilan nya seperti ini:image-46Terlihat ada informasi bahwa...",
         "featured_image": "/posts/cyber-strike-competition-1-0-ctf-2024-web-237db469a81d80559f1cd4ea698c7656/featured-image.png",
         "created_time": "2025-07-21T03:34:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T01:48:00.000Z",
         "reading_time": 1,
         "url": "https://www.notion.so/Cyber-Strike-Competition-1-0-CTF-2024-Web-237db469a81d80559f1cd4ea698c7656",
         "public_url": null,
         "archived": false,
         "categories": [
+          "Web Exploit",
+          "Event CTF"
+        ],
+        "tags": [
           "CTF",
           "Web"
         ],
-        "tags": [
-          "Web Exploit",
-          "CTF Writeup"
-        ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "CSC CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,
@@ -2068,19 +2556,25 @@
         "excerpt": "",
         "featured_image": "/posts/writeup-tcp1p-ctf-2024-international-236db469a81d80ba9e1ae5d9314a837f/featured-image.png",
         "created_time": "2025-07-20T06:32:00.000Z",
-        "last_edited_time": "2025-07-21T13:43:00.000Z",
+        "last_edited_time": "2025-10-01T02:36:00.000Z",
         "reading_time": 0,
         "url": "https://www.notion.so/WriteUP-TCP1P-CTF-2024-International-236db469a81d80ba9e1ae5d9314a837f",
         "public_url": null,
         "archived": false,
         "categories": [
-          "CTF"
+          "Forensics",
+          "Crypto",
+          "Event CTF"
         ],
         "tags": [
-          "CTF Writeup",
-          "Forensics",
-          "Crypto"
+          "CTF"
         ],
+        "subcategories": {
+          "Event CTF": [
+            "CTF Writeup",
+            "TCP1P CTF"
+          ]
+        },
         "properties": {
           "published": true,
           "featured": false,

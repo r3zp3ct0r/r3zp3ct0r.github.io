@@ -129,8 +129,8 @@ function extractCategoriesAndTags(post) {
       if (Array.isArray(value)) {
         value.forEach((item) => {
           if (typeof item === "string" && item.trim()) {
-            // Categorize based on field name
-            if (field.toLowerCase().includes("categor") || field.toLowerCase().includes("topic")) {
+            // Use tags field as categories, others as tags
+            if (field.toLowerCase().includes("tag")) {
               categories.add(item.trim())
             } else {
               tags.add(item.trim())
@@ -139,7 +139,7 @@ function extractCategoriesAndTags(post) {
             // Handle Notion property objects
             const name = item.name || item.title || item.plain_text
             if (name && typeof name === "string" && name.trim()) {
-              if (field.toLowerCase().includes("categor") || field.toLowerCase().includes("topic")) {
+              if (field.toLowerCase().includes("tag")) {
                 categories.add(name.trim())
               } else {
                 tags.add(name.trim())
@@ -154,7 +154,7 @@ function extractCategoriesAndTags(post) {
           .map((item) => item.trim())
           .filter((item) => item)
         items.forEach((item) => {
-          if (field.toLowerCase().includes("categor") || field.toLowerCase().includes("topic")) {
+          if (field.toLowerCase().includes("tag")) {
             categories.add(item)
           } else {
             tags.add(item)
@@ -169,8 +169,8 @@ function extractCategoriesAndTags(post) {
   const excerpt = extractExcerpt(post.content).toLowerCase()
   const text = `${title} ${excerpt}`
 
-  // Auto-detect categories based on keywords
-  const categoryKeywords = {
+  // Move auto-detect categories to tags instead
+  const autoDetectKeywords = {
     CTF: ["ctf", "capture the flag", "writeup", "challenge"],
     Security: ["security", "vulnerability", "exploit", "hack", "penetration"],
     Web: ["web", "html", "css", "javascript", "react", "node"],
@@ -179,9 +179,9 @@ function extractCategoriesAndTags(post) {
     Analysis: ["analysis", "review", "research", "study"],
   }
 
-  Object.entries(categoryKeywords).forEach(([category, keywords]) => {
-    if (keywords.some((keyword) => text.includes(keyword))) {
-      categories.add(category)
+  Object.entries(autoDetectKeywords).forEach(([keyword, terms]) => {
+    if (terms.some((term) => text.includes(term))) {
+      tags.add(keyword)
     }
   })
 
@@ -209,9 +209,31 @@ function extractCategoriesAndTags(post) {
     }
   })
 
+  // Create sub-categories for Event CTF
+  const processedCategories = Array.from(categories)
+  const eventCTFSubcategories = []
+  const otherCategories = []
+
+  processedCategories.forEach(category => {
+    if (category.includes("CTF")) {
+      // Add to Event CTF subcategory (including CTF Writeup)
+      eventCTFSubcategories.push(category)
+    } else {
+      otherCategories.push(category)
+    }
+  })
+
+  // Add Event CTF as main category if there are CTF events
+  if (eventCTFSubcategories.length > 0) {
+    otherCategories.push("Event CTF")
+  }
+
   return {
-    categories: Array.from(categories),
+    categories: otherCategories,
     tags: Array.from(tags),
+    subcategories: {
+      "Event CTF": eventCTFSubcategories
+    }
   }
 }
 
@@ -276,7 +298,7 @@ async function generateBlogIndex() {
       const post = postData.post
 
       // Extract categories and tags
-      const { categories, tags } = extractCategoriesAndTags(post)
+      const { categories, tags, subcategories } = extractCategoriesAndTags(post)
 
       // Create index entry
       const indexEntry = {
@@ -294,6 +316,7 @@ async function generateBlogIndex() {
         archived: post.archived || false,
         categories: categories,
         tags: tags,
+        subcategories: subcategories || {},
         properties: {
           published: post.properties?.published !== false,
           featured: post.properties?.featured === true,
@@ -306,6 +329,16 @@ async function generateBlogIndex() {
         allCategories.add(cat)
         categoryPostCount.set(cat, (categoryPostCount.get(cat) || 0) + 1)
       })
+
+      // Add subcategories to global collections
+      if (subcategories) {
+        Object.entries(subcategories).forEach(([parentCategory, subcats]) => {
+          subcats.forEach((subcat) => {
+            allCategories.add(subcat)
+            categoryPostCount.set(subcat, (categoryPostCount.get(subcat) || 0) + 1)
+          })
+        })
+      }
 
       tags.forEach((tag) => {
         allTags.add(tag)
@@ -352,6 +385,11 @@ async function generateBlogIndex() {
       taxonomy: {
         categories: sortedCategories,
         tags: sortedTags,
+        subcategories: {
+          "Event CTF": sortedCategories.filter(cat =>
+            cat.name.includes("CTF")
+          )
+        }
       },
       posts: {
         all: sortPosts([...posts], "date"),
@@ -379,6 +417,7 @@ async function generateBlogIndex() {
       posts: blogIndex.posts.published,
       categories: sortedCategories,
       tags: sortedTags,
+      subcategories: blogIndex.taxonomy.subcategories,
     }
 
     // Ensure output directories exist

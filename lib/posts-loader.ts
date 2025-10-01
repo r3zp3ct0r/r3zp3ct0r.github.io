@@ -178,6 +178,7 @@ async function fetchIndex(): Promise<PostIndex> {
         coverImage: post.featured_image || "",
         iconEmoji: "",
         categories: Array.isArray(post.categories) ? post.categories : [],
+        subcategories: post.subcategories || {},
         notionUrl: post.public_url || createNotionPublicUrl(post.id),
         verification: {
           state: "unverified",
