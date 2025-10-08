@@ -1,0 +1,2235 @@
+{
+  "post": {
+    "id": "282db469-a81d-8014-aa0b-f98bb14a5185",
+    "title": "Git Cheat Sheet",
+    "slug": "git-cheat-sheet",
+    "folder": "git-cheat-sheet",
+    "excerpt": "Git is a distributed version control system that helps manage code changes efficiently and collaborate with others on software projects.Stashing changes: Temporaly store changes without commiting.Reba...",
+    "featured_image": "",
+    "created_time": "2025-10-04T13:24:00.000Z",
+    "last_edited_time": "2025-10-04T15:57:00.000Z",
+    "reading_time": 2,
+    "url": "/notes/git-cheat-sheet",
+    "public_url": "",
+    "archived": false,
+    "categories": [
+      "Git"
+    ],
+    "tags": [
+      "git"
+    ],
+    "properties": {
+      "published": true,
+      "featured": true,
+      "author": "@Anonymous "
+    },
+    "content": [
+      {
+        "id": "282db469-a81d-803d-b211-cd3f9ace0f30",
+        "type": "heading_1",
+        "created_time": "2025-10-04T15:11:00.000Z",
+        "last_edited_time": "2025-10-04T15:12:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Introduction",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8049-9a87-f3c910cc7253",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:12:00.000Z",
+        "last_edited_time": "2025-10-04T15:12:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "What is Git?",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8024-a982-d197bf82044e",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:12:00.000Z",
+        "last_edited_time": "2025-10-04T15:13:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Git is a distributed version control system that helps manage code changes efficiently and collaborate with others on software projects.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8015-81e2-dff8cba3c657",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:13:00.000Z",
+        "last_edited_time": "2025-10-04T15:13:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": []
+        }
+      },
+      {
+        "id": "282db469-a81d-8036-96d6-eb79b1fd2afe",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:13:00.000Z",
+        "last_edited_time": "2025-10-04T15:13:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Installation",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8040-a1c1-c5d972942b07",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-04T15:13:00.000Z",
+        "last_edited_time": "2025-10-04T15:13:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Windows/Mac/Linux - Download Git",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80db-93fd-edda6dd98baf",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-04T15:13:00.000Z",
+        "last_edited_time": "2025-10-04T15:13:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Verify installation",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-800d-a12a-db2566a71cca",
+        "type": "code",
+        "created_time": "2025-10-04T15:13:00.000Z",
+        "last_edited_time": "2025-10-04T15:13:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git --version",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-80d9-8f13-f4d60eb6fb9b",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:13:00.000Z",
+        "last_edited_time": "2025-10-04T15:13:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": []
+        }
+      },
+      {
+        "id": "282db469-a81d-8083-93fd-c8591ed6008b",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:14:00.000Z",
+        "last_edited_time": "2025-10-04T15:14:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Basic Concepts",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80d6-b714-c975654b6397",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-04T15:15:00.000Z",
+        "last_edited_time": "2025-10-04T15:15:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Repository (Repo): Directory tracked by Git",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-809c-b692-d3c58ef9446b",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-04T15:15:00.000Z",
+        "last_edited_time": "2025-10-04T15:15:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Commit: A snapshot of your code",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80e9-bd9c-fa70e6b067c9",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-04T15:15:00.000Z",
+        "last_edited_time": "2025-10-04T15:15:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Branch: Independent line of development",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8000-8c17-deeff2c5174d",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-04T15:15:00.000Z",
+        "last_edited_time": "2025-10-04T15:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Clone: Copy of a repository from remote to local",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8070-9352-ff5556433d99",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:16:00.000Z",
+        "last_edited_time": "2025-10-04T15:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": []
+        }
+      },
+      {
+        "id": "282db469-a81d-80d4-b966-e0d9eaf2d17e",
+        "type": "heading_1",
+        "created_time": "2025-10-04T15:16:00.000Z",
+        "last_edited_time": "2025-10-04T15:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Step-By-Step Guide",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8052-b96a-f31893673fca",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:16:00.000Z",
+        "last_edited_time": "2025-10-04T15:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Initialize Repository",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80c9-b138-cc2463756262",
+        "type": "code",
+        "created_time": "2025-10-04T15:16:00.000Z",
+        "last_edited_time": "2025-10-04T15:17:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git init",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-80e5-b67d-fc3b69910808",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:17:00.000Z",
+        "last_edited_time": "2025-10-04T15:17:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Add Files",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8061-9aee-deb49661016f",
+        "type": "code",
+        "created_time": "2025-10-04T15:17:00.000Z",
+        "last_edited_time": "2025-10-04T15:17:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git add < file_name>\ngit add . # add all files in current directory",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-803c-aa27-f47913e2eef4",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:17:00.000Z",
+        "last_edited_time": "2025-10-04T15:17:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Commit Changes",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-804f-ba48-cc4bbd3db146",
+        "type": "code",
+        "created_time": "2025-10-04T15:17:00.000Z",
+        "last_edited_time": "2025-10-04T15:18:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git commit -m \"initial commit\"",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-8042-91e5-eb85c387aadb",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:18:00.000Z",
+        "last_edited_time": "2025-10-04T15:18:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Check Status",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80ad-8cdb-dc513765c44d",
+        "type": "code",
+        "created_time": "2025-10-04T15:18:00.000Z",
+        "last_edited_time": "2025-10-04T15:18:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git status",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-80b1-8184-dc3d445680a8",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:18:00.000Z",
+        "last_edited_time": "2025-10-04T15:18:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "View Commit History",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-806d-bd3d-f291df4a4a5f",
+        "type": "code",
+        "created_time": "2025-10-04T15:18:00.000Z",
+        "last_edited_time": "2025-10-04T15:18:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git log",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-801c-aecf-e24ef41b78e9",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:18:00.000Z",
+        "last_edited_time": "2025-10-04T15:18:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Set Git Identity",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8008-9786-fe86992e3daf",
+        "type": "code",
+        "created_time": "2025-10-04T15:18:00.000Z",
+        "last_edited_time": "2025-10-04T15:18:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git config --global user.name \"your name\"\ngit config --global user.email \"your.email@example.com\"",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-802f-82a1-f1cbab51cc2a",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:25:00.000Z",
+        "last_edited_time": "2025-10-04T15:25:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": []
+        }
+      },
+      {
+        "id": "282db469-a81d-8066-a3a5-f9293db2694a",
+        "type": "heading_1",
+        "created_time": "2025-10-04T15:25:00.000Z",
+        "last_edited_time": "2025-10-04T15:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Working With Remote Repositories (Github, Gitlab)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8045-8293-d5240dcb1785",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:26:00.000Z",
+        "last_edited_time": "2025-10-04T15:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Clone Remote Repository",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80d4-8bb8-cbf82d9bb243",
+        "type": "code",
+        "created_time": "2025-10-04T15:26:00.000Z",
+        "last_edited_time": "2025-10-04T15:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git clone <repository_URL>",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-8054-ac32-f7314b8be151",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:26:00.000Z",
+        "last_edited_time": "2025-10-04T15:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Push Changes",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8037-9737-c707ee970735",
+        "type": "code",
+        "created_time": "2025-10-04T15:26:00.000Z",
+        "last_edited_time": "2025-10-04T15:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git push origin <branch_name>\n#example\ngit push origin main",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-808f-b338-d313d9e753d1",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:26:00.000Z",
+        "last_edited_time": "2025-10-04T15:26:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Pull Updates",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8037-a8e4-f44a979c5c18",
+        "type": "code",
+        "created_time": "2025-10-04T15:26:00.000Z",
+        "last_edited_time": "2025-10-04T15:27:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git pull origin <branch_name>",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-80df-96e3-d21845176498",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:27:00.000Z",
+        "last_edited_time": "2025-10-04T15:27:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": []
+        }
+      },
+      {
+        "id": "282db469-a81d-8063-91d5-caa65a626fab",
+        "type": "heading_1",
+        "created_time": "2025-10-04T15:27:00.000Z",
+        "last_edited_time": "2025-10-04T15:27:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Resolving Conflicts",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8000-adf9-e7d802f16373",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-04T15:27:00.000Z",
+        "last_edited_time": "2025-10-04T15:27:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "If merging causes conflicts, Git will indicate it.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8047-85a2-dbe0011f15d0",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-04T15:27:00.000Z",
+        "last_edited_time": "2025-10-04T15:27:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Resolve manually, then -",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-806e-8603-ce6478695e20",
+        "type": "code",
+        "created_time": "2025-10-04T15:27:00.000Z",
+        "last_edited_time": "2025-10-04T15:28:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git add <resolved_file>\ngit commit -m \"Resolved conflict\"",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-800c-88ca-d66161245f28",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:28:00.000Z",
+        "last_edited_time": "2025-10-04T15:28:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": []
+        }
+      },
+      {
+        "id": "282db469-a81d-8049-891a-e51435e42714",
+        "type": "heading_1",
+        "created_time": "2025-10-04T15:28:00.000Z",
+        "last_edited_time": "2025-10-04T15:28:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Undoing Changes",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80f5-bc45-fa0b2b07490b",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:28:00.000Z",
+        "last_edited_time": "2025-10-04T15:28:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Undo Last Commit (keep changes)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80ca-96e6-ff1f9dc76de0",
+        "type": "code",
+        "created_time": "2025-10-04T15:28:00.000Z",
+        "last_edited_time": "2025-10-04T15:28:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git reset --soft HEAD~1",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-802b-b9d1-e5e0de1d8b84",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:28:00.000Z",
+        "last_edited_time": "2025-10-04T15:29:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Undo Last Commit (discard changes)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8045-b157-e57c60853947",
+        "type": "code",
+        "created_time": "2025-10-04T15:28:00.000Z",
+        "last_edited_time": "2025-10-04T15:29:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git reset --hardHEAD~1",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-807d-a334-cd293cfdea82",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:29:00.000Z",
+        "last_edited_time": "2025-10-04T15:29:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Discard Unstaged Changes",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-802a-b3b2-e9c2a91104d0",
+        "type": "code",
+        "created_time": "2025-10-04T15:29:00.000Z",
+        "last_edited_time": "2025-10-04T15:30:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git checkout -- <file_name>",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-8074-b046-f5f62697f5a3",
+        "type": "divider",
+        "created_time": "2025-10-04T15:30:00.000Z",
+        "last_edited_time": "2025-10-04T15:30:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "282db469-a81d-8045-959a-e58533c01e0b",
+        "type": "heading_1",
+        "created_time": "2025-10-04T15:30:00.000Z",
+        "last_edited_time": "2025-10-04T15:30:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Advaced Git Usage",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80a3-b553-fd3e0b7ab5f9",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:31:00.000Z",
+        "last_edited_time": "2025-10-04T15:31:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Stashing Changes",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-807f-8810-d09514156e5c",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:31:00.000Z",
+        "last_edited_time": "2025-10-04T15:32:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Stashing changes: Temporaly store changes without commiting.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8076-bd17-c6af8ba47163",
+        "type": "code",
+        "created_time": "2025-10-04T15:31:00.000Z",
+        "last_edited_time": "2025-10-04T15:32:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git statsh\ngit stash pop",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-803c-ab4a-d3315f8af500",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:32:00.000Z",
+        "last_edited_time": "2025-10-04T15:32:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Rebase",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8004-ac7c-c0aea994d6dc",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:32:00.000Z",
+        "last_edited_time": "2025-10-04T15:32:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Rebase: Rewrite commit history",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8091-93b9-db9496830586",
+        "type": "code",
+        "created_time": "2025-10-04T15:32:00.000Z",
+        "last_edited_time": "2025-10-04T15:34:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git checkout feature_branch git rebase main",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-809c-af11-fd93a3d046cf",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:34:00.000Z",
+        "last_edited_time": "2025-10-04T15:34:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Cherry-Pick",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8096-b40e-ef595b51b446",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:34:00.000Z",
+        "last_edited_time": "2025-10-04T15:34:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Cherry-Pick: Apply a specific commit from one branch to another",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80bc-8f90-c6d54cd0bb13",
+        "type": "code",
+        "created_time": "2025-10-04T15:34:00.000Z",
+        "last_edited_time": "2025-10-04T15:34:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git cherry-pick <commit_hash>",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-80b6-baf7-d5123ebb04ca",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:34:00.000Z",
+        "last_edited_time": "2025-10-04T15:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Tagging",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80de-82c4-fe760025661d",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:34:00.000Z",
+        "last_edited_time": "2025-10-04T15:35:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Tagging: Create tags to mark versions",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8088-9673-d6558c8f5cf8",
+        "type": "code",
+        "created_time": "2025-10-04T15:34:00.000Z",
+        "last_edited_time": "2025-10-04T15:39:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git tag -a v1.0 -m \"version 1.0 release\" git pus --tags",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-8072-b20a-f0832505085a",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:39:00.000Z",
+        "last_edited_time": "2025-10-04T15:39:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Amend Commit",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80a5-a7ed-eab05dafc080",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:39:00.000Z",
+        "last_edited_time": "2025-10-04T15:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Ammed Commit: Modify last commit message or content",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8034-9bef-fb7c28f7b22d",
+        "type": "code",
+        "created_time": "2025-10-04T15:39:00.000Z",
+        "last_edited_time": "2025-10-04T15:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git commit --amend -m \"New commit message\"",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-801d-9f13-fd72a8fb2a65",
+        "type": "divider",
+        "created_time": "2025-10-04T15:40:00.000Z",
+        "last_edited_time": "2025-10-04T15:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "282db469-a81d-806a-bbcc-fb41e589b0d5",
+        "type": "heading_1",
+        "created_time": "2025-10-04T15:40:00.000Z",
+        "last_edited_time": "2025-10-04T15:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Cleaning Repository",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80a7-9a68-fa5491325f60",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:40:00.000Z",
+        "last_edited_time": "2025-10-04T15:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Remove untracked files",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80f5-8d3f-c26194ec1da8",
+        "type": "code",
+        "created_time": "2025-10-04T15:40:00.000Z",
+        "last_edited_time": "2025-10-04T15:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git clean -f",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-80ad-a3dd-dd5426d32bcb",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:41:00.000Z",
+        "last_edited_time": "2025-10-04T15:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Remove untracked directories too",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8029-b184-fb1b7e86f669",
+        "type": "code",
+        "created_time": "2025-10-04T15:41:00.000Z",
+        "last_edited_time": "2025-10-04T15:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git clean -fd",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-809b-ae86-c2fe002d72d2",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:41:00.000Z",
+        "last_edited_time": "2025-10-04T15:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Best Practies",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80c9-ac9d-da4f6d39415a",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-04T15:41:00.000Z",
+        "last_edited_time": "2025-10-04T15:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Write meaningfull commit messages",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8088-b0e5-d2a2f941d0f2",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-04T15:41:00.000Z",
+        "last_edited_time": "2025-10-04T15:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Commit often",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80fa-998d-e1add210ff5b",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-04T15:41:00.000Z",
+        "last_edited_time": "2025-10-04T15:41:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Keep branches small and focused",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8010-a593-d66f12cffdcd",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-04T15:41:00.000Z",
+        "last_edited_time": "2025-10-04T15:42:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Regularly sync branches with main",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8000-af94-f246fea888ac",
+        "type": "divider",
+        "created_time": "2025-10-04T15:42:00.000Z",
+        "last_edited_time": "2025-10-04T15:42:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "282db469-a81d-8082-a287-d7c363ae184a",
+        "type": "heading_1",
+        "created_time": "2025-10-04T15:42:00.000Z",
+        "last_edited_time": "2025-10-04T15:42:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Expert Command",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8000-8803-d5e269ec5e89",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:42:00.000Z",
+        "last_edited_time": "2025-10-04T15:42:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Interactive Rebase",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80a9-bb91-f6413c194c2f",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:42:00.000Z",
+        "last_edited_time": "2025-10-04T15:42:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Interactive Rebase: Squash, commits, reorder or edit history",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8052-b621-f007e5c779f0",
+        "type": "code",
+        "created_time": "2025-10-04T15:42:00.000Z",
+        "last_edited_time": "2025-10-04T15:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git rebase -i HEAD~3",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-8059-943f-d5e741a43bfb",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:43:00.000Z",
+        "last_edited_time": "2025-10-04T15:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Submodules",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80aa-9b08-f5490f540133",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:43:00.000Z",
+        "last_edited_time": "2025-10-04T15:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Submodules: Include external repositories within your repo",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8069-96e3-e558bfd1de36",
+        "type": "code",
+        "created_time": "2025-10-04T15:43:00.000Z",
+        "last_edited_time": "2025-10-04T15:43:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git submodule add <repo_url>\ngit submodule update --init --recursive",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-8075-99fd-f4e5b045b60d",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:46:00.000Z",
+        "last_edited_time": "2025-10-04T15:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Bisect (Finding Bugs)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80bf-8e0a-fd15ed6e2a15",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:46:00.000Z",
+        "last_edited_time": "2025-10-04T15:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Bisect (Finding Bugs): Identify the commit causing a bug",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8078-a39e-f781bdb3662a",
+        "type": "code",
+        "created_time": "2025-10-04T15:46:00.000Z",
+        "last_edited_time": "2025-10-04T15:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git bisect start\ngit bisect bad\ngit bisect good <good_commit_hash>",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-8071-8d63-e94bc19a6f7b",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:46:00.000Z",
+        "last_edited_time": "2025-10-04T15:46:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Aliases",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-800f-be37-eb97ef42c184",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:46:00.000Z",
+        "last_edited_time": "2025-10-04T15:47:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Aliases: Create shortcuts for commands",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-806b-81d6-e96733a03470",
+        "type": "code",
+        "created_time": "2025-10-04T15:46:00.000Z",
+        "last_edited_time": "2025-10-04T15:47:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "git config --global alias.st \"status\"",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "yaml"
+        }
+      },
+      {
+        "id": "282db469-a81d-8006-a702-dd79ce5b989f",
+        "type": "heading_2",
+        "created_time": "2025-10-04T15:47:00.000Z",
+        "last_edited_time": "2025-10-04T15:47:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Hooks",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-8099-b0c9-eb2f965fab67",
+        "type": "paragraph",
+        "created_time": "2025-10-04T15:47:00.000Z",
+        "last_edited_time": "2025-10-04T15:47:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Hooks: Run script automatically at spesific point",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-800d-92c4-fbc37580daaf",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-04T15:47:00.000Z",
+        "last_edited_time": "2025-10-04T15:47:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "pre-commit",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-80d4-8ce3-d2b8b4f279f7",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-04T15:47:00.000Z",
+        "last_edited_time": "2025-10-04T15:47:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "commit-msg",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "282db469-a81d-808e-9974-d7a50d0bfcc9",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-04T15:47:00.000Z",
+        "last_edited_time": "2025-10-04T15:48:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "pre-push\n(Create custom scripts in .git/hooks/directory)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

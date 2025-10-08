@@ -1,16 +1,61 @@
 {
   "meta": {
-    "generated_at": "2025-09-17T11:57:37.728Z",
-    "total_posts": 1,
-    "published_posts": 1,
+    "generated_at": "2025-10-08T14:19:05.510Z",
+    "total_posts": 4,
+    "published_posts": 4,
     "draft_posts": 0,
-    "featured_posts": 1,
-    "total_tags": 2,
-    "total_categories": 1,
+    "featured_posts": 2,
+    "total_tags": 24,
+    "total_categories": 10,
     "posts_directory": "public/notes"
   },
   "taxonomy": {
     "categories": [
+      {
+        "name": "AI",
+        "count": 1,
+        "slug": "ai"
+      },
+      {
+        "name": "Cybersecurity",
+        "count": 1,
+        "slug": "cybersecurity"
+      },
+      {
+        "name": "Pentesting",
+        "count": 1,
+        "slug": "pentesting"
+      },
+      {
+        "name": "Offensive Security",
+        "count": 1,
+        "slug": "offensive-security"
+      },
+      {
+        "name": "Linux",
+        "count": 1,
+        "slug": "linux"
+      },
+      {
+        "name": "Security",
+        "count": 1,
+        "slug": "security"
+      },
+      {
+        "name": "Networking",
+        "count": 1,
+        "slug": "networking"
+      },
+      {
+        "name": "Firewall",
+        "count": 1,
+        "slug": "firewall"
+      },
+      {
+        "name": "Git",
+        "count": 1,
+        "slug": "git"
+      },
       {
         "name": "Web Exploit",
         "count": 1,
@@ -18,6 +63,116 @@
       }
     ],
     "tags": [
+      {
+        "name": "gpt",
+        "count": 1,
+        "slug": "gpt"
+      },
+      {
+        "name": "ai-tools",
+        "count": 1,
+        "slug": "ai-tools"
+      },
+      {
+        "name": "cybersecurity",
+        "count": 1,
+        "slug": "cybersecurity"
+      },
+      {
+        "name": "hacking",
+        "count": 1,
+        "slug": "hacking"
+      },
+      {
+        "name": "pentesting",
+        "count": 1,
+        "slug": "pentesting"
+      },
+      {
+        "name": "malware",
+        "count": 1,
+        "slug": "malware"
+      },
+      {
+        "name": "exploit",
+        "count": 1,
+        "slug": "exploit"
+      },
+      {
+        "name": "phishing",
+        "count": 1,
+        "slug": "phishing"
+      },
+      {
+        "name": "botnet",
+        "count": 1,
+        "slug": "botnet"
+      },
+      {
+        "name": "sql-injection",
+        "count": 1,
+        "slug": "sql-injection"
+      },
+      {
+        "name": "redteam",
+        "count": 1,
+        "slug": "redteam"
+      },
+      {
+        "name": "automation",
+        "count": 1,
+        "slug": "automation"
+      },
+      {
+        "name": "ufw",
+        "count": 1,
+        "slug": "ufw"
+      },
+      {
+        "name": "ubuntu",
+        "count": 1,
+        "slug": "ubuntu"
+      },
+      {
+        "name": "firewall",
+        "count": 1,
+        "slug": "firewall"
+      },
+      {
+        "name": "iptables",
+        "count": 1,
+        "slug": "iptables"
+      },
+      {
+        "name": "linux",
+        "count": 1,
+        "slug": "linux"
+      },
+      {
+        "name": "cheat sheet",
+        "count": 1,
+        "slug": "cheat-sheet"
+      },
+      {
+        "name": "network-security",
+        "count": 1,
+        "slug": "network-security"
+      },
+      {
+        "name": "logging",
+        "count": 1,
+        "slug": "logging"
+      },
+      {
+        "name": "rate-limit",
+        "count": 1,
+        "slug": "rate-limit"
+      },
+      {
+        "name": "git",
+        "count": 1,
+        "slug": "git"
+      },
       {
         "name": "web",
         "count": 1,
@@ -32,6 +187,5507 @@
   },
   "posts": {
     "all": [
+      {
+        "id": "283db469-a81d-805e-b49f-e5becd0ccdb1",
+        "title": "Cybersecurity GPT Collections",
+        "slug": "cybersecurity-gpt-collections",
+        "folder": "cybersecurity-gpt-collections",
+        "excerpt": "Kumpulan model AI bertema keamanan siber yang berfungsi untuk simulasi, pengujian, dan otomasi serangan maupun pertahanan di dunia siber.Purpose:Membantu melakukan penetration testing otomatis, mulai...",
+        "featured_image": "",
+        "created_time": "2025-10-05T06:59:00.000Z",
+        "last_edited_time": "2025-10-08T14:18:00.000Z",
+        "reading_time": 2,
+        "url": "/notes/cybersecurity-gpt-collections",
+        "public_url": "",
+        "archived": false,
+        "categories": [
+          "AI",
+          "Cybersecurity",
+          "Pentesting",
+          "Offensive Security"
+        ],
+        "tags": [
+          "gpt",
+          "ai-tools",
+          "cybersecurity",
+          "hacking",
+          "pentesting",
+          "malware",
+          "exploit",
+          "phishing",
+          "botnet",
+          "sql-injection",
+          "redteam",
+          "automation"
+        ],
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "@Anonymous "
+        },
+        "content": [
+          {
+            "id": "283db469-a81d-806d-8400-e568aef4f748",
+            "type": "heading_1",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-05T09:11:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "🧠 Cybersecurity GPT Collections",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8052-baf9-fef07176f9c9",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-05T09:11:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Kumpulan model AI bertema keamanan siber yang berfungsi untuk simulasi, pengujian, dan otomasi serangan maupun pertahanan di dunia siber.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8004-bd61-f6892ad0cf08",
+            "type": "divider",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-05T09:11:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "283db469-a81d-8080-a859-f8efde3c0be9",
+            "type": "heading_1",
+            "created_time": "2025-10-05T09:14:00.000Z",
+            "last_edited_time": "2025-10-05T09:14:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Table Of Content",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8074-b2d6-fc3ceb42fc20",
+            "type": "table_of_contents",
+            "created_time": "2025-10-05T09:14:00.000Z",
+            "last_edited_time": "2025-10-05T09:14:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "283db469-a81d-8038-80e0-e20ceb504601",
+            "type": "divider",
+            "created_time": "2025-10-05T09:14:00.000Z",
+            "last_edited_time": "2025-10-05T09:14:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "283db469-a81d-8047-ad8e-e86d7807c883",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:14:00.000Z",
+            "last_edited_time": "2025-10-05T09:14:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": []
+            }
+          },
+          {
+            "id": "283db469-a81d-8018-9193-d50f24dfa1c0",
+            "type": "heading_2",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "🔹 Pentest GPT",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80b1-95e6-ec994b98196b",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Purpose:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8043-ab18-e0b5282fd72a",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Membantu melakukan penetration testing otomatis, mulai dari reconnaissance, vulnerability discovery, hingga exploitation.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-801f-b780-c6f1632a516f",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Key Features:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-806f-a616-cdb24e4be6d2",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Enumerasi otomatis layanan jaringan",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-806f-9ff3-d156b98a7458",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Membuat skrip serangan berdasarkan hasil scanning",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8088-a622-eeaa1135bb8b",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Menyediakan strategi remediation",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8027-83a7-e1f07ea2da1f",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Usage:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8088-b76a-c9f23de717a6",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Memandu pentester dalam mendeteksi celah, menjalankan scan, dan membuat attack vector.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-801c-a521-e68a76b0db9a",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Dapat menghasilkan perintah ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": "nmap",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": ", ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": "Nikto",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": ", dan ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": "Metasploit",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": ".",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8002-b44b-d722968b702e",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Advantages:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8052-a674-c01291bfae17",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Menghemat waktu dengan otomatisasi",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80a3-9ee6-ff04211332bf",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Meningkatkan akurasi melalui analisis berbasis machine learning",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8044-b162-e8763ddcbe0e",
+            "type": "divider",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-05T09:11:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "283db469-a81d-80f4-837b-d33e3836a27c",
+            "type": "heading_2",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "🔹 White Rabbit Neo Hacker GPT",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80ff-9f62-d348bc4d82cc",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Purpose:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80b4-b0ef-e362a755e7d9",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "AI adversarial untuk simulasi serangan tingkat lanjut dengan fokus pada bypass sistem keamanan modern.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8000-89c6-d0a6e123d493",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Key Features:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80c9-8b2b-e856a11b4b16",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Menggunakan taktik stealth dan adaptive strategies",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-807b-8ab3-f5eb0ac4ca84",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Menyesuaikan pendekatan berdasarkan reaksi sistem pertahanan",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80a0-ae2f-d6349afc1e74",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Advantages:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80fc-8070-d54f6826ef4c",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Meniru skenario serangan nyata dan taktik penghindaran.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8017-bf8a-d361430b0cf3",
+            "type": "divider",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-05T09:11:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "283db469-a81d-80e7-8d2a-db4b9861621e",
+            "type": "heading_2",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "🔹 Fraud GPT",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8098-8fc9-cbba94e5b0c6",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Purpose:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-807f-a63d-cd2ed503c2dc",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Spesialis dalam mendeteksi serta mensimulasikan vektor penipuan finansial.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8061-b473-ed5a43949a7d",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Key Features:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8089-a835-f6c90c9c7be7",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Membuat identitas sintetis",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8081-850a-e4e888ed3d81",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Menemukan celah pada sistem pembayaran dan e-commerce",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8021-a848-c17a4e472dcc",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Advantages:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-804c-9b89-c88d77163fb8",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Menguji efektivitas sistem pencegahan fraud dengan simulasi realistik.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-802d-a0ac-d9307a6db923",
+            "type": "divider",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-05T09:11:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "283db469-a81d-80fb-8dee-ff5c9f890b48",
+            "type": "heading_2",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "🔹 Worm GPT",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8068-aa9a-f25734db0861",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Purpose:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-807f-a1b3-db17f521c2ba",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Menciptakan malware self-propagating untuk simulasi ethical hacking.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80f8-be61-e337a32c75e5",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Key Features:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8077-b2cc-e4fd09233d93",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Menulis custom worm",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-802f-9bc9-f51466a008da",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Menguji segmentasi jaringan melalui simulasi penyebaran",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-808a-a582-d350da443023",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Advantages:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8047-a434-d7024d5cb5f2",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Menunjukkan kelemahan pada pemisahan jaringan.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80a0-ae7d-e929399063ea",
+            "type": "divider",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-05T09:11:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "283db469-a81d-8076-ae75-ef9839e1b567",
+            "type": "heading_1",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "🔹 BugHunter GPT",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80ac-94da-fd9722b13cae",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Purpose:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-804d-a221-e5817f567cfe",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Membantu menemukan kerentanan dalam kode.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80fd-8730-eae3b07d29c1",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Key Features:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8088-bb00-c55ed7d2ac4e",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Analisis kode statis untuk mendeteksi bug keamanan",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8024-901c-e4b979c85c4b",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Menyarankan potensi exploit path",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80ca-8fc8-c183df56fbdd",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Advantages:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-807e-8bec-e97d5465dafa",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Mempercepat proses identifikasi bug dibanding manual code review.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-806b-be67-c81c554d231d",
+            "type": "divider",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-05T09:11:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "283db469-a81d-804e-869a-e501c4a31001",
+            "type": "heading_2",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "🔹 Script GPT",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80b7-8120-e6a2c222d22e",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Purpose:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-809f-97c9-fa2fd27fca43",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Otomatisasi pembuatan skrip untuk reconnaissance dan exploit.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-807f-b522-f407a2d42e51",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Key Features:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8009-97b2-dfdb538768f1",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Menulis skrip shell, Python, dan PowerShell",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-805a-a84f-fae42e25b7af",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Mengotomasi tugas seperti scanning dan brute-force",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8006-ad3d-dce4c6285bde",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Advantages:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-804c-8544-e6f71c0433df",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Mempercepat pengembangan exploit umum.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8049-a83e-d5ce20734a52",
+            "type": "divider",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-05T09:11:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "283db469-a81d-8013-a9a2-e6cd00875c34",
+            "type": "heading_2",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "🔹 Exploit GPT",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8027-aa2c-efe62e0f2811",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Purpose:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8036-9ccb-c15e102d40bf",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Membuat dan menguji exploit berdasarkan deskripsi kerentanan.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80ec-8eb9-f864e898ee20",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Key Features:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-800d-b6ca-e170f79f460d",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Code generation untuk buffer overflow dan race condition",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8083-b8f6-e77a07725164",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Integrasi dengan framework seperti Metasploit",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80bf-acf4-c17e9a29eb98",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Advantages:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8016-8427-e7282e6abfbe",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Memahami bagaimana kerentanan bisa diubah menjadi exploit nyata.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8013-b63d-fe9121528eb0",
+            "type": "divider",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-05T09:11:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "283db469-a81d-807f-846b-d8b1c4eff0d5",
+            "type": "heading_2",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "🔹 Payload GPT",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80b5-8c41-e910c82bb27a",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Purpose:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-809a-b0ae-f87b1cbc4c30",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Membangun payload untuk framework exploit.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8088-b394-dd11ce463982",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Key Features:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80ca-af16-f4ff0bb67615",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Payload yang dapat menghindari antivirus/EDR",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8075-8019-d53c12f1b1e8",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Dapat dikustomisasi untuk berbagai OS",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80ae-a580-e3ca5dc73958",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Advantages:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8026-8bc7-e0349c925f84",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Membantu pengujian evasive payload secara efisien.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80ee-aea6-c18c9fd6e3db",
+            "type": "divider",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-05T09:11:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "283db469-a81d-80a2-b4c7-cbbd3d8009b8",
+            "type": "heading_2",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "🔹 RedTeam GPT",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-806b-bdfa-f2641518dc9a",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Purpose:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80a0-8570-fdae99ca96b5",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Mendukung tim ofensif dalam simulasi serangan berskala penuh.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-802a-93a0-eb7e7faad8ee",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Key Features:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-807a-8f03-e78799fa28fd",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Mengatur phishing campaign",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8091-860f-f3e2b8b11487",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Menyimulasikan insider threats dan physical penetration",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80c0-a920-c853d255b1c5",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Advantages:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8038-b28c-eab0b4eff23b",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Mengotomatiskan strategi serangan multi-tahap.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-802d-83cc-ed2ac2428b5a",
+            "type": "divider",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-05T09:11:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "283db469-a81d-80f7-9da4-da02d0c8ffd4",
+            "type": "heading_2",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "🔹 MalGPT",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80c6-8908-cbfb9d716edd",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Purpose:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80ab-b3a7-e2f3724916af",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Menganalisis dan membuat malware secara etis.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8080-a995-e44959475e11",
+            "type": "paragraph",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Key Features:",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80f3-bd0d-dc3436d2b7a5",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Reverse engineering dan sandbox analysis",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80ee-88dd-dc5fc22ce64a",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-08T14:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Simulasi malware untuk threat intelligence",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8020-bcc5-ebc2e2c9e821",
+            "type": "divider",
+            "created_time": "2025-10-05T09:11:00.000Z",
+            "last_edited_time": "2025-10-05T09:11:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          }
+        ]
+      },
+      {
+        "id": "283db469-a81d-801f-86de-c9fa999c5f85",
+        "title": "Linux UFW Essentials (Cheat Sheet)Linux UFW Essentials",
+        "slug": "linux-ufw-essentials-cheat-sheetlinux-ufw-essentials",
+        "folder": "linux-ufw-essentials-cheat-sheetlinux-ufw-essentials",
+        "excerpt": "",
+        "featured_image": "",
+        "created_time": "2025-10-05T06:47:00.000Z",
+        "last_edited_time": "2025-10-08T14:15:00.000Z",
+        "reading_time": 2,
+        "url": "/notes/linux-ufw-essentials-cheat-sheetlinux-ufw-essentials",
+        "public_url": "",
+        "archived": false,
+        "categories": [
+          "Linux",
+          "Security",
+          "Networking",
+          "Firewall"
+        ],
+        "tags": [
+          "ufw",
+          "ubuntu",
+          "firewall",
+          "iptables",
+          "linux",
+          "cheat sheet",
+          "network-security",
+          "logging",
+          "rate-limit"
+        ],
+        "properties": {
+          "published": true,
+          "featured": false,
+          "author": "@Anonymous "
+        },
+        "content": [
+          {
+            "id": "283db469-a81d-80ca-886b-f4c66b2cd21b",
+            "type": "heading_1",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:56:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Linux UFW Essentials",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8036-bda5-c131a4719e90",
+            "type": "heading_1",
+            "created_time": "2025-10-05T06:56:00.000Z",
+            "last_edited_time": "2025-10-05T06:57:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Table Of Contents",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8053-9e74-d2138cb7a7c7",
+            "type": "table_of_contents",
+            "created_time": "2025-10-05T06:56:00.000Z",
+            "last_edited_time": "2025-10-05T06:56:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "283db469-a81d-8014-a443-d5f9419866f1",
+            "type": "divider",
+            "created_time": "2025-10-05T06:57:00.000Z",
+            "last_edited_time": "2025-10-05T06:57:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "283db469-a81d-8032-a4a4-d4aad3d087b5",
+            "type": "heading_2",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "1) Cek Status UFW",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8005-86b9-e7b607bd0536",
+            "type": "code",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "# Cek status UFW\nufw status\n\n# Status detail beserta rules\nufw status verbose\n",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "bash"
+            }
+          },
+          {
+            "id": "283db469-a81d-801e-b394-d29d9c36739c",
+            "type": "heading_2",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "2) Mengaktifkan / Menonaktifkan UFW",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-809c-a902-f9c18a2bce21",
+            "type": "code",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "# Enable firewall\nufw enable\n\n# Disable firewall\nufw disable\n",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "bash"
+            }
+          },
+          {
+            "id": "283db469-a81d-8001-9e0c-c5eedd7edf32",
+            "type": "heading_2",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "3) Mengizinkan (Allow) Trafik",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80a4-958c-f379b1aa98a2",
+            "type": "code",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "# Izinkan trafik pada port tertentu (contoh: 22 untuk SSH)\nufw allow <port>\n\n# Izinkan trafik untuk service spesifik (contoh: http, https)\nufw allow <service>\n\n# Izinkan trafik dari IP tertentu\nufw allow from <IP>\n",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "bash"
+            }
+          },
+          {
+            "id": "283db469-a81d-80f0-9f3a-d4005371ebe6",
+            "type": "heading_2",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "4) Menolak (Deny) Trafik",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-801e-91a1-fae25f6a2d08",
+            "type": "code",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "# Tolak trafik pada port tertentu\nufw deny <port>\n\n# Tolak trafik dari IP tertentu\nufw deny from <IP>\n\n# Tolak trafik untuk service spesifik\nufw deny <service>\n",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "bash"
+            }
+          },
+          {
+            "id": "283db469-a81d-8008-94a8-c0cf2547bce8",
+            "type": "heading_2",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "5) Allow/Deny dengan Kondisi (Protocol, IP, Port)",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80fd-9034-c279e2ededcd",
+            "type": "code",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "# Allow dengan protocol, IP sumber, dan port tujuan\nufw allow proto <protocol> from <IP> to <IP/any> port <port>\n\n# Deny dengan protocol, IP sumber, dan port tujuan\nufw deny proto <protocol> from <IP> to <IP/any> port <port>\n",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "bash"
+            }
+          },
+          {
+            "id": "283db469-a81d-801b-b8b0-ce4568516d38",
+            "type": "heading_2",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "6) Menghapus Rules",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-801d-8a95-c2ff9edf9a89",
+            "type": "code",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "# Hapus rule allow untuk sebuah port\nufw delete allow <port>\n\n# Hapus rule deny untuk sebuah port\nufw delete deny <port>\n\n# Hapus rule allow untuk IP tertentu\nufw delete allow from <IP>\n\n# Hapus rule deny untuk IP tertentu\nufw delete deny from <IP>\n\n# Hapus rule allow dengan protocol, IP, dan port\nufw delete allow proto <protocol> from <IP> to any port <port>\n",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "bash"
+            }
+          },
+          {
+            "id": "283db469-a81d-80d1-84f5-df1c457007eb",
+            "type": "heading_2",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "7) Profiles & Applications",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80ac-8628-f82d065e044e",
+            "type": "code",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "# Daftar application profile yang tersedia\nufw app list\n\n# Detail sebuah application profile\nufw app info <application>\n\n# Update application profile rules\nufw app update <application>\n",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "bash"
+            }
+          },
+          {
+            "id": "283db469-a81d-807b-beda-e3124619070c",
+            "type": "heading_2",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "8) Reset UFW",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-809d-8bdc-e9028505c902",
+            "type": "code",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "# Reset ke default (menonaktifkan UFW dan menghapus semua rules)\nufw reset\n",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "bash"
+            }
+          },
+          {
+            "id": "283db469-a81d-80bf-901d-cc144b3576db",
+            "type": "heading_2",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "9) Logging & Monitoring",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80b0-a5c0-c886a3663ede",
+            "type": "code",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "# Enable logging\nufw logging on\n\n# Disable logging\nufw logging off\n\n# Set level logging: off | low | medium | high | full\nufw logging <level>\n",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "bash"
+            }
+          },
+          {
+            "id": "283db469-a81d-80a8-a9e0-fd083ed5bebd",
+            "type": "heading_2",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "10) Rate Limiting Connections",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-80fa-8277-d1dd5cb4238a",
+            "type": "code",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "# Batasi koneksi ke port tertentu (contoh: 22 untuk SSH)\nufw limit <port>\n\n# Batasi koneksi dari IP tertentu\nufw limit from <IP>\n\n# Batasi koneksi dengan protocol ke port apapun\nufw limit proto <protocol> to any port <port>\n",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "bash"
+            }
+          },
+          {
+            "id": "283db469-a81d-807d-be0d-ecd5c615d687",
+            "type": "divider",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "283db469-a81d-80cc-bc2b-e13b576584dc",
+            "type": "heading_3",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Catatan Cepat",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8079-ad4f-e57f3def7048",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "<protocol>",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": " biasanya ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": "tcp",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": " atau ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": "udp",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": ".",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8099-9653-de78e99ac4b7",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "<service>",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": " adalah nama service yang dikenali oleh ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": "/etc/services",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": " (mis. ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": "ssh",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": ", ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": "http",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": ", ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": "https",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": ").",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-8019-b732-e622087b6659",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Gunakan ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": "any",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": " pada ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": "to",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": " jika ingin merujuk ke semua alamat pada host.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "283db469-a81d-803f-a092-d070ff3008b1",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-05T06:55:00.000Z",
+            "last_edited_time": "2025-10-05T06:55:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Setelah menambahkan aturan SSH pada port custom, ",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": "uji koneksi",
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": " sebelum menutup sesi agar tidak terkunci dari server.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "282db469-a81d-8014-aa0b-f98bb14a5185",
+        "title": "Git Cheat Sheet",
+        "slug": "git-cheat-sheet",
+        "folder": "git-cheat-sheet",
+        "excerpt": "Git is a distributed version control system that helps manage code changes efficiently and collaborate with others on software projects.Stashing changes: Temporaly store changes without commiting.Reba...",
+        "featured_image": "",
+        "created_time": "2025-10-04T13:24:00.000Z",
+        "last_edited_time": "2025-10-04T15:57:00.000Z",
+        "reading_time": 2,
+        "url": "/notes/git-cheat-sheet",
+        "public_url": "",
+        "archived": false,
+        "categories": [
+          "Git"
+        ],
+        "tags": [
+          "git"
+        ],
+        "properties": {
+          "published": true,
+          "featured": true,
+          "author": "@Anonymous "
+        },
+        "content": [
+          {
+            "id": "282db469-a81d-803d-b211-cd3f9ace0f30",
+            "type": "heading_1",
+            "created_time": "2025-10-04T15:11:00.000Z",
+            "last_edited_time": "2025-10-04T15:12:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Introduction",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8049-9a87-f3c910cc7253",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:12:00.000Z",
+            "last_edited_time": "2025-10-04T15:12:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "What is Git?",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8024-a982-d197bf82044e",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:12:00.000Z",
+            "last_edited_time": "2025-10-04T15:13:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Git is a distributed version control system that helps manage code changes efficiently and collaborate with others on software projects.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8015-81e2-dff8cba3c657",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:13:00.000Z",
+            "last_edited_time": "2025-10-04T15:13:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": []
+            }
+          },
+          {
+            "id": "282db469-a81d-8036-96d6-eb79b1fd2afe",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:13:00.000Z",
+            "last_edited_time": "2025-10-04T15:13:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Installation",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8040-a1c1-c5d972942b07",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-04T15:13:00.000Z",
+            "last_edited_time": "2025-10-04T15:13:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Windows/Mac/Linux - Download Git",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80db-93fd-edda6dd98baf",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-04T15:13:00.000Z",
+            "last_edited_time": "2025-10-04T15:13:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Verify installation",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-800d-a12a-db2566a71cca",
+            "type": "code",
+            "created_time": "2025-10-04T15:13:00.000Z",
+            "last_edited_time": "2025-10-04T15:13:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git --version",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-80d9-8f13-f4d60eb6fb9b",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:13:00.000Z",
+            "last_edited_time": "2025-10-04T15:13:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": []
+            }
+          },
+          {
+            "id": "282db469-a81d-8083-93fd-c8591ed6008b",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:14:00.000Z",
+            "last_edited_time": "2025-10-04T15:14:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Basic Concepts",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80d6-b714-c975654b6397",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-04T15:15:00.000Z",
+            "last_edited_time": "2025-10-04T15:15:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Repository (Repo): Directory tracked by Git",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-809c-b692-d3c58ef9446b",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-04T15:15:00.000Z",
+            "last_edited_time": "2025-10-04T15:15:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Commit: A snapshot of your code",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80e9-bd9c-fa70e6b067c9",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-04T15:15:00.000Z",
+            "last_edited_time": "2025-10-04T15:15:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Branch: Independent line of development",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8000-8c17-deeff2c5174d",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-04T15:15:00.000Z",
+            "last_edited_time": "2025-10-04T15:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Clone: Copy of a repository from remote to local",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8070-9352-ff5556433d99",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:16:00.000Z",
+            "last_edited_time": "2025-10-04T15:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": []
+            }
+          },
+          {
+            "id": "282db469-a81d-80d4-b966-e0d9eaf2d17e",
+            "type": "heading_1",
+            "created_time": "2025-10-04T15:16:00.000Z",
+            "last_edited_time": "2025-10-04T15:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Step-By-Step Guide",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8052-b96a-f31893673fca",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:16:00.000Z",
+            "last_edited_time": "2025-10-04T15:16:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Initialize Repository",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80c9-b138-cc2463756262",
+            "type": "code",
+            "created_time": "2025-10-04T15:16:00.000Z",
+            "last_edited_time": "2025-10-04T15:17:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git init",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-80e5-b67d-fc3b69910808",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:17:00.000Z",
+            "last_edited_time": "2025-10-04T15:17:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Add Files",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8061-9aee-deb49661016f",
+            "type": "code",
+            "created_time": "2025-10-04T15:17:00.000Z",
+            "last_edited_time": "2025-10-04T15:17:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git add < file_name>\ngit add . # add all files in current directory",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-803c-aa27-f47913e2eef4",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:17:00.000Z",
+            "last_edited_time": "2025-10-04T15:17:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Commit Changes",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-804f-ba48-cc4bbd3db146",
+            "type": "code",
+            "created_time": "2025-10-04T15:17:00.000Z",
+            "last_edited_time": "2025-10-04T15:18:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git commit -m \"initial commit\"",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-8042-91e5-eb85c387aadb",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:18:00.000Z",
+            "last_edited_time": "2025-10-04T15:18:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Check Status",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80ad-8cdb-dc513765c44d",
+            "type": "code",
+            "created_time": "2025-10-04T15:18:00.000Z",
+            "last_edited_time": "2025-10-04T15:18:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git status",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-80b1-8184-dc3d445680a8",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:18:00.000Z",
+            "last_edited_time": "2025-10-04T15:18:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "View Commit History",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-806d-bd3d-f291df4a4a5f",
+            "type": "code",
+            "created_time": "2025-10-04T15:18:00.000Z",
+            "last_edited_time": "2025-10-04T15:18:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git log",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-801c-aecf-e24ef41b78e9",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:18:00.000Z",
+            "last_edited_time": "2025-10-04T15:18:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Set Git Identity",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8008-9786-fe86992e3daf",
+            "type": "code",
+            "created_time": "2025-10-04T15:18:00.000Z",
+            "last_edited_time": "2025-10-04T15:18:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git config --global user.name \"your name\"\ngit config --global user.email \"your.email@example.com\"",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-802f-82a1-f1cbab51cc2a",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:25:00.000Z",
+            "last_edited_time": "2025-10-04T15:25:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": []
+            }
+          },
+          {
+            "id": "282db469-a81d-8066-a3a5-f9293db2694a",
+            "type": "heading_1",
+            "created_time": "2025-10-04T15:25:00.000Z",
+            "last_edited_time": "2025-10-04T15:26:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Working With Remote Repositories (Github, Gitlab)",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8045-8293-d5240dcb1785",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:26:00.000Z",
+            "last_edited_time": "2025-10-04T15:26:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Clone Remote Repository",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80d4-8bb8-cbf82d9bb243",
+            "type": "code",
+            "created_time": "2025-10-04T15:26:00.000Z",
+            "last_edited_time": "2025-10-04T15:26:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git clone <repository_URL>",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-8054-ac32-f7314b8be151",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:26:00.000Z",
+            "last_edited_time": "2025-10-04T15:26:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Push Changes",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8037-9737-c707ee970735",
+            "type": "code",
+            "created_time": "2025-10-04T15:26:00.000Z",
+            "last_edited_time": "2025-10-04T15:26:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git push origin <branch_name>\n#example\ngit push origin main",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-808f-b338-d313d9e753d1",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:26:00.000Z",
+            "last_edited_time": "2025-10-04T15:26:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Pull Updates",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8037-a8e4-f44a979c5c18",
+            "type": "code",
+            "created_time": "2025-10-04T15:26:00.000Z",
+            "last_edited_time": "2025-10-04T15:27:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git pull origin <branch_name>",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-80df-96e3-d21845176498",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:27:00.000Z",
+            "last_edited_time": "2025-10-04T15:27:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": []
+            }
+          },
+          {
+            "id": "282db469-a81d-8063-91d5-caa65a626fab",
+            "type": "heading_1",
+            "created_time": "2025-10-04T15:27:00.000Z",
+            "last_edited_time": "2025-10-04T15:27:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Resolving Conflicts",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8000-adf9-e7d802f16373",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-04T15:27:00.000Z",
+            "last_edited_time": "2025-10-04T15:27:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "If merging causes conflicts, Git will indicate it.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8047-85a2-dbe0011f15d0",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-04T15:27:00.000Z",
+            "last_edited_time": "2025-10-04T15:27:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Resolve manually, then -",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-806e-8603-ce6478695e20",
+            "type": "code",
+            "created_time": "2025-10-04T15:27:00.000Z",
+            "last_edited_time": "2025-10-04T15:28:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git add <resolved_file>\ngit commit -m \"Resolved conflict\"",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-800c-88ca-d66161245f28",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:28:00.000Z",
+            "last_edited_time": "2025-10-04T15:28:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": []
+            }
+          },
+          {
+            "id": "282db469-a81d-8049-891a-e51435e42714",
+            "type": "heading_1",
+            "created_time": "2025-10-04T15:28:00.000Z",
+            "last_edited_time": "2025-10-04T15:28:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Undoing Changes",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80f5-bc45-fa0b2b07490b",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:28:00.000Z",
+            "last_edited_time": "2025-10-04T15:28:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Undo Last Commit (keep changes)",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80ca-96e6-ff1f9dc76de0",
+            "type": "code",
+            "created_time": "2025-10-04T15:28:00.000Z",
+            "last_edited_time": "2025-10-04T15:28:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git reset --soft HEAD~1",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-802b-b9d1-e5e0de1d8b84",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:28:00.000Z",
+            "last_edited_time": "2025-10-04T15:29:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Undo Last Commit (discard changes)",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8045-b157-e57c60853947",
+            "type": "code",
+            "created_time": "2025-10-04T15:28:00.000Z",
+            "last_edited_time": "2025-10-04T15:29:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git reset --hardHEAD~1",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-807d-a334-cd293cfdea82",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:29:00.000Z",
+            "last_edited_time": "2025-10-04T15:29:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Discard Unstaged Changes",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-802a-b3b2-e9c2a91104d0",
+            "type": "code",
+            "created_time": "2025-10-04T15:29:00.000Z",
+            "last_edited_time": "2025-10-04T15:30:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git checkout -- <file_name>",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-8074-b046-f5f62697f5a3",
+            "type": "divider",
+            "created_time": "2025-10-04T15:30:00.000Z",
+            "last_edited_time": "2025-10-04T15:30:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "282db469-a81d-8045-959a-e58533c01e0b",
+            "type": "heading_1",
+            "created_time": "2025-10-04T15:30:00.000Z",
+            "last_edited_time": "2025-10-04T15:30:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Advaced Git Usage",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80a3-b553-fd3e0b7ab5f9",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:31:00.000Z",
+            "last_edited_time": "2025-10-04T15:31:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Stashing Changes",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-807f-8810-d09514156e5c",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:31:00.000Z",
+            "last_edited_time": "2025-10-04T15:32:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Stashing changes: Temporaly store changes without commiting.",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8076-bd17-c6af8ba47163",
+            "type": "code",
+            "created_time": "2025-10-04T15:31:00.000Z",
+            "last_edited_time": "2025-10-04T15:32:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git statsh\ngit stash pop",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-803c-ab4a-d3315f8af500",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:32:00.000Z",
+            "last_edited_time": "2025-10-04T15:32:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Rebase",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8004-ac7c-c0aea994d6dc",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:32:00.000Z",
+            "last_edited_time": "2025-10-04T15:32:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Rebase: Rewrite commit history",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8091-93b9-db9496830586",
+            "type": "code",
+            "created_time": "2025-10-04T15:32:00.000Z",
+            "last_edited_time": "2025-10-04T15:34:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git checkout feature_branch git rebase main",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-809c-af11-fd93a3d046cf",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:34:00.000Z",
+            "last_edited_time": "2025-10-04T15:34:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Cherry-Pick",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8096-b40e-ef595b51b446",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:34:00.000Z",
+            "last_edited_time": "2025-10-04T15:34:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Cherry-Pick: Apply a specific commit from one branch to another",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80bc-8f90-c6d54cd0bb13",
+            "type": "code",
+            "created_time": "2025-10-04T15:34:00.000Z",
+            "last_edited_time": "2025-10-04T15:34:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git cherry-pick <commit_hash>",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-80b6-baf7-d5123ebb04ca",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:34:00.000Z",
+            "last_edited_time": "2025-10-04T15:35:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Tagging",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80de-82c4-fe760025661d",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:34:00.000Z",
+            "last_edited_time": "2025-10-04T15:35:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Tagging: Create tags to mark versions",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8088-9673-d6558c8f5cf8",
+            "type": "code",
+            "created_time": "2025-10-04T15:34:00.000Z",
+            "last_edited_time": "2025-10-04T15:39:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git tag -a v1.0 -m \"version 1.0 release\" git pus --tags",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-8072-b20a-f0832505085a",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:39:00.000Z",
+            "last_edited_time": "2025-10-04T15:39:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Amend Commit",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80a5-a7ed-eab05dafc080",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:39:00.000Z",
+            "last_edited_time": "2025-10-04T15:40:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Ammed Commit: Modify last commit message or content",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8034-9bef-fb7c28f7b22d",
+            "type": "code",
+            "created_time": "2025-10-04T15:39:00.000Z",
+            "last_edited_time": "2025-10-04T15:40:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git commit --amend -m \"New commit message\"",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-801d-9f13-fd72a8fb2a65",
+            "type": "divider",
+            "created_time": "2025-10-04T15:40:00.000Z",
+            "last_edited_time": "2025-10-04T15:40:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "282db469-a81d-806a-bbcc-fb41e589b0d5",
+            "type": "heading_1",
+            "created_time": "2025-10-04T15:40:00.000Z",
+            "last_edited_time": "2025-10-04T15:40:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Cleaning Repository",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80a7-9a68-fa5491325f60",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:40:00.000Z",
+            "last_edited_time": "2025-10-04T15:40:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Remove untracked files",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80f5-8d3f-c26194ec1da8",
+            "type": "code",
+            "created_time": "2025-10-04T15:40:00.000Z",
+            "last_edited_time": "2025-10-04T15:41:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git clean -f",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-80ad-a3dd-dd5426d32bcb",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:41:00.000Z",
+            "last_edited_time": "2025-10-04T15:41:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Remove untracked directories too",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8029-b184-fb1b7e86f669",
+            "type": "code",
+            "created_time": "2025-10-04T15:41:00.000Z",
+            "last_edited_time": "2025-10-04T15:41:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git clean -fd",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-809b-ae86-c2fe002d72d2",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:41:00.000Z",
+            "last_edited_time": "2025-10-04T15:41:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Best Practies",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80c9-ac9d-da4f6d39415a",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-04T15:41:00.000Z",
+            "last_edited_time": "2025-10-04T15:41:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Write meaningfull commit messages",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8088-b0e5-d2a2f941d0f2",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-04T15:41:00.000Z",
+            "last_edited_time": "2025-10-04T15:41:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Commit often",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80fa-998d-e1add210ff5b",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-04T15:41:00.000Z",
+            "last_edited_time": "2025-10-04T15:41:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Keep branches small and focused",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8010-a593-d66f12cffdcd",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-04T15:41:00.000Z",
+            "last_edited_time": "2025-10-04T15:42:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Regularly sync branches with main",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8000-af94-f246fea888ac",
+            "type": "divider",
+            "created_time": "2025-10-04T15:42:00.000Z",
+            "last_edited_time": "2025-10-04T15:42:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {}
+          },
+          {
+            "id": "282db469-a81d-8082-a287-d7c363ae184a",
+            "type": "heading_1",
+            "created_time": "2025-10-04T15:42:00.000Z",
+            "last_edited_time": "2025-10-04T15:42:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Expert Command",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8000-8803-d5e269ec5e89",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:42:00.000Z",
+            "last_edited_time": "2025-10-04T15:42:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Interactive Rebase",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80a9-bb91-f6413c194c2f",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:42:00.000Z",
+            "last_edited_time": "2025-10-04T15:42:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Interactive Rebase: Squash, commits, reorder or edit history",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8052-b621-f007e5c779f0",
+            "type": "code",
+            "created_time": "2025-10-04T15:42:00.000Z",
+            "last_edited_time": "2025-10-04T15:43:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git rebase -i HEAD~3",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-8059-943f-d5e741a43bfb",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:43:00.000Z",
+            "last_edited_time": "2025-10-04T15:43:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Submodules",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80aa-9b08-f5490f540133",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:43:00.000Z",
+            "last_edited_time": "2025-10-04T15:43:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Submodules: Include external repositories within your repo",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8069-96e3-e558bfd1de36",
+            "type": "code",
+            "created_time": "2025-10-04T15:43:00.000Z",
+            "last_edited_time": "2025-10-04T15:43:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git submodule add <repo_url>\ngit submodule update --init --recursive",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-8075-99fd-f4e5b045b60d",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:46:00.000Z",
+            "last_edited_time": "2025-10-04T15:46:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Bisect (Finding Bugs)",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80bf-8e0a-fd15ed6e2a15",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:46:00.000Z",
+            "last_edited_time": "2025-10-04T15:46:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Bisect (Finding Bugs): Identify the commit causing a bug",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8078-a39e-f781bdb3662a",
+            "type": "code",
+            "created_time": "2025-10-04T15:46:00.000Z",
+            "last_edited_time": "2025-10-04T15:46:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git bisect start\ngit bisect bad\ngit bisect good <good_commit_hash>",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-8071-8d63-e94bc19a6f7b",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:46:00.000Z",
+            "last_edited_time": "2025-10-04T15:46:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Aliases",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-800f-be37-eb97ef42c184",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:46:00.000Z",
+            "last_edited_time": "2025-10-04T15:47:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Aliases: Create shortcuts for commands",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-806b-81d6-e96733a03470",
+            "type": "code",
+            "created_time": "2025-10-04T15:46:00.000Z",
+            "last_edited_time": "2025-10-04T15:47:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "git config --global alias.st \"status\"",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ],
+              "language": "yaml"
+            }
+          },
+          {
+            "id": "282db469-a81d-8006-a702-dd79ce5b989f",
+            "type": "heading_2",
+            "created_time": "2025-10-04T15:47:00.000Z",
+            "last_edited_time": "2025-10-04T15:47:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Hooks",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-8099-b0c9-eb2f965fab67",
+            "type": "paragraph",
+            "created_time": "2025-10-04T15:47:00.000Z",
+            "last_edited_time": "2025-10-04T15:47:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "Hooks: Run script automatically at spesific point",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-800d-92c4-fbc37580daaf",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-04T15:47:00.000Z",
+            "last_edited_time": "2025-10-04T15:47:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "pre-commit",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-80d4-8ce3-d2b8b4f279f7",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-04T15:47:00.000Z",
+            "last_edited_time": "2025-10-04T15:47:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "commit-msg",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "282db469-a81d-808e-9974-d7a50d0bfcc9",
+            "type": "bulleted_list_item",
+            "created_time": "2025-10-04T15:47:00.000Z",
+            "last_edited_time": "2025-10-04T15:48:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "content": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "content": "pre-push\n(Create custom scripts in .git/hooks/directory)",
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
       {
         "id": "271db469-a81d-8058-8a47-cd52f9ca8fb6",
         "title": "Bypass File Upload",

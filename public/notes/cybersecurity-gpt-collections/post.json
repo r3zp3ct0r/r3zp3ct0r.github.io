@@ -1,0 +1,2307 @@
+{
+  "post": {
+    "id": "283db469-a81d-805e-b49f-e5becd0ccdb1",
+    "title": "Cybersecurity GPT Collections",
+    "slug": "cybersecurity-gpt-collections",
+    "folder": "cybersecurity-gpt-collections",
+    "excerpt": "Kumpulan model AI bertema keamanan siber yang berfungsi untuk simulasi, pengujian, dan otomasi serangan maupun pertahanan di dunia siber.Purpose:Membantu melakukan penetration testing otomatis, mulai...",
+    "featured_image": "",
+    "created_time": "2025-10-05T06:59:00.000Z",
+    "last_edited_time": "2025-10-08T14:18:00.000Z",
+    "reading_time": 2,
+    "url": "/notes/cybersecurity-gpt-collections",
+    "public_url": "",
+    "archived": false,
+    "categories": [
+      "AI",
+      "Cybersecurity",
+      "Pentesting",
+      "Offensive Security"
+    ],
+    "tags": [
+      "gpt",
+      "ai-tools",
+      "cybersecurity",
+      "hacking",
+      "pentesting",
+      "malware",
+      "exploit",
+      "phishing",
+      "botnet",
+      "sql-injection",
+      "redteam",
+      "automation"
+    ],
+    "properties": {
+      "published": true,
+      "featured": false,
+      "author": "@Anonymous "
+    },
+    "content": [
+      {
+        "id": "283db469-a81d-806d-8400-e568aef4f748",
+        "type": "heading_1",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-05T09:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "🧠 Cybersecurity GPT Collections",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8052-baf9-fef07176f9c9",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-05T09:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Kumpulan model AI bertema keamanan siber yang berfungsi untuk simulasi, pengujian, dan otomasi serangan maupun pertahanan di dunia siber.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8004-bd61-f6892ad0cf08",
+        "type": "divider",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-05T09:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "283db469-a81d-8080-a859-f8efde3c0be9",
+        "type": "heading_1",
+        "created_time": "2025-10-05T09:14:00.000Z",
+        "last_edited_time": "2025-10-05T09:14:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Table Of Content",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8074-b2d6-fc3ceb42fc20",
+        "type": "table_of_contents",
+        "created_time": "2025-10-05T09:14:00.000Z",
+        "last_edited_time": "2025-10-05T09:14:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "283db469-a81d-8038-80e0-e20ceb504601",
+        "type": "divider",
+        "created_time": "2025-10-05T09:14:00.000Z",
+        "last_edited_time": "2025-10-05T09:14:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "283db469-a81d-8047-ad8e-e86d7807c883",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:14:00.000Z",
+        "last_edited_time": "2025-10-05T09:14:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": []
+        }
+      },
+      {
+        "id": "283db469-a81d-8018-9193-d50f24dfa1c0",
+        "type": "heading_2",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "🔹 Pentest GPT",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80b1-95e6-ec994b98196b",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Purpose:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8043-ab18-e0b5282fd72a",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Membantu melakukan penetration testing otomatis, mulai dari reconnaissance, vulnerability discovery, hingga exploitation.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-801f-b780-c6f1632a516f",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Key Features:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-806f-a616-cdb24e4be6d2",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Enumerasi otomatis layanan jaringan",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-806f-9ff3-d156b98a7458",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Membuat skrip serangan berdasarkan hasil scanning",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8088-a622-eeaa1135bb8b",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Menyediakan strategi remediation",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8027-83a7-e1f07ea2da1f",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Usage:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8088-b76a-c9f23de717a6",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Memandu pentester dalam mendeteksi celah, menjalankan scan, dan membuat attack vector.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-801c-a521-e68a76b0db9a",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Dapat menghasilkan perintah ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "nmap",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": ", ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "Nikto",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": ", dan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "Metasploit",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8002-b44b-d722968b702e",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Advantages:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8052-a674-c01291bfae17",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Menghemat waktu dengan otomatisasi",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80a3-9ee6-ff04211332bf",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Meningkatkan akurasi melalui analisis berbasis machine learning",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8044-b162-e8763ddcbe0e",
+        "type": "divider",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-05T09:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "283db469-a81d-80f4-837b-d33e3836a27c",
+        "type": "heading_2",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "🔹 White Rabbit Neo Hacker GPT",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80ff-9f62-d348bc4d82cc",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Purpose:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80b4-b0ef-e362a755e7d9",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "AI adversarial untuk simulasi serangan tingkat lanjut dengan fokus pada bypass sistem keamanan modern.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8000-89c6-d0a6e123d493",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Key Features:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80c9-8b2b-e856a11b4b16",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Menggunakan taktik stealth dan adaptive strategies",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-807b-8ab3-f5eb0ac4ca84",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Menyesuaikan pendekatan berdasarkan reaksi sistem pertahanan",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80a0-ae2f-d6349afc1e74",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Advantages:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80fc-8070-d54f6826ef4c",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Meniru skenario serangan nyata dan taktik penghindaran.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8017-bf8a-d361430b0cf3",
+        "type": "divider",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-05T09:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "283db469-a81d-80e7-8d2a-db4b9861621e",
+        "type": "heading_2",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "🔹 Fraud GPT",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8098-8fc9-cbba94e5b0c6",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Purpose:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-807f-a63d-cd2ed503c2dc",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Spesialis dalam mendeteksi serta mensimulasikan vektor penipuan finansial.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8061-b473-ed5a43949a7d",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Key Features:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8089-a835-f6c90c9c7be7",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Membuat identitas sintetis",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8081-850a-e4e888ed3d81",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Menemukan celah pada sistem pembayaran dan e-commerce",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8021-a848-c17a4e472dcc",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Advantages:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-804c-9b89-c88d77163fb8",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Menguji efektivitas sistem pencegahan fraud dengan simulasi realistik.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-802d-a0ac-d9307a6db923",
+        "type": "divider",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-05T09:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "283db469-a81d-80fb-8dee-ff5c9f890b48",
+        "type": "heading_2",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "🔹 Worm GPT",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8068-aa9a-f25734db0861",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Purpose:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-807f-a1b3-db17f521c2ba",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Menciptakan malware self-propagating untuk simulasi ethical hacking.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80f8-be61-e337a32c75e5",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Key Features:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8077-b2cc-e4fd09233d93",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Menulis custom worm",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-802f-9bc9-f51466a008da",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Menguji segmentasi jaringan melalui simulasi penyebaran",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-808a-a582-d350da443023",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Advantages:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8047-a434-d7024d5cb5f2",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Menunjukkan kelemahan pada pemisahan jaringan.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80a0-ae7d-e929399063ea",
+        "type": "divider",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-05T09:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "283db469-a81d-8076-ae75-ef9839e1b567",
+        "type": "heading_1",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "🔹 BugHunter GPT",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80ac-94da-fd9722b13cae",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Purpose:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-804d-a221-e5817f567cfe",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Membantu menemukan kerentanan dalam kode.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80fd-8730-eae3b07d29c1",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Key Features:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8088-bb00-c55ed7d2ac4e",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Analisis kode statis untuk mendeteksi bug keamanan",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8024-901c-e4b979c85c4b",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Menyarankan potensi exploit path",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80ca-8fc8-c183df56fbdd",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Advantages:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-807e-8bec-e97d5465dafa",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Mempercepat proses identifikasi bug dibanding manual code review.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-806b-be67-c81c554d231d",
+        "type": "divider",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-05T09:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "283db469-a81d-804e-869a-e501c4a31001",
+        "type": "heading_2",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "🔹 Script GPT",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80b7-8120-e6a2c222d22e",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Purpose:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-809f-97c9-fa2fd27fca43",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Otomatisasi pembuatan skrip untuk reconnaissance dan exploit.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-807f-b522-f407a2d42e51",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Key Features:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8009-97b2-dfdb538768f1",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Menulis skrip shell, Python, dan PowerShell",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-805a-a84f-fae42e25b7af",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Mengotomasi tugas seperti scanning dan brute-force",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8006-ad3d-dce4c6285bde",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Advantages:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-804c-8544-e6f71c0433df",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Mempercepat pengembangan exploit umum.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8049-a83e-d5ce20734a52",
+        "type": "divider",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-05T09:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "283db469-a81d-8013-a9a2-e6cd00875c34",
+        "type": "heading_2",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "🔹 Exploit GPT",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8027-aa2c-efe62e0f2811",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Purpose:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8036-9ccb-c15e102d40bf",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Membuat dan menguji exploit berdasarkan deskripsi kerentanan.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80ec-8eb9-f864e898ee20",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Key Features:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-800d-b6ca-e170f79f460d",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Code generation untuk buffer overflow dan race condition",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8083-b8f6-e77a07725164",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Integrasi dengan framework seperti Metasploit",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80bf-acf4-c17e9a29eb98",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Advantages:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8016-8427-e7282e6abfbe",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Memahami bagaimana kerentanan bisa diubah menjadi exploit nyata.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8013-b63d-fe9121528eb0",
+        "type": "divider",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-05T09:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "283db469-a81d-807f-846b-d8b1c4eff0d5",
+        "type": "heading_2",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "🔹 Payload GPT",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80b5-8c41-e910c82bb27a",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Purpose:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-809a-b0ae-f87b1cbc4c30",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Membangun payload untuk framework exploit.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8088-b394-dd11ce463982",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Key Features:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80ca-af16-f4ff0bb67615",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Payload yang dapat menghindari antivirus/EDR",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8075-8019-d53c12f1b1e8",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Dapat dikustomisasi untuk berbagai OS",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80ae-a580-e3ca5dc73958",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Advantages:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8026-8bc7-e0349c925f84",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Membantu pengujian evasive payload secara efisien.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80ee-aea6-c18c9fd6e3db",
+        "type": "divider",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-05T09:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "283db469-a81d-80a2-b4c7-cbbd3d8009b8",
+        "type": "heading_2",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "🔹 RedTeam GPT",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-806b-bdfa-f2641518dc9a",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Purpose:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80a0-8570-fdae99ca96b5",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Mendukung tim ofensif dalam simulasi serangan berskala penuh.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-802a-93a0-eb7e7faad8ee",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Key Features:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-807a-8f03-e78799fa28fd",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Mengatur phishing campaign",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8091-860f-f3e2b8b11487",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Menyimulasikan insider threats dan physical penetration",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80c0-a920-c853d255b1c5",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Advantages:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8038-b28c-eab0b4eff23b",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Mengotomatiskan strategi serangan multi-tahap.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-802d-83cc-ed2ac2428b5a",
+        "type": "divider",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-05T09:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "283db469-a81d-80f7-9da4-da02d0c8ffd4",
+        "type": "heading_2",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "🔹 MalGPT",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80c6-8908-cbfb9d716edd",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Purpose:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80ab-b3a7-e2f3724916af",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Menganalisis dan membuat malware secara etis.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8080-a995-e44959475e11",
+        "type": "paragraph",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Key Features:",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80f3-bd0d-dc3436d2b7a5",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Reverse engineering dan sandbox analysis",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80ee-88dd-dc5fc22ce64a",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-08T14:16:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Simulasi malware untuk threat intelligence",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8020-bcc5-ebc2e2c9e821",
+        "type": "divider",
+        "created_time": "2025-10-05T09:11:00.000Z",
+        "last_edited_time": "2025-10-05T09:11:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      }
+    ]
+  }
+}

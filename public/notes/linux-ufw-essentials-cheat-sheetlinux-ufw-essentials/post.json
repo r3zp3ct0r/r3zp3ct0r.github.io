@@ -1,0 +1,965 @@
+{
+  "post": {
+    "id": "283db469-a81d-801f-86de-c9fa999c5f85",
+    "title": "Linux UFW Essentials (Cheat Sheet)Linux UFW Essentials",
+    "slug": "linux-ufw-essentials-cheat-sheetlinux-ufw-essentials",
+    "folder": "linux-ufw-essentials-cheat-sheetlinux-ufw-essentials",
+    "excerpt": "",
+    "featured_image": "",
+    "created_time": "2025-10-05T06:47:00.000Z",
+    "last_edited_time": "2025-10-08T14:15:00.000Z",
+    "reading_time": 2,
+    "url": "/notes/linux-ufw-essentials-cheat-sheetlinux-ufw-essentials",
+    "public_url": "",
+    "archived": false,
+    "categories": [
+      "Linux",
+      "Security",
+      "Networking",
+      "Firewall"
+    ],
+    "tags": [
+      "ufw",
+      "ubuntu",
+      "firewall",
+      "iptables",
+      "linux",
+      "cheat sheet",
+      "network-security",
+      "logging",
+      "rate-limit"
+    ],
+    "properties": {
+      "published": true,
+      "featured": false,
+      "author": "@Anonymous "
+    },
+    "content": [
+      {
+        "id": "283db469-a81d-80ca-886b-f4c66b2cd21b",
+        "type": "heading_1",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:56:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Linux UFW Essentials",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8036-bda5-c131a4719e90",
+        "type": "heading_1",
+        "created_time": "2025-10-05T06:56:00.000Z",
+        "last_edited_time": "2025-10-05T06:57:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Table Of Contents",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8053-9e74-d2138cb7a7c7",
+        "type": "table_of_contents",
+        "created_time": "2025-10-05T06:56:00.000Z",
+        "last_edited_time": "2025-10-05T06:56:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "283db469-a81d-8014-a443-d5f9419866f1",
+        "type": "divider",
+        "created_time": "2025-10-05T06:57:00.000Z",
+        "last_edited_time": "2025-10-05T06:57:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "283db469-a81d-8032-a4a4-d4aad3d087b5",
+        "type": "heading_2",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "1) Cek Status UFW",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8005-86b9-e7b607bd0536",
+        "type": "code",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "# Cek status UFW\nufw status\n\n# Status detail beserta rules\nufw status verbose\n",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "bash"
+        }
+      },
+      {
+        "id": "283db469-a81d-801e-b394-d29d9c36739c",
+        "type": "heading_2",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "2) Mengaktifkan / Menonaktifkan UFW",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-809c-a902-f9c18a2bce21",
+        "type": "code",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "# Enable firewall\nufw enable\n\n# Disable firewall\nufw disable\n",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "bash"
+        }
+      },
+      {
+        "id": "283db469-a81d-8001-9e0c-c5eedd7edf32",
+        "type": "heading_2",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "3) Mengizinkan (Allow) Trafik",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80a4-958c-f379b1aa98a2",
+        "type": "code",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "# Izinkan trafik pada port tertentu (contoh: 22 untuk SSH)\nufw allow <port>\n\n# Izinkan trafik untuk service spesifik (contoh: http, https)\nufw allow <service>\n\n# Izinkan trafik dari IP tertentu\nufw allow from <IP>\n",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "bash"
+        }
+      },
+      {
+        "id": "283db469-a81d-80f0-9f3a-d4005371ebe6",
+        "type": "heading_2",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "4) Menolak (Deny) Trafik",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-801e-91a1-fae25f6a2d08",
+        "type": "code",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "# Tolak trafik pada port tertentu\nufw deny <port>\n\n# Tolak trafik dari IP tertentu\nufw deny from <IP>\n\n# Tolak trafik untuk service spesifik\nufw deny <service>\n",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "bash"
+        }
+      },
+      {
+        "id": "283db469-a81d-8008-94a8-c0cf2547bce8",
+        "type": "heading_2",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "5) Allow/Deny dengan Kondisi (Protocol, IP, Port)",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80fd-9034-c279e2ededcd",
+        "type": "code",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "# Allow dengan protocol, IP sumber, dan port tujuan\nufw allow proto <protocol> from <IP> to <IP/any> port <port>\n\n# Deny dengan protocol, IP sumber, dan port tujuan\nufw deny proto <protocol> from <IP> to <IP/any> port <port>\n",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "bash"
+        }
+      },
+      {
+        "id": "283db469-a81d-801b-b8b0-ce4568516d38",
+        "type": "heading_2",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "6) Menghapus Rules",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-801d-8a95-c2ff9edf9a89",
+        "type": "code",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "# Hapus rule allow untuk sebuah port\nufw delete allow <port>\n\n# Hapus rule deny untuk sebuah port\nufw delete deny <port>\n\n# Hapus rule allow untuk IP tertentu\nufw delete allow from <IP>\n\n# Hapus rule deny untuk IP tertentu\nufw delete deny from <IP>\n\n# Hapus rule allow dengan protocol, IP, dan port\nufw delete allow proto <protocol> from <IP> to any port <port>\n",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "bash"
+        }
+      },
+      {
+        "id": "283db469-a81d-80d1-84f5-df1c457007eb",
+        "type": "heading_2",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "7) Profiles & Applications",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80ac-8628-f82d065e044e",
+        "type": "code",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "# Daftar application profile yang tersedia\nufw app list\n\n# Detail sebuah application profile\nufw app info <application>\n\n# Update application profile rules\nufw app update <application>\n",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "bash"
+        }
+      },
+      {
+        "id": "283db469-a81d-807b-beda-e3124619070c",
+        "type": "heading_2",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "8) Reset UFW",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-809d-8bdc-e9028505c902",
+        "type": "code",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "# Reset ke default (menonaktifkan UFW dan menghapus semua rules)\nufw reset\n",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "bash"
+        }
+      },
+      {
+        "id": "283db469-a81d-80bf-901d-cc144b3576db",
+        "type": "heading_2",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "9) Logging & Monitoring",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80b0-a5c0-c886a3663ede",
+        "type": "code",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "# Enable logging\nufw logging on\n\n# Disable logging\nufw logging off\n\n# Set level logging: off | low | medium | high | full\nufw logging <level>\n",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "bash"
+        }
+      },
+      {
+        "id": "283db469-a81d-80a8-a9e0-fd083ed5bebd",
+        "type": "heading_2",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "10) Rate Limiting Connections",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-80fa-8277-d1dd5cb4238a",
+        "type": "code",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "# Batasi koneksi ke port tertentu (contoh: 22 untuk SSH)\nufw limit <port>\n\n# Batasi koneksi dari IP tertentu\nufw limit from <IP>\n\n# Batasi koneksi dengan protocol ke port apapun\nufw limit proto <protocol> to any port <port>\n",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ],
+          "language": "bash"
+        }
+      },
+      {
+        "id": "283db469-a81d-807d-be0d-ecd5c615d687",
+        "type": "divider",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {}
+      },
+      {
+        "id": "283db469-a81d-80cc-bc2b-e13b576584dc",
+        "type": "heading_3",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Catatan Cepat",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8079-ad4f-e57f3def7048",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "<protocol>",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " biasanya ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "tcp",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " atau ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "udp",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": ".",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8099-9653-de78e99ac4b7",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "<service>",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " adalah nama service yang dikenali oleh ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "/etc/services",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " (mis. ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "ssh",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": ", ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "http",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": ", ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "https",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": ").",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-8019-b732-e622087b6659",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Gunakan ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "any",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " pada ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "to",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " jika ingin merujuk ke semua alamat pada host.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "283db469-a81d-803f-a092-d070ff3008b1",
+        "type": "bulleted_list_item",
+        "created_time": "2025-10-05T06:55:00.000Z",
+        "last_edited_time": "2025-10-05T06:55:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "content": {
+          "rich_text": [
+            {
+              "type": "text",
+              "content": "Setelah menambahkan aturan SSH pada port custom, ",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": "uji koneksi",
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            },
+            {
+              "type": "text",
+              "content": " sebelum menutup sesi agar tidak terkunci dari server.",
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
