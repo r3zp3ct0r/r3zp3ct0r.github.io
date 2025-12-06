@@ -9,10 +9,45 @@ const NOTES_DATABASE_ID = process.env.NOTION_NOTES_DATABASE_ID;
 const NOTION_TOKEN = process.env.NOTION_NOTES_TOKEN || process.env.NOTION_TOKEN;
 
 if (!NOTES_DATABASE_ID || !NOTION_TOKEN) {
-    console.error('❌ Missing required environment variables:');
-    console.error('   NOTION_NOTES_DATABASE_ID:', !!NOTES_DATABASE_ID);
-    console.error('   NOTION_TOKEN:', !!NOTION_TOKEN);
-    process.exit(1);
+    console.warn('⚠️  Missing required environment variables:');
+    console.warn('   NOTION_NOTES_DATABASE_ID:', !!NOTES_DATABASE_ID);
+    console.warn('   NOTION_TOKEN:', !!NOTION_TOKEN);
+    console.warn('⚠️  Skipping notes generation. Creating empty index file...');
+
+    // Create empty index file to prevent build errors
+    const emptyIndex = {
+        meta: {
+            generated_at: new Date().toISOString(),
+            total_posts: 0,
+            published_posts: 0,
+            draft_posts: 0,
+            featured_posts: 0,
+            total_tags: 0,
+            total_categories: 0,
+            posts_directory: NOTES_DIR
+        },
+        taxonomy: {
+            categories: [],
+            tags: []
+        },
+        posts: {
+            all: []
+        }
+    };
+
+    // Ensure directories exist
+    if (!fs.existsSync(NOTES_DIR)) {
+        fs.mkdirSync(NOTES_DIR, { recursive: true });
+    }
+
+    // Write empty index files
+    const indexFile = path.join(NOTES_DIR, 'index.json');
+    const publicIndexFile = path.join('public', 'notes-index.json');
+    fs.writeFileSync(indexFile, JSON.stringify(emptyIndex, null, 2));
+    fs.writeFileSync(publicIndexFile, JSON.stringify(emptyIndex, null, 2));
+
+    console.warn('✅ Created empty notes index files');
+    process.exit(0);
 }
 
 // Initialize Notion client

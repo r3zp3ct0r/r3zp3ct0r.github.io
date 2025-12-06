@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run refresh-notes && next build",
+    "build:skip-notes": "next build",
     "start": "next start",
     "lint": "next lint",
     "refresh-content": "node scripts/generate-blog-content.js && node scripts/generate-blog-index.js",
@@ -59,7 +60,7 @@
     "fs": "latest",
     "input-otp": "latest",
     "lucide-react": "^0.454.0",
-    "next": "15.2.4",
+    "next": "^15.2.5",
     "next-themes": "latest",
     "path": "latest",
     "prismjs": "^1.30.0",

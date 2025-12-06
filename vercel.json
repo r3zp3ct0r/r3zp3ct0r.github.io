@@ -1,0 +1,7 @@
+{
+  "buildCommand": "npm run refresh-notes && npm run build:skip-notes",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "outputDirectory": "out"
+}
+
