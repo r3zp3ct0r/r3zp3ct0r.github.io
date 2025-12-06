@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "npm run refresh-notes && next build",
-    "build:skip-notes": "next build",
+    "build:skip-notes": "next build && npm run postbuild",
+    "postbuild": "node scripts/create-routes-manifest.js",
     "start": "next start",
     "lint": "next lint",
     "refresh-content": "node scripts/generate-blog-content.js && node scripts/generate-blog-index.js",
